@@ -1,0 +1,23 @@
+======================================================================
+CHECK 1 - DEMO .keys() COMPARISON
+======================================================================
+[PASS] 1.1 - Both demo's have the same top-level keys -- Expected Top-Level Keys: ['clientName', 'mapName', 'tickRate', 'playbackTicks', 'playbackFramesCount', 'parsedToFrameIdx', 'parserParameters', 'serverVars', 'matchPhases', 'matchmakingRanks', 'playerConnections', 'gameRounds', 'matchId', 'demoId', 'competitionName', 'hltvUrl', 'matchDate', 'matchName']
+
+[PASS] 1.2 - Both demo's have the same round-level keys -- Expected round-level keys: ['roundNum', 'isWarmup', 'startTick', 'freezeTimeEndTick', 'endTick', 'endOfficialTick', 'bombPlantTick', 'tScore', 'ctScore', 'endTScore', 'endCTScore', 'ctTeam', 'tTeam', 'winningSide', 'winningTeam', 'losingTeam', 'roundEndReason', 'ctFreezeTimeEndEqVal', 'ctRoundStartEqVal', 'ctRoundSpendMoney', 'ctBuyType', 'tFreezeTimeEndEqVal', 'tRoundStartEqVal', 'tRoundSpendMoney', 'tBuyType', 'ctSide', 'tSide', 'kills', 'damages', 'grenades', 'bombEvents', 'weaponFires', 'flashes', 'frames']
+
+[PASS] 1.3 - Both demo's have the same frame-level keys -- Expected frame-level keys: ['isKillFrame', 'tick', 'seconds', 'clockTime', 't', 'ct', 'bombPlanted', 'bombsite', 'bomb', 'projectiles', 'smokes', 'fires']
+
+======================================================================
+CHECK 2 - MAP NAME SHOULD BE de_mirage
+======================================================================
+[PASS] 2.1 - Processed demo should have mapName = de_mirage -- Map Name: de_mirage
+
+======================================================================
+CHECK 3 - PROCESSED DEMO SHOULD NOT CONTAIN WARMUP ROUNDS
+======================================================================
+[PASS] 3.1 - Processed demo does not contain warmup rounds
+
+[PASS] 4.1 - All frame ticks are within correct gameplay window
+
+Total Checks Passed: 6
+Total Checks Failed: 0

@@ -1,0 +1,29 @@
+{
+  "n_rounds_total": 7393,
+  "n_rounds_dropped_missing_outcome": 0,
+  "mean_active_node_fraction": 0.513718585103275,
+  "epsilon": 0.1353352832366127,
+  "sigma": 500.0,
+  "full_map": {
+    "n_ct_win": 4012,
+    "n_ct_loss": 3381,
+    "mu_win": 0.5293994009131264,
+    "mu_loss": 0.5053117477935872,
+    "welch_t_stat": 68.52119636371717,
+    "welch_p_value": 0.0,
+    "cohens_d": 1.6184544768325162,
+    "passes_h3": true,
+    "description": "H3 / RQ3 tested over ALL 903 nodes per frame (original definition). Retained for continuity with earlier runs; diluted toward 0.5 by nodes far from every player \u2014 see 'active_footprint' for the primary result."
+  },
+  "active_footprint": {
+    "n_ct_win": 4012,
+    "n_ct_loss": 3381,
+    "mu_win": 0.5566335779331435,
+    "mu_loss": 0.5012267939478384,
+    "welch_t_stat": 80.03081528664814,
+    "welch_p_value": 0.0,
+    "cohens_d": 1.8944183153915635,
+    "passes_h3": true,
+    "description": "H3 / RQ3 tested over nodes with (ct_mu + t_mu) > EPSILON only, i.e. nodes within meaningful pre-sigmoid Gaussian influence range of at least one player. This is the primary Metric 3 result going forward. Will be all-None until team_agg.py is updated to persist ct_mu/t_mu."
+  }
+}

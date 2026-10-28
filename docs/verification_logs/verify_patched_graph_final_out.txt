@@ -1,0 +1,55 @@
+======================================================================
+1. NODE SET INTEGRITY
+======================================================================
+[PASS] Patched graph node count matches NAV area count -- patched=903, NAV=903
+[PASS] Patched graph nodes are an exact match for NAV area IDs -- missing=none, extra=none
+[PASS] No nodes were dropped relative to the original graph -- dropped=none
+
+======================================================================
+2. NO ISOLATED NODES
+======================================================================
+[PASS] Every node has in_degree > 0 -- nodes with in_degree=0: []
+[PASS] Every node has out_degree > 0 -- nodes with out_degree=0: []
+
+======================================================================
+3. SINGLE WEAKLY CONNECTED COMPONENT
+======================================================================
+[PASS] Exactly one weakly connected component -- found 1 component(s), sizes=[903]
+[PASS] The single component covers every node -- component size=903, total nodes=903
+
+======================================================================
+4. ORIGINAL EDGES PRESERVED (UNCHANGED)
+======================================================================
+[PASS] Every original edge is still present in the patched graph -- 0 original edges missing
+[PASS] No original edge weights were altered -- 0 mismatches
+
+======================================================================
+5. ADDED EDGES ARE GENUINELY NEW
+======================================================================
+[PASS] At least one edge was actually added -- 526 directed edges added (263 bidirectional pairs, approx)
+
+======================================================================
+6. BIDIRECTIONALITY OF ADDED EDGES
+======================================================================
+[PASS] Every added edge has a reciprocal edge in the other direction -- 0 non-reciprocal added edges
+
+======================================================================
+7. EDGE WEIGHT SANITY (ALL EDGES)
+======================================================================
+[PASS] Every edge weight is finite and non-negative -- 0 bad weights
+
+======================================================================
+8. REACHABILITY SPOT-CHECK (FORMERLY ORPHANED NODES)
+======================================================================
+[PASS] Reference main-mesh node exists in patched graph -- REFERENCE_MAIN_NODE=513
+[PASS] All 72 originally-orphaned nodes can reach the reference main-mesh node -- 0 unreachable
+
+======================================================================
+9. WEIGHT-VS-GEOMETRY CONSISTENCY (SPOT-CHECK ON ADDED EDGES)
+======================================================================
+[PASS] Sampled added-edge weights match Euclidean center distance (awpy's own convention) -- 0 mismatches out of 200 sampled
+
+======================================================================
+SUMMARY: 15 passed, 0 failed
+======================================================================
+All checks passed. The patched graph is structurally sound.

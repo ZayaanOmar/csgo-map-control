@@ -1,0 +1,95 @@
+{
+  "margin_a_column": "control_margin_active_t",
+  "margin_b_column": "control_margin_bombsite_active_t",
+  "nested_logistic_regression_test": {
+    "n_rounds": 7393,
+    "n_clusters_matches": 278,
+    "model_a": {
+      "formula": "y_t_win ~ margin_active_z",
+      "coefficients": {
+        "const": {
+          "coef": -0.09097219938623104,
+          "std_err": 0.03458022342504151,
+          "z": -2.6307579991039876,
+          "p_value": 0.008519467710293499
+        },
+        "margin_active_z": {
+          "coef": 2.882266366023232,
+          "std_err": 0.06650604239343165,
+          "z": 43.33841350794156,
+          "p_value": 0.0
+        }
+      },
+      "log_likelihood": -2681.8873308020675,
+      "aic": 5367.774661604135,
+      "bic": 5381.591239375249
+    },
+    "model_b": {
+      "formula": "y_t_win ~ margin_active_z + margin_bombsite_active_z",
+      "coefficients": {
+        "const": {
+          "coef": -0.0870574812847399,
+          "std_err": 0.035083896515995416,
+          "z": -2.48140856432662,
+          "p_value": 0.013086427997463514
+        },
+        "margin_active_z": {
+          "coef": 2.5745902222057944,
+          "std_err": 0.06973911222353325,
+          "z": 36.91745048249993,
+          "p_value": 2.4255894186971405e-298
+        },
+        "margin_bombsite_active_z": {
+          "coef": 0.534126394040013,
+          "std_err": 0.04721455505057156,
+          "z": 11.312748652781112,
+          "p_value": 1.1347793781589778e-29
+        }
+      },
+      "log_likelihood": -2616.0011612530648,
+      "aic": 5238.0023225061295,
+      "bic": 5258.727189162801
+    },
+    "model_b_cluster_robust_by_match": {
+      "note": "Same point estimates as model_b \u2014 only std_err/z/p_value differ, using sandwich standard errors clustered on match_id to account for non-independence of rounds within a match.",
+      "coefficients": {
+        "const": {
+          "coef": -0.0870574812847399,
+          "std_err": 0.039968306950958876,
+          "z": -2.1781628476672643,
+          "p_value": 0.029393914964362954
+        },
+        "margin_active_z": {
+          "coef": 2.5745902222057944,
+          "std_err": 0.06770855783598556,
+          "z": 38.024591048628984,
+          "p_value": 0.0
+        },
+        "margin_bombsite_active_z": {
+          "coef": 0.534126394040013,
+          "std_err": 0.04856397234168972,
+          "z": 10.998408249678794,
+          "p_value": 3.8893657289121367e-28
+        }
+      }
+    },
+    "likelihood_ratio_test": {
+      "description": "Tests whether adding margin_bombsite_active to a model that already has margin_active significantly improves fit -- i.e. whether bombsite control carries information about round outcome beyond whole-active-footprint control.",
+      "lr_statistic": 131.77233909800543,
+      "df": 1,
+      "p_value": 1.678002398091538e-30,
+      "bombsite_adds_significant_information": true
+    }
+  },
+  "delong_auc_test": {
+    "n_positive_t_win": 3381,
+    "n_negative_t_loss": 4012,
+    "auc_margin_active": 0.9167944996716446,
+    "auc_margin_bombsite_active": 0.8210054839916807,
+    "auc_difference": 0.0957890156799639,
+    "var_auc_difference": 2.1604323395948396e-05,
+    "z_statistic": 20.608452220060023,
+    "p_value": 0.0,
+    "margin_active_significantly_better": true
+  }
+}

@@ -1,0 +1,8 @@
+/home/zayaan/csgo-map-control/data/sample/01fce2c1-f8af-4d30-8e23-91fbc46a46e7.json.xz
+/home/zayaan/csgo-map-control/data/sample/0ca2bb63-8b20-41f1-92bc-1f66a864d2f6.json.xz
+/home/zayaan/csgo-map-control/data/sample/0ccbf4b8-cdf1-40e6-8350-7be260b8862d.json.xz
+/home/zayaan/csgo-map-control/data/sample/1c5618e5-d9cf-4b35-bea8-a981a8f386e7.json.xz
+/home/zayaan/csgo-map-control/data/sample/01af07eb-306a-40b4-be5f-d967c38c7a0f.json.xz
+/home/zayaan/csgo-map-control/data/sample/0c4f78e9-0519-43a0-a54d-5eae055dbcab.json.xz
+/home/zayaan/csgo-map-control/data/sample/0cc55d93-20f4-4fd3-ba37-7cdbcfe6107c.json.xz
+/home/zayaan/csgo-map-control/data/sample/1decf556-b9d7-4085-9081-31811f0496c3.json.xz

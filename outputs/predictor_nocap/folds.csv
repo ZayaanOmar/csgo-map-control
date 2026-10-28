@@ -1,0 +1,1391 @@
+match_name,n_rounds,team_pair,repeat,fold_match,fold_teampair
+Astralis_VS_ENCE_b686b317_704a_4c0e_93d2_b531410de248,35,Astralis|ENCE,0,2,4
+Astralis_VS_FURIA_0a075b4d_576e_46f2_b944_fe9542faee54,27,Astralis|FURIA,0,2,1
+Astralis_VS_FURIA_d5635de8_d81d_4be6_99a2_5100ebc507f0,24,Astralis|FURIA,0,4,1
+Astralis_VS_FaZe_Clan_3b60f341_78e9_48ca_bf62_81e3abe527e1,26,Astralis|FaZe Clan,0,4,0
+Astralis_VS_K23_90c4e159_b93f_49fc_b892_2a2e369ca3ed,41,Astralis|K23,0,3,1
+Astralis_VS_NAVI_GGBET_8129e6d8_7fd0_4537_bbbe_e08bd0c8779e,36,Astralis|NAVI GGBET,0,2,3
+Astralis_VS_TeamVitality_2df97383_4d7a_440c_a689_71b98f3d5766,22,Astralis|TeamVitality,0,2,2
+Astralis_VS_Team_Liquid_6567090b_da33_4ba0_aefb_53b6ae9185ec,26,Astralis|Team Liquid,0,3,2
+Astralis_VS_Team_Liquid_f8d9cc9d_53b4_445f_b61a_ef30ac4d6520,29,Astralis|Team Liquid,0,2,2
+Astralis_VS_fnatic_5ca5654a_fd22_4430_875a_02e4f603e914,18,Astralis|fnatic,0,2,2
+Astralis_VS_x_kom_AGO_47dc5792_cb45_41d1_8271_7fd8bcd76c1c,29,Astralis|x-kom AGO,0,3,0
+BIG_Clan_VS_Astralis_c307fe7d_4bdc_47d6_ab32_2828f06b8f92,23,Astralis|BIG Clan,0,3,0
+BIG_Clan_VS_G2_Esports_19bef7ff_8e92_4add_90f3_323f2ba99ff2,23,BIG Clan|G2 Esports,0,4,0
+BIG_Clan_VS_Ninjas_in_Pyjamas_2219df2e_161c_4b27_b116_fd69eb601e99,29,BIG Clan|Ninjas in Pyjamas,0,2,2
+BIG_VS_A_U_R_A_19bf268e_607c_4425_8aab_0cbe198578a2,30,A U R A|BIG,0,2,0
+BIG_VS_Complexity_a797db2e_ac89_4434_a13f_dab006699545,28,BIG|Complexity,0,0,1
+BIG_VS_FaZe_Clan_99d9eb9b_1ea7_403f_ab5b_68066bb61b44,25,BIG|FaZe Clan,0,3,1
+BIG_VS_Fiend_f7de6a1d_0fea_4a9c_ac31_ac81a0e0e7a4,36,BIG|Fiend,0,2,2
+BIG_VS_G2_Esports_760148de_bc79_4643_bbde_5d287d7ef8f2,28,BIG|G2 Esports,0,1,3
+BIG_VS_K23_d7b9203a_a191_443f_9678_47bc0cb47e01,28,BIG|K23,0,2,0
+BIG_VS_Natus_Vincere_4e4d6ca9_edf8_4315_9879_ccfbc680e8ac,23,BIG|Natus Vincere,0,4,2
+BIG_VS_Team_Liquid_d83442a6_dbb1_4e9c_9ef2_a1f1d22f4e69,28,BIG|Team Liquid,0,1,0
+BIG_VS_Vitality_7d03108f_c00e_4ab8_a03f_4e34fc85cf81,25,BIG|Vitality,0,0,0
+BIG_VS_mousesports_856f0ca7_2890_4b51_bf46_ee44e0de6ae3,26,BIG|mousesports,0,4,1
+CPH_Flames_VS_Ninjas_in_Pyjamas_b06f4e67_d9d7_4803_bf51_de3567325873,28,CPH Flames|Ninjas in Pyjamas,0,3,3
+Complexity_VS_B_I_G_7f96daf3_7985_4f41_b4cf_664337a51cd4,35,B.I.G|Complexity,0,0,0
+Complexity_VS_Endpoint_CeX_6bcfbd1e_0008_4a71_a715_7fc681392345,23,Complexity|Endpoint.CeX,0,0,2
+Complexity_VS_G2_Esports_2ac03938_6b0b_442b_8899_2c56dfeb6f92,28,Complexity|G2 Esports,0,4,1
+Complexity_VS_Gambit_Esports_44069279_247a_4811_b2f7_2233cff6023c,23,Complexity|Gambit Esports,0,1,2
+Complexity_VS_Team_Vitality_93474513_6f7f_44ab_b6aa_58ade2255127,28,Complexity|Team Vitality,0,2,0
+Complexity_VS_Virtus_pro_779eca53_f7c0_4f9a_8012_45086c328254,22,Complexity|Virtus.pro,0,2,1
+Complexity_VS_forZe_Esports_67bdf08a_8ced_48fd_83b2_3392befdbc7a,28,Complexity|forZe Esports,0,3,1
+Copenhagen_Flames_VS_Team_Spirit_5cfa8f5b_671b_4ef8_9f0a_96ba66ac4d62,24,Copenhagen Flames|Team Spirit,0,4,3
+DignitasVIE_VS_Fiend_58e04be8_d9d5_4031_adda_bec6a4af79b9,25,DignitasVIE|Fiend,0,3,3
+Dignitas_VS_CPH_Flames_3c3f82ba_9887_4145_90bb_b73b0383373c,23,CPH Flames|Dignitas,0,1,2
+Dignitas_VS_EXTREMUM_99d643f6_a9d0_443e_832c_cd9c3f1d8796,23,Dignitas|EXTREMUM,0,0,0
+Dignitas_VS_Fiend_0f222f22_1d61_48c7_92a7_0578174959ba,29,Dignitas|Fiend,0,4,3
+ECSTATIC_VS_Entropiq_641fd7e4_544b_4e92_8d2b_536a5825376c,21,ECSTATIC|Entropiq,0,3,2
+EIQ_PRG_VS_Dynamo_Eclot_c405829a_45de_461d_8895_90f7fb92db88,29,Dynamo Eclot|EIQ PRG,0,2,3
+ENCE_VS_FURIA_8fadbb13_3728_4211_b0eb_cd4075a60218,29,ENCE|FURIA,0,4,1
+ENCE_VS_G2_Esports_1cb8b01a_f11e_4ef3_954d_5ce809b57506,22,ENCE|G2 Esports,0,3,2
+ENCE_VS_G2_Esports_20987bbd_21ef_469e_99b9_6654372b543e,24,ENCE|G2 Esports,0,0,2
+ENCE_VS_Ninjas_in_Pyjamas_dd96ccec_8374_4510_b295_b832eb539878,21,ENCE|Ninjas in Pyjamas,0,0,3
+ENCE_VS_OG_443be02f_3427_46ab_9719_3afe549723b6,53,ENCE|OG,0,1,2
+ENCE_VS_Outsiders_acf66d1a_4adc_4834_9be7_75ab6b981bd4,24,ENCE|Outsiders,0,1,1
+ENCE_VS_Team_Vitality_9869e869_1007_4b07_a7bf_d419dae83506,24,ENCE|Team Vitality,0,0,4
+ENCE_VS_forZe_Esports_6ef84ba7_509d_46d3_b508_defcd9e50305,27,ENCE|forZe Esports,0,4,2
+ENTERPRISE_VS_Dynamo_Eclot_6251904c_9ece_448c_8cd7_4dfb9f220657,23,Dynamo Eclot|ENTERPRISE,0,1,4
+Entropiq_VS_Enterprise_fb85b0f8_7f3f_40ea_b4e5_65f91fbb9ee7,20,Enterprise|Entropiq,0,2,4
+Entropiq_VS_Fiend_85c278a6_ffb6_485f_988b_15f6f3b2f2ad,28,Entropiq|Fiend,0,4,1
+Entropiq_VS_Gambit_fcde73c2_6b1d_4886_b626_61b13ace2bd1,23,Entropiq|Gambit,0,4,4
+Entropiq_VS_MOUZ_e7089cdf_ca0a_4658_932e_31fc1489a769,26,Entropiq|MOUZ,0,1,2
+Entropiq_VS_SINNERS_6219ff2f_f03c_4d2a_8758_9590ec81fb80,18,Entropiq|SINNERS,0,3,3
+Entropiq_VS_Team_oNe_33b018e0_5577_40ef_b06b_08f41e7a0d4f,22,Entropiq|Team oNe,0,1,0
+Eternal_Fire_VS_Entropiq_b42541c7_5eb1_41ba_9d1b_060ab63e3f31,25,Entropiq|Eternal Fire,0,0,2
+Eternal_Fire_VS_Fiend_0072d9d0_a907_44c2_a9c8_7f036e55333d,30,Eternal Fire|Fiend,0,3,3
+Evil_Geniuses_VS_FURIA_eSports_6567a96e_5fa0_4465_a3dc_bc7c8ceb9fb0,30,Evil Geniuses|FURIA eSports,0,1,4
+Evil_Geniuses_VS_FaZe_Clan_febff781_5bd0_4b8e_851c_9e0e2956c808,25,Evil Geniuses|FaZe Clan,0,3,4
+Evil_Geniuses_VS_Fnatic_7a767c73_e13a_4418_9a15_ff0f36555379,27,Evil Geniuses|Fnatic,0,0,3
+Evil_Geniuses_VS_Heroic_55ca3b46_3a75_48b6_94f8_fc9af0f976e9,29,Evil Geniuses|Heroic,0,4,1
+Evil_Geniuses_VS_compLexity_5cde6776_c3f0_411c_a5d2_0424166bc4e2,21,Evil Geniuses|compLexity,0,4,0
+FURIA_Esports_VS_FaZe_Clan_a98ffca7_e968_4a54_9e8f_22f101c2502b,24,FURIA Esports|FaZe Clan,0,1,1
+FURIA_VS_G2_Esports_cc5fc727_825d_45de_b1e3_2b51e9857b54,29,FURIA|G2 Esports,0,4,2
+FURIA_VS_Gambit_41ab7849_b871_4726_9cfe_5cabd2e9e573,25,FURIA|Gambit,0,3,1
+FURIA_VS_NAVI_4ea96fac_97a5_4cec_aa48_e7300e6bdf8e,22,FURIA|NAVI,0,2,1
+FURIA_VS_Ninjas_in_Pyjamas_f66a8d64_7aac_4609_89c5_f79b9a5b2485,25,FURIA|Ninjas in Pyjamas,0,1,1
+FURIA_VS_Team_oNe_f140d6b5_d829_49ab_93c8_da24648e07d8,30,FURIA|Team oNe,0,1,0
+FURIA_eSports_VS_G2_Esports_6a83cc41_6926_41fe_b2e4_27dc17d46d8e,30,FURIA eSports|G2 Esports,0,1,3
+FaZe_Clan_VS_ENCE_b63b2a87_38df_4aec_9af1_7a1e6382bcad,25,ENCE|FaZe Clan,0,0,0
+FaZe_Clan_VS_ENCE_f7514187_9f7d_48b8_abdb_a2404542e8d2,24,ENCE|FaZe Clan,0,0,0
+FaZe_Clan_VS_FURIA_7078326b_122b_4dab_b738_0bd88ae881f7,29,FURIA|FaZe Clan,0,4,2
+FaZe_Clan_VS_FURIA_869bc814_ed7b_42b1_836b_e1b1f4408bc4,35,FURIA|FaZe Clan,0,2,2
+FaZe_Clan_VS_G2_Esports_26867805_e335_4beb_9612_ad19c136e4d9,23,FaZe Clan|G2 Esports,0,3,4
+FaZe_Clan_VS_NAVI_GGBET_9b88dd66_00e5_4cf7_bcb1_e34c3ad16034,29,FaZe Clan|NAVI GGBET,0,3,1
+FaZe_Clan_VS_Natus_Vincere_f218743d_5e8b_436e_91bd_b7b3664c56c3,30,FaZe Clan|Natus Vincere,0,2,4
+FaZe_Clan_VS_Natus_Vincere_fd93d688_9948_46b6_a9ab_76ec7602c23f,23,FaZe Clan|Natus Vincere,0,1,4
+FaZe_Clan_VS_OG_cca3e1be_b825_4039_b736_23ab7fc0e667,23,FaZe Clan|OG,0,1,3
+FaZe_Clan_VS_Players_89d46453_a185_4f1e_8be1_df2a19ffd9de,21,FaZe Clan|Players,0,3,1
+FaZe_Clan_VS_Team_Liquid_a8899757_baf4_479a_8882_c99a3b911a7a,27,FaZe Clan|Team Liquid,0,4,3
+FaZe_VS_BIG_4bab9a63_42e6_4766_acb6_cae50d575d04,36,BIG|FaZe,0,2,0
+Fiend_VS_Entropiq_e497ac50_6564_4c65_a991_1ec47016a242,29,Entropiq|Fiend,0,2,1
+Fiend_VS_FaZe_Clan_0fd23068_c5bf_4ec9_8ae2_4c4a901bda5b,22,FaZe Clan|Fiend,0,1,3
+Fnatic_VS_Complexity_933b0221_3065_4617_8f30_eb216321ac79,28,Complexity|Fnatic,0,2,4
+Fnatic_VS_FaZe_Clan_d8e889bb_1d01_46c4_b43d_5d79c935240c,23,FaZe Clan|Fnatic,0,2,3
+Fnatic_VS_Heroic_fa8c2184_4bb2_4ce2_8ccb_814ba204e70e,30,Fnatic|Heroic,0,3,2
+Fnatic_VS_OG_9e15645e_1773_49f9_9d56_33b4a20cee33,27,Fnatic|OG,0,3,0
+FunPlus_Phoenix_VS_BIG_15344c55_e92f_45f5_86cc_b4a2033be996,26,BIG|FunPlus Phoenix,0,1,0
+G2_Esports_VS_A_U_R_A_bd9e476d_07a9_450f_8169_9ab6a3ab6e09,17,A U R A|G2 Esports,0,3,3
+G2_Esports_VS_Entropiq_d9db156e_3fe7_4aee_9cdd_4ae877a1362b,30,Entropiq|G2 Esports,0,2,4
+G2_Esports_VS_Fiend_84355bd5_a8a0_4c54_a35c_31a87c85a2ee,18,Fiend|G2 Esports,0,1,2
+G2_Esports_VS_Gambit_Esports_fae1d55d_cc37_4b36_a841_4b9fcb8cf432,29,G2 Esports|Gambit Esports,0,3,1
+G2_Esports_VS_Imperial_Esports_fb1292ee_58f8_46af_99cd_4dee2251a06c,28,G2 Esports|Imperial Esports,0,0,3
+G2_Esports_VS_MIBR_558a89cc_83f4_4b7d_92de_dad700845416,27,G2 Esports|MIBR,0,4,1
+G2_Esports_VS_Natus_Vincere_30884d24_3c0f_4147_90ca_e2e0f58ea30e,29,G2 Esports|Natus Vincere,0,4,4
+G2_Esports_VS_OG_Esports_e1589ea4_ccc0_4907_b81f_5161da7fcc9c,26,G2 Esports|OG Esports,0,0,4
+G2_Esports_VS_TYLOO_24802ae0_ae49_471c_9688_a712ab54e0df,29,G2 Esports|TYLOO,0,3,4
+G2_Esports_VS_compLexity_b084db84_f340_422a_a4d7_f60c400748ec,30,G2 Esports|compLexity,0,0,4
+G2_Esports_VS_forZe_Esports_bbe12832_0c8c_4cac_8125_62d6c25412ce,30,G2 Esports|forZe Esports,0,0,2
+GODSENT_VS_BIG_489338c2_71c4_4d7b_90f2_cb124986bd4b,28,BIG|GODSENT,0,2,1
+GODSENT_VS_ENCE_6d430aed_dbe8_42ea_98b4_ab2360c3de8b,27,ENCE|GODSENT,0,1,3
+GODSENT_VS_Players_157c39c0_d36c_4c10_8432_190c923ba278,19,GODSENT|Players,0,4,0
+Gambit_VS_Enterprise_0c8c7332_6a51_4e15_8eff_12a8e3634c40,22,Enterprise|Gambit,0,3,3
+Gambit_VS_Entropiq_4d4619ea_b3e9_450f_b9c3_3882c2a876a1,23,Entropiq|Gambit,0,1,4
+Gambit_VS_NAVI_GGBET_a3fbf302_b349_475c_9252_44f65ebb4fc7,27,Gambit|NAVI GGBET,0,4,0
+Gambit_VS_eSuba_2cb9e325_f962_411e_af76_010f6be393e5,36,Gambit|eSuba,0,2,4
+HAVU_VS_B_I_G_1876de5d_8dbb_4b4b_b5d9_f051f4901375,21,B.I.G|HAVU,0,1,1
+HAVU_VS_Complexity_677a5339_eea3_4a37_843e_a385147ce412,21,Complexity|HAVU,0,0,0
+HEROIC_VS_BIG_be25bf2e_5aaa_4be5_98ae_f2acb64febaf,26,BIG|HEROIC,0,3,1
+HEROIC_VS_NAVI_c7f0e145_6303_40e6_9b79_ab0f825db57d,27,HEROIC|NAVI,0,2,4
+Heroic_GGBET_VS_9z_1d515b6f_092b_447a_8fab_6778da8d50ce,24,9z|Heroic GGBET,0,3,4
+Heroic_VS_Astralis_2512bf15_d7b8_4c83_a402_43c3c0913a83,34,Astralis|Heroic,0,0,0
+Heroic_VS_BIG_56cc0c20_4bad_458a_b1f5_e9ab0f7d06ae,23,BIG|Heroic,0,3,3
+Heroic_VS_Bad_News_Bears_e41b1415_b868_49eb_b040_894e61c79ab6,17,Bad News Bears|Heroic,0,2,1
+Heroic_VS_ENCE_18319c80_8171_4a16_975d_76889e92362b,21,ENCE|Heroic,0,1,0
+Heroic_VS_ENCE_dc580163_7642_4713_ad0b_052c4fc11d49,28,ENCE|Heroic,0,2,0
+Heroic_VS_FURIA_8082f038_999c_4cc0_9219_e4f2f47737d1,27,FURIA|Heroic,0,0,3
+Heroic_VS_FaZe_Clan_094cae55_e4c2_4c54_ad8c_0b1f846d0068,26,FaZe Clan|Heroic,0,2,3
+Heroic_VS_FaZe_Clan_b5025518_f454_4613_91b0_0382cccf9a28,30,FaZe Clan|Heroic,0,1,3
+Heroic_VS_G2_Esports_96994a0e_6a86_48c4_9962_cb71dd7f5c14,26,G2 Esports|Heroic,0,1,0
+Heroic_VS_GODSENT_446cea4d_f23c_4932_bdb0_8108e5a53733,29,GODSENT|Heroic,0,1,4
+Heroic_VS_Gambit_Esports_f4098943_2e5b_48c6_a5de_353dfba3e640,19,Gambit Esports|Heroic,0,3,4
+Heroic_VS_NAVI_GGBET_8e945423_8029_472f_991f_075e8cea3821,30,Heroic|NAVI GGBET,0,0,4
+Heroic_VS_Natus_Vincere_69cf03cd_1be4_4ce6_98fa_dde9971bc518,30,Heroic|Natus Vincere,0,1,0
+Heroic_VS_Natus_Vincere_8c516ddf_4403_4eaa_a17d_44a9feae80f5,21,Heroic|Natus Vincere,0,3,0
+Heroic_VS_OG_bb7fb8a7_1a8b_4990_bb6b_b42109cb3259,22,Heroic|OG,0,2,1
+Heroic_VS_POGGERZ_a56115fd_a0ba_4eea_a618_91fd6c57177c,27,Heroic|POGGERZ,0,4,3
+Heroic_VS_Virtus_pro_347bfc41_a2c8_4684_afe8_052bcff0af77,26,Heroic|Virtus.pro,0,0,2
+Heroic_VS_Vitality_0839a031_0e2c_4c03_b4bc_b5ba05fe669a,23,Heroic|Vitality,0,1,1
+Imperial_Esports_VS_Bad_News_Eagles_2c3b80e0_fc3c_46fe_af19_352861db1dc9,30,Bad News Eagles|Imperial Esports,0,1,4
+Imperial_Esports_VS_Cloud9_1550fda2_2150_4a0b_ad50_c7b363e49b29,19,Cloud9|Imperial Esports,0,3,1
+LDLC_VS_Dynamo_Eclot_0ed3b2eb_5e2f_4529_8c9d_89fb41ee2f7c,27,Dynamo Eclot|LDLC,0,4,1
+LDLC_VS_K23_ead9cffe_46cb_42a5_bcae_31e7f8194d9c,22,K23|LDLC,0,4,1
+MAD_LIONS_VS_G2_Esports_93a63bac_bc90_4196_b262_311695e6360a,35,G2 Esports|MAD LIONS,0,2,4
+MAD_Lions_VS_ENCE_e8edf4dd_75be_4dc3_8533_bfe78b6a428f,27,ENCE|MAD Lions,0,3,0
+MIBR_VS_FaZe_Clan_36bbcf79_da4a_46c6_92e5_4d20fdd3aea4,25,FaZe Clan|MIBR,0,4,0
+MIBR_VS_Heroic_fcf03079_9f8a_4038_80cb_df9fa0547e67,26,Heroic|MIBR,0,1,1
+MOUZ_VS_ENCE_70d7d916_5647_4141_a705_b9bbc6e2093a,22,ENCE|MOUZ,0,0,2
+MOUZ_VS_G2_Esports_4e6d6d4e_0a7c_4bc2_a773_1c0ef6f0de36,36,G2 Esports|MOUZ,0,0,2
+Movistar_Riders_VS_ENCE_4a86fa84_5d31_43a5_a107_d34549646097,30,ENCE|Movistar Riders,0,1,2
+Movistar_Riders_VS_Fiend_2ddcc9d7_0702_42de_952e_1170ca5adcfa,29,Fiend|Movistar Riders,0,0,0
+Movistar_Riders_VS_G2_Esports_8960bc49_f7ef_4ea3_a91d_e3b3cad6810b,26,G2 Esports|Movistar Riders,0,4,3
+Movistar_Riders_VS_Players_1eacbbe8_6612_4c97_9a74_27a1e0b7b6ec,23,Movistar Riders|Players,0,2,0
+Movistar_Riders_VS_Team_Liquid_521de194_f3e3_4764_993a_f770bd53a891,28,Movistar Riders|Team Liquid,0,0,4
+Movistar_Riders_VS_VP_Parimatch_7f28f209_585f_4842_aad3_10f8dbf3d839,24,Movistar Riders|VP Parimatch,0,3,2
+NAVI_GGBET_VS_G2_Esports_b01bb4b6_4221_4270_9b9f_16e32a24ab50,20,G2 Esports|NAVI GGBET,0,0,0
+NAVI_GGBET_VS_Heroic_9cb1365f_e7fa_41fc_b25f_b27df3c39f4e,22,Heroic|NAVI GGBET,0,0,4
+NAVI_GGBET_VS_TeamVitality_2e8e94ae_6874_4953_99f6_63f55171ce31,28,NAVI GGBET|TeamVitality,0,3,1
+NAVI_GG_BET_VS_Complexity_bdada140_b48c_4be0_93c3_ce2cd7973eed,27,Complexity|NAVI GG.BET,0,0,2
+NAVI_GG_BET_VS_FURIA_66345ce6_70ce_42e4_a716_9bdb83b12dba,26,FURIA|NAVI GG.BET,0,3,4
+NAVI_GG_BET_VS_FURIA_Esports_c4fc4286_3274_4ea7_b6c1_aaa2edb88b00,29,FURIA Esports|NAVI GG.BET,0,4,2
+NAVI_VS_Gambit_59b80bdd_b7e0_4d79_8ab0_941b8d989dc3,29,Gambit|NAVI,0,3,4
+Natus_Vincere_VS_FURIA_0657c9fd_a475_4257_8879_265fdbfd59b0,18,FURIA|Natus Vincere,0,4,1
+Natus_Vincere_VS_FaZe_Clan_1a73735c_2216_4614_a884_6109561483ed,41,FaZe Clan|Natus Vincere,0,1,4
+Natus_Vincere_VS_G2_Esports_73515c5e_c4da_4eb1_a029_e0c679022469,36,G2 Esports|Natus Vincere,0,1,4
+Natus_Vincere_VS_G2_Esports_93a6d3b7_eaa5_48e5_893c_37ddd0f3c263,30,G2 Esports|Natus Vincere,0,2,4
+Natus_Vincere_VS_G2_Esports_a03bf1a0_74bc_4308_84d1_ce615c60e281,25,G2 Esports|Natus Vincere,0,4,4
+Natus_Vincere_VS_G2_Esports_f6a2e8b5_8787_4353_8ba7_8d6f3619ef8a,24,G2 Esports|Natus Vincere,0,2,4
+Natus_Vincere_VS_Gambit_1553618a_ae96_4237_a2eb_7eebe9bc9bff,23,Gambit|Natus Vincere,0,1,3
+Natus_Vincere_VS_Gambit_725103ae_e7e7_4c3c_ada4_e5df99021b38,27,Gambit|Natus Vincere,0,4,3
+Natus_Vincere_VS_Gambit_Esports_b4fea9c9_af26_442d_9eea_c7dad86486bb,19,Gambit Esports|Natus Vincere,0,1,4
+Natus_Vincere_VS_MIBR_35e69a21_1401_4b37_a68c_f50f986f6533,27,MIBR|Natus Vincere,0,0,1
+Ninjas_In_Pyjamas_VS_G2_Esports_3b0d7d8d_3cf7_45c4_ace9_90913ccb712a,27,G2 Esports|Ninjas In Pyjamas,0,2,0
+Ninjas_In_Pyjamas_VS_Natus_Vincere_13c77e68_d62f_478c_89d3_05d31335d5ba,30,Natus Vincere|Ninjas In Pyjamas,0,4,3
+Ninjas_in_Pyjamas_VS_Astralis_0ae78b8c_ff38_49c9_8291_1bf11062db67,30,Astralis|Ninjas in Pyjamas,0,0,1
+Ninjas_in_Pyjamas_VS_BIG_Clan_7ea4b92b_b519_4560_9aff_d9af03223198,28,BIG Clan|Ninjas in Pyjamas,0,1,2
+Ninjas_in_Pyjamas_VS_ENCE_7661436d_fb0d_44ba_859a_02946733736c,23,ENCE|Ninjas in Pyjamas,0,4,3
+Ninjas_in_Pyjamas_VS_G2_Esports_417185bd_1f9a_4a77_8569_0e124917c1ca,30,G2 Esports|Ninjas in Pyjamas,0,0,0
+Ninjas_in_Pyjamas_VS_G2_Esports_6b9c4aca_ed93_4a26_b536_3192342ad7b4,41,G2 Esports|Ninjas in Pyjamas,0,3,0
+Ninjas_in_Pyjamas_VS_MOUZ_4816248a_7de1_499e_ac5e_32d49f545e5a,27,MOUZ|Ninjas in Pyjamas,0,4,4
+Ninjas_in_Pyjamas_VS_NAVI_GGBET_a7530323_4964_4460_aed0_ebb7e68bc7ad,23,NAVI GGBET|Ninjas in Pyjamas,0,1,3
+Ninjas_in_Pyjamas_VS_OG_Esports_a89ce504_36fb_4e3b_acdd_8d69ea449d72,28,Ninjas in Pyjamas|OG Esports,0,2,3
+Ninjas_in_Pyjamas_VS_Team_Liquid_8b16fbb6_44e2_4191_ba9e_3973c02f36f6,20,Ninjas in Pyjamas|Team Liquid,0,4,4
+Ninjas_in_Pyjamas_VS_Team_Liquid_8e2ff20c_3c3c_4810_a7e6_0d86d411d35c,22,Ninjas in Pyjamas|Team Liquid,0,1,4
+Ninjas_in_Pyjamas_VS_Team_Vitality_eeef2648_6656_4375_b182_c516d35abad5,25,Ninjas in Pyjamas|Team Vitality,0,2,3
+Ninjas_in_Pyjamas_VS_compLexity_63cda578_3070_48f1_9bc5_3e87d0443b97,26,Ninjas in Pyjamas|compLexity,0,0,3
+OGEsports_VS_FaZe_Clan_a6240476_ee3b_485d_874b_e5e55eb3e1d3,24,FaZe Clan|OGEsports,0,2,0
+OGEsports_VS_NAVI_GGBET_13cef8eb_6ddb_48f6_80b7_95b52f0bf1f2,24,NAVI GGBET|OGEsports,0,4,0
+OGEsports_VS_Ninjas_in_Pyjamas_e80e8176_00f0_4110_8e4b_ee452b3fe649,36,Ninjas in Pyjamas|OGEsports,0,3,0
+OGEsports_VS_compLexity_849cf5c3_89e3_4112_a92c_497c31ee14dd,16,OGEsports|compLexity,0,1,4
+OG_Esports_VS_Gambit_Esports_848b887c_4554_4a9c_b480_4be8851abc8d,30,Gambit Esports|OG Esports,0,0,2
+OG_Esports_VS_Ninjas_in_Pyjamas_24e3af62_dcf9_47b2_a644_83e9ad86ff01,25,Ninjas in Pyjamas|OG Esports,0,1,3
+OG_Esports_VS_forZe_Esports_857a56b5_afe2_4651_a593_122ed1069b8d,24,OG Esports|forZe Esports,0,4,2
+OG_VS_Complexity_c32dd58c_b127_48e6_98e2_560c85c32294,26,Complexity|OG,0,3,3
+OG_VS_ENCE_6513dfac_6bdb_4431_9271_e2960bbd1be8,26,ENCE|OG,0,4,2
+OG_VS_FaZe_Clan_15100743_6d3f_4452_a403_f458df727df5,20,FaZe Clan|OG,0,0,3
+OG_VS_TYLOO_6074e5d6_f4a9_4dbe_83d4_450d49a637e6,26,OG|TYLOO,0,2,3
+OG_VS_Team_Vitality_6b03b89b_48dd_48bb_a30e_19a1ad5c2163,25,OG|Team Vitality,0,3,0
+Outsiders_VS_Cloud9_fe317d45_273f_4ffe_805b_6d219d4cd751,28,Cloud9|Outsiders,0,3,0
+Outsiders_VS_ENCE_1d4536eb_dedd_41d6_8f99_803846465472,26,ENCE|Outsiders,0,0,1
+Outsiders_VS_FURIA_1aa3bf00_6172_4e39_a6f1_8078b1473c0a,30,FURIA|Outsiders,0,3,2
+Party_Astronauts_VS_Team_Liquid_ffa461c3_e698_46a0_955c_bbc4d4369210,25,Party Astronauts|Team Liquid,0,3,1
+Renegades_VS_Complexity_f0b4a1be_0628_463f_9332_3f9a423fcda7,27,Complexity|Renegades,0,1,2
+SINNERS_Esports_VS_G2_Esports_2bd9466d_1ec6_4d62_8546_cc5b377e6d37,25,G2 Esports|SINNERS Esports,0,3,4
+SKADE_VS_Fiend_1f96ec5f_17ea_41a8_9e5a_704ef3403e11,26,Fiend|SKADE,0,2,3
+Sampi_Tipsport_VS_DREAM_ab370a1f_ca2b_4d28_920f_71e99f474ed8,25,DREAM|Sampi.Tipsport,0,4,3
+Sampi_Tipsport_VS_Entropiq_15b1038e_0c35_4e42_970a_200445c0e2f2,20,Entropiq|Sampi.Tipsport,0,3,2
+Singularity_VS_K23_1xBET_7b520ade_d01f_4cdb_a60a_c8b5d84594ba,24,K23 1xBET|Singularity,0,4,4
+Sinners_VS_Entropiq_6bc24175_54c6_4f1b_a5af_0c22468bd281,30,Entropiq|Sinners,0,1,0
+Sprout_VS_FURIA_6065d854_d78a_4550_bfa2_bc8d5c68adf6,28,FURIA|Sprout,0,3,2
+TeamVitality_VS_Astralis_8ddb1672_ae23_4ad0_b41b_25add199cd3b,23,Astralis|TeamVitality,0,2,2
+TeamVitality_VS_G2_Esports_8c5e5fd4_20b5_4393_88c5_12d2a8a4b2fd,29,G2 Esports|TeamVitality,0,4,1
+TeamVitality_VS_G2_Esports_965cbf49_8995_4a1c_a889_a37670d490d2,20,G2 Esports|TeamVitality,0,0,1
+TeamVitality_VS_Team_Liquid_297b8d90_485b_48b5_8a30_85322b67e051,26,Team Liquid|TeamVitality,0,0,3
+TeamVitality_VS_Team_Liquid_50623056_f604_42ba_b3f9_ce01b95e90df,27,Team Liquid|TeamVitality,0,1,3
+TeamVitality_VS_compLexity_a58fa70c_a0fc_4d93_9e89_fe8af07362f0,27,TeamVitality|compLexity,0,1,1
+TeamVitality_VS_compLexity_d2941f71_552b_4d8e_96e9_ab7e45233371,25,TeamVitality|compLexity,0,4,1
+Team_Liquid_VS_Evil_Geniuses_23259457_fc02_47ba_b617_ecfc0b1da111,22,Evil Geniuses|Team Liquid,0,4,0
+Team_Liquid_VS_FaZe_Clan_99c3a39f_35fe_48ed_bab5_ec69d7e518e4,41,FaZe Clan|Team Liquid,0,4,3
+Team_Liquid_VS_FaZe_Clan_9c9999f8_8216_4ab2_b223_568c1c762aa8,27,FaZe Clan|Team Liquid,0,3,3
+Team_Liquid_VS_G2_Esports_259b88bc_d5b8_40f3_a45c_8cff2c7766f9,21,G2 Esports|Team Liquid,0,4,4
+Team_Liquid_VS_Gambit_Esports_9c01eead_9bae_4e6b_8bc8_153962815db1,28,Gambit Esports|Team Liquid,0,0,2
+Team_Liquid_VS_NAVI_GGBET_77318ad7_cafa_47af_95b3_02550974fb7d,26,NAVI GGBET|Team Liquid,0,0,4
+Team_Liquid_VS_Ninjas_in_Pyjamas_74b51f2d_cd8b_4543_b111_90626f211a27,18,Ninjas in Pyjamas|Team Liquid,0,0,4
+Team_Liquid_VS_OG_988e7854_d97a_478d_80c4_5bcf8ff39365,28,OG|Team Liquid,0,4,2
+Team_Liquid_VS_Team_oNe_f49655fa_ebda_437d_baeb_968916e23088,24,Team Liquid|Team oNe,0,2,0
+Team_One_VS_FURIA_Esports_ae1cfcc2_c643_4bb3_bb0e_eb6c74ef9be8,29,FURIA Esports|Team One,0,1,1
+Team_One_VS_Gambit_891751f3_228c_453e_8a36_b67ee9340cbd,21,Gambit|Team One,0,0,2
+Team_One_VS_MIBR_f612c41d_caaa_421d_accf_6f2add046076,22,MIBR|Team One,0,4,3
+Team_Spirit_VS_FaZe_Clan_f039b7f6_c55a_47c8_b43a_adc2d94ec40c,29,FaZe Clan|Team Spirit,0,4,0
+Team_Spirit_VS_Fiend_34c5d56a_851f_43d5_9b28_b99b05e52461,25,Fiend|Team Spirit,0,3,3
+Team_Spirit_VS_Imperial_Sportsbet_343f8f50_4467_4a8b_8fb1_f8f15588eb22,20,Imperial Sportsbet|Team Spirit,0,2,1
+Team_Spirit_VS_Team_Vitality_4a579240_4d99_4fa9_851e_9066e7a176f2,20,Team Spirit|Team Vitality,0,2,2
+Team_Vitality_VS_BIG_790a5467_bdf8_4482_8634_59a3099d1be0,27,BIG|Team Vitality,0,4,1
+Team_Vitality_VS_ENCE_070d18c2_93a2_4e4c_8642_ba658276229f,30,ENCE|Team Vitality,0,0,4
+Team_Vitality_VS_ENCE_f7c9da20_29e7_4dc4_9e52_44680c26a65a,24,ENCE|Team Vitality,0,2,4
+Team_Vitality_VS_FaZe_Clan_1373632b_521f_491e_b6f4_6f6e471eb2ff,26,FaZe Clan|Team Vitality,0,0,0
+Team_Vitality_VS_FaZe_Clan_8926ff97_cbf7_4f24_aa19_71bc9ec94c86,27,FaZe Clan|Team Vitality,0,3,0
+Team_Vitality_VS_FaZe_Clan_abf70b59_08a0_4f48_a483_7b90e0df9423,21,FaZe Clan|Team Vitality,0,2,0
+Team_Vitality_VS_G2_Esports_1914c3ce_29a5_4c8d_9839_9c0030a0a711,26,G2 Esports|Team Vitality,0,1,3
+Team_Vitality_VS_G2_Esports_ee9427f3_03bf_4962_b5a5_1938fa163ef4,30,G2 Esports|Team Vitality,0,4,3
+Team_Vitality_VS_Gambit_Esports_79b5ebf2_fab4_48bc_9697_5ba260b19226,23,Gambit Esports|Team Vitality,0,3,4
+Team_Vitality_VS_Gambit_Esports_fb4def27_0dc0_4154_a84d_12e2a03e50a3,36,Gambit Esports|Team Vitality,0,1,4
+Team_Vitality_VS_Heroic_343edef3_916d_4f85_93b4_3b32c0c70d00,28,Heroic|Team Vitality,0,3,1
+Team_Vitality_VS_Natus_Vincere_2f7a05ba_079d_4fe5_8380_c450eb50e138,26,Natus Vincere|Team Vitality,0,0,4
+Team_Vitality_VS_OG_Esports_dd0ec52a_bcc0_4618_8435_ddb0432880bf,28,OG Esports|Team Vitality,0,4,4
+Team_Vitality_VS_OG_Esports_eed7a65c_b250_4de3_90d0_ebb69c0181f0,25,OG Esports|Team Vitality,0,0,4
+Team_Vitality_VS_Team_Liquid_d2d9bb20_0dba_4cd4_986b_a3456f8dfeef,28,Team Liquid|Team Vitality,0,2,2
+Team_Vitality_VS_mousesports_456460d4_6b82_481b_80c7_765341ee0bd5,27,Team Vitality|mousesports,0,3,3
+Team_oNe_VS_Gambit_Esports_a31257d9_d974_407a_acb9_c8505ffffe0a,30,Gambit Esports|Team oNe,0,2,1
+Virtus_pro_Parimatch_VS_Complexity_59940a39_6100_4b2a_8708_f3d11ae6413a,25,Complexity|Virtus.pro Parimatch,0,4,3
+Virtus_pro_Parimatch_VS_FURIA_Esports_9ebbcaf0_1767_4254_9b67_1d3c20b34906,26,FURIA Esports|Virtus.pro Parimatch,0,2,1
+Virtus_pro_Parimatch_VS_Ninjas_in_Pyjamas_ce084937_09f0_4556_9aac_347dcd27c615,28,Ninjas in Pyjamas|Virtus.pro Parimatch,0,0,3
+Virtus_pro_Parimatch_VS_Team_Liquid_e6f1a8c9_690b_47a3_ba71_13343541fda6,28,Team Liquid|Virtus.pro Parimatch,0,3,0
+Virtus_pro_VS_G2_Esports_7063ca5d_8f7f_4e11_aa6c_d3084b3b323e,47,G2 Esports|Virtus.pro,0,2,0
+Virtus_pro_VS_G2_Esports_be640014_1959_4a86_8b10_93f770e4e9f4,27,G2 Esports|Virtus.pro,0,4,0
+Virtus_pro_VS_GODSENT_e563d6f5_c1b0_4688_b143_3e48499d67b8,30,GODSENT|Virtus.pro,0,1,3
+Virtus_pro_VS_OG_Esports_48b037f5_9673_4311_b1c6_b99351af0b80,27,OG Esports|Virtus.pro,0,0,2
+Virtus_pro_VS_Team_Vitality_779ac45e_0be0_42e6_8991_a89ceb07fa42,29,Team Vitality|Virtus.pro,0,0,3
+Virtus_pro_VS_forZe_7d979656_f618_428a_8323_51c28b83a9c0,27,Virtus.pro|forZe,0,1,4
+Virtus_pro_VS_forZe_Esports_7c0b7a62_2a6f_4c67_9588_72677bbe6108,23,Virtus.pro|forZe Esports,0,0,4
+Vitality_VS_Entropiq_66740ed5_68d5_4ae2_8155_2cee7faf17a3,30,Entropiq|Vitality,0,4,3
+Vitality_VS_Outsiders_b35a2097_3e27_4142_94ff_8e6960566836,24,Outsiders|Vitality,0,0,2
+Vitality_VS_Team_Liquid_37c8eb9f_890d_4035_a659_44911641213b,23,Team Liquid|Vitality,0,1,2
+compLexity_VS_G2_Esports_1ed4fb98_732e_4456_8516_a48da5bf05c1,27,G2 Esports|compLexity,0,0,4
+compLexity_VS_Gambit_c9feb32c_ed8d_46a9_b620_380f6dfff501,28,Gambit|compLexity,0,3,0
+eSuba_VS_BIG_fcd70f0a_7217_401c_85c6_f32f8d3cd89b,26,BIG|eSuba,0,0,4
+eSuba_VS_EXTREMUM_d05ede0d_bc51_4b88_83ca_81acb77483a0,27,EXTREMUM|eSuba,0,1,1
+eSuba_VS_Fiend_cb8f21bb_460a_4a52_b605_81bc9211bca6,27,Fiend|eSuba,0,3,1
+fnatic_VS_BIG_2db656d6_7c87_41d3_a291_64b2b40df97f,36,BIG|fnatic,0,4,3
+fnatic_VS_BIG_ae3f2e43_e046_4c60_bf66_3bb1ec6a61b0,29,BIG|fnatic,0,2,3
+fnatic_VS_FaZe_Clan_b0c8dcb3_0607_4c7b_879c_6e0329020f60,25,FaZe Clan|fnatic,0,1,0
+fnatic_VS_FaZe_Clan_d54c84c2_16bb_4acd_9ac2_6eff9ab999fa,21,FaZe Clan|fnatic,0,2,0
+fnatic_VS_G2_Esports_21a7ee8c_fc05_45ce_bafd_8a4796974633,23,G2 Esports|fnatic,0,2,2
+fnatic_VS_G2_Esports_2b0da293_a5f6_4a02_aede_12e2f1069254,23,G2 Esports|fnatic,0,2,2
+fnatic_VS_MOUZ_2ac1676d_316b_42e9_b88a_884bb7cfc367,24,MOUZ|fnatic,0,1,1
+forZe_VS_Complexity_fe19fbd9_80ab_4a38_9a06_31e9cbbded02,25,Complexity|forZe,0,0,4
+mousesports_VS_A_U_R_A_7e21d031_7bf8_4a49_bb48_4855ab534a04,26,A U R A|mousesports,0,4,1
+mousesports_VS_BIG_f781e3b8_ad9d_45c3_a0cf_286fb5a06923,28,BIG|mousesports,0,2,1
+mousesports_VS_FaZe_Clan_63df69fe_f161_4f30_af26_f7e5728cf89d,22,FaZe Clan|mousesports,0,2,1
+mousesports_VS_FaZe_Clan_6f44dae6_19dd_4d9c_8808_b5198f40150f,29,FaZe Clan|mousesports,0,3,1
+mousesports_VS_G2_Esports_13f47693_7c94_4823_bf44_2adadaf72be6,28,G2 Esports|mousesports,0,3,2
+mousesports_VS_G2_Esports_9e8d6ad0_1048_4909_8327_3eb857671aa2,28,G2 Esports|mousesports,0,1,2
+mousesports_VS_G2_Esports_dd7a24a7_80d9_4c21_9ff3_b7ae8771e410,26,G2 Esports|mousesports,0,3,2
+mousesports_VS_Gambit_Esports_28c6914e_e018_4d50_82f0_84082ae40d60,28,Gambit Esports|mousesports,0,3,1
+mousesports_VS_Natus_Vincere_0c0e9b95_be5b_4ff6_865f_141d714baa5c,25,Natus Vincere|mousesports,0,0,1
+mousesports_VS_Ninjas_in_Pyjamas_fd94b3a6_fe06_4151_b3ea_097e585bd540,30,Ninjas in Pyjamas|mousesports,0,1,0
+paiN_VS_FURIA_bdaa02a2_413e_4a08_8b19_f2406ca7bb86,28,FURIA|paiN,0,4,2
+x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04,71,Natus Vincere|x-kom AGO,0,0,2
+Astralis_VS_ENCE_b686b317_704a_4c0e_93d2_b531410de248,35,Astralis|ENCE,1,2,1
+Astralis_VS_FURIA_0a075b4d_576e_46f2_b944_fe9542faee54,27,Astralis|FURIA,1,0,4
+Astralis_VS_FURIA_d5635de8_d81d_4be6_99a2_5100ebc507f0,24,Astralis|FURIA,1,1,4
+Astralis_VS_FaZe_Clan_3b60f341_78e9_48ca_bf62_81e3abe527e1,26,Astralis|FaZe Clan,1,0,2
+Astralis_VS_K23_90c4e159_b93f_49fc_b892_2a2e369ca3ed,41,Astralis|K23,1,3,3
+Astralis_VS_NAVI_GGBET_8129e6d8_7fd0_4537_bbbe_e08bd0c8779e,36,Astralis|NAVI GGBET,1,2,2
+Astralis_VS_TeamVitality_2df97383_4d7a_440c_a689_71b98f3d5766,22,Astralis|TeamVitality,1,2,2
+Astralis_VS_Team_Liquid_6567090b_da33_4ba0_aefb_53b6ae9185ec,26,Astralis|Team Liquid,1,4,0
+Astralis_VS_Team_Liquid_f8d9cc9d_53b4_445f_b61a_ef30ac4d6520,29,Astralis|Team Liquid,1,0,0
+Astralis_VS_fnatic_5ca5654a_fd22_4430_875a_02e4f603e914,18,Astralis|fnatic,1,4,1
+Astralis_VS_x_kom_AGO_47dc5792_cb45_41d1_8271_7fd8bcd76c1c,29,Astralis|x-kom AGO,1,1,0
+BIG_Clan_VS_Astralis_c307fe7d_4bdc_47d6_ab32_2828f06b8f92,23,Astralis|BIG Clan,1,4,1
+BIG_Clan_VS_G2_Esports_19bef7ff_8e92_4add_90f3_323f2ba99ff2,23,BIG Clan|G2 Esports,1,1,0
+BIG_Clan_VS_Ninjas_in_Pyjamas_2219df2e_161c_4b27_b116_fd69eb601e99,29,BIG Clan|Ninjas in Pyjamas,1,0,4
+BIG_VS_A_U_R_A_19bf268e_607c_4425_8aab_0cbe198578a2,30,A U R A|BIG,1,4,2
+BIG_VS_Complexity_a797db2e_ac89_4434_a13f_dab006699545,28,BIG|Complexity,1,4,2
+BIG_VS_FaZe_Clan_99d9eb9b_1ea7_403f_ab5b_68066bb61b44,25,BIG|FaZe Clan,1,2,2
+BIG_VS_Fiend_f7de6a1d_0fea_4a9c_ac31_ac81a0e0e7a4,36,BIG|Fiend,1,3,3
+BIG_VS_G2_Esports_760148de_bc79_4643_bbde_5d287d7ef8f2,28,BIG|G2 Esports,1,3,0
+BIG_VS_K23_d7b9203a_a191_443f_9678_47bc0cb47e01,28,BIG|K23,1,2,3
+BIG_VS_Natus_Vincere_4e4d6ca9_edf8_4315_9879_ccfbc680e8ac,23,BIG|Natus Vincere,1,1,0
+BIG_VS_Team_Liquid_d83442a6_dbb1_4e9c_9ef2_a1f1d22f4e69,28,BIG|Team Liquid,1,2,3
+BIG_VS_Vitality_7d03108f_c00e_4ab8_a03f_4e34fc85cf81,25,BIG|Vitality,1,2,0
+BIG_VS_mousesports_856f0ca7_2890_4b51_bf46_ee44e0de6ae3,26,BIG|mousesports,1,1,1
+CPH_Flames_VS_Ninjas_in_Pyjamas_b06f4e67_d9d7_4803_bf51_de3567325873,28,CPH Flames|Ninjas in Pyjamas,1,1,2
+Complexity_VS_B_I_G_7f96daf3_7985_4f41_b4cf_664337a51cd4,35,B.I.G|Complexity,1,4,2
+Complexity_VS_Endpoint_CeX_6bcfbd1e_0008_4a71_a715_7fc681392345,23,Complexity|Endpoint.CeX,1,1,4
+Complexity_VS_G2_Esports_2ac03938_6b0b_442b_8899_2c56dfeb6f92,28,Complexity|G2 Esports,1,3,1
+Complexity_VS_Gambit_Esports_44069279_247a_4811_b2f7_2233cff6023c,23,Complexity|Gambit Esports,1,1,1
+Complexity_VS_Team_Vitality_93474513_6f7f_44ab_b6aa_58ade2255127,28,Complexity|Team Vitality,1,2,4
+Complexity_VS_Virtus_pro_779eca53_f7c0_4f9a_8012_45086c328254,22,Complexity|Virtus.pro,1,2,2
+Complexity_VS_forZe_Esports_67bdf08a_8ced_48fd_83b2_3392befdbc7a,28,Complexity|forZe Esports,1,0,0
+Copenhagen_Flames_VS_Team_Spirit_5cfa8f5b_671b_4ef8_9f0a_96ba66ac4d62,24,Copenhagen Flames|Team Spirit,1,1,2
+DignitasVIE_VS_Fiend_58e04be8_d9d5_4031_adda_bec6a4af79b9,25,DignitasVIE|Fiend,1,4,0
+Dignitas_VS_CPH_Flames_3c3f82ba_9887_4145_90bb_b73b0383373c,23,CPH Flames|Dignitas,1,4,3
+Dignitas_VS_EXTREMUM_99d643f6_a9d0_443e_832c_cd9c3f1d8796,23,Dignitas|EXTREMUM,1,0,1
+Dignitas_VS_Fiend_0f222f22_1d61_48c7_92a7_0578174959ba,29,Dignitas|Fiend,1,3,0
+ECSTATIC_VS_Entropiq_641fd7e4_544b_4e92_8d2b_536a5825376c,21,ECSTATIC|Entropiq,1,3,3
+EIQ_PRG_VS_Dynamo_Eclot_c405829a_45de_461d_8895_90f7fb92db88,29,Dynamo Eclot|EIQ PRG,1,2,3
+ENCE_VS_FURIA_8fadbb13_3728_4211_b0eb_cd4075a60218,29,ENCE|FURIA,1,2,1
+ENCE_VS_G2_Esports_1cb8b01a_f11e_4ef3_954d_5ce809b57506,22,ENCE|G2 Esports,1,3,3
+ENCE_VS_G2_Esports_20987bbd_21ef_469e_99b9_6654372b543e,24,ENCE|G2 Esports,1,2,3
+ENCE_VS_Ninjas_in_Pyjamas_dd96ccec_8374_4510_b295_b832eb539878,21,ENCE|Ninjas in Pyjamas,1,4,0
+ENCE_VS_OG_443be02f_3427_46ab_9719_3afe549723b6,53,ENCE|OG,1,3,3
+ENCE_VS_Outsiders_acf66d1a_4adc_4834_9be7_75ab6b981bd4,24,ENCE|Outsiders,1,2,0
+ENCE_VS_Team_Vitality_9869e869_1007_4b07_a7bf_d419dae83506,24,ENCE|Team Vitality,1,3,1
+ENCE_VS_forZe_Esports_6ef84ba7_509d_46d3_b508_defcd9e50305,27,ENCE|forZe Esports,1,0,3
+ENTERPRISE_VS_Dynamo_Eclot_6251904c_9ece_448c_8cd7_4dfb9f220657,23,Dynamo Eclot|ENTERPRISE,1,0,2
+Entropiq_VS_Enterprise_fb85b0f8_7f3f_40ea_b4e5_65f91fbb9ee7,20,Enterprise|Entropiq,1,0,1
+Entropiq_VS_Fiend_85c278a6_ffb6_485f_988b_15f6f3b2f2ad,28,Entropiq|Fiend,1,4,2
+Entropiq_VS_Gambit_fcde73c2_6b1d_4886_b626_61b13ace2bd1,23,Entropiq|Gambit,1,2,1
+Entropiq_VS_MOUZ_e7089cdf_ca0a_4658_932e_31fc1489a769,26,Entropiq|MOUZ,1,1,3
+Entropiq_VS_SINNERS_6219ff2f_f03c_4d2a_8758_9590ec81fb80,18,Entropiq|SINNERS,1,2,3
+Entropiq_VS_Team_oNe_33b018e0_5577_40ef_b06b_08f41e7a0d4f,22,Entropiq|Team oNe,1,3,1
+Eternal_Fire_VS_Entropiq_b42541c7_5eb1_41ba_9d1b_060ab63e3f31,25,Entropiq|Eternal Fire,1,4,1
+Eternal_Fire_VS_Fiend_0072d9d0_a907_44c2_a9c8_7f036e55333d,30,Eternal Fire|Fiend,1,1,1
+Evil_Geniuses_VS_FURIA_eSports_6567a96e_5fa0_4465_a3dc_bc7c8ceb9fb0,30,Evil Geniuses|FURIA eSports,1,1,4
+Evil_Geniuses_VS_FaZe_Clan_febff781_5bd0_4b8e_851c_9e0e2956c808,25,Evil Geniuses|FaZe Clan,1,1,3
+Evil_Geniuses_VS_Fnatic_7a767c73_e13a_4418_9a15_ff0f36555379,27,Evil Geniuses|Fnatic,1,2,3
+Evil_Geniuses_VS_Heroic_55ca3b46_3a75_48b6_94f8_fc9af0f976e9,29,Evil Geniuses|Heroic,1,4,3
+Evil_Geniuses_VS_compLexity_5cde6776_c3f0_411c_a5d2_0424166bc4e2,21,Evil Geniuses|compLexity,1,3,4
+FURIA_Esports_VS_FaZe_Clan_a98ffca7_e968_4a54_9e8f_22f101c2502b,24,FURIA Esports|FaZe Clan,1,1,3
+FURIA_VS_G2_Esports_cc5fc727_825d_45de_b1e3_2b51e9857b54,29,FURIA|G2 Esports,1,2,4
+FURIA_VS_Gambit_41ab7849_b871_4726_9cfe_5cabd2e9e573,25,FURIA|Gambit,1,3,4
+FURIA_VS_NAVI_4ea96fac_97a5_4cec_aa48_e7300e6bdf8e,22,FURIA|NAVI,1,3,0
+FURIA_VS_Ninjas_in_Pyjamas_f66a8d64_7aac_4609_89c5_f79b9a5b2485,25,FURIA|Ninjas in Pyjamas,1,1,2
+FURIA_VS_Team_oNe_f140d6b5_d829_49ab_93c8_da24648e07d8,30,FURIA|Team oNe,1,4,2
+FURIA_eSports_VS_G2_Esports_6a83cc41_6926_41fe_b2e4_27dc17d46d8e,30,FURIA eSports|G2 Esports,1,2,4
+FaZe_Clan_VS_ENCE_b63b2a87_38df_4aec_9af1_7a1e6382bcad,25,ENCE|FaZe Clan,1,2,1
+FaZe_Clan_VS_ENCE_f7514187_9f7d_48b8_abdb_a2404542e8d2,24,ENCE|FaZe Clan,1,1,1
+FaZe_Clan_VS_FURIA_7078326b_122b_4dab_b738_0bd88ae881f7,29,FURIA|FaZe Clan,1,4,0
+FaZe_Clan_VS_FURIA_869bc814_ed7b_42b1_836b_e1b1f4408bc4,35,FURIA|FaZe Clan,1,2,0
+FaZe_Clan_VS_G2_Esports_26867805_e335_4beb_9612_ad19c136e4d9,23,FaZe Clan|G2 Esports,1,2,0
+FaZe_Clan_VS_NAVI_GGBET_9b88dd66_00e5_4cf7_bcb1_e34c3ad16034,29,FaZe Clan|NAVI GGBET,1,2,3
+FaZe_Clan_VS_Natus_Vincere_f218743d_5e8b_436e_91bd_b7b3664c56c3,30,FaZe Clan|Natus Vincere,1,2,0
+FaZe_Clan_VS_Natus_Vincere_fd93d688_9948_46b6_a9ab_76ec7602c23f,23,FaZe Clan|Natus Vincere,1,1,0
+FaZe_Clan_VS_OG_cca3e1be_b825_4039_b736_23ab7fc0e667,23,FaZe Clan|OG,1,0,4
+FaZe_Clan_VS_Players_89d46453_a185_4f1e_8be1_df2a19ffd9de,21,FaZe Clan|Players,1,2,3
+FaZe_Clan_VS_Team_Liquid_a8899757_baf4_479a_8882_c99a3b911a7a,27,FaZe Clan|Team Liquid,1,1,2
+FaZe_VS_BIG_4bab9a63_42e6_4766_acb6_cae50d575d04,36,BIG|FaZe,1,3,4
+Fiend_VS_Entropiq_e497ac50_6564_4c65_a991_1ec47016a242,29,Entropiq|Fiend,1,0,2
+Fiend_VS_FaZe_Clan_0fd23068_c5bf_4ec9_8ae2_4c4a901bda5b,22,FaZe Clan|Fiend,1,0,4
+Fnatic_VS_Complexity_933b0221_3065_4617_8f30_eb216321ac79,28,Complexity|Fnatic,1,4,3
+Fnatic_VS_FaZe_Clan_d8e889bb_1d01_46c4_b43d_5d79c935240c,23,FaZe Clan|Fnatic,1,2,2
+Fnatic_VS_Heroic_fa8c2184_4bb2_4ce2_8ccb_814ba204e70e,30,Fnatic|Heroic,1,1,1
+Fnatic_VS_OG_9e15645e_1773_49f9_9d56_33b4a20cee33,27,Fnatic|OG,1,4,1
+FunPlus_Phoenix_VS_BIG_15344c55_e92f_45f5_86cc_b4a2033be996,26,BIG|FunPlus Phoenix,1,2,1
+G2_Esports_VS_A_U_R_A_bd9e476d_07a9_450f_8169_9ab6a3ab6e09,17,A U R A|G2 Esports,1,0,4
+G2_Esports_VS_Entropiq_d9db156e_3fe7_4aee_9cdd_4ae877a1362b,30,Entropiq|G2 Esports,1,3,4
+G2_Esports_VS_Fiend_84355bd5_a8a0_4c54_a35c_31a87c85a2ee,18,Fiend|G2 Esports,1,0,4
+G2_Esports_VS_Gambit_Esports_fae1d55d_cc37_4b36_a841_4b9fcb8cf432,29,G2 Esports|Gambit Esports,1,0,4
+G2_Esports_VS_Imperial_Esports_fb1292ee_58f8_46af_99cd_4dee2251a06c,28,G2 Esports|Imperial Esports,1,2,4
+G2_Esports_VS_MIBR_558a89cc_83f4_4b7d_92de_dad700845416,27,G2 Esports|MIBR,1,1,0
+G2_Esports_VS_Natus_Vincere_30884d24_3c0f_4147_90ca_e2e0f58ea30e,29,G2 Esports|Natus Vincere,1,2,2
+G2_Esports_VS_OG_Esports_e1589ea4_ccc0_4907_b81f_5161da7fcc9c,26,G2 Esports|OG Esports,1,0,4
+G2_Esports_VS_TYLOO_24802ae0_ae49_471c_9688_a712ab54e0df,29,G2 Esports|TYLOO,1,0,3
+G2_Esports_VS_compLexity_b084db84_f340_422a_a4d7_f60c400748ec,30,G2 Esports|compLexity,1,4,2
+G2_Esports_VS_forZe_Esports_bbe12832_0c8c_4cac_8125_62d6c25412ce,30,G2 Esports|forZe Esports,1,4,4
+GODSENT_VS_BIG_489338c2_71c4_4d7b_90f2_cb124986bd4b,28,BIG|GODSENT,1,2,3
+GODSENT_VS_ENCE_6d430aed_dbe8_42ea_98b4_ab2360c3de8b,27,ENCE|GODSENT,1,3,4
+GODSENT_VS_Players_157c39c0_d36c_4c10_8432_190c923ba278,19,GODSENT|Players,1,4,0
+Gambit_VS_Enterprise_0c8c7332_6a51_4e15_8eff_12a8e3634c40,22,Enterprise|Gambit,1,3,0
+Gambit_VS_Entropiq_4d4619ea_b3e9_450f_b9c3_3882c2a876a1,23,Entropiq|Gambit,1,4,1
+Gambit_VS_NAVI_GGBET_a3fbf302_b349_475c_9252_44f65ebb4fc7,27,Gambit|NAVI GGBET,1,1,4
+Gambit_VS_eSuba_2cb9e325_f962_411e_af76_010f6be393e5,36,Gambit|eSuba,1,1,0
+HAVU_VS_B_I_G_1876de5d_8dbb_4b4b_b5d9_f051f4901375,21,B.I.G|HAVU,1,1,1
+HAVU_VS_Complexity_677a5339_eea3_4a37_843e_a385147ce412,21,Complexity|HAVU,1,4,2
+HEROIC_VS_BIG_be25bf2e_5aaa_4be5_98ae_f2acb64febaf,26,BIG|HEROIC,1,3,1
+HEROIC_VS_NAVI_c7f0e145_6303_40e6_9b79_ab0f825db57d,27,HEROIC|NAVI,1,2,4
+Heroic_GGBET_VS_9z_1d515b6f_092b_447a_8fab_6778da8d50ce,24,9z|Heroic GGBET,1,0,3
+Heroic_VS_Astralis_2512bf15_d7b8_4c83_a402_43c3c0913a83,34,Astralis|Heroic,1,0,1
+Heroic_VS_BIG_56cc0c20_4bad_458a_b1f5_e9ab0f7d06ae,23,BIG|Heroic,1,0,0
+Heroic_VS_Bad_News_Bears_e41b1415_b868_49eb_b040_894e61c79ab6,17,Bad News Bears|Heroic,1,4,1
+Heroic_VS_ENCE_18319c80_8171_4a16_975d_76889e92362b,21,ENCE|Heroic,1,3,1
+Heroic_VS_ENCE_dc580163_7642_4713_ad0b_052c4fc11d49,28,ENCE|Heroic,1,4,1
+Heroic_VS_FURIA_8082f038_999c_4cc0_9219_e4f2f47737d1,27,FURIA|Heroic,1,1,3
+Heroic_VS_FaZe_Clan_094cae55_e4c2_4c54_ad8c_0b1f846d0068,26,FaZe Clan|Heroic,1,0,3
+Heroic_VS_FaZe_Clan_b5025518_f454_4613_91b0_0382cccf9a28,30,FaZe Clan|Heroic,1,0,3
+Heroic_VS_G2_Esports_96994a0e_6a86_48c4_9962_cb71dd7f5c14,26,G2 Esports|Heroic,1,0,4
+Heroic_VS_GODSENT_446cea4d_f23c_4932_bdb0_8108e5a53733,29,GODSENT|Heroic,1,2,3
+Heroic_VS_Gambit_Esports_f4098943_2e5b_48c6_a5de_353dfba3e640,19,Gambit Esports|Heroic,1,1,0
+Heroic_VS_NAVI_GGBET_8e945423_8029_472f_991f_075e8cea3821,30,Heroic|NAVI GGBET,1,4,3
+Heroic_VS_Natus_Vincere_69cf03cd_1be4_4ce6_98fa_dde9971bc518,30,Heroic|Natus Vincere,1,4,0
+Heroic_VS_Natus_Vincere_8c516ddf_4403_4eaa_a17d_44a9feae80f5,21,Heroic|Natus Vincere,1,2,0
+Heroic_VS_OG_bb7fb8a7_1a8b_4990_bb6b_b42109cb3259,22,Heroic|OG,1,3,2
+Heroic_VS_POGGERZ_a56115fd_a0ba_4eea_a618_91fd6c57177c,27,Heroic|POGGERZ,1,4,0
+Heroic_VS_Virtus_pro_347bfc41_a2c8_4684_afe8_052bcff0af77,26,Heroic|Virtus.pro,1,0,0
+Heroic_VS_Vitality_0839a031_0e2c_4c03_b4bc_b5ba05fe669a,23,Heroic|Vitality,1,3,0
+Imperial_Esports_VS_Bad_News_Eagles_2c3b80e0_fc3c_46fe_af19_352861db1dc9,30,Bad News Eagles|Imperial Esports,1,2,4
+Imperial_Esports_VS_Cloud9_1550fda2_2150_4a0b_ad50_c7b363e49b29,19,Cloud9|Imperial Esports,1,3,1
+LDLC_VS_Dynamo_Eclot_0ed3b2eb_5e2f_4529_8c9d_89fb41ee2f7c,27,Dynamo Eclot|LDLC,1,3,1
+LDLC_VS_K23_ead9cffe_46cb_42a5_bcae_31e7f8194d9c,22,K23|LDLC,1,1,4
+MAD_LIONS_VS_G2_Esports_93a63bac_bc90_4196_b262_311695e6360a,35,G2 Esports|MAD LIONS,1,1,4
+MAD_Lions_VS_ENCE_e8edf4dd_75be_4dc3_8533_bfe78b6a428f,27,ENCE|MAD Lions,1,0,1
+MIBR_VS_FaZe_Clan_36bbcf79_da4a_46c6_92e5_4d20fdd3aea4,25,FaZe Clan|MIBR,1,4,0
+MIBR_VS_Heroic_fcf03079_9f8a_4038_80cb_df9fa0547e67,26,Heroic|MIBR,1,3,2
+MOUZ_VS_ENCE_70d7d916_5647_4141_a705_b9bbc6e2093a,22,ENCE|MOUZ,1,2,1
+MOUZ_VS_G2_Esports_4e6d6d4e_0a7c_4bc2_a773_1c0ef6f0de36,36,G2 Esports|MOUZ,1,2,1
+Movistar_Riders_VS_ENCE_4a86fa84_5d31_43a5_a107_d34549646097,30,ENCE|Movistar Riders,1,3,2
+Movistar_Riders_VS_Fiend_2ddcc9d7_0702_42de_952e_1170ca5adcfa,29,Fiend|Movistar Riders,1,0,1
+Movistar_Riders_VS_G2_Esports_8960bc49_f7ef_4ea3_a91d_e3b3cad6810b,26,G2 Esports|Movistar Riders,1,0,1
+Movistar_Riders_VS_Players_1eacbbe8_6612_4c97_9a74_27a1e0b7b6ec,23,Movistar Riders|Players,1,4,0
+Movistar_Riders_VS_Team_Liquid_521de194_f3e3_4764_993a_f770bd53a891,28,Movistar Riders|Team Liquid,1,4,3
+Movistar_Riders_VS_VP_Parimatch_7f28f209_585f_4842_aad3_10f8dbf3d839,24,Movistar Riders|VP Parimatch,1,4,1
+NAVI_GGBET_VS_G2_Esports_b01bb4b6_4221_4270_9b9f_16e32a24ab50,20,G2 Esports|NAVI GGBET,1,3,4
+NAVI_GGBET_VS_Heroic_9cb1365f_e7fa_41fc_b25f_b27df3c39f4e,22,Heroic|NAVI GGBET,1,4,3
+NAVI_GGBET_VS_TeamVitality_2e8e94ae_6874_4953_99f6_63f55171ce31,28,NAVI GGBET|TeamVitality,1,0,0
+NAVI_GG_BET_VS_Complexity_bdada140_b48c_4be0_93c3_ce2cd7973eed,27,Complexity|NAVI GG.BET,1,1,1
+NAVI_GG_BET_VS_FURIA_66345ce6_70ce_42e4_a716_9bdb83b12dba,26,FURIA|NAVI GG.BET,1,1,4
+NAVI_GG_BET_VS_FURIA_Esports_c4fc4286_3274_4ea7_b6c1_aaa2edb88b00,29,FURIA Esports|NAVI GG.BET,1,3,0
+NAVI_VS_Gambit_59b80bdd_b7e0_4d79_8ab0_941b8d989dc3,29,Gambit|NAVI,1,1,2
+Natus_Vincere_VS_FURIA_0657c9fd_a475_4257_8879_265fdbfd59b0,18,FURIA|Natus Vincere,1,0,3
+Natus_Vincere_VS_FaZe_Clan_1a73735c_2216_4614_a884_6109561483ed,41,FaZe Clan|Natus Vincere,1,1,0
+Natus_Vincere_VS_G2_Esports_73515c5e_c4da_4eb1_a029_e0c679022469,36,G2 Esports|Natus Vincere,1,3,2
+Natus_Vincere_VS_G2_Esports_93a6d3b7_eaa5_48e5_893c_37ddd0f3c263,30,G2 Esports|Natus Vincere,1,4,2
+Natus_Vincere_VS_G2_Esports_a03bf1a0_74bc_4308_84d1_ce615c60e281,25,G2 Esports|Natus Vincere,1,0,2
+Natus_Vincere_VS_G2_Esports_f6a2e8b5_8787_4353_8ba7_8d6f3619ef8a,24,G2 Esports|Natus Vincere,1,2,2
+Natus_Vincere_VS_Gambit_1553618a_ae96_4237_a2eb_7eebe9bc9bff,23,Gambit|Natus Vincere,1,0,2
+Natus_Vincere_VS_Gambit_725103ae_e7e7_4c3c_ada4_e5df99021b38,27,Gambit|Natus Vincere,1,1,2
+Natus_Vincere_VS_Gambit_Esports_b4fea9c9_af26_442d_9eea_c7dad86486bb,19,Gambit Esports|Natus Vincere,1,4,4
+Natus_Vincere_VS_MIBR_35e69a21_1401_4b37_a68c_f50f986f6533,27,MIBR|Natus Vincere,1,0,4
+Ninjas_In_Pyjamas_VS_G2_Esports_3b0d7d8d_3cf7_45c4_ace9_90913ccb712a,27,G2 Esports|Ninjas In Pyjamas,1,4,1
+Ninjas_In_Pyjamas_VS_Natus_Vincere_13c77e68_d62f_478c_89d3_05d31335d5ba,30,Natus Vincere|Ninjas In Pyjamas,1,0,1
+Ninjas_in_Pyjamas_VS_Astralis_0ae78b8c_ff38_49c9_8291_1bf11062db67,30,Astralis|Ninjas in Pyjamas,1,1,4
+Ninjas_in_Pyjamas_VS_BIG_Clan_7ea4b92b_b519_4560_9aff_d9af03223198,28,BIG Clan|Ninjas in Pyjamas,1,1,4
+Ninjas_in_Pyjamas_VS_ENCE_7661436d_fb0d_44ba_859a_02946733736c,23,ENCE|Ninjas in Pyjamas,1,0,0
+Ninjas_in_Pyjamas_VS_G2_Esports_417185bd_1f9a_4a77_8569_0e124917c1ca,30,G2 Esports|Ninjas in Pyjamas,1,1,4
+Ninjas_in_Pyjamas_VS_G2_Esports_6b9c4aca_ed93_4a26_b536_3192342ad7b4,41,G2 Esports|Ninjas in Pyjamas,1,4,4
+Ninjas_in_Pyjamas_VS_MOUZ_4816248a_7de1_499e_ac5e_32d49f545e5a,27,MOUZ|Ninjas in Pyjamas,1,3,4
+Ninjas_in_Pyjamas_VS_NAVI_GGBET_a7530323_4964_4460_aed0_ebb7e68bc7ad,23,NAVI GGBET|Ninjas in Pyjamas,1,4,4
+Ninjas_in_Pyjamas_VS_OG_Esports_a89ce504_36fb_4e3b_acdd_8d69ea449d72,28,Ninjas in Pyjamas|OG Esports,1,0,0
+Ninjas_in_Pyjamas_VS_Team_Liquid_8b16fbb6_44e2_4191_ba9e_3973c02f36f6,20,Ninjas in Pyjamas|Team Liquid,1,2,4
+Ninjas_in_Pyjamas_VS_Team_Liquid_8e2ff20c_3c3c_4810_a7e6_0d86d411d35c,22,Ninjas in Pyjamas|Team Liquid,1,0,4
+Ninjas_in_Pyjamas_VS_Team_Vitality_eeef2648_6656_4375_b182_c516d35abad5,25,Ninjas in Pyjamas|Team Vitality,1,2,2
+Ninjas_in_Pyjamas_VS_compLexity_63cda578_3070_48f1_9bc5_3e87d0443b97,26,Ninjas in Pyjamas|compLexity,1,0,4
+OGEsports_VS_FaZe_Clan_a6240476_ee3b_485d_874b_e5e55eb3e1d3,24,FaZe Clan|OGEsports,1,1,4
+OGEsports_VS_NAVI_GGBET_13cef8eb_6ddb_48f6_80b7_95b52f0bf1f2,24,NAVI GGBET|OGEsports,1,2,0
+OGEsports_VS_Ninjas_in_Pyjamas_e80e8176_00f0_4110_8e4b_ee452b3fe649,36,Ninjas in Pyjamas|OGEsports,1,0,2
+OGEsports_VS_compLexity_849cf5c3_89e3_4112_a92c_497c31ee14dd,16,OGEsports|compLexity,1,2,2
+OG_Esports_VS_Gambit_Esports_848b887c_4554_4a9c_b480_4be8851abc8d,30,Gambit Esports|OG Esports,1,3,0
+OG_Esports_VS_Ninjas_in_Pyjamas_24e3af62_dcf9_47b2_a644_83e9ad86ff01,25,Ninjas in Pyjamas|OG Esports,1,0,0
+OG_Esports_VS_forZe_Esports_857a56b5_afe2_4651_a593_122ed1069b8d,24,OG Esports|forZe Esports,1,1,2
+OG_VS_Complexity_c32dd58c_b127_48e6_98e2_560c85c32294,26,Complexity|OG,1,1,3
+OG_VS_ENCE_6513dfac_6bdb_4431_9271_e2960bbd1be8,26,ENCE|OG,1,1,3
+OG_VS_FaZe_Clan_15100743_6d3f_4452_a403_f458df727df5,20,FaZe Clan|OG,1,4,4
+OG_VS_TYLOO_6074e5d6_f4a9_4dbe_83d4_450d49a637e6,26,OG|TYLOO,1,0,0
+OG_VS_Team_Vitality_6b03b89b_48dd_48bb_a30e_19a1ad5c2163,25,OG|Team Vitality,1,4,2
+Outsiders_VS_Cloud9_fe317d45_273f_4ffe_805b_6d219d4cd751,28,Cloud9|Outsiders,1,2,0
+Outsiders_VS_ENCE_1d4536eb_dedd_41d6_8f99_803846465472,26,ENCE|Outsiders,1,2,0
+Outsiders_VS_FURIA_1aa3bf00_6172_4e39_a6f1_8078b1473c0a,30,FURIA|Outsiders,1,3,4
+Party_Astronauts_VS_Team_Liquid_ffa461c3_e698_46a0_955c_bbc4d4369210,25,Party Astronauts|Team Liquid,1,2,3
+Renegades_VS_Complexity_f0b4a1be_0628_463f_9332_3f9a423fcda7,27,Complexity|Renegades,1,0,4
+SINNERS_Esports_VS_G2_Esports_2bd9466d_1ec6_4d62_8546_cc5b377e6d37,25,G2 Esports|SINNERS Esports,1,4,4
+SKADE_VS_Fiend_1f96ec5f_17ea_41a8_9e5a_704ef3403e11,26,Fiend|SKADE,1,2,0
+Sampi_Tipsport_VS_DREAM_ab370a1f_ca2b_4d28_920f_71e99f474ed8,25,DREAM|Sampi.Tipsport,1,4,0
+Sampi_Tipsport_VS_Entropiq_15b1038e_0c35_4e42_970a_200445c0e2f2,20,Entropiq|Sampi.Tipsport,1,4,1
+Singularity_VS_K23_1xBET_7b520ade_d01f_4cdb_a60a_c8b5d84594ba,24,K23 1xBET|Singularity,1,2,4
+Sinners_VS_Entropiq_6bc24175_54c6_4f1b_a5af_0c22468bd281,30,Entropiq|Sinners,1,3,3
+Sprout_VS_FURIA_6065d854_d78a_4550_bfa2_bc8d5c68adf6,28,FURIA|Sprout,1,0,3
+TeamVitality_VS_Astralis_8ddb1672_ae23_4ad0_b41b_25add199cd3b,23,Astralis|TeamVitality,1,3,2
+TeamVitality_VS_G2_Esports_8c5e5fd4_20b5_4393_88c5_12d2a8a4b2fd,29,G2 Esports|TeamVitality,1,4,2
+TeamVitality_VS_G2_Esports_965cbf49_8995_4a1c_a889_a37670d490d2,20,G2 Esports|TeamVitality,1,0,2
+TeamVitality_VS_Team_Liquid_297b8d90_485b_48b5_8a30_85322b67e051,26,Team Liquid|TeamVitality,1,3,1
+TeamVitality_VS_Team_Liquid_50623056_f604_42ba_b3f9_ce01b95e90df,27,Team Liquid|TeamVitality,1,3,1
+TeamVitality_VS_compLexity_a58fa70c_a0fc_4d93_9e89_fe8af07362f0,27,TeamVitality|compLexity,1,3,2
+TeamVitality_VS_compLexity_d2941f71_552b_4d8e_96e9_ab7e45233371,25,TeamVitality|compLexity,1,3,2
+Team_Liquid_VS_Evil_Geniuses_23259457_fc02_47ba_b617_ecfc0b1da111,22,Evil Geniuses|Team Liquid,1,0,0
+Team_Liquid_VS_FaZe_Clan_99c3a39f_35fe_48ed_bab5_ec69d7e518e4,41,FaZe Clan|Team Liquid,1,4,2
+Team_Liquid_VS_FaZe_Clan_9c9999f8_8216_4ab2_b223_568c1c762aa8,27,FaZe Clan|Team Liquid,1,1,2
+Team_Liquid_VS_G2_Esports_259b88bc_d5b8_40f3_a45c_8cff2c7766f9,21,G2 Esports|Team Liquid,1,0,0
+Team_Liquid_VS_Gambit_Esports_9c01eead_9bae_4e6b_8bc8_153962815db1,28,Gambit Esports|Team Liquid,1,0,3
+Team_Liquid_VS_NAVI_GGBET_77318ad7_cafa_47af_95b3_02550974fb7d,26,NAVI GGBET|Team Liquid,1,1,3
+Team_Liquid_VS_Ninjas_in_Pyjamas_74b51f2d_cd8b_4543_b111_90626f211a27,18,Ninjas in Pyjamas|Team Liquid,1,1,4
+Team_Liquid_VS_OG_988e7854_d97a_478d_80c4_5bcf8ff39365,28,OG|Team Liquid,1,1,1
+Team_Liquid_VS_Team_oNe_f49655fa_ebda_437d_baeb_968916e23088,24,Team Liquid|Team oNe,1,2,3
+Team_One_VS_FURIA_Esports_ae1cfcc2_c643_4bb3_bb0e_eb6c74ef9be8,29,FURIA Esports|Team One,1,1,3
+Team_One_VS_Gambit_891751f3_228c_453e_8a36_b67ee9340cbd,21,Gambit|Team One,1,0,3
+Team_One_VS_MIBR_f612c41d_caaa_421d_accf_6f2add046076,22,MIBR|Team One,1,1,2
+Team_Spirit_VS_FaZe_Clan_f039b7f6_c55a_47c8_b43a_adc2d94ec40c,29,FaZe Clan|Team Spirit,1,0,3
+Team_Spirit_VS_Fiend_34c5d56a_851f_43d5_9b28_b99b05e52461,25,Fiend|Team Spirit,1,3,3
+Team_Spirit_VS_Imperial_Sportsbet_343f8f50_4467_4a8b_8fb1_f8f15588eb22,20,Imperial Sportsbet|Team Spirit,1,3,4
+Team_Spirit_VS_Team_Vitality_4a579240_4d99_4fa9_851e_9066e7a176f2,20,Team Spirit|Team Vitality,1,3,3
+Team_Vitality_VS_BIG_790a5467_bdf8_4482_8634_59a3099d1be0,27,BIG|Team Vitality,1,3,0
+Team_Vitality_VS_ENCE_070d18c2_93a2_4e4c_8642_ba658276229f,30,ENCE|Team Vitality,1,0,1
+Team_Vitality_VS_ENCE_f7c9da20_29e7_4dc4_9e52_44680c26a65a,24,ENCE|Team Vitality,1,2,1
+Team_Vitality_VS_FaZe_Clan_1373632b_521f_491e_b6f4_6f6e471eb2ff,26,FaZe Clan|Team Vitality,1,1,2
+Team_Vitality_VS_FaZe_Clan_8926ff97_cbf7_4f24_aa19_71bc9ec94c86,27,FaZe Clan|Team Vitality,1,1,2
+Team_Vitality_VS_FaZe_Clan_abf70b59_08a0_4f48_a483_7b90e0df9423,21,FaZe Clan|Team Vitality,1,3,2
+Team_Vitality_VS_G2_Esports_1914c3ce_29a5_4c8d_9839_9c0030a0a711,26,G2 Esports|Team Vitality,1,4,1
+Team_Vitality_VS_G2_Esports_ee9427f3_03bf_4962_b5a5_1938fa163ef4,30,G2 Esports|Team Vitality,1,1,1
+Team_Vitality_VS_Gambit_Esports_79b5ebf2_fab4_48bc_9697_5ba260b19226,23,Gambit Esports|Team Vitality,1,3,1
+Team_Vitality_VS_Gambit_Esports_fb4def27_0dc0_4154_a84d_12e2a03e50a3,36,Gambit Esports|Team Vitality,1,1,1
+Team_Vitality_VS_Heroic_343edef3_916d_4f85_93b4_3b32c0c70d00,28,Heroic|Team Vitality,1,4,1
+Team_Vitality_VS_Natus_Vincere_2f7a05ba_079d_4fe5_8380_c450eb50e138,26,Natus Vincere|Team Vitality,1,1,2
+Team_Vitality_VS_OG_Esports_dd0ec52a_bcc0_4618_8435_ddb0432880bf,28,OG Esports|Team Vitality,1,3,0
+Team_Vitality_VS_OG_Esports_eed7a65c_b250_4de3_90d0_ebb69c0181f0,25,OG Esports|Team Vitality,1,3,0
+Team_Vitality_VS_Team_Liquid_d2d9bb20_0dba_4cd4_986b_a3456f8dfeef,28,Team Liquid|Team Vitality,1,2,3
+Team_Vitality_VS_mousesports_456460d4_6b82_481b_80c7_765341ee0bd5,27,Team Vitality|mousesports,1,4,2
+Team_oNe_VS_Gambit_Esports_a31257d9_d974_407a_acb9_c8505ffffe0a,30,Gambit Esports|Team oNe,1,4,0
+Virtus_pro_Parimatch_VS_Complexity_59940a39_6100_4b2a_8708_f3d11ae6413a,25,Complexity|Virtus.pro Parimatch,1,4,3
+Virtus_pro_Parimatch_VS_FURIA_Esports_9ebbcaf0_1767_4254_9b67_1d3c20b34906,26,FURIA Esports|Virtus.pro Parimatch,1,2,3
+Virtus_pro_Parimatch_VS_Ninjas_in_Pyjamas_ce084937_09f0_4556_9aac_347dcd27c615,28,Ninjas in Pyjamas|Virtus.pro Parimatch,1,3,1
+Virtus_pro_Parimatch_VS_Team_Liquid_e6f1a8c9_690b_47a3_ba71_13343541fda6,28,Team Liquid|Virtus.pro Parimatch,1,3,2
+Virtus_pro_VS_G2_Esports_7063ca5d_8f7f_4e11_aa6c_d3084b3b323e,47,G2 Esports|Virtus.pro,1,3,2
+Virtus_pro_VS_G2_Esports_be640014_1959_4a86_8b10_93f770e4e9f4,27,G2 Esports|Virtus.pro,1,1,2
+Virtus_pro_VS_GODSENT_e563d6f5_c1b0_4688_b143_3e48499d67b8,30,GODSENT|Virtus.pro,1,4,0
+Virtus_pro_VS_OG_Esports_48b037f5_9673_4311_b1c6_b99351af0b80,27,OG Esports|Virtus.pro,1,1,1
+Virtus_pro_VS_Team_Vitality_779ac45e_0be0_42e6_8991_a89ceb07fa42,29,Team Vitality|Virtus.pro,1,2,2
+Virtus_pro_VS_forZe_7d979656_f618_428a_8323_51c28b83a9c0,27,Virtus.pro|forZe,1,0,4
+Virtus_pro_VS_forZe_Esports_7c0b7a62_2a6f_4c67_9588_72677bbe6108,23,Virtus.pro|forZe Esports,1,2,3
+Vitality_VS_Entropiq_66740ed5_68d5_4ae2_8155_2cee7faf17a3,30,Entropiq|Vitality,1,3,4
+Vitality_VS_Outsiders_b35a2097_3e27_4142_94ff_8e6960566836,24,Outsiders|Vitality,1,4,3
+Vitality_VS_Team_Liquid_37c8eb9f_890d_4035_a659_44911641213b,23,Team Liquid|Vitality,1,1,1
+compLexity_VS_G2_Esports_1ed4fb98_732e_4456_8516_a48da5bf05c1,27,G2 Esports|compLexity,1,4,2
+compLexity_VS_Gambit_c9feb32c_ed8d_46a9_b620_380f6dfff501,28,Gambit|compLexity,1,0,0
+eSuba_VS_BIG_fcd70f0a_7217_401c_85c6_f32f8d3cd89b,26,BIG|eSuba,1,0,4
+eSuba_VS_EXTREMUM_d05ede0d_bc51_4b88_83ca_81acb77483a0,27,EXTREMUM|eSuba,1,0,2
+eSuba_VS_Fiend_cb8f21bb_460a_4a52_b605_81bc9211bca6,27,Fiend|eSuba,1,4,1
+fnatic_VS_BIG_2db656d6_7c87_41d3_a291_64b2b40df97f,36,BIG|fnatic,1,3,3
+fnatic_VS_BIG_ae3f2e43_e046_4c60_bf66_3bb1ec6a61b0,29,BIG|fnatic,1,4,3
+fnatic_VS_FaZe_Clan_b0c8dcb3_0607_4c7b_879c_6e0329020f60,25,FaZe Clan|fnatic,1,2,3
+fnatic_VS_FaZe_Clan_d54c84c2_16bb_4acd_9ac2_6eff9ab999fa,21,FaZe Clan|fnatic,1,3,3
+fnatic_VS_G2_Esports_21a7ee8c_fc05_45ce_bafd_8a4796974633,23,G2 Esports|fnatic,1,2,4
+fnatic_VS_G2_Esports_2b0da293_a5f6_4a02_aede_12e2f1069254,23,G2 Esports|fnatic,1,0,4
+fnatic_VS_MOUZ_2ac1676d_316b_42e9_b88a_884bb7cfc367,24,MOUZ|fnatic,1,1,3
+forZe_VS_Complexity_fe19fbd9_80ab_4a38_9a06_31e9cbbded02,25,Complexity|forZe,1,4,0
+mousesports_VS_A_U_R_A_7e21d031_7bf8_4a49_bb48_4855ab534a04,26,A U R A|mousesports,1,0,0
+mousesports_VS_BIG_f781e3b8_ad9d_45c3_a0cf_286fb5a06923,28,BIG|mousesports,1,3,1
+mousesports_VS_FaZe_Clan_63df69fe_f161_4f30_af26_f7e5728cf89d,22,FaZe Clan|mousesports,1,0,0
+mousesports_VS_FaZe_Clan_6f44dae6_19dd_4d9c_8808_b5198f40150f,29,FaZe Clan|mousesports,1,1,0
+mousesports_VS_G2_Esports_13f47693_7c94_4823_bf44_2adadaf72be6,28,G2 Esports|mousesports,1,2,1
+mousesports_VS_G2_Esports_9e8d6ad0_1048_4909_8327_3eb857671aa2,28,G2 Esports|mousesports,1,3,1
+mousesports_VS_G2_Esports_dd7a24a7_80d9_4c21_9ff3_b7ae8771e410,26,G2 Esports|mousesports,1,0,1
+mousesports_VS_Gambit_Esports_28c6914e_e018_4d50_82f0_84082ae40d60,28,Gambit Esports|mousesports,1,4,4
+mousesports_VS_Natus_Vincere_0c0e9b95_be5b_4ff6_865f_141d714baa5c,25,Natus Vincere|mousesports,1,0,3
+mousesports_VS_Ninjas_in_Pyjamas_fd94b3a6_fe06_4151_b3ea_097e585bd540,30,Ninjas in Pyjamas|mousesports,1,3,1
+paiN_VS_FURIA_bdaa02a2_413e_4a08_8b19_f2406ca7bb86,28,FURIA|paiN,1,4,0
+x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04,71,Natus Vincere|x-kom AGO,1,2,4
+Astralis_VS_ENCE_b686b317_704a_4c0e_93d2_b531410de248,35,Astralis|ENCE,2,2,2
+Astralis_VS_FURIA_0a075b4d_576e_46f2_b944_fe9542faee54,27,Astralis|FURIA,2,2,3
+Astralis_VS_FURIA_d5635de8_d81d_4be6_99a2_5100ebc507f0,24,Astralis|FURIA,2,0,3
+Astralis_VS_FaZe_Clan_3b60f341_78e9_48ca_bf62_81e3abe527e1,26,Astralis|FaZe Clan,2,3,0
+Astralis_VS_K23_90c4e159_b93f_49fc_b892_2a2e369ca3ed,41,Astralis|K23,2,3,0
+Astralis_VS_NAVI_GGBET_8129e6d8_7fd0_4537_bbbe_e08bd0c8779e,36,Astralis|NAVI GGBET,2,4,0
+Astralis_VS_TeamVitality_2df97383_4d7a_440c_a689_71b98f3d5766,22,Astralis|TeamVitality,2,3,0
+Astralis_VS_Team_Liquid_6567090b_da33_4ba0_aefb_53b6ae9185ec,26,Astralis|Team Liquid,2,4,3
+Astralis_VS_Team_Liquid_f8d9cc9d_53b4_445f_b61a_ef30ac4d6520,29,Astralis|Team Liquid,2,4,3
+Astralis_VS_fnatic_5ca5654a_fd22_4430_875a_02e4f603e914,18,Astralis|fnatic,2,0,4
+Astralis_VS_x_kom_AGO_47dc5792_cb45_41d1_8271_7fd8bcd76c1c,29,Astralis|x-kom AGO,2,2,0
+BIG_Clan_VS_Astralis_c307fe7d_4bdc_47d6_ab32_2828f06b8f92,23,Astralis|BIG Clan,2,3,0
+BIG_Clan_VS_G2_Esports_19bef7ff_8e92_4add_90f3_323f2ba99ff2,23,BIG Clan|G2 Esports,2,4,0
+BIG_Clan_VS_Ninjas_in_Pyjamas_2219df2e_161c_4b27_b116_fd69eb601e99,29,BIG Clan|Ninjas in Pyjamas,2,0,2
+BIG_VS_A_U_R_A_19bf268e_607c_4425_8aab_0cbe198578a2,30,A U R A|BIG,2,0,0
+BIG_VS_Complexity_a797db2e_ac89_4434_a13f_dab006699545,28,BIG|Complexity,2,4,1
+BIG_VS_FaZe_Clan_99d9eb9b_1ea7_403f_ab5b_68066bb61b44,25,BIG|FaZe Clan,2,0,0
+BIG_VS_Fiend_f7de6a1d_0fea_4a9c_ac31_ac81a0e0e7a4,36,BIG|Fiend,2,4,3
+BIG_VS_G2_Esports_760148de_bc79_4643_bbde_5d287d7ef8f2,28,BIG|G2 Esports,2,4,3
+BIG_VS_K23_d7b9203a_a191_443f_9678_47bc0cb47e01,28,BIG|K23,2,1,2
+BIG_VS_Natus_Vincere_4e4d6ca9_edf8_4315_9879_ccfbc680e8ac,23,BIG|Natus Vincere,2,0,0
+BIG_VS_Team_Liquid_d83442a6_dbb1_4e9c_9ef2_a1f1d22f4e69,28,BIG|Team Liquid,2,4,2
+BIG_VS_Vitality_7d03108f_c00e_4ab8_a03f_4e34fc85cf81,25,BIG|Vitality,2,3,3
+BIG_VS_mousesports_856f0ca7_2890_4b51_bf46_ee44e0de6ae3,26,BIG|mousesports,2,3,3
+CPH_Flames_VS_Ninjas_in_Pyjamas_b06f4e67_d9d7_4803_bf51_de3567325873,28,CPH Flames|Ninjas in Pyjamas,2,3,3
+Complexity_VS_B_I_G_7f96daf3_7985_4f41_b4cf_664337a51cd4,35,B.I.G|Complexity,2,3,0
+Complexity_VS_Endpoint_CeX_6bcfbd1e_0008_4a71_a715_7fc681392345,23,Complexity|Endpoint.CeX,2,1,2
+Complexity_VS_G2_Esports_2ac03938_6b0b_442b_8899_2c56dfeb6f92,28,Complexity|G2 Esports,2,4,1
+Complexity_VS_Gambit_Esports_44069279_247a_4811_b2f7_2233cff6023c,23,Complexity|Gambit Esports,2,4,0
+Complexity_VS_Team_Vitality_93474513_6f7f_44ab_b6aa_58ade2255127,28,Complexity|Team Vitality,2,0,2
+Complexity_VS_Virtus_pro_779eca53_f7c0_4f9a_8012_45086c328254,22,Complexity|Virtus.pro,2,1,4
+Complexity_VS_forZe_Esports_67bdf08a_8ced_48fd_83b2_3392befdbc7a,28,Complexity|forZe Esports,2,4,4
+Copenhagen_Flames_VS_Team_Spirit_5cfa8f5b_671b_4ef8_9f0a_96ba66ac4d62,24,Copenhagen Flames|Team Spirit,2,3,2
+DignitasVIE_VS_Fiend_58e04be8_d9d5_4031_adda_bec6a4af79b9,25,DignitasVIE|Fiend,2,2,2
+Dignitas_VS_CPH_Flames_3c3f82ba_9887_4145_90bb_b73b0383373c,23,CPH Flames|Dignitas,2,2,2
+Dignitas_VS_EXTREMUM_99d643f6_a9d0_443e_832c_cd9c3f1d8796,23,Dignitas|EXTREMUM,2,3,4
+Dignitas_VS_Fiend_0f222f22_1d61_48c7_92a7_0578174959ba,29,Dignitas|Fiend,2,1,1
+ECSTATIC_VS_Entropiq_641fd7e4_544b_4e92_8d2b_536a5825376c,21,ECSTATIC|Entropiq,2,1,2
+EIQ_PRG_VS_Dynamo_Eclot_c405829a_45de_461d_8895_90f7fb92db88,29,Dynamo Eclot|EIQ PRG,2,0,0
+ENCE_VS_FURIA_8fadbb13_3728_4211_b0eb_cd4075a60218,29,ENCE|FURIA,2,3,4
+ENCE_VS_G2_Esports_1cb8b01a_f11e_4ef3_954d_5ce809b57506,22,ENCE|G2 Esports,2,0,2
+ENCE_VS_G2_Esports_20987bbd_21ef_469e_99b9_6654372b543e,24,ENCE|G2 Esports,2,4,2
+ENCE_VS_Ninjas_in_Pyjamas_dd96ccec_8374_4510_b295_b832eb539878,21,ENCE|Ninjas in Pyjamas,2,0,0
+ENCE_VS_OG_443be02f_3427_46ab_9719_3afe549723b6,53,ENCE|OG,2,0,3
+ENCE_VS_Outsiders_acf66d1a_4adc_4834_9be7_75ab6b981bd4,24,ENCE|Outsiders,2,0,2
+ENCE_VS_Team_Vitality_9869e869_1007_4b07_a7bf_d419dae83506,24,ENCE|Team Vitality,2,1,4
+ENCE_VS_forZe_Esports_6ef84ba7_509d_46d3_b508_defcd9e50305,27,ENCE|forZe Esports,2,2,4
+ENTERPRISE_VS_Dynamo_Eclot_6251904c_9ece_448c_8cd7_4dfb9f220657,23,Dynamo Eclot|ENTERPRISE,2,3,4
+Entropiq_VS_Enterprise_fb85b0f8_7f3f_40ea_b4e5_65f91fbb9ee7,20,Enterprise|Entropiq,2,1,4
+Entropiq_VS_Fiend_85c278a6_ffb6_485f_988b_15f6f3b2f2ad,28,Entropiq|Fiend,2,0,0
+Entropiq_VS_Gambit_fcde73c2_6b1d_4886_b626_61b13ace2bd1,23,Entropiq|Gambit,2,1,4
+Entropiq_VS_MOUZ_e7089cdf_ca0a_4658_932e_31fc1489a769,26,Entropiq|MOUZ,2,4,2
+Entropiq_VS_SINNERS_6219ff2f_f03c_4d2a_8758_9590ec81fb80,18,Entropiq|SINNERS,2,2,3
+Entropiq_VS_Team_oNe_33b018e0_5577_40ef_b06b_08f41e7a0d4f,22,Entropiq|Team oNe,2,0,1
+Eternal_Fire_VS_Entropiq_b42541c7_5eb1_41ba_9d1b_060ab63e3f31,25,Entropiq|Eternal Fire,2,0,3
+Eternal_Fire_VS_Fiend_0072d9d0_a907_44c2_a9c8_7f036e55333d,30,Eternal Fire|Fiend,2,3,1
+Evil_Geniuses_VS_FURIA_eSports_6567a96e_5fa0_4465_a3dc_bc7c8ceb9fb0,30,Evil Geniuses|FURIA eSports,2,3,1
+Evil_Geniuses_VS_FaZe_Clan_febff781_5bd0_4b8e_851c_9e0e2956c808,25,Evil Geniuses|FaZe Clan,2,1,3
+Evil_Geniuses_VS_Fnatic_7a767c73_e13a_4418_9a15_ff0f36555379,27,Evil Geniuses|Fnatic,2,4,3
+Evil_Geniuses_VS_Heroic_55ca3b46_3a75_48b6_94f8_fc9af0f976e9,29,Evil Geniuses|Heroic,2,0,4
+Evil_Geniuses_VS_compLexity_5cde6776_c3f0_411c_a5d2_0424166bc4e2,21,Evil Geniuses|compLexity,2,3,3
+FURIA_Esports_VS_FaZe_Clan_a98ffca7_e968_4a54_9e8f_22f101c2502b,24,FURIA Esports|FaZe Clan,2,0,1
+FURIA_VS_G2_Esports_cc5fc727_825d_45de_b1e3_2b51e9857b54,29,FURIA|G2 Esports,2,3,4
+FURIA_VS_Gambit_41ab7849_b871_4726_9cfe_5cabd2e9e573,25,FURIA|Gambit,2,2,4
+FURIA_VS_NAVI_4ea96fac_97a5_4cec_aa48_e7300e6bdf8e,22,FURIA|NAVI,2,0,3
+FURIA_VS_Ninjas_in_Pyjamas_f66a8d64_7aac_4609_89c5_f79b9a5b2485,25,FURIA|Ninjas in Pyjamas,2,2,1
+FURIA_VS_Team_oNe_f140d6b5_d829_49ab_93c8_da24648e07d8,30,FURIA|Team oNe,2,1,4
+FURIA_eSports_VS_G2_Esports_6a83cc41_6926_41fe_b2e4_27dc17d46d8e,30,FURIA eSports|G2 Esports,2,3,3
+FaZe_Clan_VS_ENCE_b63b2a87_38df_4aec_9af1_7a1e6382bcad,25,ENCE|FaZe Clan,2,1,1
+FaZe_Clan_VS_ENCE_f7514187_9f7d_48b8_abdb_a2404542e8d2,24,ENCE|FaZe Clan,2,2,1
+FaZe_Clan_VS_FURIA_7078326b_122b_4dab_b738_0bd88ae881f7,29,FURIA|FaZe Clan,2,1,4
+FaZe_Clan_VS_FURIA_869bc814_ed7b_42b1_836b_e1b1f4408bc4,35,FURIA|FaZe Clan,2,2,4
+FaZe_Clan_VS_G2_Esports_26867805_e335_4beb_9612_ad19c136e4d9,23,FaZe Clan|G2 Esports,2,1,2
+FaZe_Clan_VS_NAVI_GGBET_9b88dd66_00e5_4cf7_bcb1_e34c3ad16034,29,FaZe Clan|NAVI GGBET,2,3,1
+FaZe_Clan_VS_Natus_Vincere_f218743d_5e8b_436e_91bd_b7b3664c56c3,30,FaZe Clan|Natus Vincere,2,2,2
+FaZe_Clan_VS_Natus_Vincere_fd93d688_9948_46b6_a9ab_76ec7602c23f,23,FaZe Clan|Natus Vincere,2,0,2
+FaZe_Clan_VS_OG_cca3e1be_b825_4039_b736_23ab7fc0e667,23,FaZe Clan|OG,2,3,0
+FaZe_Clan_VS_Players_89d46453_a185_4f1e_8be1_df2a19ffd9de,21,FaZe Clan|Players,2,4,1
+FaZe_Clan_VS_Team_Liquid_a8899757_baf4_479a_8882_c99a3b911a7a,27,FaZe Clan|Team Liquid,2,2,3
+FaZe_VS_BIG_4bab9a63_42e6_4766_acb6_cae50d575d04,36,BIG|FaZe,2,2,1
+Fiend_VS_Entropiq_e497ac50_6564_4c65_a991_1ec47016a242,29,Entropiq|Fiend,2,3,0
+Fiend_VS_FaZe_Clan_0fd23068_c5bf_4ec9_8ae2_4c4a901bda5b,22,FaZe Clan|Fiend,2,0,4
+Fnatic_VS_Complexity_933b0221_3065_4617_8f30_eb216321ac79,28,Complexity|Fnatic,2,4,2
+Fnatic_VS_FaZe_Clan_d8e889bb_1d01_46c4_b43d_5d79c935240c,23,FaZe Clan|Fnatic,2,4,1
+Fnatic_VS_Heroic_fa8c2184_4bb2_4ce2_8ccb_814ba204e70e,30,Fnatic|Heroic,2,2,4
+Fnatic_VS_OG_9e15645e_1773_49f9_9d56_33b4a20cee33,27,Fnatic|OG,2,4,1
+FunPlus_Phoenix_VS_BIG_15344c55_e92f_45f5_86cc_b4a2033be996,26,BIG|FunPlus Phoenix,2,4,4
+G2_Esports_VS_A_U_R_A_bd9e476d_07a9_450f_8169_9ab6a3ab6e09,17,A U R A|G2 Esports,2,4,0
+G2_Esports_VS_Entropiq_d9db156e_3fe7_4aee_9cdd_4ae877a1362b,30,Entropiq|G2 Esports,2,1,3
+G2_Esports_VS_Fiend_84355bd5_a8a0_4c54_a35c_31a87c85a2ee,18,Fiend|G2 Esports,2,4,3
+G2_Esports_VS_Gambit_Esports_fae1d55d_cc37_4b36_a841_4b9fcb8cf432,29,G2 Esports|Gambit Esports,2,2,3
+G2_Esports_VS_Imperial_Esports_fb1292ee_58f8_46af_99cd_4dee2251a06c,28,G2 Esports|Imperial Esports,2,3,0
+G2_Esports_VS_MIBR_558a89cc_83f4_4b7d_92de_dad700845416,27,G2 Esports|MIBR,2,2,4
+G2_Esports_VS_Natus_Vincere_30884d24_3c0f_4147_90ca_e2e0f58ea30e,29,G2 Esports|Natus Vincere,2,1,0
+G2_Esports_VS_OG_Esports_e1589ea4_ccc0_4907_b81f_5161da7fcc9c,26,G2 Esports|OG Esports,2,1,2
+G2_Esports_VS_TYLOO_24802ae0_ae49_471c_9688_a712ab54e0df,29,G2 Esports|TYLOO,2,2,0
+G2_Esports_VS_compLexity_b084db84_f340_422a_a4d7_f60c400748ec,30,G2 Esports|compLexity,2,4,1
+G2_Esports_VS_forZe_Esports_bbe12832_0c8c_4cac_8125_62d6c25412ce,30,G2 Esports|forZe Esports,2,2,1
+GODSENT_VS_BIG_489338c2_71c4_4d7b_90f2_cb124986bd4b,28,BIG|GODSENT,2,2,2
+GODSENT_VS_ENCE_6d430aed_dbe8_42ea_98b4_ab2360c3de8b,27,ENCE|GODSENT,2,0,2
+GODSENT_VS_Players_157c39c0_d36c_4c10_8432_190c923ba278,19,GODSENT|Players,2,2,3
+Gambit_VS_Enterprise_0c8c7332_6a51_4e15_8eff_12a8e3634c40,22,Enterprise|Gambit,2,3,1
+Gambit_VS_Entropiq_4d4619ea_b3e9_450f_b9c3_3882c2a876a1,23,Entropiq|Gambit,2,4,4
+Gambit_VS_NAVI_GGBET_a3fbf302_b349_475c_9252_44f65ebb4fc7,27,Gambit|NAVI GGBET,2,1,0
+Gambit_VS_eSuba_2cb9e325_f962_411e_af76_010f6be393e5,36,Gambit|eSuba,2,1,1
+HAVU_VS_B_I_G_1876de5d_8dbb_4b4b_b5d9_f051f4901375,21,B.I.G|HAVU,2,3,2
+HAVU_VS_Complexity_677a5339_eea3_4a37_843e_a385147ce412,21,Complexity|HAVU,2,4,1
+HEROIC_VS_BIG_be25bf2e_5aaa_4be5_98ae_f2acb64febaf,26,BIG|HEROIC,2,0,3
+HEROIC_VS_NAVI_c7f0e145_6303_40e6_9b79_ab0f825db57d,27,HEROIC|NAVI,2,0,1
+Heroic_GGBET_VS_9z_1d515b6f_092b_447a_8fab_6778da8d50ce,24,9z|Heroic GGBET,2,1,1
+Heroic_VS_Astralis_2512bf15_d7b8_4c83_a402_43c3c0913a83,34,Astralis|Heroic,2,1,4
+Heroic_VS_BIG_56cc0c20_4bad_458a_b1f5_e9ab0f7d06ae,23,BIG|Heroic,2,1,4
+Heroic_VS_Bad_News_Bears_e41b1415_b868_49eb_b040_894e61c79ab6,17,Bad News Bears|Heroic,2,0,3
+Heroic_VS_ENCE_18319c80_8171_4a16_975d_76889e92362b,21,ENCE|Heroic,2,4,0
+Heroic_VS_ENCE_dc580163_7642_4713_ad0b_052c4fc11d49,28,ENCE|Heroic,2,2,0
+Heroic_VS_FURIA_8082f038_999c_4cc0_9219_e4f2f47737d1,27,FURIA|Heroic,2,3,1
+Heroic_VS_FaZe_Clan_094cae55_e4c2_4c54_ad8c_0b1f846d0068,26,FaZe Clan|Heroic,2,4,4
+Heroic_VS_FaZe_Clan_b5025518_f454_4613_91b0_0382cccf9a28,30,FaZe Clan|Heroic,2,4,4
+Heroic_VS_G2_Esports_96994a0e_6a86_48c4_9962_cb71dd7f5c14,26,G2 Esports|Heroic,2,2,0
+Heroic_VS_GODSENT_446cea4d_f23c_4932_bdb0_8108e5a53733,29,GODSENT|Heroic,2,2,4
+Heroic_VS_Gambit_Esports_f4098943_2e5b_48c6_a5de_353dfba3e640,19,Gambit Esports|Heroic,2,0,3
+Heroic_VS_NAVI_GGBET_8e945423_8029_472f_991f_075e8cea3821,30,Heroic|NAVI GGBET,2,2,3
+Heroic_VS_Natus_Vincere_69cf03cd_1be4_4ce6_98fa_dde9971bc518,30,Heroic|Natus Vincere,2,3,3
+Heroic_VS_Natus_Vincere_8c516ddf_4403_4eaa_a17d_44a9feae80f5,21,Heroic|Natus Vincere,2,0,3
+Heroic_VS_OG_bb7fb8a7_1a8b_4990_bb6b_b42109cb3259,22,Heroic|OG,2,0,2
+Heroic_VS_POGGERZ_a56115fd_a0ba_4eea_a618_91fd6c57177c,27,Heroic|POGGERZ,2,2,4
+Heroic_VS_Virtus_pro_347bfc41_a2c8_4684_afe8_052bcff0af77,26,Heroic|Virtus.pro,2,0,1
+Heroic_VS_Vitality_0839a031_0e2c_4c03_b4bc_b5ba05fe669a,23,Heroic|Vitality,2,2,3
+Imperial_Esports_VS_Bad_News_Eagles_2c3b80e0_fc3c_46fe_af19_352861db1dc9,30,Bad News Eagles|Imperial Esports,2,2,0
+Imperial_Esports_VS_Cloud9_1550fda2_2150_4a0b_ad50_c7b363e49b29,19,Cloud9|Imperial Esports,2,2,4
+LDLC_VS_Dynamo_Eclot_0ed3b2eb_5e2f_4529_8c9d_89fb41ee2f7c,27,Dynamo Eclot|LDLC,2,1,1
+LDLC_VS_K23_ead9cffe_46cb_42a5_bcae_31e7f8194d9c,22,K23|LDLC,2,0,2
+MAD_LIONS_VS_G2_Esports_93a63bac_bc90_4196_b262_311695e6360a,35,G2 Esports|MAD LIONS,2,2,4
+MAD_Lions_VS_ENCE_e8edf4dd_75be_4dc3_8533_bfe78b6a428f,27,ENCE|MAD Lions,2,3,2
+MIBR_VS_FaZe_Clan_36bbcf79_da4a_46c6_92e5_4d20fdd3aea4,25,FaZe Clan|MIBR,2,3,0
+MIBR_VS_Heroic_fcf03079_9f8a_4038_80cb_df9fa0547e67,26,Heroic|MIBR,2,3,3
+MOUZ_VS_ENCE_70d7d916_5647_4141_a705_b9bbc6e2093a,22,ENCE|MOUZ,2,0,4
+MOUZ_VS_G2_Esports_4e6d6d4e_0a7c_4bc2_a773_1c0ef6f0de36,36,G2 Esports|MOUZ,2,1,2
+Movistar_Riders_VS_ENCE_4a86fa84_5d31_43a5_a107_d34549646097,30,ENCE|Movistar Riders,2,4,0
+Movistar_Riders_VS_Fiend_2ddcc9d7_0702_42de_952e_1170ca5adcfa,29,Fiend|Movistar Riders,2,1,2
+Movistar_Riders_VS_G2_Esports_8960bc49_f7ef_4ea3_a91d_e3b3cad6810b,26,G2 Esports|Movistar Riders,2,4,2
+Movistar_Riders_VS_Players_1eacbbe8_6612_4c97_9a74_27a1e0b7b6ec,23,Movistar Riders|Players,2,3,4
+Movistar_Riders_VS_Team_Liquid_521de194_f3e3_4764_993a_f770bd53a891,28,Movistar Riders|Team Liquid,2,1,3
+Movistar_Riders_VS_VP_Parimatch_7f28f209_585f_4842_aad3_10f8dbf3d839,24,Movistar Riders|VP Parimatch,2,0,0
+NAVI_GGBET_VS_G2_Esports_b01bb4b6_4221_4270_9b9f_16e32a24ab50,20,G2 Esports|NAVI GGBET,2,1,1
+NAVI_GGBET_VS_Heroic_9cb1365f_e7fa_41fc_b25f_b27df3c39f4e,22,Heroic|NAVI GGBET,2,4,3
+NAVI_GGBET_VS_TeamVitality_2e8e94ae_6874_4953_99f6_63f55171ce31,28,NAVI GGBET|TeamVitality,2,1,3
+NAVI_GG_BET_VS_Complexity_bdada140_b48c_4be0_93c3_ce2cd7973eed,27,Complexity|NAVI GG.BET,2,1,2
+NAVI_GG_BET_VS_FURIA_66345ce6_70ce_42e4_a716_9bdb83b12dba,26,FURIA|NAVI GG.BET,2,0,4
+NAVI_GG_BET_VS_FURIA_Esports_c4fc4286_3274_4ea7_b6c1_aaa2edb88b00,29,FURIA Esports|NAVI GG.BET,2,3,4
+NAVI_VS_Gambit_59b80bdd_b7e0_4d79_8ab0_941b8d989dc3,29,Gambit|NAVI,2,1,1
+Natus_Vincere_VS_FURIA_0657c9fd_a475_4257_8879_265fdbfd59b0,18,FURIA|Natus Vincere,2,2,2
+Natus_Vincere_VS_FaZe_Clan_1a73735c_2216_4614_a884_6109561483ed,41,FaZe Clan|Natus Vincere,2,4,2
+Natus_Vincere_VS_G2_Esports_73515c5e_c4da_4eb1_a029_e0c679022469,36,G2 Esports|Natus Vincere,2,2,0
+Natus_Vincere_VS_G2_Esports_93a6d3b7_eaa5_48e5_893c_37ddd0f3c263,30,G2 Esports|Natus Vincere,2,2,0
+Natus_Vincere_VS_G2_Esports_a03bf1a0_74bc_4308_84d1_ce615c60e281,25,G2 Esports|Natus Vincere,2,4,0
+Natus_Vincere_VS_G2_Esports_f6a2e8b5_8787_4353_8ba7_8d6f3619ef8a,24,G2 Esports|Natus Vincere,2,4,0
+Natus_Vincere_VS_Gambit_1553618a_ae96_4237_a2eb_7eebe9bc9bff,23,Gambit|Natus Vincere,2,4,1
+Natus_Vincere_VS_Gambit_725103ae_e7e7_4c3c_ada4_e5df99021b38,27,Gambit|Natus Vincere,2,4,1
+Natus_Vincere_VS_Gambit_Esports_b4fea9c9_af26_442d_9eea_c7dad86486bb,19,Gambit Esports|Natus Vincere,2,4,3
+Natus_Vincere_VS_MIBR_35e69a21_1401_4b37_a68c_f50f986f6533,27,MIBR|Natus Vincere,2,3,1
+Ninjas_In_Pyjamas_VS_G2_Esports_3b0d7d8d_3cf7_45c4_ace9_90913ccb712a,27,G2 Esports|Ninjas In Pyjamas,2,3,3
+Ninjas_In_Pyjamas_VS_Natus_Vincere_13c77e68_d62f_478c_89d3_05d31335d5ba,30,Natus Vincere|Ninjas In Pyjamas,2,3,3
+Ninjas_in_Pyjamas_VS_Astralis_0ae78b8c_ff38_49c9_8291_1bf11062db67,30,Astralis|Ninjas in Pyjamas,2,1,2
+Ninjas_in_Pyjamas_VS_BIG_Clan_7ea4b92b_b519_4560_9aff_d9af03223198,28,BIG Clan|Ninjas in Pyjamas,2,1,2
+Ninjas_in_Pyjamas_VS_ENCE_7661436d_fb0d_44ba_859a_02946733736c,23,ENCE|Ninjas in Pyjamas,2,3,0
+Ninjas_in_Pyjamas_VS_G2_Esports_417185bd_1f9a_4a77_8569_0e124917c1ca,30,G2 Esports|Ninjas in Pyjamas,2,1,1
+Ninjas_in_Pyjamas_VS_G2_Esports_6b9c4aca_ed93_4a26_b536_3192342ad7b4,41,G2 Esports|Ninjas in Pyjamas,2,2,1
+Ninjas_in_Pyjamas_VS_MOUZ_4816248a_7de1_499e_ac5e_32d49f545e5a,27,MOUZ|Ninjas in Pyjamas,2,2,4
+Ninjas_in_Pyjamas_VS_NAVI_GGBET_a7530323_4964_4460_aed0_ebb7e68bc7ad,23,NAVI GGBET|Ninjas in Pyjamas,2,0,0
+Ninjas_in_Pyjamas_VS_OG_Esports_a89ce504_36fb_4e3b_acdd_8d69ea449d72,28,Ninjas in Pyjamas|OG Esports,2,0,2
+Ninjas_in_Pyjamas_VS_Team_Liquid_8b16fbb6_44e2_4191_ba9e_3973c02f36f6,20,Ninjas in Pyjamas|Team Liquid,2,3,1
+Ninjas_in_Pyjamas_VS_Team_Liquid_8e2ff20c_3c3c_4810_a7e6_0d86d411d35c,22,Ninjas in Pyjamas|Team Liquid,2,4,1
+Ninjas_in_Pyjamas_VS_Team_Vitality_eeef2648_6656_4375_b182_c516d35abad5,25,Ninjas in Pyjamas|Team Vitality,2,3,4
+Ninjas_in_Pyjamas_VS_compLexity_63cda578_3070_48f1_9bc5_3e87d0443b97,26,Ninjas in Pyjamas|compLexity,2,0,1
+OGEsports_VS_FaZe_Clan_a6240476_ee3b_485d_874b_e5e55eb3e1d3,24,FaZe Clan|OGEsports,2,1,4
+OGEsports_VS_NAVI_GGBET_13cef8eb_6ddb_48f6_80b7_95b52f0bf1f2,24,NAVI GGBET|OGEsports,2,3,3
+OGEsports_VS_Ninjas_in_Pyjamas_e80e8176_00f0_4110_8e4b_ee452b3fe649,36,Ninjas in Pyjamas|OGEsports,2,4,2
+OGEsports_VS_compLexity_849cf5c3_89e3_4112_a92c_497c31ee14dd,16,OGEsports|compLexity,2,1,0
+OG_Esports_VS_Gambit_Esports_848b887c_4554_4a9c_b480_4be8851abc8d,30,Gambit Esports|OG Esports,2,1,3
+OG_Esports_VS_Ninjas_in_Pyjamas_24e3af62_dcf9_47b2_a644_83e9ad86ff01,25,Ninjas in Pyjamas|OG Esports,2,2,2
+OG_Esports_VS_forZe_Esports_857a56b5_afe2_4651_a593_122ed1069b8d,24,OG Esports|forZe Esports,2,2,2
+OG_VS_Complexity_c32dd58c_b127_48e6_98e2_560c85c32294,26,Complexity|OG,2,2,0
+OG_VS_ENCE_6513dfac_6bdb_4431_9271_e2960bbd1be8,26,ENCE|OG,2,1,3
+OG_VS_FaZe_Clan_15100743_6d3f_4452_a403_f458df727df5,20,FaZe Clan|OG,2,1,0
+OG_VS_TYLOO_6074e5d6_f4a9_4dbe_83d4_450d49a637e6,26,OG|TYLOO,2,4,3
+OG_VS_Team_Vitality_6b03b89b_48dd_48bb_a30e_19a1ad5c2163,25,OG|Team Vitality,2,1,4
+Outsiders_VS_Cloud9_fe317d45_273f_4ffe_805b_6d219d4cd751,28,Cloud9|Outsiders,2,0,2
+Outsiders_VS_ENCE_1d4536eb_dedd_41d6_8f99_803846465472,26,ENCE|Outsiders,2,1,2
+Outsiders_VS_FURIA_1aa3bf00_6172_4e39_a6f1_8078b1473c0a,30,FURIA|Outsiders,2,0,1
+Party_Astronauts_VS_Team_Liquid_ffa461c3_e698_46a0_955c_bbc4d4369210,25,Party Astronauts|Team Liquid,2,3,0
+Renegades_VS_Complexity_f0b4a1be_0628_463f_9332_3f9a423fcda7,27,Complexity|Renegades,2,2,1
+SINNERS_Esports_VS_G2_Esports_2bd9466d_1ec6_4d62_8546_cc5b377e6d37,25,G2 Esports|SINNERS Esports,2,0,0
+SKADE_VS_Fiend_1f96ec5f_17ea_41a8_9e5a_704ef3403e11,26,Fiend|SKADE,2,3,4
+Sampi_Tipsport_VS_DREAM_ab370a1f_ca2b_4d28_920f_71e99f474ed8,25,DREAM|Sampi.Tipsport,2,3,2
+Sampi_Tipsport_VS_Entropiq_15b1038e_0c35_4e42_970a_200445c0e2f2,20,Entropiq|Sampi.Tipsport,2,2,4
+Singularity_VS_K23_1xBET_7b520ade_d01f_4cdb_a60a_c8b5d84594ba,24,K23 1xBET|Singularity,2,4,1
+Sinners_VS_Entropiq_6bc24175_54c6_4f1b_a5af_0c22468bd281,30,Entropiq|Sinners,2,4,3
+Sprout_VS_FURIA_6065d854_d78a_4550_bfa2_bc8d5c68adf6,28,FURIA|Sprout,2,2,1
+TeamVitality_VS_Astralis_8ddb1672_ae23_4ad0_b41b_25add199cd3b,23,Astralis|TeamVitality,2,0,0
+TeamVitality_VS_G2_Esports_8c5e5fd4_20b5_4393_88c5_12d2a8a4b2fd,29,G2 Esports|TeamVitality,2,0,0
+TeamVitality_VS_G2_Esports_965cbf49_8995_4a1c_a889_a37670d490d2,20,G2 Esports|TeamVitality,2,4,0
+TeamVitality_VS_Team_Liquid_297b8d90_485b_48b5_8a30_85322b67e051,26,Team Liquid|TeamVitality,2,2,1
+TeamVitality_VS_Team_Liquid_50623056_f604_42ba_b3f9_ce01b95e90df,27,Team Liquid|TeamVitality,2,1,1
+TeamVitality_VS_compLexity_a58fa70c_a0fc_4d93_9e89_fe8af07362f0,27,TeamVitality|compLexity,2,3,3
+TeamVitality_VS_compLexity_d2941f71_552b_4d8e_96e9_ab7e45233371,25,TeamVitality|compLexity,2,1,3
+Team_Liquid_VS_Evil_Geniuses_23259457_fc02_47ba_b617_ecfc0b1da111,22,Evil Geniuses|Team Liquid,2,0,0
+Team_Liquid_VS_FaZe_Clan_99c3a39f_35fe_48ed_bab5_ec69d7e518e4,41,FaZe Clan|Team Liquid,2,1,3
+Team_Liquid_VS_FaZe_Clan_9c9999f8_8216_4ab2_b223_568c1c762aa8,27,FaZe Clan|Team Liquid,2,3,3
+Team_Liquid_VS_G2_Esports_259b88bc_d5b8_40f3_a45c_8cff2c7766f9,21,G2 Esports|Team Liquid,2,3,1
+Team_Liquid_VS_Gambit_Esports_9c01eead_9bae_4e6b_8bc8_153962815db1,28,Gambit Esports|Team Liquid,2,1,0
+Team_Liquid_VS_NAVI_GGBET_77318ad7_cafa_47af_95b3_02550974fb7d,26,NAVI GGBET|Team Liquid,2,4,0
+Team_Liquid_VS_Ninjas_in_Pyjamas_74b51f2d_cd8b_4543_b111_90626f211a27,18,Ninjas in Pyjamas|Team Liquid,2,4,1
+Team_Liquid_VS_OG_988e7854_d97a_478d_80c4_5bcf8ff39365,28,OG|Team Liquid,2,4,3
+Team_Liquid_VS_Team_oNe_f49655fa_ebda_437d_baeb_968916e23088,24,Team Liquid|Team oNe,2,3,4
+Team_One_VS_FURIA_Esports_ae1cfcc2_c643_4bb3_bb0e_eb6c74ef9be8,29,FURIA Esports|Team One,2,0,3
+Team_One_VS_Gambit_891751f3_228c_453e_8a36_b67ee9340cbd,21,Gambit|Team One,2,4,1
+Team_One_VS_MIBR_f612c41d_caaa_421d_accf_6f2add046076,22,MIBR|Team One,2,4,4
+Team_Spirit_VS_FaZe_Clan_f039b7f6_c55a_47c8_b43a_adc2d94ec40c,29,FaZe Clan|Team Spirit,2,1,0
+Team_Spirit_VS_Fiend_34c5d56a_851f_43d5_9b28_b99b05e52461,25,Fiend|Team Spirit,2,2,1
+Team_Spirit_VS_Imperial_Sportsbet_343f8f50_4467_4a8b_8fb1_f8f15588eb22,20,Imperial Sportsbet|Team Spirit,2,0,4
+Team_Spirit_VS_Team_Vitality_4a579240_4d99_4fa9_851e_9066e7a176f2,20,Team Spirit|Team Vitality,2,3,0
+Team_Vitality_VS_BIG_790a5467_bdf8_4482_8634_59a3099d1be0,27,BIG|Team Vitality,2,2,2
+Team_Vitality_VS_ENCE_070d18c2_93a2_4e4c_8642_ba658276229f,30,ENCE|Team Vitality,2,4,4
+Team_Vitality_VS_ENCE_f7c9da20_29e7_4dc4_9e52_44680c26a65a,24,ENCE|Team Vitality,2,0,4
+Team_Vitality_VS_FaZe_Clan_1373632b_521f_491e_b6f4_6f6e471eb2ff,26,FaZe Clan|Team Vitality,2,3,2
+Team_Vitality_VS_FaZe_Clan_8926ff97_cbf7_4f24_aa19_71bc9ec94c86,27,FaZe Clan|Team Vitality,2,2,2
+Team_Vitality_VS_FaZe_Clan_abf70b59_08a0_4f48_a483_7b90e0df9423,21,FaZe Clan|Team Vitality,2,1,2
+Team_Vitality_VS_G2_Esports_1914c3ce_29a5_4c8d_9839_9c0030a0a711,26,G2 Esports|Team Vitality,2,2,0
+Team_Vitality_VS_G2_Esports_ee9427f3_03bf_4962_b5a5_1938fa163ef4,30,G2 Esports|Team Vitality,2,0,0
+Team_Vitality_VS_Gambit_Esports_79b5ebf2_fab4_48bc_9697_5ba260b19226,23,Gambit Esports|Team Vitality,2,1,0
+Team_Vitality_VS_Gambit_Esports_fb4def27_0dc0_4154_a84d_12e2a03e50a3,36,Gambit Esports|Team Vitality,2,1,0
+Team_Vitality_VS_Heroic_343edef3_916d_4f85_93b4_3b32c0c70d00,28,Heroic|Team Vitality,2,0,1
+Team_Vitality_VS_Natus_Vincere_2f7a05ba_079d_4fe5_8380_c450eb50e138,26,Natus Vincere|Team Vitality,2,1,2
+Team_Vitality_VS_OG_Esports_dd0ec52a_bcc0_4618_8435_ddb0432880bf,28,OG Esports|Team Vitality,2,0,1
+Team_Vitality_VS_OG_Esports_eed7a65c_b250_4de3_90d0_ebb69c0181f0,25,OG Esports|Team Vitality,2,3,1
+Team_Vitality_VS_Team_Liquid_d2d9bb20_0dba_4cd4_986b_a3456f8dfeef,28,Team Liquid|Team Vitality,2,4,1
+Team_Vitality_VS_mousesports_456460d4_6b82_481b_80c7_765341ee0bd5,27,Team Vitality|mousesports,2,0,4
+Team_oNe_VS_Gambit_Esports_a31257d9_d974_407a_acb9_c8505ffffe0a,30,Gambit Esports|Team oNe,2,2,4
+Virtus_pro_Parimatch_VS_Complexity_59940a39_6100_4b2a_8708_f3d11ae6413a,25,Complexity|Virtus.pro Parimatch,2,4,2
+Virtus_pro_Parimatch_VS_FURIA_Esports_9ebbcaf0_1767_4254_9b67_1d3c20b34906,26,FURIA Esports|Virtus.pro Parimatch,2,1,3
+Virtus_pro_Parimatch_VS_Ninjas_in_Pyjamas_ce084937_09f0_4556_9aac_347dcd27c615,28,Ninjas in Pyjamas|Virtus.pro Parimatch,2,1,4
+Virtus_pro_Parimatch_VS_Team_Liquid_e6f1a8c9_690b_47a3_ba71_13343541fda6,28,Team Liquid|Virtus.pro Parimatch,2,1,3
+Virtus_pro_VS_G2_Esports_7063ca5d_8f7f_4e11_aa6c_d3084b3b323e,47,G2 Esports|Virtus.pro,2,3,1
+Virtus_pro_VS_G2_Esports_be640014_1959_4a86_8b10_93f770e4e9f4,27,G2 Esports|Virtus.pro,2,0,1
+Virtus_pro_VS_GODSENT_e563d6f5_c1b0_4688_b143_3e48499d67b8,30,GODSENT|Virtus.pro,2,4,0
+Virtus_pro_VS_OG_Esports_48b037f5_9673_4311_b1c6_b99351af0b80,27,OG Esports|Virtus.pro,2,0,3
+Virtus_pro_VS_Team_Vitality_779ac45e_0be0_42e6_8991_a89ceb07fa42,29,Team Vitality|Virtus.pro,2,3,1
+Virtus_pro_VS_forZe_7d979656_f618_428a_8323_51c28b83a9c0,27,Virtus.pro|forZe,2,2,1
+Virtus_pro_VS_forZe_Esports_7c0b7a62_2a6f_4c67_9588_72677bbe6108,23,Virtus.pro|forZe Esports,2,1,4
+Vitality_VS_Entropiq_66740ed5_68d5_4ae2_8155_2cee7faf17a3,30,Entropiq|Vitality,2,3,2
+Vitality_VS_Outsiders_b35a2097_3e27_4142_94ff_8e6960566836,24,Outsiders|Vitality,2,2,4
+Vitality_VS_Team_Liquid_37c8eb9f_890d_4035_a659_44911641213b,23,Team Liquid|Vitality,2,4,1
+compLexity_VS_G2_Esports_1ed4fb98_732e_4456_8516_a48da5bf05c1,27,G2 Esports|compLexity,2,4,1
+compLexity_VS_Gambit_c9feb32c_ed8d_46a9_b620_380f6dfff501,28,Gambit|compLexity,2,0,0
+eSuba_VS_BIG_fcd70f0a_7217_401c_85c6_f32f8d3cd89b,26,BIG|eSuba,2,2,0
+eSuba_VS_EXTREMUM_d05ede0d_bc51_4b88_83ca_81acb77483a0,27,EXTREMUM|eSuba,2,1,2
+eSuba_VS_Fiend_cb8f21bb_460a_4a52_b605_81bc9211bca6,27,Fiend|eSuba,2,0,0
+fnatic_VS_BIG_2db656d6_7c87_41d3_a291_64b2b40df97f,36,BIG|fnatic,2,4,4
+fnatic_VS_BIG_ae3f2e43_e046_4c60_bf66_3bb1ec6a61b0,29,BIG|fnatic,2,0,4
+fnatic_VS_FaZe_Clan_b0c8dcb3_0607_4c7b_879c_6e0329020f60,25,FaZe Clan|fnatic,2,4,2
+fnatic_VS_FaZe_Clan_d54c84c2_16bb_4acd_9ac2_6eff9ab999fa,21,FaZe Clan|fnatic,2,3,2
+fnatic_VS_G2_Esports_21a7ee8c_fc05_45ce_bafd_8a4796974633,23,G2 Esports|fnatic,2,0,4
+fnatic_VS_G2_Esports_2b0da293_a5f6_4a02_aede_12e2f1069254,23,G2 Esports|fnatic,2,3,4
+fnatic_VS_MOUZ_2ac1676d_316b_42e9_b88a_884bb7cfc367,24,MOUZ|fnatic,2,0,2
+forZe_VS_Complexity_fe19fbd9_80ab_4a38_9a06_31e9cbbded02,25,Complexity|forZe,2,4,3
+mousesports_VS_A_U_R_A_7e21d031_7bf8_4a49_bb48_4855ab534a04,26,A U R A|mousesports,2,1,2
+mousesports_VS_BIG_f781e3b8_ad9d_45c3_a0cf_286fb5a06923,28,BIG|mousesports,2,3,3
+mousesports_VS_FaZe_Clan_63df69fe_f161_4f30_af26_f7e5728cf89d,22,FaZe Clan|mousesports,2,4,3
+mousesports_VS_FaZe_Clan_6f44dae6_19dd_4d9c_8808_b5198f40150f,29,FaZe Clan|mousesports,2,1,3
+mousesports_VS_G2_Esports_13f47693_7c94_4823_bf44_2adadaf72be6,28,G2 Esports|mousesports,2,2,2
+mousesports_VS_G2_Esports_9e8d6ad0_1048_4909_8327_3eb857671aa2,28,G2 Esports|mousesports,2,0,2
+mousesports_VS_G2_Esports_dd7a24a7_80d9_4c21_9ff3_b7ae8771e410,26,G2 Esports|mousesports,2,0,2
+mousesports_VS_Gambit_Esports_28c6914e_e018_4d50_82f0_84082ae40d60,28,Gambit Esports|mousesports,2,3,4
+mousesports_VS_Natus_Vincere_0c0e9b95_be5b_4ff6_865f_141d714baa5c,25,Natus Vincere|mousesports,2,0,0
+mousesports_VS_Ninjas_in_Pyjamas_fd94b3a6_fe06_4151_b3ea_097e585bd540,30,Ninjas in Pyjamas|mousesports,2,3,3
+paiN_VS_FURIA_bdaa02a2_413e_4a08_8b19_f2406ca7bb86,28,FURIA|paiN,2,3,2
+x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04,71,Natus Vincere|x-kom AGO,2,2,4
+Astralis_VS_ENCE_b686b317_704a_4c0e_93d2_b531410de248,35,Astralis|ENCE,3,3,4
+Astralis_VS_FURIA_0a075b4d_576e_46f2_b944_fe9542faee54,27,Astralis|FURIA,3,1,0
+Astralis_VS_FURIA_d5635de8_d81d_4be6_99a2_5100ebc507f0,24,Astralis|FURIA,3,1,0
+Astralis_VS_FaZe_Clan_3b60f341_78e9_48ca_bf62_81e3abe527e1,26,Astralis|FaZe Clan,3,2,4
+Astralis_VS_K23_90c4e159_b93f_49fc_b892_2a2e369ca3ed,41,Astralis|K23,3,1,2
+Astralis_VS_NAVI_GGBET_8129e6d8_7fd0_4537_bbbe_e08bd0c8779e,36,Astralis|NAVI GGBET,3,0,1
+Astralis_VS_TeamVitality_2df97383_4d7a_440c_a689_71b98f3d5766,22,Astralis|TeamVitality,3,1,4
+Astralis_VS_Team_Liquid_6567090b_da33_4ba0_aefb_53b6ae9185ec,26,Astralis|Team Liquid,3,2,3
+Astralis_VS_Team_Liquid_f8d9cc9d_53b4_445f_b61a_ef30ac4d6520,29,Astralis|Team Liquid,3,3,3
+Astralis_VS_fnatic_5ca5654a_fd22_4430_875a_02e4f603e914,18,Astralis|fnatic,3,1,0
+Astralis_VS_x_kom_AGO_47dc5792_cb45_41d1_8271_7fd8bcd76c1c,29,Astralis|x-kom AGO,3,0,2
+BIG_Clan_VS_Astralis_c307fe7d_4bdc_47d6_ab32_2828f06b8f92,23,Astralis|BIG Clan,3,0,1
+BIG_Clan_VS_G2_Esports_19bef7ff_8e92_4add_90f3_323f2ba99ff2,23,BIG Clan|G2 Esports,3,0,3
+BIG_Clan_VS_Ninjas_in_Pyjamas_2219df2e_161c_4b27_b116_fd69eb601e99,29,BIG Clan|Ninjas in Pyjamas,3,3,2
+BIG_VS_A_U_R_A_19bf268e_607c_4425_8aab_0cbe198578a2,30,A U R A|BIG,3,3,4
+BIG_VS_Complexity_a797db2e_ac89_4434_a13f_dab006699545,28,BIG|Complexity,3,0,1
+BIG_VS_FaZe_Clan_99d9eb9b_1ea7_403f_ab5b_68066bb61b44,25,BIG|FaZe Clan,3,1,3
+BIG_VS_Fiend_f7de6a1d_0fea_4a9c_ac31_ac81a0e0e7a4,36,BIG|Fiend,3,4,1
+BIG_VS_G2_Esports_760148de_bc79_4643_bbde_5d287d7ef8f2,28,BIG|G2 Esports,3,4,2
+BIG_VS_K23_d7b9203a_a191_443f_9678_47bc0cb47e01,28,BIG|K23,3,4,2
+BIG_VS_Natus_Vincere_4e4d6ca9_edf8_4315_9879_ccfbc680e8ac,23,BIG|Natus Vincere,3,4,2
+BIG_VS_Team_Liquid_d83442a6_dbb1_4e9c_9ef2_a1f1d22f4e69,28,BIG|Team Liquid,3,0,2
+BIG_VS_Vitality_7d03108f_c00e_4ab8_a03f_4e34fc85cf81,25,BIG|Vitality,3,2,0
+BIG_VS_mousesports_856f0ca7_2890_4b51_bf46_ee44e0de6ae3,26,BIG|mousesports,3,1,0
+CPH_Flames_VS_Ninjas_in_Pyjamas_b06f4e67_d9d7_4803_bf51_de3567325873,28,CPH Flames|Ninjas in Pyjamas,3,0,0
+Complexity_VS_B_I_G_7f96daf3_7985_4f41_b4cf_664337a51cd4,35,B.I.G|Complexity,3,3,1
+Complexity_VS_Endpoint_CeX_6bcfbd1e_0008_4a71_a715_7fc681392345,23,Complexity|Endpoint.CeX,3,0,3
+Complexity_VS_G2_Esports_2ac03938_6b0b_442b_8899_2c56dfeb6f92,28,Complexity|G2 Esports,3,3,1
+Complexity_VS_Gambit_Esports_44069279_247a_4811_b2f7_2233cff6023c,23,Complexity|Gambit Esports,3,3,4
+Complexity_VS_Team_Vitality_93474513_6f7f_44ab_b6aa_58ade2255127,28,Complexity|Team Vitality,3,4,4
+Complexity_VS_Virtus_pro_779eca53_f7c0_4f9a_8012_45086c328254,22,Complexity|Virtus.pro,3,4,0
+Complexity_VS_forZe_Esports_67bdf08a_8ced_48fd_83b2_3392befdbc7a,28,Complexity|forZe Esports,3,3,2
+Copenhagen_Flames_VS_Team_Spirit_5cfa8f5b_671b_4ef8_9f0a_96ba66ac4d62,24,Copenhagen Flames|Team Spirit,3,3,4
+DignitasVIE_VS_Fiend_58e04be8_d9d5_4031_adda_bec6a4af79b9,25,DignitasVIE|Fiend,3,4,0
+Dignitas_VS_CPH_Flames_3c3f82ba_9887_4145_90bb_b73b0383373c,23,CPH Flames|Dignitas,3,3,3
+Dignitas_VS_EXTREMUM_99d643f6_a9d0_443e_832c_cd9c3f1d8796,23,Dignitas|EXTREMUM,3,3,2
+Dignitas_VS_Fiend_0f222f22_1d61_48c7_92a7_0578174959ba,29,Dignitas|Fiend,3,1,2
+ECSTATIC_VS_Entropiq_641fd7e4_544b_4e92_8d2b_536a5825376c,21,ECSTATIC|Entropiq,3,4,4
+EIQ_PRG_VS_Dynamo_Eclot_c405829a_45de_461d_8895_90f7fb92db88,29,Dynamo Eclot|EIQ PRG,3,0,0
+ENCE_VS_FURIA_8fadbb13_3728_4211_b0eb_cd4075a60218,29,ENCE|FURIA,3,4,1
+ENCE_VS_G2_Esports_1cb8b01a_f11e_4ef3_954d_5ce809b57506,22,ENCE|G2 Esports,3,1,0
+ENCE_VS_G2_Esports_20987bbd_21ef_469e_99b9_6654372b543e,24,ENCE|G2 Esports,3,0,0
+ENCE_VS_Ninjas_in_Pyjamas_dd96ccec_8374_4510_b295_b832eb539878,21,ENCE|Ninjas in Pyjamas,3,0,2
+ENCE_VS_OG_443be02f_3427_46ab_9719_3afe549723b6,53,ENCE|OG,3,1,0
+ENCE_VS_Outsiders_acf66d1a_4adc_4834_9be7_75ab6b981bd4,24,ENCE|Outsiders,3,4,3
+ENCE_VS_Team_Vitality_9869e869_1007_4b07_a7bf_d419dae83506,24,ENCE|Team Vitality,3,0,1
+ENCE_VS_forZe_Esports_6ef84ba7_509d_46d3_b508_defcd9e50305,27,ENCE|forZe Esports,3,2,1
+ENTERPRISE_VS_Dynamo_Eclot_6251904c_9ece_448c_8cd7_4dfb9f220657,23,Dynamo Eclot|ENTERPRISE,3,0,3
+Entropiq_VS_Enterprise_fb85b0f8_7f3f_40ea_b4e5_65f91fbb9ee7,20,Enterprise|Entropiq,3,0,3
+Entropiq_VS_Fiend_85c278a6_ffb6_485f_988b_15f6f3b2f2ad,28,Entropiq|Fiend,3,0,3
+Entropiq_VS_Gambit_fcde73c2_6b1d_4886_b626_61b13ace2bd1,23,Entropiq|Gambit,3,3,0
+Entropiq_VS_MOUZ_e7089cdf_ca0a_4658_932e_31fc1489a769,26,Entropiq|MOUZ,3,1,1
+Entropiq_VS_SINNERS_6219ff2f_f03c_4d2a_8758_9590ec81fb80,18,Entropiq|SINNERS,3,3,4
+Entropiq_VS_Team_oNe_33b018e0_5577_40ef_b06b_08f41e7a0d4f,22,Entropiq|Team oNe,3,2,2
+Eternal_Fire_VS_Entropiq_b42541c7_5eb1_41ba_9d1b_060ab63e3f31,25,Entropiq|Eternal Fire,3,0,1
+Eternal_Fire_VS_Fiend_0072d9d0_a907_44c2_a9c8_7f036e55333d,30,Eternal Fire|Fiend,3,2,0
+Evil_Geniuses_VS_FURIA_eSports_6567a96e_5fa0_4465_a3dc_bc7c8ceb9fb0,30,Evil Geniuses|FURIA eSports,3,3,4
+Evil_Geniuses_VS_FaZe_Clan_febff781_5bd0_4b8e_851c_9e0e2956c808,25,Evil Geniuses|FaZe Clan,3,1,4
+Evil_Geniuses_VS_Fnatic_7a767c73_e13a_4418_9a15_ff0f36555379,27,Evil Geniuses|Fnatic,3,3,1
+Evil_Geniuses_VS_Heroic_55ca3b46_3a75_48b6_94f8_fc9af0f976e9,29,Evil Geniuses|Heroic,3,0,4
+Evil_Geniuses_VS_compLexity_5cde6776_c3f0_411c_a5d2_0424166bc4e2,21,Evil Geniuses|compLexity,3,2,1
+FURIA_Esports_VS_FaZe_Clan_a98ffca7_e968_4a54_9e8f_22f101c2502b,24,FURIA Esports|FaZe Clan,3,1,2
+FURIA_VS_G2_Esports_cc5fc727_825d_45de_b1e3_2b51e9857b54,29,FURIA|G2 Esports,3,0,4
+FURIA_VS_Gambit_41ab7849_b871_4726_9cfe_5cabd2e9e573,25,FURIA|Gambit,3,2,2
+FURIA_VS_NAVI_4ea96fac_97a5_4cec_aa48_e7300e6bdf8e,22,FURIA|NAVI,3,0,3
+FURIA_VS_Ninjas_in_Pyjamas_f66a8d64_7aac_4609_89c5_f79b9a5b2485,25,FURIA|Ninjas in Pyjamas,3,3,4
+FURIA_VS_Team_oNe_f140d6b5_d829_49ab_93c8_da24648e07d8,30,FURIA|Team oNe,3,0,4
+FURIA_eSports_VS_G2_Esports_6a83cc41_6926_41fe_b2e4_27dc17d46d8e,30,FURIA eSports|G2 Esports,3,2,4
+FaZe_Clan_VS_ENCE_b63b2a87_38df_4aec_9af1_7a1e6382bcad,25,ENCE|FaZe Clan,3,1,2
+FaZe_Clan_VS_ENCE_f7514187_9f7d_48b8_abdb_a2404542e8d2,24,ENCE|FaZe Clan,3,4,2
+FaZe_Clan_VS_FURIA_7078326b_122b_4dab_b738_0bd88ae881f7,29,FURIA|FaZe Clan,3,1,1
+FaZe_Clan_VS_FURIA_869bc814_ed7b_42b1_836b_e1b1f4408bc4,35,FURIA|FaZe Clan,3,0,1
+FaZe_Clan_VS_G2_Esports_26867805_e335_4beb_9612_ad19c136e4d9,23,FaZe Clan|G2 Esports,3,1,3
+FaZe_Clan_VS_NAVI_GGBET_9b88dd66_00e5_4cf7_bcb1_e34c3ad16034,29,FaZe Clan|NAVI GGBET,3,1,4
+FaZe_Clan_VS_Natus_Vincere_f218743d_5e8b_436e_91bd_b7b3664c56c3,30,FaZe Clan|Natus Vincere,3,1,0
+FaZe_Clan_VS_Natus_Vincere_fd93d688_9948_46b6_a9ab_76ec7602c23f,23,FaZe Clan|Natus Vincere,3,4,0
+FaZe_Clan_VS_OG_cca3e1be_b825_4039_b736_23ab7fc0e667,23,FaZe Clan|OG,3,4,4
+FaZe_Clan_VS_Players_89d46453_a185_4f1e_8be1_df2a19ffd9de,21,FaZe Clan|Players,3,1,1
+FaZe_Clan_VS_Team_Liquid_a8899757_baf4_479a_8882_c99a3b911a7a,27,FaZe Clan|Team Liquid,3,0,0
+FaZe_VS_BIG_4bab9a63_42e6_4766_acb6_cae50d575d04,36,BIG|FaZe,3,3,3
+Fiend_VS_Entropiq_e497ac50_6564_4c65_a991_1ec47016a242,29,Entropiq|Fiend,3,2,3
+Fiend_VS_FaZe_Clan_0fd23068_c5bf_4ec9_8ae2_4c4a901bda5b,22,FaZe Clan|Fiend,3,2,1
+Fnatic_VS_Complexity_933b0221_3065_4617_8f30_eb216321ac79,28,Complexity|Fnatic,3,4,4
+Fnatic_VS_FaZe_Clan_d8e889bb_1d01_46c4_b43d_5d79c935240c,23,FaZe Clan|Fnatic,3,2,0
+Fnatic_VS_Heroic_fa8c2184_4bb2_4ce2_8ccb_814ba204e70e,30,Fnatic|Heroic,3,4,1
+Fnatic_VS_OG_9e15645e_1773_49f9_9d56_33b4a20cee33,27,Fnatic|OG,3,2,1
+FunPlus_Phoenix_VS_BIG_15344c55_e92f_45f5_86cc_b4a2033be996,26,BIG|FunPlus Phoenix,3,3,1
+G2_Esports_VS_A_U_R_A_bd9e476d_07a9_450f_8169_9ab6a3ab6e09,17,A U R A|G2 Esports,3,1,0
+G2_Esports_VS_Entropiq_d9db156e_3fe7_4aee_9cdd_4ae877a1362b,30,Entropiq|G2 Esports,3,4,2
+G2_Esports_VS_Fiend_84355bd5_a8a0_4c54_a35c_31a87c85a2ee,18,Fiend|G2 Esports,3,2,1
+G2_Esports_VS_Gambit_Esports_fae1d55d_cc37_4b36_a841_4b9fcb8cf432,29,G2 Esports|Gambit Esports,3,1,1
+G2_Esports_VS_Imperial_Esports_fb1292ee_58f8_46af_99cd_4dee2251a06c,28,G2 Esports|Imperial Esports,3,1,4
+G2_Esports_VS_MIBR_558a89cc_83f4_4b7d_92de_dad700845416,27,G2 Esports|MIBR,3,2,0
+G2_Esports_VS_Natus_Vincere_30884d24_3c0f_4147_90ca_e2e0f58ea30e,29,G2 Esports|Natus Vincere,3,0,3
+G2_Esports_VS_OG_Esports_e1589ea4_ccc0_4907_b81f_5161da7fcc9c,26,G2 Esports|OG Esports,3,0,1
+G2_Esports_VS_TYLOO_24802ae0_ae49_471c_9688_a712ab54e0df,29,G2 Esports|TYLOO,3,2,4
+G2_Esports_VS_compLexity_b084db84_f340_422a_a4d7_f60c400748ec,30,G2 Esports|compLexity,3,0,4
+G2_Esports_VS_forZe_Esports_bbe12832_0c8c_4cac_8125_62d6c25412ce,30,G2 Esports|forZe Esports,3,4,4
+GODSENT_VS_BIG_489338c2_71c4_4d7b_90f2_cb124986bd4b,28,BIG|GODSENT,3,2,4
+GODSENT_VS_ENCE_6d430aed_dbe8_42ea_98b4_ab2360c3de8b,27,ENCE|GODSENT,3,2,3
+GODSENT_VS_Players_157c39c0_d36c_4c10_8432_190c923ba278,19,GODSENT|Players,3,4,4
+Gambit_VS_Enterprise_0c8c7332_6a51_4e15_8eff_12a8e3634c40,22,Enterprise|Gambit,3,0,4
+Gambit_VS_Entropiq_4d4619ea_b3e9_450f_b9c3_3882c2a876a1,23,Entropiq|Gambit,3,4,0
+Gambit_VS_NAVI_GGBET_a3fbf302_b349_475c_9252_44f65ebb4fc7,27,Gambit|NAVI GGBET,3,0,1
+Gambit_VS_eSuba_2cb9e325_f962_411e_af76_010f6be393e5,36,Gambit|eSuba,3,2,0
+HAVU_VS_B_I_G_1876de5d_8dbb_4b4b_b5d9_f051f4901375,21,B.I.G|HAVU,3,1,4
+HAVU_VS_Complexity_677a5339_eea3_4a37_843e_a385147ce412,21,Complexity|HAVU,3,2,0
+HEROIC_VS_BIG_be25bf2e_5aaa_4be5_98ae_f2acb64febaf,26,BIG|HEROIC,3,4,3
+HEROIC_VS_NAVI_c7f0e145_6303_40e6_9b79_ab0f825db57d,27,HEROIC|NAVI,3,2,2
+Heroic_GGBET_VS_9z_1d515b6f_092b_447a_8fab_6778da8d50ce,24,9z|Heroic GGBET,3,1,1
+Heroic_VS_Astralis_2512bf15_d7b8_4c83_a402_43c3c0913a83,34,Astralis|Heroic,3,0,4
+Heroic_VS_BIG_56cc0c20_4bad_458a_b1f5_e9ab0f7d06ae,23,BIG|Heroic,3,4,1
+Heroic_VS_Bad_News_Bears_e41b1415_b868_49eb_b040_894e61c79ab6,17,Bad News Bears|Heroic,3,3,1
+Heroic_VS_ENCE_18319c80_8171_4a16_975d_76889e92362b,21,ENCE|Heroic,3,0,3
+Heroic_VS_ENCE_dc580163_7642_4713_ad0b_052c4fc11d49,28,ENCE|Heroic,3,3,3
+Heroic_VS_FURIA_8082f038_999c_4cc0_9219_e4f2f47737d1,27,FURIA|Heroic,3,3,2
+Heroic_VS_FaZe_Clan_094cae55_e4c2_4c54_ad8c_0b1f846d0068,26,FaZe Clan|Heroic,3,3,1
+Heroic_VS_FaZe_Clan_b5025518_f454_4613_91b0_0382cccf9a28,30,FaZe Clan|Heroic,3,4,1
+Heroic_VS_G2_Esports_96994a0e_6a86_48c4_9962_cb71dd7f5c14,26,G2 Esports|Heroic,3,4,4
+Heroic_VS_GODSENT_446cea4d_f23c_4932_bdb0_8108e5a53733,29,GODSENT|Heroic,3,1,4
+Heroic_VS_Gambit_Esports_f4098943_2e5b_48c6_a5de_353dfba3e640,19,Gambit Esports|Heroic,3,4,3
+Heroic_VS_NAVI_GGBET_8e945423_8029_472f_991f_075e8cea3821,30,Heroic|NAVI GGBET,3,3,2
+Heroic_VS_Natus_Vincere_69cf03cd_1be4_4ce6_98fa_dde9971bc518,30,Heroic|Natus Vincere,3,3,3
+Heroic_VS_Natus_Vincere_8c516ddf_4403_4eaa_a17d_44a9feae80f5,21,Heroic|Natus Vincere,3,2,3
+Heroic_VS_OG_bb7fb8a7_1a8b_4990_bb6b_b42109cb3259,22,Heroic|OG,3,2,2
+Heroic_VS_POGGERZ_a56115fd_a0ba_4eea_a618_91fd6c57177c,27,Heroic|POGGERZ,3,2,0
+Heroic_VS_Virtus_pro_347bfc41_a2c8_4684_afe8_052bcff0af77,26,Heroic|Virtus.pro,3,0,4
+Heroic_VS_Vitality_0839a031_0e2c_4c03_b4bc_b5ba05fe669a,23,Heroic|Vitality,3,0,4
+Imperial_Esports_VS_Bad_News_Eagles_2c3b80e0_fc3c_46fe_af19_352861db1dc9,30,Bad News Eagles|Imperial Esports,3,4,2
+Imperial_Esports_VS_Cloud9_1550fda2_2150_4a0b_ad50_c7b363e49b29,19,Cloud9|Imperial Esports,3,4,2
+LDLC_VS_Dynamo_Eclot_0ed3b2eb_5e2f_4529_8c9d_89fb41ee2f7c,27,Dynamo Eclot|LDLC,3,4,3
+LDLC_VS_K23_ead9cffe_46cb_42a5_bcae_31e7f8194d9c,22,K23|LDLC,3,4,1
+MAD_LIONS_VS_G2_Esports_93a63bac_bc90_4196_b262_311695e6360a,35,G2 Esports|MAD LIONS,3,1,1
+MAD_Lions_VS_ENCE_e8edf4dd_75be_4dc3_8533_bfe78b6a428f,27,ENCE|MAD Lions,3,1,3
+MIBR_VS_FaZe_Clan_36bbcf79_da4a_46c6_92e5_4d20fdd3aea4,25,FaZe Clan|MIBR,3,1,4
+MIBR_VS_Heroic_fcf03079_9f8a_4038_80cb_df9fa0547e67,26,Heroic|MIBR,3,1,1
+MOUZ_VS_ENCE_70d7d916_5647_4141_a705_b9bbc6e2093a,22,ENCE|MOUZ,3,0,2
+MOUZ_VS_G2_Esports_4e6d6d4e_0a7c_4bc2_a773_1c0ef6f0de36,36,G2 Esports|MOUZ,3,0,2
+Movistar_Riders_VS_ENCE_4a86fa84_5d31_43a5_a107_d34549646097,30,ENCE|Movistar Riders,3,2,4
+Movistar_Riders_VS_Fiend_2ddcc9d7_0702_42de_952e_1170ca5adcfa,29,Fiend|Movistar Riders,3,2,2
+Movistar_Riders_VS_G2_Esports_8960bc49_f7ef_4ea3_a91d_e3b3cad6810b,26,G2 Esports|Movistar Riders,3,1,4
+Movistar_Riders_VS_Players_1eacbbe8_6612_4c97_9a74_27a1e0b7b6ec,23,Movistar Riders|Players,3,1,3
+Movistar_Riders_VS_Team_Liquid_521de194_f3e3_4764_993a_f770bd53a891,28,Movistar Riders|Team Liquid,3,4,2
+Movistar_Riders_VS_VP_Parimatch_7f28f209_585f_4842_aad3_10f8dbf3d839,24,Movistar Riders|VP Parimatch,3,4,0
+NAVI_GGBET_VS_G2_Esports_b01bb4b6_4221_4270_9b9f_16e32a24ab50,20,G2 Esports|NAVI GGBET,3,3,2
+NAVI_GGBET_VS_Heroic_9cb1365f_e7fa_41fc_b25f_b27df3c39f4e,22,Heroic|NAVI GGBET,3,3,2
+NAVI_GGBET_VS_TeamVitality_2e8e94ae_6874_4953_99f6_63f55171ce31,28,NAVI GGBET|TeamVitality,3,3,1
+NAVI_GG_BET_VS_Complexity_bdada140_b48c_4be0_93c3_ce2cd7973eed,27,Complexity|NAVI GG.BET,3,2,4
+NAVI_GG_BET_VS_FURIA_66345ce6_70ce_42e4_a716_9bdb83b12dba,26,FURIA|NAVI GG.BET,3,0,0
+NAVI_GG_BET_VS_FURIA_Esports_c4fc4286_3274_4ea7_b6c1_aaa2edb88b00,29,FURIA Esports|NAVI GG.BET,3,4,4
+NAVI_VS_Gambit_59b80bdd_b7e0_4d79_8ab0_941b8d989dc3,29,Gambit|NAVI,3,1,0
+Natus_Vincere_VS_FURIA_0657c9fd_a475_4257_8879_265fdbfd59b0,18,FURIA|Natus Vincere,3,4,1
+Natus_Vincere_VS_FaZe_Clan_1a73735c_2216_4614_a884_6109561483ed,41,FaZe Clan|Natus Vincere,3,4,0
+Natus_Vincere_VS_G2_Esports_73515c5e_c4da_4eb1_a029_e0c679022469,36,G2 Esports|Natus Vincere,3,3,3
+Natus_Vincere_VS_G2_Esports_93a6d3b7_eaa5_48e5_893c_37ddd0f3c263,30,G2 Esports|Natus Vincere,3,1,3
+Natus_Vincere_VS_G2_Esports_a03bf1a0_74bc_4308_84d1_ce615c60e281,25,G2 Esports|Natus Vincere,3,4,3
+Natus_Vincere_VS_G2_Esports_f6a2e8b5_8787_4353_8ba7_8d6f3619ef8a,24,G2 Esports|Natus Vincere,3,2,3
+Natus_Vincere_VS_Gambit_1553618a_ae96_4237_a2eb_7eebe9bc9bff,23,Gambit|Natus Vincere,3,0,0
+Natus_Vincere_VS_Gambit_725103ae_e7e7_4c3c_ada4_e5df99021b38,27,Gambit|Natus Vincere,3,1,0
+Natus_Vincere_VS_Gambit_Esports_b4fea9c9_af26_442d_9eea_c7dad86486bb,19,Gambit Esports|Natus Vincere,3,2,0
+Natus_Vincere_VS_MIBR_35e69a21_1401_4b37_a68c_f50f986f6533,27,MIBR|Natus Vincere,3,2,1
+Ninjas_In_Pyjamas_VS_G2_Esports_3b0d7d8d_3cf7_45c4_ace9_90913ccb712a,27,G2 Esports|Ninjas In Pyjamas,3,1,3
+Ninjas_In_Pyjamas_VS_Natus_Vincere_13c77e68_d62f_478c_89d3_05d31335d5ba,30,Natus Vincere|Ninjas In Pyjamas,3,4,3
+Ninjas_in_Pyjamas_VS_Astralis_0ae78b8c_ff38_49c9_8291_1bf11062db67,30,Astralis|Ninjas in Pyjamas,3,2,2
+Ninjas_in_Pyjamas_VS_BIG_Clan_7ea4b92b_b519_4560_9aff_d9af03223198,28,BIG Clan|Ninjas in Pyjamas,3,0,2
+Ninjas_in_Pyjamas_VS_ENCE_7661436d_fb0d_44ba_859a_02946733736c,23,ENCE|Ninjas in Pyjamas,3,0,2
+Ninjas_in_Pyjamas_VS_G2_Esports_417185bd_1f9a_4a77_8569_0e124917c1ca,30,G2 Esports|Ninjas in Pyjamas,3,3,0
+Ninjas_in_Pyjamas_VS_G2_Esports_6b9c4aca_ed93_4a26_b536_3192342ad7b4,41,G2 Esports|Ninjas in Pyjamas,3,4,0
+Ninjas_in_Pyjamas_VS_MOUZ_4816248a_7de1_499e_ac5e_32d49f545e5a,27,MOUZ|Ninjas in Pyjamas,3,1,3
+Ninjas_in_Pyjamas_VS_NAVI_GGBET_a7530323_4964_4460_aed0_ebb7e68bc7ad,23,NAVI GGBET|Ninjas in Pyjamas,3,4,2
+Ninjas_in_Pyjamas_VS_OG_Esports_a89ce504_36fb_4e3b_acdd_8d69ea449d72,28,Ninjas in Pyjamas|OG Esports,3,4,0
+Ninjas_in_Pyjamas_VS_Team_Liquid_8b16fbb6_44e2_4191_ba9e_3973c02f36f6,20,Ninjas in Pyjamas|Team Liquid,3,1,0
+Ninjas_in_Pyjamas_VS_Team_Liquid_8e2ff20c_3c3c_4810_a7e6_0d86d411d35c,22,Ninjas in Pyjamas|Team Liquid,3,2,0
+Ninjas_in_Pyjamas_VS_Team_Vitality_eeef2648_6656_4375_b182_c516d35abad5,25,Ninjas in Pyjamas|Team Vitality,3,1,2
+Ninjas_in_Pyjamas_VS_compLexity_63cda578_3070_48f1_9bc5_3e87d0443b97,26,Ninjas in Pyjamas|compLexity,3,2,2
+OGEsports_VS_FaZe_Clan_a6240476_ee3b_485d_874b_e5e55eb3e1d3,24,FaZe Clan|OGEsports,3,4,0
+OGEsports_VS_NAVI_GGBET_13cef8eb_6ddb_48f6_80b7_95b52f0bf1f2,24,NAVI GGBET|OGEsports,3,3,2
+OGEsports_VS_Ninjas_in_Pyjamas_e80e8176_00f0_4110_8e4b_ee452b3fe649,36,Ninjas in Pyjamas|OGEsports,3,2,1
+OGEsports_VS_compLexity_849cf5c3_89e3_4112_a92c_497c31ee14dd,16,OGEsports|compLexity,3,3,1
+OG_Esports_VS_Gambit_Esports_848b887c_4554_4a9c_b480_4be8851abc8d,30,Gambit Esports|OG Esports,3,3,0
+OG_Esports_VS_Ninjas_in_Pyjamas_24e3af62_dcf9_47b2_a644_83e9ad86ff01,25,Ninjas in Pyjamas|OG Esports,3,0,0
+OG_Esports_VS_forZe_Esports_857a56b5_afe2_4651_a593_122ed1069b8d,24,OG Esports|forZe Esports,3,1,2
+OG_VS_Complexity_c32dd58c_b127_48e6_98e2_560c85c32294,26,Complexity|OG,3,1,1
+OG_VS_ENCE_6513dfac_6bdb_4431_9271_e2960bbd1be8,26,ENCE|OG,3,1,0
+OG_VS_FaZe_Clan_15100743_6d3f_4452_a403_f458df727df5,20,FaZe Clan|OG,3,1,4
+OG_VS_TYLOO_6074e5d6_f4a9_4dbe_83d4_450d49a637e6,26,OG|TYLOO,3,0,1
+OG_VS_Team_Vitality_6b03b89b_48dd_48bb_a30e_19a1ad5c2163,25,OG|Team Vitality,3,1,2
+Outsiders_VS_Cloud9_fe317d45_273f_4ffe_805b_6d219d4cd751,28,Cloud9|Outsiders,3,2,3
+Outsiders_VS_ENCE_1d4536eb_dedd_41d6_8f99_803846465472,26,ENCE|Outsiders,3,4,3
+Outsiders_VS_FURIA_1aa3bf00_6172_4e39_a6f1_8078b1473c0a,30,FURIA|Outsiders,3,1,3
+Party_Astronauts_VS_Team_Liquid_ffa461c3_e698_46a0_955c_bbc4d4369210,25,Party Astronauts|Team Liquid,3,4,3
+Renegades_VS_Complexity_f0b4a1be_0628_463f_9332_3f9a423fcda7,27,Complexity|Renegades,3,4,2
+SINNERS_Esports_VS_G2_Esports_2bd9466d_1ec6_4d62_8546_cc5b377e6d37,25,G2 Esports|SINNERS Esports,3,2,3
+SKADE_VS_Fiend_1f96ec5f_17ea_41a8_9e5a_704ef3403e11,26,Fiend|SKADE,3,2,2
+Sampi_Tipsport_VS_DREAM_ab370a1f_ca2b_4d28_920f_71e99f474ed8,25,DREAM|Sampi.Tipsport,3,4,1
+Sampi_Tipsport_VS_Entropiq_15b1038e_0c35_4e42_970a_200445c0e2f2,20,Entropiq|Sampi.Tipsport,3,3,1
+Singularity_VS_K23_1xBET_7b520ade_d01f_4cdb_a60a_c8b5d84594ba,24,K23 1xBET|Singularity,3,2,3
+Sinners_VS_Entropiq_6bc24175_54c6_4f1b_a5af_0c22468bd281,30,Entropiq|Sinners,3,2,3
+Sprout_VS_FURIA_6065d854_d78a_4550_bfa2_bc8d5c68adf6,28,FURIA|Sprout,3,0,4
+TeamVitality_VS_Astralis_8ddb1672_ae23_4ad0_b41b_25add199cd3b,23,Astralis|TeamVitality,3,4,4
+TeamVitality_VS_G2_Esports_8c5e5fd4_20b5_4393_88c5_12d2a8a4b2fd,29,G2 Esports|TeamVitality,3,3,4
+TeamVitality_VS_G2_Esports_965cbf49_8995_4a1c_a889_a37670d490d2,20,G2 Esports|TeamVitality,3,2,4
+TeamVitality_VS_Team_Liquid_297b8d90_485b_48b5_8a30_85322b67e051,26,Team Liquid|TeamVitality,3,1,2
+TeamVitality_VS_Team_Liquid_50623056_f604_42ba_b3f9_ce01b95e90df,27,Team Liquid|TeamVitality,3,1,2
+TeamVitality_VS_compLexity_a58fa70c_a0fc_4d93_9e89_fe8af07362f0,27,TeamVitality|compLexity,3,1,2
+TeamVitality_VS_compLexity_d2941f71_552b_4d8e_96e9_ab7e45233371,25,TeamVitality|compLexity,3,0,2
+Team_Liquid_VS_Evil_Geniuses_23259457_fc02_47ba_b617_ecfc0b1da111,22,Evil Geniuses|Team Liquid,3,2,1
+Team_Liquid_VS_FaZe_Clan_99c3a39f_35fe_48ed_bab5_ec69d7e518e4,41,FaZe Clan|Team Liquid,3,3,0
+Team_Liquid_VS_FaZe_Clan_9c9999f8_8216_4ab2_b223_568c1c762aa8,27,FaZe Clan|Team Liquid,3,2,0
+Team_Liquid_VS_G2_Esports_259b88bc_d5b8_40f3_a45c_8cff2c7766f9,21,G2 Esports|Team Liquid,3,2,4
+Team_Liquid_VS_Gambit_Esports_9c01eead_9bae_4e6b_8bc8_153962815db1,28,Gambit Esports|Team Liquid,3,3,4
+Team_Liquid_VS_NAVI_GGBET_77318ad7_cafa_47af_95b3_02550974fb7d,26,NAVI GGBET|Team Liquid,3,4,3
+Team_Liquid_VS_Ninjas_in_Pyjamas_74b51f2d_cd8b_4543_b111_90626f211a27,18,Ninjas in Pyjamas|Team Liquid,3,0,0
+Team_Liquid_VS_OG_988e7854_d97a_478d_80c4_5bcf8ff39365,28,OG|Team Liquid,3,2,2
+Team_Liquid_VS_Team_oNe_f49655fa_ebda_437d_baeb_968916e23088,24,Team Liquid|Team oNe,3,2,3
+Team_One_VS_FURIA_Esports_ae1cfcc2_c643_4bb3_bb0e_eb6c74ef9be8,29,FURIA Esports|Team One,3,3,2
+Team_One_VS_Gambit_891751f3_228c_453e_8a36_b67ee9340cbd,21,Gambit|Team One,3,1,2
+Team_One_VS_MIBR_f612c41d_caaa_421d_accf_6f2add046076,22,MIBR|Team One,3,0,1
+Team_Spirit_VS_FaZe_Clan_f039b7f6_c55a_47c8_b43a_adc2d94ec40c,29,FaZe Clan|Team Spirit,3,3,1
+Team_Spirit_VS_Fiend_34c5d56a_851f_43d5_9b28_b99b05e52461,25,Fiend|Team Spirit,3,0,0
+Team_Spirit_VS_Imperial_Sportsbet_343f8f50_4467_4a8b_8fb1_f8f15588eb22,20,Imperial Sportsbet|Team Spirit,3,4,4
+Team_Spirit_VS_Team_Vitality_4a579240_4d99_4fa9_851e_9066e7a176f2,20,Team Spirit|Team Vitality,3,4,2
+Team_Vitality_VS_BIG_790a5467_bdf8_4482_8634_59a3099d1be0,27,BIG|Team Vitality,3,2,0
+Team_Vitality_VS_ENCE_070d18c2_93a2_4e4c_8642_ba658276229f,30,ENCE|Team Vitality,3,0,1
+Team_Vitality_VS_ENCE_f7c9da20_29e7_4dc4_9e52_44680c26a65a,24,ENCE|Team Vitality,3,3,1
+Team_Vitality_VS_FaZe_Clan_1373632b_521f_491e_b6f4_6f6e471eb2ff,26,FaZe Clan|Team Vitality,3,2,0
+Team_Vitality_VS_FaZe_Clan_8926ff97_cbf7_4f24_aa19_71bc9ec94c86,27,FaZe Clan|Team Vitality,3,1,0
+Team_Vitality_VS_FaZe_Clan_abf70b59_08a0_4f48_a483_7b90e0df9423,21,FaZe Clan|Team Vitality,3,3,0
+Team_Vitality_VS_G2_Esports_1914c3ce_29a5_4c8d_9839_9c0030a0a711,26,G2 Esports|Team Vitality,3,0,4
+Team_Vitality_VS_G2_Esports_ee9427f3_03bf_4962_b5a5_1938fa163ef4,30,G2 Esports|Team Vitality,3,4,4
+Team_Vitality_VS_Gambit_Esports_79b5ebf2_fab4_48bc_9697_5ba260b19226,23,Gambit Esports|Team Vitality,3,2,4
+Team_Vitality_VS_Gambit_Esports_fb4def27_0dc0_4154_a84d_12e2a03e50a3,36,Gambit Esports|Team Vitality,3,2,4
+Team_Vitality_VS_Heroic_343edef3_916d_4f85_93b4_3b32c0c70d00,28,Heroic|Team Vitality,3,3,3
+Team_Vitality_VS_Natus_Vincere_2f7a05ba_079d_4fe5_8380_c450eb50e138,26,Natus Vincere|Team Vitality,3,3,1
+Team_Vitality_VS_OG_Esports_dd0ec52a_bcc0_4618_8435_ddb0432880bf,28,OG Esports|Team Vitality,3,0,1
+Team_Vitality_VS_OG_Esports_eed7a65c_b250_4de3_90d0_ebb69c0181f0,25,OG Esports|Team Vitality,3,1,1
+Team_Vitality_VS_Team_Liquid_d2d9bb20_0dba_4cd4_986b_a3456f8dfeef,28,Team Liquid|Team Vitality,3,4,1
+Team_Vitality_VS_mousesports_456460d4_6b82_481b_80c7_765341ee0bd5,27,Team Vitality|mousesports,3,0,3
+Team_oNe_VS_Gambit_Esports_a31257d9_d974_407a_acb9_c8505ffffe0a,30,Gambit Esports|Team oNe,3,4,4
+Virtus_pro_Parimatch_VS_Complexity_59940a39_6100_4b2a_8708_f3d11ae6413a,25,Complexity|Virtus.pro Parimatch,3,1,2
+Virtus_pro_Parimatch_VS_FURIA_Esports_9ebbcaf0_1767_4254_9b67_1d3c20b34906,26,FURIA Esports|Virtus.pro Parimatch,3,2,4
+Virtus_pro_Parimatch_VS_Ninjas_in_Pyjamas_ce084937_09f0_4556_9aac_347dcd27c615,28,Ninjas in Pyjamas|Virtus.pro Parimatch,3,1,2
+Virtus_pro_Parimatch_VS_Team_Liquid_e6f1a8c9_690b_47a3_ba71_13343541fda6,28,Team Liquid|Virtus.pro Parimatch,3,3,1
+Virtus_pro_VS_G2_Esports_7063ca5d_8f7f_4e11_aa6c_d3084b3b323e,47,G2 Esports|Virtus.pro,3,1,3
+Virtus_pro_VS_G2_Esports_be640014_1959_4a86_8b10_93f770e4e9f4,27,G2 Esports|Virtus.pro,3,4,3
+Virtus_pro_VS_GODSENT_e563d6f5_c1b0_4688_b143_3e48499d67b8,30,GODSENT|Virtus.pro,3,0,0
+Virtus_pro_VS_OG_Esports_48b037f5_9673_4311_b1c6_b99351af0b80,27,OG Esports|Virtus.pro,3,2,3
+Virtus_pro_VS_Team_Vitality_779ac45e_0be0_42e6_8991_a89ceb07fa42,29,Team Vitality|Virtus.pro,3,2,1
+Virtus_pro_VS_forZe_7d979656_f618_428a_8323_51c28b83a9c0,27,Virtus.pro|forZe,3,1,2
+Virtus_pro_VS_forZe_Esports_7c0b7a62_2a6f_4c67_9588_72677bbe6108,23,Virtus.pro|forZe Esports,3,0,2
+Vitality_VS_Entropiq_66740ed5_68d5_4ae2_8155_2cee7faf17a3,30,Entropiq|Vitality,3,3,3
+Vitality_VS_Outsiders_b35a2097_3e27_4142_94ff_8e6960566836,24,Outsiders|Vitality,3,1,1
+Vitality_VS_Team_Liquid_37c8eb9f_890d_4035_a659_44911641213b,23,Team Liquid|Vitality,3,0,3
+compLexity_VS_G2_Esports_1ed4fb98_732e_4456_8516_a48da5bf05c1,27,G2 Esports|compLexity,3,4,4
+compLexity_VS_Gambit_c9feb32c_ed8d_46a9_b620_380f6dfff501,28,Gambit|compLexity,3,4,4
+eSuba_VS_BIG_fcd70f0a_7217_401c_85c6_f32f8d3cd89b,26,BIG|eSuba,3,2,1
+eSuba_VS_EXTREMUM_d05ede0d_bc51_4b88_83ca_81acb77483a0,27,EXTREMUM|eSuba,3,2,0
+eSuba_VS_Fiend_cb8f21bb_460a_4a52_b605_81bc9211bca6,27,Fiend|eSuba,3,3,3
+fnatic_VS_BIG_2db656d6_7c87_41d3_a291_64b2b40df97f,36,BIG|fnatic,3,3,4
+fnatic_VS_BIG_ae3f2e43_e046_4c60_bf66_3bb1ec6a61b0,29,BIG|fnatic,3,3,4
+fnatic_VS_FaZe_Clan_b0c8dcb3_0607_4c7b_879c_6e0329020f60,25,FaZe Clan|fnatic,3,0,0
+fnatic_VS_FaZe_Clan_d54c84c2_16bb_4acd_9ac2_6eff9ab999fa,21,FaZe Clan|fnatic,3,3,0
+fnatic_VS_G2_Esports_21a7ee8c_fc05_45ce_bafd_8a4796974633,23,G2 Esports|fnatic,3,3,1
+fnatic_VS_G2_Esports_2b0da293_a5f6_4a02_aede_12e2f1069254,23,G2 Esports|fnatic,3,4,1
+fnatic_VS_MOUZ_2ac1676d_316b_42e9_b88a_884bb7cfc367,24,MOUZ|fnatic,3,1,0
+forZe_VS_Complexity_fe19fbd9_80ab_4a38_9a06_31e9cbbded02,25,Complexity|forZe,3,0,2
+mousesports_VS_A_U_R_A_7e21d031_7bf8_4a49_bb48_4855ab534a04,26,A U R A|mousesports,3,0,0
+mousesports_VS_BIG_f781e3b8_ad9d_45c3_a0cf_286fb5a06923,28,BIG|mousesports,3,3,0
+mousesports_VS_FaZe_Clan_63df69fe_f161_4f30_af26_f7e5728cf89d,22,FaZe Clan|mousesports,3,3,3
+mousesports_VS_FaZe_Clan_6f44dae6_19dd_4d9c_8808_b5198f40150f,29,FaZe Clan|mousesports,3,4,3
+mousesports_VS_G2_Esports_13f47693_7c94_4823_bf44_2adadaf72be6,28,G2 Esports|mousesports,3,2,3
+mousesports_VS_G2_Esports_9e8d6ad0_1048_4909_8327_3eb857671aa2,28,G2 Esports|mousesports,3,0,3
+mousesports_VS_G2_Esports_dd7a24a7_80d9_4c21_9ff3_b7ae8771e410,26,G2 Esports|mousesports,3,4,3
+mousesports_VS_Gambit_Esports_28c6914e_e018_4d50_82f0_84082ae40d60,28,Gambit Esports|mousesports,3,2,3
+mousesports_VS_Natus_Vincere_0c0e9b95_be5b_4ff6_865f_141d714baa5c,25,Natus Vincere|mousesports,3,2,0
+mousesports_VS_Ninjas_in_Pyjamas_fd94b3a6_fe06_4151_b3ea_097e585bd540,30,Ninjas in Pyjamas|mousesports,3,0,0
+paiN_VS_FURIA_bdaa02a2_413e_4a08_8b19_f2406ca7bb86,28,FURIA|paiN,3,3,2
+x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04,71,Natus Vincere|x-kom AGO,3,3,2
+Astralis_VS_ENCE_b686b317_704a_4c0e_93d2_b531410de248,35,Astralis|ENCE,4,0,0
+Astralis_VS_FURIA_0a075b4d_576e_46f2_b944_fe9542faee54,27,Astralis|FURIA,4,3,2
+Astralis_VS_FURIA_d5635de8_d81d_4be6_99a2_5100ebc507f0,24,Astralis|FURIA,4,3,2
+Astralis_VS_FaZe_Clan_3b60f341_78e9_48ca_bf62_81e3abe527e1,26,Astralis|FaZe Clan,4,1,1
+Astralis_VS_K23_90c4e159_b93f_49fc_b892_2a2e369ca3ed,41,Astralis|K23,4,2,3
+Astralis_VS_NAVI_GGBET_8129e6d8_7fd0_4537_bbbe_e08bd0c8779e,36,Astralis|NAVI GGBET,4,0,0
+Astralis_VS_TeamVitality_2df97383_4d7a_440c_a689_71b98f3d5766,22,Astralis|TeamVitality,4,0,1
+Astralis_VS_Team_Liquid_6567090b_da33_4ba0_aefb_53b6ae9185ec,26,Astralis|Team Liquid,4,1,0
+Astralis_VS_Team_Liquid_f8d9cc9d_53b4_445f_b61a_ef30ac4d6520,29,Astralis|Team Liquid,4,4,0
+Astralis_VS_fnatic_5ca5654a_fd22_4430_875a_02e4f603e914,18,Astralis|fnatic,4,1,2
+Astralis_VS_x_kom_AGO_47dc5792_cb45_41d1_8271_7fd8bcd76c1c,29,Astralis|x-kom AGO,4,1,3
+BIG_Clan_VS_Astralis_c307fe7d_4bdc_47d6_ab32_2828f06b8f92,23,Astralis|BIG Clan,4,4,2
+BIG_Clan_VS_G2_Esports_19bef7ff_8e92_4add_90f3_323f2ba99ff2,23,BIG Clan|G2 Esports,4,3,2
+BIG_Clan_VS_Ninjas_in_Pyjamas_2219df2e_161c_4b27_b116_fd69eb601e99,29,BIG Clan|Ninjas in Pyjamas,4,1,0
+BIG_VS_A_U_R_A_19bf268e_607c_4425_8aab_0cbe198578a2,30,A U R A|BIG,4,4,2
+BIG_VS_Complexity_a797db2e_ac89_4434_a13f_dab006699545,28,BIG|Complexity,4,3,4
+BIG_VS_FaZe_Clan_99d9eb9b_1ea7_403f_ab5b_68066bb61b44,25,BIG|FaZe Clan,4,2,3
+BIG_VS_Fiend_f7de6a1d_0fea_4a9c_ac31_ac81a0e0e7a4,36,BIG|Fiend,4,2,3
+BIG_VS_G2_Esports_760148de_bc79_4643_bbde_5d287d7ef8f2,28,BIG|G2 Esports,4,3,3
+BIG_VS_K23_d7b9203a_a191_443f_9678_47bc0cb47e01,28,BIG|K23,4,3,1
+BIG_VS_Natus_Vincere_4e4d6ca9_edf8_4315_9879_ccfbc680e8ac,23,BIG|Natus Vincere,4,1,4
+BIG_VS_Team_Liquid_d83442a6_dbb1_4e9c_9ef2_a1f1d22f4e69,28,BIG|Team Liquid,4,4,4
+BIG_VS_Vitality_7d03108f_c00e_4ab8_a03f_4e34fc85cf81,25,BIG|Vitality,4,4,3
+BIG_VS_mousesports_856f0ca7_2890_4b51_bf46_ee44e0de6ae3,26,BIG|mousesports,4,2,3
+CPH_Flames_VS_Ninjas_in_Pyjamas_b06f4e67_d9d7_4803_bf51_de3567325873,28,CPH Flames|Ninjas in Pyjamas,4,1,2
+Complexity_VS_B_I_G_7f96daf3_7985_4f41_b4cf_664337a51cd4,35,B.I.G|Complexity,4,2,4
+Complexity_VS_Endpoint_CeX_6bcfbd1e_0008_4a71_a715_7fc681392345,23,Complexity|Endpoint.CeX,4,2,0
+Complexity_VS_G2_Esports_2ac03938_6b0b_442b_8899_2c56dfeb6f92,28,Complexity|G2 Esports,4,0,0
+Complexity_VS_Gambit_Esports_44069279_247a_4811_b2f7_2233cff6023c,23,Complexity|Gambit Esports,4,1,1
+Complexity_VS_Team_Vitality_93474513_6f7f_44ab_b6aa_58ade2255127,28,Complexity|Team Vitality,4,0,2
+Complexity_VS_Virtus_pro_779eca53_f7c0_4f9a_8012_45086c328254,22,Complexity|Virtus.pro,4,1,3
+Complexity_VS_forZe_Esports_67bdf08a_8ced_48fd_83b2_3392befdbc7a,28,Complexity|forZe Esports,4,3,1
+Copenhagen_Flames_VS_Team_Spirit_5cfa8f5b_671b_4ef8_9f0a_96ba66ac4d62,24,Copenhagen Flames|Team Spirit,4,4,1
+DignitasVIE_VS_Fiend_58e04be8_d9d5_4031_adda_bec6a4af79b9,25,DignitasVIE|Fiend,4,2,4
+Dignitas_VS_CPH_Flames_3c3f82ba_9887_4145_90bb_b73b0383373c,23,CPH Flames|Dignitas,4,0,1
+Dignitas_VS_EXTREMUM_99d643f6_a9d0_443e_832c_cd9c3f1d8796,23,Dignitas|EXTREMUM,4,0,1
+Dignitas_VS_Fiend_0f222f22_1d61_48c7_92a7_0578174959ba,29,Dignitas|Fiend,4,3,3
+ECSTATIC_VS_Entropiq_641fd7e4_544b_4e92_8d2b_536a5825376c,21,ECSTATIC|Entropiq,4,3,2
+EIQ_PRG_VS_Dynamo_Eclot_c405829a_45de_461d_8895_90f7fb92db88,29,Dynamo Eclot|EIQ PRG,4,4,1
+ENCE_VS_FURIA_8fadbb13_3728_4211_b0eb_cd4075a60218,29,ENCE|FURIA,4,0,4
+ENCE_VS_G2_Esports_1cb8b01a_f11e_4ef3_954d_5ce809b57506,22,ENCE|G2 Esports,4,3,3
+ENCE_VS_G2_Esports_20987bbd_21ef_469e_99b9_6654372b543e,24,ENCE|G2 Esports,4,0,3
+ENCE_VS_Ninjas_in_Pyjamas_dd96ccec_8374_4510_b295_b832eb539878,21,ENCE|Ninjas in Pyjamas,4,2,4
+ENCE_VS_OG_443be02f_3427_46ab_9719_3afe549723b6,53,ENCE|OG,4,0,0
+ENCE_VS_Outsiders_acf66d1a_4adc_4834_9be7_75ab6b981bd4,24,ENCE|Outsiders,4,0,0
+ENCE_VS_Team_Vitality_9869e869_1007_4b07_a7bf_d419dae83506,24,ENCE|Team Vitality,4,4,2
+ENCE_VS_forZe_Esports_6ef84ba7_509d_46d3_b508_defcd9e50305,27,ENCE|forZe Esports,4,1,4
+ENTERPRISE_VS_Dynamo_Eclot_6251904c_9ece_448c_8cd7_4dfb9f220657,23,Dynamo Eclot|ENTERPRISE,4,2,3
+Entropiq_VS_Enterprise_fb85b0f8_7f3f_40ea_b4e5_65f91fbb9ee7,20,Enterprise|Entropiq,4,0,0
+Entropiq_VS_Fiend_85c278a6_ffb6_485f_988b_15f6f3b2f2ad,28,Entropiq|Fiend,4,1,1
+Entropiq_VS_Gambit_fcde73c2_6b1d_4886_b626_61b13ace2bd1,23,Entropiq|Gambit,4,1,2
+Entropiq_VS_MOUZ_e7089cdf_ca0a_4658_932e_31fc1489a769,26,Entropiq|MOUZ,4,4,4
+Entropiq_VS_SINNERS_6219ff2f_f03c_4d2a_8758_9590ec81fb80,18,Entropiq|SINNERS,4,1,1
+Entropiq_VS_Team_oNe_33b018e0_5577_40ef_b06b_08f41e7a0d4f,22,Entropiq|Team oNe,4,3,0
+Eternal_Fire_VS_Entropiq_b42541c7_5eb1_41ba_9d1b_060ab63e3f31,25,Entropiq|Eternal Fire,4,3,1
+Eternal_Fire_VS_Fiend_0072d9d0_a907_44c2_a9c8_7f036e55333d,30,Eternal Fire|Fiend,4,0,1
+Evil_Geniuses_VS_FURIA_eSports_6567a96e_5fa0_4465_a3dc_bc7c8ceb9fb0,30,Evil Geniuses|FURIA eSports,4,1,1
+Evil_Geniuses_VS_FaZe_Clan_febff781_5bd0_4b8e_851c_9e0e2956c808,25,Evil Geniuses|FaZe Clan,4,3,1
+Evil_Geniuses_VS_Fnatic_7a767c73_e13a_4418_9a15_ff0f36555379,27,Evil Geniuses|Fnatic,4,1,2
+Evil_Geniuses_VS_Heroic_55ca3b46_3a75_48b6_94f8_fc9af0f976e9,29,Evil Geniuses|Heroic,4,0,3
+Evil_Geniuses_VS_compLexity_5cde6776_c3f0_411c_a5d2_0424166bc4e2,21,Evil Geniuses|compLexity,4,2,4
+FURIA_Esports_VS_FaZe_Clan_a98ffca7_e968_4a54_9e8f_22f101c2502b,24,FURIA Esports|FaZe Clan,4,3,0
+FURIA_VS_G2_Esports_cc5fc727_825d_45de_b1e3_2b51e9857b54,29,FURIA|G2 Esports,4,0,1
+FURIA_VS_Gambit_41ab7849_b871_4726_9cfe_5cabd2e9e573,25,FURIA|Gambit,4,3,1
+FURIA_VS_NAVI_4ea96fac_97a5_4cec_aa48_e7300e6bdf8e,22,FURIA|NAVI,4,4,4
+FURIA_VS_Ninjas_in_Pyjamas_f66a8d64_7aac_4609_89c5_f79b9a5b2485,25,FURIA|Ninjas in Pyjamas,4,2,2
+FURIA_VS_Team_oNe_f140d6b5_d829_49ab_93c8_da24648e07d8,30,FURIA|Team oNe,4,1,2
+FURIA_eSports_VS_G2_Esports_6a83cc41_6926_41fe_b2e4_27dc17d46d8e,30,FURIA eSports|G2 Esports,4,3,0
+FaZe_Clan_VS_ENCE_b63b2a87_38df_4aec_9af1_7a1e6382bcad,25,ENCE|FaZe Clan,4,4,1
+FaZe_Clan_VS_ENCE_f7514187_9f7d_48b8_abdb_a2404542e8d2,24,ENCE|FaZe Clan,4,0,1
+FaZe_Clan_VS_FURIA_7078326b_122b_4dab_b738_0bd88ae881f7,29,FURIA|FaZe Clan,4,4,0
+FaZe_Clan_VS_FURIA_869bc814_ed7b_42b1_836b_e1b1f4408bc4,35,FURIA|FaZe Clan,4,4,0
+FaZe_Clan_VS_G2_Esports_26867805_e335_4beb_9612_ad19c136e4d9,23,FaZe Clan|G2 Esports,4,4,4
+FaZe_Clan_VS_NAVI_GGBET_9b88dd66_00e5_4cf7_bcb1_e34c3ad16034,29,FaZe Clan|NAVI GGBET,4,2,1
+FaZe_Clan_VS_Natus_Vincere_f218743d_5e8b_436e_91bd_b7b3664c56c3,30,FaZe Clan|Natus Vincere,4,2,1
+FaZe_Clan_VS_Natus_Vincere_fd93d688_9948_46b6_a9ab_76ec7602c23f,23,FaZe Clan|Natus Vincere,4,1,1
+FaZe_Clan_VS_OG_cca3e1be_b825_4039_b736_23ab7fc0e667,23,FaZe Clan|OG,4,1,4
+FaZe_Clan_VS_Players_89d46453_a185_4f1e_8be1_df2a19ffd9de,21,FaZe Clan|Players,4,0,4
+FaZe_Clan_VS_Team_Liquid_a8899757_baf4_479a_8882_c99a3b911a7a,27,FaZe Clan|Team Liquid,4,4,3
+FaZe_VS_BIG_4bab9a63_42e6_4766_acb6_cae50d575d04,36,BIG|FaZe,4,3,3
+Fiend_VS_Entropiq_e497ac50_6564_4c65_a991_1ec47016a242,29,Entropiq|Fiend,4,3,1
+Fiend_VS_FaZe_Clan_0fd23068_c5bf_4ec9_8ae2_4c4a901bda5b,22,FaZe Clan|Fiend,4,4,3
+Fnatic_VS_Complexity_933b0221_3065_4617_8f30_eb216321ac79,28,Complexity|Fnatic,4,0,0
+Fnatic_VS_FaZe_Clan_d8e889bb_1d01_46c4_b43d_5d79c935240c,23,FaZe Clan|Fnatic,4,0,3
+Fnatic_VS_Heroic_fa8c2184_4bb2_4ce2_8ccb_814ba204e70e,30,Fnatic|Heroic,4,4,2
+Fnatic_VS_OG_9e15645e_1773_49f9_9d56_33b4a20cee33,27,Fnatic|OG,4,2,0
+FunPlus_Phoenix_VS_BIG_15344c55_e92f_45f5_86cc_b4a2033be996,26,BIG|FunPlus Phoenix,4,3,2
+G2_Esports_VS_A_U_R_A_bd9e476d_07a9_450f_8169_9ab6a3ab6e09,17,A U R A|G2 Esports,4,4,0
+G2_Esports_VS_Entropiq_d9db156e_3fe7_4aee_9cdd_4ae877a1362b,30,Entropiq|G2 Esports,4,3,2
+G2_Esports_VS_Fiend_84355bd5_a8a0_4c54_a35c_31a87c85a2ee,18,Fiend|G2 Esports,4,0,0
+G2_Esports_VS_Gambit_Esports_fae1d55d_cc37_4b36_a841_4b9fcb8cf432,29,G2 Esports|Gambit Esports,4,3,2
+G2_Esports_VS_Imperial_Esports_fb1292ee_58f8_46af_99cd_4dee2251a06c,28,G2 Esports|Imperial Esports,4,0,3
+G2_Esports_VS_MIBR_558a89cc_83f4_4b7d_92de_dad700845416,27,G2 Esports|MIBR,4,2,3
+G2_Esports_VS_Natus_Vincere_30884d24_3c0f_4147_90ca_e2e0f58ea30e,29,G2 Esports|Natus Vincere,4,4,0
+G2_Esports_VS_OG_Esports_e1589ea4_ccc0_4907_b81f_5161da7fcc9c,26,G2 Esports|OG Esports,4,4,4
+G2_Esports_VS_TYLOO_24802ae0_ae49_471c_9688_a712ab54e0df,29,G2 Esports|TYLOO,4,3,2
+G2_Esports_VS_compLexity_b084db84_f340_422a_a4d7_f60c400748ec,30,G2 Esports|compLexity,4,4,4
+G2_Esports_VS_forZe_Esports_bbe12832_0c8c_4cac_8125_62d6c25412ce,30,G2 Esports|forZe Esports,4,1,2
+GODSENT_VS_BIG_489338c2_71c4_4d7b_90f2_cb124986bd4b,28,BIG|GODSENT,4,1,0
+GODSENT_VS_ENCE_6d430aed_dbe8_42ea_98b4_ab2360c3de8b,27,ENCE|GODSENT,4,2,0
+GODSENT_VS_Players_157c39c0_d36c_4c10_8432_190c923ba278,19,GODSENT|Players,4,3,3
+Gambit_VS_Enterprise_0c8c7332_6a51_4e15_8eff_12a8e3634c40,22,Enterprise|Gambit,4,2,2
+Gambit_VS_Entropiq_4d4619ea_b3e9_450f_b9c3_3882c2a876a1,23,Entropiq|Gambit,4,0,2
+Gambit_VS_NAVI_GGBET_a3fbf302_b349_475c_9252_44f65ebb4fc7,27,Gambit|NAVI GGBET,4,0,1
+Gambit_VS_eSuba_2cb9e325_f962_411e_af76_010f6be393e5,36,Gambit|eSuba,4,1,3
+HAVU_VS_B_I_G_1876de5d_8dbb_4b4b_b5d9_f051f4901375,21,B.I.G|HAVU,4,2,4
+HAVU_VS_Complexity_677a5339_eea3_4a37_843e_a385147ce412,21,Complexity|HAVU,4,0,0
+HEROIC_VS_BIG_be25bf2e_5aaa_4be5_98ae_f2acb64febaf,26,BIG|HEROIC,4,2,4
+HEROIC_VS_NAVI_c7f0e145_6303_40e6_9b79_ab0f825db57d,27,HEROIC|NAVI,4,0,0
+Heroic_GGBET_VS_9z_1d515b6f_092b_447a_8fab_6778da8d50ce,24,9z|Heroic GGBET,4,2,4
+Heroic_VS_Astralis_2512bf15_d7b8_4c83_a402_43c3c0913a83,34,Astralis|Heroic,4,2,1
+Heroic_VS_BIG_56cc0c20_4bad_458a_b1f5_e9ab0f7d06ae,23,BIG|Heroic,4,4,3
+Heroic_VS_Bad_News_Bears_e41b1415_b868_49eb_b040_894e61c79ab6,17,Bad News Bears|Heroic,4,2,4
+Heroic_VS_ENCE_18319c80_8171_4a16_975d_76889e92362b,21,ENCE|Heroic,4,4,4
+Heroic_VS_ENCE_dc580163_7642_4713_ad0b_052c4fc11d49,28,ENCE|Heroic,4,0,4
+Heroic_VS_FURIA_8082f038_999c_4cc0_9219_e4f2f47737d1,27,FURIA|Heroic,4,0,4
+Heroic_VS_FaZe_Clan_094cae55_e4c2_4c54_ad8c_0b1f846d0068,26,FaZe Clan|Heroic,4,4,2
+Heroic_VS_FaZe_Clan_b5025518_f454_4613_91b0_0382cccf9a28,30,FaZe Clan|Heroic,4,3,2
+Heroic_VS_G2_Esports_96994a0e_6a86_48c4_9962_cb71dd7f5c14,26,G2 Esports|Heroic,4,0,2
+Heroic_VS_GODSENT_446cea4d_f23c_4932_bdb0_8108e5a53733,29,GODSENT|Heroic,4,0,2
+Heroic_VS_Gambit_Esports_f4098943_2e5b_48c6_a5de_353dfba3e640,19,Gambit Esports|Heroic,4,0,3
+Heroic_VS_NAVI_GGBET_8e945423_8029_472f_991f_075e8cea3821,30,Heroic|NAVI GGBET,4,3,4
+Heroic_VS_Natus_Vincere_69cf03cd_1be4_4ce6_98fa_dde9971bc518,30,Heroic|Natus Vincere,4,4,2
+Heroic_VS_Natus_Vincere_8c516ddf_4403_4eaa_a17d_44a9feae80f5,21,Heroic|Natus Vincere,4,1,2
+Heroic_VS_OG_bb7fb8a7_1a8b_4990_bb6b_b42109cb3259,22,Heroic|OG,4,2,2
+Heroic_VS_POGGERZ_a56115fd_a0ba_4eea_a618_91fd6c57177c,27,Heroic|POGGERZ,4,0,4
+Heroic_VS_Virtus_pro_347bfc41_a2c8_4684_afe8_052bcff0af77,26,Heroic|Virtus.pro,4,2,3
+Heroic_VS_Vitality_0839a031_0e2c_4c03_b4bc_b5ba05fe669a,23,Heroic|Vitality,4,0,0
+Imperial_Esports_VS_Bad_News_Eagles_2c3b80e0_fc3c_46fe_af19_352861db1dc9,30,Bad News Eagles|Imperial Esports,4,2,3
+Imperial_Esports_VS_Cloud9_1550fda2_2150_4a0b_ad50_c7b363e49b29,19,Cloud9|Imperial Esports,4,1,4
+LDLC_VS_Dynamo_Eclot_0ed3b2eb_5e2f_4529_8c9d_89fb41ee2f7c,27,Dynamo Eclot|LDLC,4,4,2
+LDLC_VS_K23_ead9cffe_46cb_42a5_bcae_31e7f8194d9c,22,K23|LDLC,4,1,1
+MAD_LIONS_VS_G2_Esports_93a63bac_bc90_4196_b262_311695e6360a,35,G2 Esports|MAD LIONS,4,4,0
+MAD_Lions_VS_ENCE_e8edf4dd_75be_4dc3_8533_bfe78b6a428f,27,ENCE|MAD Lions,4,4,0
+MIBR_VS_FaZe_Clan_36bbcf79_da4a_46c6_92e5_4d20fdd3aea4,25,FaZe Clan|MIBR,4,3,0
+MIBR_VS_Heroic_fcf03079_9f8a_4038_80cb_df9fa0547e67,26,Heroic|MIBR,4,0,0
+MOUZ_VS_ENCE_70d7d916_5647_4141_a705_b9bbc6e2093a,22,ENCE|MOUZ,4,0,4
+MOUZ_VS_G2_Esports_4e6d6d4e_0a7c_4bc2_a773_1c0ef6f0de36,36,G2 Esports|MOUZ,4,4,2
+Movistar_Riders_VS_ENCE_4a86fa84_5d31_43a5_a107_d34549646097,30,ENCE|Movistar Riders,4,2,3
+Movistar_Riders_VS_Fiend_2ddcc9d7_0702_42de_952e_1170ca5adcfa,29,Fiend|Movistar Riders,4,1,2
+Movistar_Riders_VS_G2_Esports_8960bc49_f7ef_4ea3_a91d_e3b3cad6810b,26,G2 Esports|Movistar Riders,4,1,2
+Movistar_Riders_VS_Players_1eacbbe8_6612_4c97_9a74_27a1e0b7b6ec,23,Movistar Riders|Players,4,3,2
+Movistar_Riders_VS_Team_Liquid_521de194_f3e3_4764_993a_f770bd53a891,28,Movistar Riders|Team Liquid,4,3,3
+Movistar_Riders_VS_VP_Parimatch_7f28f209_585f_4842_aad3_10f8dbf3d839,24,Movistar Riders|VP Parimatch,4,3,3
+NAVI_GGBET_VS_G2_Esports_b01bb4b6_4221_4270_9b9f_16e32a24ab50,20,G2 Esports|NAVI GGBET,4,1,0
+NAVI_GGBET_VS_Heroic_9cb1365f_e7fa_41fc_b25f_b27df3c39f4e,22,Heroic|NAVI GGBET,4,4,4
+NAVI_GGBET_VS_TeamVitality_2e8e94ae_6874_4953_99f6_63f55171ce31,28,NAVI GGBET|TeamVitality,4,3,4
+NAVI_GG_BET_VS_Complexity_bdada140_b48c_4be0_93c3_ce2cd7973eed,27,Complexity|NAVI GG.BET,4,0,3
+NAVI_GG_BET_VS_FURIA_66345ce6_70ce_42e4_a716_9bdb83b12dba,26,FURIA|NAVI GG.BET,4,4,0
+NAVI_GG_BET_VS_FURIA_Esports_c4fc4286_3274_4ea7_b6c1_aaa2edb88b00,29,FURIA Esports|NAVI GG.BET,4,1,4
+NAVI_VS_Gambit_59b80bdd_b7e0_4d79_8ab0_941b8d989dc3,29,Gambit|NAVI,4,2,2
+Natus_Vincere_VS_FURIA_0657c9fd_a475_4257_8879_265fdbfd59b0,18,FURIA|Natus Vincere,4,4,1
+Natus_Vincere_VS_FaZe_Clan_1a73735c_2216_4614_a884_6109561483ed,41,FaZe Clan|Natus Vincere,4,3,1
+Natus_Vincere_VS_G2_Esports_73515c5e_c4da_4eb1_a029_e0c679022469,36,G2 Esports|Natus Vincere,4,2,0
+Natus_Vincere_VS_G2_Esports_93a6d3b7_eaa5_48e5_893c_37ddd0f3c263,30,G2 Esports|Natus Vincere,4,3,0
+Natus_Vincere_VS_G2_Esports_a03bf1a0_74bc_4308_84d1_ce615c60e281,25,G2 Esports|Natus Vincere,4,0,0
+Natus_Vincere_VS_G2_Esports_f6a2e8b5_8787_4353_8ba7_8d6f3619ef8a,24,G2 Esports|Natus Vincere,4,0,0
+Natus_Vincere_VS_Gambit_1553618a_ae96_4237_a2eb_7eebe9bc9bff,23,Gambit|Natus Vincere,4,3,1
+Natus_Vincere_VS_Gambit_725103ae_e7e7_4c3c_ada4_e5df99021b38,27,Gambit|Natus Vincere,4,3,1
+Natus_Vincere_VS_Gambit_Esports_b4fea9c9_af26_442d_9eea_c7dad86486bb,19,Gambit Esports|Natus Vincere,4,3,1
+Natus_Vincere_VS_MIBR_35e69a21_1401_4b37_a68c_f50f986f6533,27,MIBR|Natus Vincere,4,0,4
+Ninjas_In_Pyjamas_VS_G2_Esports_3b0d7d8d_3cf7_45c4_ace9_90913ccb712a,27,G2 Esports|Ninjas In Pyjamas,4,1,3
+Ninjas_In_Pyjamas_VS_Natus_Vincere_13c77e68_d62f_478c_89d3_05d31335d5ba,30,Natus Vincere|Ninjas In Pyjamas,4,2,3
+Ninjas_in_Pyjamas_VS_Astralis_0ae78b8c_ff38_49c9_8291_1bf11062db67,30,Astralis|Ninjas in Pyjamas,4,3,4
+Ninjas_in_Pyjamas_VS_BIG_Clan_7ea4b92b_b519_4560_9aff_d9af03223198,28,BIG Clan|Ninjas in Pyjamas,4,4,0
+Ninjas_in_Pyjamas_VS_ENCE_7661436d_fb0d_44ba_859a_02946733736c,23,ENCE|Ninjas in Pyjamas,4,4,4
+Ninjas_in_Pyjamas_VS_G2_Esports_417185bd_1f9a_4a77_8569_0e124917c1ca,30,G2 Esports|Ninjas in Pyjamas,4,1,0
+Ninjas_in_Pyjamas_VS_G2_Esports_6b9c4aca_ed93_4a26_b536_3192342ad7b4,41,G2 Esports|Ninjas in Pyjamas,4,1,0
+Ninjas_in_Pyjamas_VS_MOUZ_4816248a_7de1_499e_ac5e_32d49f545e5a,27,MOUZ|Ninjas in Pyjamas,4,4,1
+Ninjas_in_Pyjamas_VS_NAVI_GGBET_a7530323_4964_4460_aed0_ebb7e68bc7ad,23,NAVI GGBET|Ninjas in Pyjamas,4,1,3
+Ninjas_in_Pyjamas_VS_OG_Esports_a89ce504_36fb_4e3b_acdd_8d69ea449d72,28,Ninjas in Pyjamas|OG Esports,4,1,0
+Ninjas_in_Pyjamas_VS_Team_Liquid_8b16fbb6_44e2_4191_ba9e_3973c02f36f6,20,Ninjas in Pyjamas|Team Liquid,4,4,2
+Ninjas_in_Pyjamas_VS_Team_Liquid_8e2ff20c_3c3c_4810_a7e6_0d86d411d35c,22,Ninjas in Pyjamas|Team Liquid,4,1,2
+Ninjas_in_Pyjamas_VS_Team_Vitality_eeef2648_6656_4375_b182_c516d35abad5,25,Ninjas in Pyjamas|Team Vitality,4,4,1
+Ninjas_in_Pyjamas_VS_compLexity_63cda578_3070_48f1_9bc5_3e87d0443b97,26,Ninjas in Pyjamas|compLexity,4,3,4
+OGEsports_VS_FaZe_Clan_a6240476_ee3b_485d_874b_e5e55eb3e1d3,24,FaZe Clan|OGEsports,4,2,4
+OGEsports_VS_NAVI_GGBET_13cef8eb_6ddb_48f6_80b7_95b52f0bf1f2,24,NAVI GGBET|OGEsports,4,1,1
+OGEsports_VS_Ninjas_in_Pyjamas_e80e8176_00f0_4110_8e4b_ee452b3fe649,36,Ninjas in Pyjamas|OGEsports,4,0,3
+OGEsports_VS_compLexity_849cf5c3_89e3_4112_a92c_497c31ee14dd,16,OGEsports|compLexity,4,3,4
+OG_Esports_VS_Gambit_Esports_848b887c_4554_4a9c_b480_4be8851abc8d,30,Gambit Esports|OG Esports,4,2,2
+OG_Esports_VS_Ninjas_in_Pyjamas_24e3af62_dcf9_47b2_a644_83e9ad86ff01,25,Ninjas in Pyjamas|OG Esports,4,4,0
+OG_Esports_VS_forZe_Esports_857a56b5_afe2_4651_a593_122ed1069b8d,24,OG Esports|forZe Esports,4,2,0
+OG_VS_Complexity_c32dd58c_b127_48e6_98e2_560c85c32294,26,Complexity|OG,4,1,0
+OG_VS_ENCE_6513dfac_6bdb_4431_9271_e2960bbd1be8,26,ENCE|OG,4,0,0
+OG_VS_FaZe_Clan_15100743_6d3f_4452_a403_f458df727df5,20,FaZe Clan|OG,4,2,4
+OG_VS_TYLOO_6074e5d6_f4a9_4dbe_83d4_450d49a637e6,26,OG|TYLOO,4,4,2
+OG_VS_Team_Vitality_6b03b89b_48dd_48bb_a30e_19a1ad5c2163,25,OG|Team Vitality,4,0,1
+Outsiders_VS_Cloud9_fe317d45_273f_4ffe_805b_6d219d4cd751,28,Cloud9|Outsiders,4,3,3
+Outsiders_VS_ENCE_1d4536eb_dedd_41d6_8f99_803846465472,26,ENCE|Outsiders,4,2,0
+Outsiders_VS_FURIA_1aa3bf00_6172_4e39_a6f1_8078b1473c0a,30,FURIA|Outsiders,4,3,0
+Party_Astronauts_VS_Team_Liquid_ffa461c3_e698_46a0_955c_bbc4d4369210,25,Party Astronauts|Team Liquid,4,2,4
+Renegades_VS_Complexity_f0b4a1be_0628_463f_9332_3f9a423fcda7,27,Complexity|Renegades,4,0,2
+SINNERS_Esports_VS_G2_Esports_2bd9466d_1ec6_4d62_8546_cc5b377e6d37,25,G2 Esports|SINNERS Esports,4,2,3
+SKADE_VS_Fiend_1f96ec5f_17ea_41a8_9e5a_704ef3403e11,26,Fiend|SKADE,4,2,3
+Sampi_Tipsport_VS_DREAM_ab370a1f_ca2b_4d28_920f_71e99f474ed8,25,DREAM|Sampi.Tipsport,4,3,3
+Sampi_Tipsport_VS_Entropiq_15b1038e_0c35_4e42_970a_200445c0e2f2,20,Entropiq|Sampi.Tipsport,4,4,1
+Singularity_VS_K23_1xBET_7b520ade_d01f_4cdb_a60a_c8b5d84594ba,24,K23 1xBET|Singularity,4,4,4
+Sinners_VS_Entropiq_6bc24175_54c6_4f1b_a5af_0c22468bd281,30,Entropiq|Sinners,4,4,3
+Sprout_VS_FURIA_6065d854_d78a_4550_bfa2_bc8d5c68adf6,28,FURIA|Sprout,4,2,4
+TeamVitality_VS_Astralis_8ddb1672_ae23_4ad0_b41b_25add199cd3b,23,Astralis|TeamVitality,4,4,1
+TeamVitality_VS_G2_Esports_8c5e5fd4_20b5_4393_88c5_12d2a8a4b2fd,29,G2 Esports|TeamVitality,4,3,1
+TeamVitality_VS_G2_Esports_965cbf49_8995_4a1c_a889_a37670d490d2,20,G2 Esports|TeamVitality,4,0,1
+TeamVitality_VS_Team_Liquid_297b8d90_485b_48b5_8a30_85322b67e051,26,Team Liquid|TeamVitality,4,2,4
+TeamVitality_VS_Team_Liquid_50623056_f604_42ba_b3f9_ce01b95e90df,27,Team Liquid|TeamVitality,4,4,4
+TeamVitality_VS_compLexity_a58fa70c_a0fc_4d93_9e89_fe8af07362f0,27,TeamVitality|compLexity,4,0,2
+TeamVitality_VS_compLexity_d2941f71_552b_4d8e_96e9_ab7e45233371,25,TeamVitality|compLexity,4,0,2
+Team_Liquid_VS_Evil_Geniuses_23259457_fc02_47ba_b617_ecfc0b1da111,22,Evil Geniuses|Team Liquid,4,0,4
+Team_Liquid_VS_FaZe_Clan_99c3a39f_35fe_48ed_bab5_ec69d7e518e4,41,FaZe Clan|Team Liquid,4,3,3
+Team_Liquid_VS_FaZe_Clan_9c9999f8_8216_4ab2_b223_568c1c762aa8,27,FaZe Clan|Team Liquid,4,4,3
+Team_Liquid_VS_G2_Esports_259b88bc_d5b8_40f3_a45c_8cff2c7766f9,21,G2 Esports|Team Liquid,4,1,2
+Team_Liquid_VS_Gambit_Esports_9c01eead_9bae_4e6b_8bc8_153962815db1,28,Gambit Esports|Team Liquid,4,4,3
+Team_Liquid_VS_NAVI_GGBET_77318ad7_cafa_47af_95b3_02550974fb7d,26,NAVI GGBET|Team Liquid,4,4,2
+Team_Liquid_VS_Ninjas_in_Pyjamas_74b51f2d_cd8b_4543_b111_90626f211a27,18,Ninjas in Pyjamas|Team Liquid,4,0,2
+Team_Liquid_VS_OG_988e7854_d97a_478d_80c4_5bcf8ff39365,28,OG|Team Liquid,4,2,0
+Team_Liquid_VS_Team_oNe_f49655fa_ebda_437d_baeb_968916e23088,24,Team Liquid|Team oNe,4,1,3
+Team_One_VS_FURIA_Esports_ae1cfcc2_c643_4bb3_bb0e_eb6c74ef9be8,29,FURIA Esports|Team One,4,1,0
+Team_One_VS_Gambit_891751f3_228c_453e_8a36_b67ee9340cbd,21,Gambit|Team One,4,3,4
+Team_One_VS_MIBR_f612c41d_caaa_421d_accf_6f2add046076,22,MIBR|Team One,4,2,4
+Team_Spirit_VS_FaZe_Clan_f039b7f6_c55a_47c8_b43a_adc2d94ec40c,29,FaZe Clan|Team Spirit,4,2,0
+Team_Spirit_VS_Fiend_34c5d56a_851f_43d5_9b28_b99b05e52461,25,Fiend|Team Spirit,4,0,4
+Team_Spirit_VS_Imperial_Sportsbet_343f8f50_4467_4a8b_8fb1_f8f15588eb22,20,Imperial Sportsbet|Team Spirit,4,4,4
+Team_Spirit_VS_Team_Vitality_4a579240_4d99_4fa9_851e_9066e7a176f2,20,Team Spirit|Team Vitality,4,0,1
+Team_Vitality_VS_BIG_790a5467_bdf8_4482_8634_59a3099d1be0,27,BIG|Team Vitality,4,4,0
+Team_Vitality_VS_ENCE_070d18c2_93a2_4e4c_8642_ba658276229f,30,ENCE|Team Vitality,4,1,2
+Team_Vitality_VS_ENCE_f7c9da20_29e7_4dc4_9e52_44680c26a65a,24,ENCE|Team Vitality,4,2,2
+Team_Vitality_VS_FaZe_Clan_1373632b_521f_491e_b6f4_6f6e471eb2ff,26,FaZe Clan|Team Vitality,4,2,1
+Team_Vitality_VS_FaZe_Clan_8926ff97_cbf7_4f24_aa19_71bc9ec94c86,27,FaZe Clan|Team Vitality,4,1,1
+Team_Vitality_VS_FaZe_Clan_abf70b59_08a0_4f48_a483_7b90e0df9423,21,FaZe Clan|Team Vitality,4,0,1
+Team_Vitality_VS_G2_Esports_1914c3ce_29a5_4c8d_9839_9c0030a0a711,26,G2 Esports|Team Vitality,4,3,1
+Team_Vitality_VS_G2_Esports_ee9427f3_03bf_4962_b5a5_1938fa163ef4,30,G2 Esports|Team Vitality,4,0,1
+Team_Vitality_VS_Gambit_Esports_79b5ebf2_fab4_48bc_9697_5ba260b19226,23,Gambit Esports|Team Vitality,4,4,0
+Team_Vitality_VS_Gambit_Esports_fb4def27_0dc0_4154_a84d_12e2a03e50a3,36,Gambit Esports|Team Vitality,4,1,0
+Team_Vitality_VS_Heroic_343edef3_916d_4f85_93b4_3b32c0c70d00,28,Heroic|Team Vitality,4,2,3
+Team_Vitality_VS_Natus_Vincere_2f7a05ba_079d_4fe5_8380_c450eb50e138,26,Natus Vincere|Team Vitality,4,2,1
+Team_Vitality_VS_OG_Esports_dd0ec52a_bcc0_4618_8435_ddb0432880bf,28,OG Esports|Team Vitality,4,3,4
+Team_Vitality_VS_OG_Esports_eed7a65c_b250_4de3_90d0_ebb69c0181f0,25,OG Esports|Team Vitality,4,1,4
+Team_Vitality_VS_Team_Liquid_d2d9bb20_0dba_4cd4_986b_a3456f8dfeef,28,Team Liquid|Team Vitality,4,4,1
+Team_Vitality_VS_mousesports_456460d4_6b82_481b_80c7_765341ee0bd5,27,Team Vitality|mousesports,4,2,1
+Team_oNe_VS_Gambit_Esports_a31257d9_d974_407a_acb9_c8505ffffe0a,30,Gambit Esports|Team oNe,4,1,4
+Virtus_pro_Parimatch_VS_Complexity_59940a39_6100_4b2a_8708_f3d11ae6413a,25,Complexity|Virtus.pro Parimatch,4,3,3
+Virtus_pro_Parimatch_VS_FURIA_Esports_9ebbcaf0_1767_4254_9b67_1d3c20b34906,26,FURIA Esports|Virtus.pro Parimatch,4,1,3
+Virtus_pro_Parimatch_VS_Ninjas_in_Pyjamas_ce084937_09f0_4556_9aac_347dcd27c615,28,Ninjas in Pyjamas|Virtus.pro Parimatch,4,0,4
+Virtus_pro_Parimatch_VS_Team_Liquid_e6f1a8c9_690b_47a3_ba71_13343541fda6,28,Team Liquid|Virtus.pro Parimatch,4,1,4
+Virtus_pro_VS_G2_Esports_7063ca5d_8f7f_4e11_aa6c_d3084b3b323e,47,G2 Esports|Virtus.pro,4,4,3
+Virtus_pro_VS_G2_Esports_be640014_1959_4a86_8b10_93f770e4e9f4,27,G2 Esports|Virtus.pro,4,3,3
+Virtus_pro_VS_GODSENT_e563d6f5_c1b0_4688_b143_3e48499d67b8,30,GODSENT|Virtus.pro,4,1,1
+Virtus_pro_VS_OG_Esports_48b037f5_9673_4311_b1c6_b99351af0b80,27,OG Esports|Virtus.pro,4,1,4
+Virtus_pro_VS_Team_Vitality_779ac45e_0be0_42e6_8991_a89ceb07fa42,29,Team Vitality|Virtus.pro,4,0,1
+Virtus_pro_VS_forZe_7d979656_f618_428a_8323_51c28b83a9c0,27,Virtus.pro|forZe,4,1,0
+Virtus_pro_VS_forZe_Esports_7c0b7a62_2a6f_4c67_9588_72677bbe6108,23,Virtus.pro|forZe Esports,4,2,2
+Vitality_VS_Entropiq_66740ed5_68d5_4ae2_8155_2cee7faf17a3,30,Entropiq|Vitality,4,3,2
+Vitality_VS_Outsiders_b35a2097_3e27_4142_94ff_8e6960566836,24,Outsiders|Vitality,4,1,1
+Vitality_VS_Team_Liquid_37c8eb9f_890d_4035_a659_44911641213b,23,Team Liquid|Vitality,4,2,2
+compLexity_VS_G2_Esports_1ed4fb98_732e_4456_8516_a48da5bf05c1,27,G2 Esports|compLexity,4,3,4
+compLexity_VS_Gambit_c9feb32c_ed8d_46a9_b620_380f6dfff501,28,Gambit|compLexity,4,2,1
+eSuba_VS_BIG_fcd70f0a_7217_401c_85c6_f32f8d3cd89b,26,BIG|eSuba,4,0,4
+eSuba_VS_EXTREMUM_d05ede0d_bc51_4b88_83ca_81acb77483a0,27,EXTREMUM|eSuba,4,3,3
+eSuba_VS_Fiend_cb8f21bb_460a_4a52_b605_81bc9211bca6,27,Fiend|eSuba,4,4,1
+fnatic_VS_BIG_2db656d6_7c87_41d3_a291_64b2b40df97f,36,BIG|fnatic,4,4,1
+fnatic_VS_BIG_ae3f2e43_e046_4c60_bf66_3bb1ec6a61b0,29,BIG|fnatic,4,1,1
+fnatic_VS_FaZe_Clan_b0c8dcb3_0607_4c7b_879c_6e0329020f60,25,FaZe Clan|fnatic,4,2,1
+fnatic_VS_FaZe_Clan_d54c84c2_16bb_4acd_9ac2_6eff9ab999fa,21,FaZe Clan|fnatic,4,1,1
+fnatic_VS_G2_Esports_21a7ee8c_fc05_45ce_bafd_8a4796974633,23,G2 Esports|fnatic,4,1,2
+fnatic_VS_G2_Esports_2b0da293_a5f6_4a02_aede_12e2f1069254,23,G2 Esports|fnatic,4,2,2
+fnatic_VS_MOUZ_2ac1676d_316b_42e9_b88a_884bb7cfc367,24,MOUZ|fnatic,4,3,3
+forZe_VS_Complexity_fe19fbd9_80ab_4a38_9a06_31e9cbbded02,25,Complexity|forZe,4,1,2
+mousesports_VS_A_U_R_A_7e21d031_7bf8_4a49_bb48_4855ab534a04,26,A U R A|mousesports,4,0,3
+mousesports_VS_BIG_f781e3b8_ad9d_45c3_a0cf_286fb5a06923,28,BIG|mousesports,4,1,3
+mousesports_VS_FaZe_Clan_63df69fe_f161_4f30_af26_f7e5728cf89d,22,FaZe Clan|mousesports,4,4,3
+mousesports_VS_FaZe_Clan_6f44dae6_19dd_4d9c_8808_b5198f40150f,29,FaZe Clan|mousesports,4,0,3
+mousesports_VS_G2_Esports_13f47693_7c94_4823_bf44_2adadaf72be6,28,G2 Esports|mousesports,4,3,4
+mousesports_VS_G2_Esports_9e8d6ad0_1048_4909_8327_3eb857671aa2,28,G2 Esports|mousesports,4,1,4
+mousesports_VS_G2_Esports_dd7a24a7_80d9_4c21_9ff3_b7ae8771e410,26,G2 Esports|mousesports,4,3,4
+mousesports_VS_Gambit_Esports_28c6914e_e018_4d50_82f0_84082ae40d60,28,Gambit Esports|mousesports,4,3,0
+mousesports_VS_Natus_Vincere_0c0e9b95_be5b_4ff6_865f_141d714baa5c,25,Natus Vincere|mousesports,4,4,2
+mousesports_VS_Ninjas_in_Pyjamas_fd94b3a6_fe06_4151_b3ea_097e585bd540,30,Ninjas in Pyjamas|mousesports,4,0,1
+paiN_VS_FURIA_bdaa02a2_413e_4a08_8b19_f2406ca7bb86,28,FURIA|paiN,4,2,4
+x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04,71,Natus Vincere|x-kom AGO,4,2,2

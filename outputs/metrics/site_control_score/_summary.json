@@ -1,0 +1,26 @@
+{
+  "n_plant_events_total": 3794,
+  "n_plant_events_scored": 3785,
+  "n_plant_events_dropped": 9,
+  "drop_reason_counts": {
+    "no control field rows found for V_s at this frame": 9
+  },
+  "mean_site_control_score": 0.27171642644866906,
+  "std_site_control_score": 0.08268642394221185,
+  "per_site_breakdown": {
+    "A": {
+      "mean": 0.2572401417741544,
+      "std": 0.08527807148538313,
+      "count": 2309
+    },
+    "B": {
+      "mean": 0.29436259265019654,
+      "std": 0.07293344600289177,
+      "count": 1476
+    }
+  },
+  "hypothesis_check": {
+    "description": "H2 / RQ2: mean Site Control Score should be < 0.5 at the moment of planting, indicating T-side spatial control.",
+    "passes": true
+  }
+}

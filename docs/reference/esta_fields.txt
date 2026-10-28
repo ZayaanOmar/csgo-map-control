@@ -1,0 +1,42 @@
+Found 8 de_mirage demos
+Top-level keys: ['clientName', 'mapName', 'tickRate', 'playbackTicks', 'playbackFramesCount', 'parsedToFrameIdx', 'parserParameters', 'serverVars', 'matchPhases', 'matchmakingRanks', 'playerConnections', 'gameRounds', 'matchId', 'demoId', 'competitionName', 'hltvUrl', 'matchDate', 'matchName']
+matchID: MISSING
+clientName: present
+mapName: present
+tickRate: present
+playbackTicks: present
+parserParameters: present
+serverVars: present
+gameRounds: present
+
+Number of Rounds: 30
+
+Round-level keys: ['roundNum', 'isWarmup', 'startTick', 'freezeTimeEndTick', 'endTick', 'endOfficialTick', 'bombPlantTick', 'tScore', 'ctScore', 'endTScore', 'endCTScore', 'ctTeam', 'tTeam', 'winningSide', 'winningTeam', 'losingTeam', 'roundEndReason', 'ctFreezeTimeEndEqVal', 'ctRoundStartEqVal', 'ctRoundSpendMoney', 'ctBuyType', 'tFreezeTimeEndEqVal', 'tRoundStartEqVal', 'tRoundSpendMoney', 'tBuyType', 'ctSide', 'tSide', 'kills', 'damages', 'grenades', 'bombEvents', 'weaponFires', 'flashes', 'frames']
+roundNum: present
+startTick: present
+endTick: present
+winningSide: present
+endTReason: MISSING
+tScore: present
+ctScore: present
+kills: present
+damages: present
+bombEvents: present
+grenades: present
+weaponFires: present
+flashes: present
+frames: present
+
+Frame-level keys: ['isKillFrame', 'tick', 'seconds', 'clockTime', 't', 'ct', 'bombPlanted', 'bombsite', 'bomb', 'projectiles', 'smokes', 'fires']
+
+Player-level keys:
+['steamID', 'name', 'team', 'side', 'x', 'y', 'z', 'velocityX', 'velocityY', 'velocityZ', 'viewX', 'viewY', 'hp', 'armor', 'activeWeapon', 'totalUtility', 'isAlive', 'isBlinded', 'isAirborne', 'isDucking', 'isDuckingInProgress', 'isUnDuckingInProgress', 'isDefusing', 'isPlanting', 'isReloading', 'isInBombZone', 'isInBuyZone', 'isStanding', 'isScoped', 'isWalking', 'isUnknown', 'inventory', 'spotters', 'equipmentValue', 'equipmentValueFreezetimeEnd', 'equipmentValueRoundStart', 'cash', 'cashSpendThisRound', 'cashSpendTotal', 'hasHelmet', 'hasDefuse', 'hasBomb', 'ping', 'zoomLevel']
+ x: present
+ y: present
+ z: present
+ velocityX: present
+ velocityY: present
+ velocityZ: present
+ isAlive: present
+ hp: present
+ armor: present

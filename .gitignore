@@ -1,0 +1,50 @@
+# =====================================================================
+# csgo-map-control — .gitignore
+# Policy: commit code, small static artefacts and dataset-level results.
+# Per-match outputs and raw demos are regenerable and published
+# separately (see README "Full outputs archive").
+# =====================================================================
+
+# ---------- Python / environment ----------
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# ---------- OS / editor / office lock files ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+.~lock.*#
+
+# ---------- Raw data (ESTA — download separately, see data/README.md) ----------
+data/raw_demos/
+data/filtered_demos/
+data/processed/
+data/sample/
+*.json.xz
+
+# ---------- Scratch, exploration, bundles ----------
+intermediate_outputs/
+_archive/
+*.zip
+*.tar.gz
+*.tar.xz
+*.odt
+
+# ---------- Per-match pipeline outputs ----------
+# Every per-match file/folder has "_VS_" in its name (match naming convention
+# {ctTeam}_VS_{tTeam}_{matchId}). Dataset-level files (_summary.json,
+# _area_summary.csv, _area_breakdown.csv, figures/, ...) do not, so they stay tracked.
+outputs/**/*_VS_*
+outputs/**/_tmp_frames/
+outputs/active_footprint_viz/
+outputs/heatmaps/
+
+# Window-level node feature matrices for the location predictor (regenerable, large)
+outputs/predictor*/window_node_*.parquet

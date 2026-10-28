@@ -1,0 +1,2669 @@
+{
+ "area_corr.betweenness_per_node_vs_contest": {
+  "estimate": 0.3435897435897436,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.0857"
+ },
+ "area_corr.betweenness_per_node_vs_contest_strict": {
+  "estimate": 0.059829059829059825,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.772"
+ },
+ "area_corr.betweenness_per_node_vs_kills_per_occupied_frame": {
+  "estimate": 0.10358974358974359,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.615"
+ },
+ "area_corr.betweenness_per_node_vs_kills_per_round": {
+  "estimate": 0.13848521317120305,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.5"
+ },
+ "area_corr.betweenness_per_node_vs_occupancy": {
+  "estimate": -0.059829059829059825,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.772"
+ },
+ "area_corr.betweenness_per_node_vs_occupancy_per_node": {
+  "estimate": -0.11931623931623932,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.562"
+ },
+ "area_corr.betweenness_per_node_vs_outcome_assoc": {
+  "estimate": 0.0988034188034188,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.631"
+ },
+ "area_corr.betweenness_per_node_vs_permutation": {
+  "estimate": 0.13777777777777778,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.502"
+ },
+ "area_corr.betweenness_sum_vs_contest": {
+  "estimate": 0.2827350427350427,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.162"
+ },
+ "area_corr.betweenness_sum_vs_contest_strict": {
+  "estimate": 0.021538461538461538,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.917"
+ },
+ "area_corr.betweenness_sum_vs_kills_per_occupied_frame": {
+  "estimate": -0.014017094017094016,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.946"
+ },
+ "area_corr.betweenness_sum_vs_kills_per_round": {
+  "estimate": 0.26431869081812337,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.192"
+ },
+ "area_corr.betweenness_sum_vs_occupancy": {
+  "estimate": 0.5535042735042734,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.00335"
+ },
+ "area_corr.betweenness_sum_vs_occupancy_per_node": {
+  "estimate": -0.6676923076923077,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.000194"
+ },
+ "area_corr.betweenness_sum_vs_outcome_assoc": {
+  "estimate": 0.06666666666666665,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.746"
+ },
+ "area_corr.betweenness_sum_vs_permutation": {
+  "estimate": -0.24034188034188034,
+  "hi": null,
+  "lo": null,
+  "n": 26,
+  "note": "Spearman, p=0.237"
+ },
+ "area_rank.Apartments.betweenness_per_node": {
+  "estimate": 17.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Apartments.contest": {
+  "estimate": 24.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Apartments.contest_strict": {
+  "estimate": 12.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Apartments.kills_per_occupied_frame": {
+  "estimate": 11.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Apartments.kills_per_round": {
+  "estimate": 4.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Apartments.occupancy": {
+  "estimate": 9.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Apartments.outcome_assoc": {
+  "estimate": 22.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Apartments.permutation": {
+  "estimate": 8.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BackAlley.betweenness_per_node": {
+  "estimate": 19.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BackAlley.contest": {
+  "estimate": 22.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BackAlley.contest_strict": {
+  "estimate": 23.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BackAlley.kills_per_occupied_frame": {
+  "estimate": 23.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BackAlley.kills_per_round": {
+  "estimate": 22.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BackAlley.occupancy": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BackAlley.outcome_assoc": {
+  "estimate": 26.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BackAlley.permutation": {
+  "estimate": 23.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Balcony.betweenness_per_node": {
+  "estimate": 24.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Balcony.contest": {
+  "estimate": 26.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Balcony.contest_strict": {
+  "estimate": 18.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Balcony.kills_per_occupied_frame": {
+  "estimate": 10.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Balcony.kills_per_round": {
+  "estimate": 19.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Balcony.occupancy": {
+  "estimate": 26.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Balcony.outcome_assoc": {
+  "estimate": 7.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Balcony.permutation": {
+  "estimate": 4.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteA.betweenness_per_node": {
+  "estimate": 12.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteA.contest": {
+  "estimate": 2.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteA.contest_strict": {
+  "estimate": 1.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteA.kills_per_occupied_frame": {
+  "estimate": 3.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteA.kills_per_round": {
+  "estimate": 1.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteA.occupancy": {
+  "estimate": 1.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteA.outcome_assoc": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteA.permutation": {
+  "estimate": 25.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteB.betweenness_per_node": {
+  "estimate": 22.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteB.contest": {
+  "estimate": 6.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteB.contest_strict": {
+  "estimate": 9.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteB.kills_per_occupied_frame": {
+  "estimate": 9.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteB.kills_per_round": {
+  "estimate": 2.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteB.occupancy": {
+  "estimate": 2.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteB.outcome_assoc": {
+  "estimate": 6.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.BombsiteB.permutation": {
+  "estimate": 24.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.CTSpawn.betweenness_per_node": {
+  "estimate": 18.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.CTSpawn.contest": {
+  "estimate": 9.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.CTSpawn.contest_strict": {
+  "estimate": 16.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.CTSpawn.kills_per_occupied_frame": {
+  "estimate": 21.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.CTSpawn.kills_per_round": {
+  "estimate": 16.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.CTSpawn.occupancy": {
+  "estimate": 3.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.CTSpawn.outcome_assoc": {
+  "estimate": 19.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.CTSpawn.permutation": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Catwalk.betweenness_per_node": {
+  "estimate": 7.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Catwalk.contest": {
+  "estimate": 10.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Catwalk.contest_strict": {
+  "estimate": 10.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Catwalk.kills_per_occupied_frame": {
+  "estimate": 7.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Catwalk.kills_per_round": {
+  "estimate": 3.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Catwalk.occupancy": {
+  "estimate": 5.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Catwalk.outcome_assoc": {
+  "estimate": 15.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Catwalk.permutation": {
+  "estimate": 7.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Connector.betweenness_per_node": {
+  "estimate": 1.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Connector.contest": {
+  "estimate": 5.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Connector.contest_strict": {
+  "estimate": 3.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Connector.kills_per_occupied_frame": {
+  "estimate": 4.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Connector.kills_per_round": {
+  "estimate": 5.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Connector.occupancy": {
+  "estimate": 14.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Connector.outcome_assoc": {
+  "estimate": 10.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Connector.permutation": {
+  "estimate": 19.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.House.betweenness_per_node": {
+  "estimate": 9.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.House.contest": {
+  "estimate": 21.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.House.contest_strict": {
+  "estimate": 24.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.House.kills_per_occupied_frame": {
+  "estimate": 25.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.House.kills_per_round": {
+  "estimate": 25.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.House.occupancy": {
+  "estimate": 19.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.House.outcome_assoc": {
+  "estimate": 9.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.House.permutation": {
+  "estimate": 26.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Jungle.betweenness_per_node": {
+  "estimate": 8.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Jungle.contest": {
+  "estimate": 3.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Jungle.contest_strict": {
+  "estimate": 4.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Jungle.kills_per_occupied_frame": {
+  "estimate": 6.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Jungle.kills_per_round": {
+  "estimate": 7.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Jungle.occupancy": {
+  "estimate": 16.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Jungle.outcome_assoc": {
+  "estimate": 11.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Jungle.permutation": {
+  "estimate": 5.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Ladder.betweenness_per_node": {
+  "estimate": 25.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Ladder.contest": {
+  "estimate": 25.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Ladder.contest_strict": {
+  "estimate": 14.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Ladder.kills_per_occupied_frame": {
+  "estimate": 18.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Ladder.kills_per_round": {
+  "estimate": 21.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Ladder.occupancy": {
+  "estimate": 23.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Ladder.outcome_assoc": {
+  "estimate": 16.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Ladder.permutation": {
+  "estimate": 22.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Middle.betweenness_per_node": {
+  "estimate": 4.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Middle.contest": {
+  "estimate": 7.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Middle.contest_strict": {
+  "estimate": 8.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Middle.kills_per_occupied_frame": {
+  "estimate": 5.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Middle.kills_per_round": {
+  "estimate": 6.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Middle.occupancy": {
+  "estimate": 15.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Middle.outcome_assoc": {
+  "estimate": 4.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Middle.permutation": {
+  "estimate": 10.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceAlley.betweenness_per_node": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceAlley.contest": {
+  "estimate": 19.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceAlley.contest_strict": {
+  "estimate": 21.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceAlley.kills_per_occupied_frame": {
+  "estimate": 22.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceAlley.kills_per_round": {
+  "estimate": 20.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceAlley.occupancy": {
+  "estimate": 6.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceAlley.outcome_assoc": {
+  "estimate": 25.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceAlley.permutation": {
+  "estimate": 18.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceInterior.betweenness_per_node": {
+  "estimate": 21.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceInterior.contest": {
+  "estimate": 17.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceInterior.contest_strict": {
+  "estimate": 15.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceInterior.kills_per_occupied_frame": {
+  "estimate": 19.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceInterior.kills_per_round": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceInterior.occupancy": {
+  "estimate": 4.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceInterior.outcome_assoc": {
+  "estimate": 12.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.PalaceInterior.permutation": {
+  "estimate": 15.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Scaffolding.betweenness_per_node": {
+  "estimate": 23.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Scaffolding.contest": {
+  "estimate": 4.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Scaffolding.contest_strict": {
+  "estimate": 2.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Scaffolding.kills_per_occupied_frame": {
+  "estimate": 1.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Scaffolding.kills_per_round": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Scaffolding.occupancy": {
+  "estimate": 25.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Scaffolding.outcome_assoc": {
+  "estimate": 20.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Scaffolding.permutation": {
+  "estimate": 9.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Shop.betweenness_per_node": {
+  "estimate": 5.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Shop.contest": {
+  "estimate": 8.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Shop.contest_strict": {
+  "estimate": 19.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Shop.kills_per_occupied_frame": {
+  "estimate": 16.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Shop.kills_per_round": {
+  "estimate": 15.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Shop.occupancy": {
+  "estimate": 17.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Shop.outcome_assoc": {
+  "estimate": 24.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Shop.permutation": {
+  "estimate": 11.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SideAlley.betweenness_per_node": {
+  "estimate": 10.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SideAlley.contest": {
+  "estimate": 20.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SideAlley.contest_strict": {
+  "estimate": 25.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SideAlley.kills_per_occupied_frame": {
+  "estimate": 24.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SideAlley.kills_per_round": {
+  "estimate": 23.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SideAlley.occupancy": {
+  "estimate": 12.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SideAlley.outcome_assoc": {
+  "estimate": 3.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SideAlley.permutation": {
+  "estimate": 16.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SnipersNest.betweenness_per_node": {
+  "estimate": 16.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SnipersNest.contest": {
+  "estimate": 11.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SnipersNest.contest_strict": {
+  "estimate": 6.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SnipersNest.kills_per_occupied_frame": {
+  "estimate": 14.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SnipersNest.kills_per_round": {
+  "estimate": 11.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SnipersNest.occupancy": {
+  "estimate": 11.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SnipersNest.outcome_assoc": {
+  "estimate": 2.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.SnipersNest.permutation": {
+  "estimate": 1.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Stairs.betweenness_per_node": {
+  "estimate": 11.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Stairs.contest": {
+  "estimate": 1.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Stairs.contest_strict": {
+  "estimate": 11.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Stairs.kills_per_occupied_frame": {
+  "estimate": 2.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Stairs.kills_per_round": {
+  "estimate": 12.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Stairs.occupancy": {
+  "estimate": 22.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Stairs.outcome_assoc": {
+  "estimate": 23.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Stairs.permutation": {
+  "estimate": 3.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TRamp.betweenness_per_node": {
+  "estimate": 6.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TRamp.contest": {
+  "estimate": 12.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TRamp.contest_strict": {
+  "estimate": 5.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TRamp.kills_per_occupied_frame": {
+  "estimate": 8.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TRamp.kills_per_round": {
+  "estimate": 8.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TRamp.occupancy": {
+  "estimate": 18.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TRamp.outcome_assoc": {
+  "estimate": 21.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TRamp.permutation": {
+  "estimate": 6.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TSpawn.betweenness_per_node": {
+  "estimate": 15.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TSpawn.contest": {
+  "estimate": 23.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TSpawn.contest_strict": {
+  "estimate": 26.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TSpawn.kills_per_occupied_frame": {
+  "estimate": 26.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TSpawn.kills_per_round": {
+  "estimate": 26.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TSpawn.occupancy": {
+  "estimate": 10.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TSpawn.outcome_assoc": {
+  "estimate": 5.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TSpawn.permutation": {
+  "estimate": 21.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TicketBooth.betweenness_per_node": {
+  "estimate": 14.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TicketBooth.contest": {
+  "estimate": 14.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TicketBooth.contest_strict": {
+  "estimate": 7.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TicketBooth.kills_per_occupied_frame": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TicketBooth.kills_per_round": {
+  "estimate": 10.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TicketBooth.occupancy": {
+  "estimate": 7.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TicketBooth.outcome_assoc": {
+  "estimate": 18.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TicketBooth.permutation": {
+  "estimate": 17.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TopofMid.betweenness_per_node": {
+  "estimate": 20.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TopofMid.contest": {
+  "estimate": 15.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TopofMid.contest_strict": {
+  "estimate": 20.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TopofMid.kills_per_occupied_frame": {
+  "estimate": 12.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TopofMid.kills_per_round": {
+  "estimate": 9.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TopofMid.occupancy": {
+  "estimate": 8.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TopofMid.outcome_assoc": {
+  "estimate": 17.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TopofMid.permutation": {
+  "estimate": 12.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Truck.betweenness_per_node": {
+  "estimate": 26.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Truck.contest": {
+  "estimate": 16.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Truck.contest_strict": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Truck.kills_per_occupied_frame": {
+  "estimate": 15.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Truck.kills_per_round": {
+  "estimate": 18.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Truck.occupancy": {
+  "estimate": 21.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Truck.outcome_assoc": {
+  "estimate": 8.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Truck.permutation": {
+  "estimate": 14.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Tunnel.betweenness_per_node": {
+  "estimate": 2.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Tunnel.contest": {
+  "estimate": 13.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Tunnel.contest_strict": {
+  "estimate": 17.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Tunnel.kills_per_occupied_frame": {
+  "estimate": 17.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Tunnel.kills_per_round": {
+  "estimate": 17.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Tunnel.occupancy": {
+  "estimate": 20.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Tunnel.outcome_assoc": {
+  "estimate": 1.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.Tunnel.permutation": {
+  "estimate": 2.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TunnelStairs.betweenness_per_node": {
+  "estimate": 3.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TunnelStairs.contest": {
+  "estimate": 18.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TunnelStairs.contest_strict": {
+  "estimate": 22.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TunnelStairs.kills_per_occupied_frame": {
+  "estimate": 20.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TunnelStairs.kills_per_round": {
+  "estimate": 24.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TunnelStairs.occupancy": {
+  "estimate": 24.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TunnelStairs.outcome_assoc": {
+  "estimate": 14.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_rank.TunnelStairs.permutation": {
+  "estimate": 20.0,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "1 = most important by this measure"
+ },
+ "area_value.Apartments.ct_occupancy_coef": {
+  "estimate": -0.06817871977816985,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Apartments.outcome_coef": {
+  "estimate": -0.010500763830053435,
+  "hi": 0.039260723280191735,
+  "lo": -0.06223219523109864,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Apartments.t_occupancy_importance": {
+  "estimate": 0.03482544403076745,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.BackAlley.ct_occupancy_coef": {
+  "estimate": 0.018698731947054768,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.BackAlley.outcome_coef": {
+  "estimate": -0.00034275570765954943,
+  "hi": 0.0490759733504583,
+  "lo": -0.05038931235440032,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.BackAlley.t_occupancy_importance": {
+  "estimate": 0.007112771406179728,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Balcony.ct_occupancy_coef": {
+  "estimate": -0.04249364949870344,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Balcony.outcome_coef": {
+  "estimate": -0.0566563535337989,
+  "hi": -0.007385415227104292,
+  "lo": -0.10408647487248875,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Balcony.t_occupancy_importance": {
+  "estimate": 0.032329048035309914,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.BombsiteA.ct_occupancy_coef": {
+  "estimate": -0.07022485753994002,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.BombsiteA.outcome_coef": {
+  "estimate": -0.030457795115235463,
+  "hi": 0.023084605031134783,
+  "lo": -0.09129139676833882,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.BombsiteA.t_occupancy_importance": {
+  "estimate": 0.05155271641302773,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.BombsiteB.ct_occupancy_coef": {
+  "estimate": -0.05806310016877829,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.BombsiteB.outcome_coef": {
+  "estimate": -0.07132114434599142,
+  "hi": -0.022087364298102524,
+  "lo": -0.1229815768471997,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.BombsiteB.t_occupancy_importance": {
+  "estimate": 0.09976944683377151,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.CTSpawn.ct_occupancy_coef": {
+  "estimate": 0.05858080511681096,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.CTSpawn.outcome_coef": {
+  "estimate": 0.013442887177497122,
+  "hi": 0.06358838061251659,
+  "lo": -0.03704784555653565,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.CTSpawn.t_occupancy_importance": {
+  "estimate": 0.0013494519643782084,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Catwalk.ct_occupancy_coef": {
+  "estimate": 0.0135605506854199,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Catwalk.outcome_coef": {
+  "estimate": 0.027792143289106275,
+  "hi": 0.07530463603716216,
+  "lo": -0.025006078805444913,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Catwalk.t_occupancy_importance": {
+  "estimate": 0.0273020374741922,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Connector.ct_occupancy_coef": {
+  "estimate": 0.002375749373541724,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Connector.outcome_coef": {
+  "estimate": 0.03552371974307252,
+  "hi": 0.08773634819452882,
+  "lo": -0.015443780916024797,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Connector.t_occupancy_importance": {
+  "estimate": 0.02807497933933931,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.House.ct_occupancy_coef": {
+  "estimate": 0.016321457445592883,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.House.outcome_coef": {
+  "estimate": -0.042298948915392244,
+  "hi": 0.007755618963806487,
+  "lo": -0.09583175489030363,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.House.t_occupancy_importance": {
+  "estimate": -0.03165689381421438,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Jungle.ct_occupancy_coef": {
+  "estimate": -0.05553888094364056,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Jungle.outcome_coef": {
+  "estimate": 0.03416374592149217,
+  "hi": 0.08800014171858152,
+  "lo": -0.017129355210103198,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Jungle.t_occupancy_importance": {
+  "estimate": 0.04985466747686268,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Ladder.ct_occupancy_coef": {
+  "estimate": 0.009984465719812137,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Ladder.outcome_coef": {
+  "estimate": 0.02397012392050869,
+  "hi": 0.07234612917179302,
+  "lo": -0.02946875366293132,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Ladder.t_occupancy_importance": {
+  "estimate": -0.010766647789484019,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Middle.ct_occupancy_coef": {
+  "estimate": 0.05599105064654253,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Middle.outcome_coef": {
+  "estimate": 0.07766038048984987,
+  "hi": 0.1339220485042242,
+  "lo": 0.02531269487753673,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Middle.t_occupancy_importance": {
+  "estimate": 0.00031397545462237114,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.PalaceAlley.ct_occupancy_coef": {
+  "estimate": -0.003357719043371037,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.PalaceAlley.outcome_coef": {
+  "estimate": 0.00040154161105868086,
+  "hi": 0.051351210667840576,
+  "lo": -0.04692042784544502,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.PalaceAlley.t_occupancy_importance": {
+  "estimate": 0.007440925997394281,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.PalaceInterior.ct_occupancy_coef": {
+  "estimate": 0.005418273224822567,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.PalaceInterior.outcome_coef": {
+  "estimate": 0.033579209867329284,
+  "hi": 0.07969723042118135,
+  "lo": -0.01617180818881151,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.PalaceInterior.t_occupancy_importance": {
+  "estimate": 0.03875189710274274,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Scaffolding.ct_occupancy_coef": {
+  "estimate": -0.0050301390920062155,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Scaffolding.outcome_coef": {
+  "estimate": -0.012681084701537325,
+  "hi": 0.039931802489466664,
+  "lo": -0.07102199906907189,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Scaffolding.t_occupancy_importance": {
+  "estimate": -0.023857473526342553,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Shop.ct_occupancy_coef": {
+  "estimate": -0.042542680111881864,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Shop.outcome_coef": {
+  "estimate": 0.0011742602293361016,
+  "hi": 0.05385067261178599,
+  "lo": -0.048690266244839214,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Shop.t_occupancy_importance": {
+  "estimate": 0.02873963307260304,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.SideAlley.ct_occupancy_coef": {
+  "estimate": 0.04931876214583975,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.SideAlley.outcome_coef": {
+  "estimate": -0.0804374737620343,
+  "hi": -0.025910671207939266,
+  "lo": -0.1346331329745401,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.SideAlley.t_occupancy_importance": {
+  "estimate": -0.07817412769921916,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.SnipersNest.ct_occupancy_coef": {
+  "estimate": 0.09329951617024833,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.SnipersNest.outcome_coef": {
+  "estimate": 0.08619874212437441,
+  "hi": 0.13444156118655803,
+  "lo": 0.0379935267389233,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.SnipersNest.t_occupancy_importance": {
+  "estimate": -0.014185743784337214,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Stairs.ct_occupancy_coef": {
+  "estimate": 0.023654581879205834,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Stairs.outcome_coef": {
+  "estimate": 0.006415208317655247,
+  "hi": 0.06192917222977895,
+  "lo": -0.04453396585432401,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Stairs.t_occupancy_importance": {
+  "estimate": 0.031344183694271506,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.TRamp.ct_occupancy_coef": {
+  "estimate": -0.03868323631039256,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.TRamp.outcome_coef": {
+  "estimate": 0.011091466122222506,
+  "hi": 0.06090862229291067,
+  "lo": -0.034254151582918495,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.TRamp.t_occupancy_importance": {
+  "estimate": 0.036629141684148034,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.TSpawn.ct_occupancy_coef": {
+  "estimate": 0.022532128746899818,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.TSpawn.outcome_coef": {
+  "estimate": -0.07335824039537264,
+  "hi": -0.024227200253026625,
+  "lo": -0.11919033714030582,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.TSpawn.t_occupancy_importance": {
+  "estimate": -0.055542194480795073,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.TicketBooth.ct_occupancy_coef": {
+  "estimate": -0.029817966700394466,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.TicketBooth.outcome_coef": {
+  "estimate": -0.018644570977120727,
+  "hi": 0.0307678886116231,
+  "lo": -0.06935474010256759,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.TicketBooth.t_occupancy_importance": {
+  "estimate": 0.03641419031311081,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.TopofMid.ct_occupancy_coef": {
+  "estimate": 0.045988585658967865,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.TopofMid.outcome_coef": {
+  "estimate": -0.021211403764591415,
+  "hi": 0.03199361429357789,
+  "lo": -0.07525216668942411,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.TopofMid.t_occupancy_importance": {
+  "estimate": -0.03908978613857716,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Truck.ct_occupancy_coef": {
+  "estimate": -0.012311877478521088,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Truck.outcome_coef": {
+  "estimate": -0.05607893913108192,
+  "hi": -0.006495716993309061,
+  "lo": -0.10545591446302305,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Truck.t_occupancy_importance": {
+  "estimate": 0.0023014979058736417,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.Tunnel.ct_occupancy_coef": {
+  "estimate": 0.06336238211388595,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.Tunnel.outcome_coef": {
+  "estimate": 0.10111286158536455,
+  "hi": 0.1535469503849054,
+  "lo": 0.05008276889395252,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.Tunnel.t_occupancy_importance": {
+  "estimate": 0.05809007672344664,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "area_value.TunnelStairs.ct_occupancy_coef": {
+  "estimate": 0.016975876633981445,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "CT presence -> CT win (pre-engagement)"
+ },
+ "area_value.TunnelStairs.outcome_coef": {
+  "estimate": 0.029111716717490254,
+  "hi": 0.07872856391215773,
+  "lo": -0.019865229908504516,
+  "n": 7391,
+  "note": "std. logit coef of CT control on CT win"
+ },
+ "area_value.TunnelStairs.t_occupancy_importance": {
+  "estimate": 0.01808457077908239,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "T presence -> T win (pre-engagement)"
+ },
+ "duel.fav_win_rate": {
+  "estimate": 0.49900584442971624,
+  "hi": 0.5041505768580437,
+  "lo": 0.49344710528771113,
+  "n": 33194,
+  "note": "preset=opener_cluster/adv_ctrl_all/lead2.0/R400.0"
+ },
+ "duel.fav_win_rate.all": {
+  "estimate": 0.5009710765375378,
+  "hi": 0.5052259685720509,
+  "lo": 0.4967447977036088,
+  "n": 47885,
+  "note": "adv_ctrl_all/lead2.0/R400.0"
+ },
+ "duel.fav_win_rate.fresh": {
+  "estimate": 0.48992131676258793,
+  "hi": 0.49502207129223474,
+  "lo": 0.48457377492733444,
+  "n": 35967,
+  "note": "adv_ctrl_all/lead2.0/R400.0"
+ },
+ "duel.fav_win_rate.opener_cluster": {
+  "estimate": 0.49900584442971624,
+  "hi": 0.5041505768580437,
+  "lo": 0.49344710528771113,
+  "n": 33194,
+  "note": "adv_ctrl_all/lead2.0/R400.0"
+ },
+ "duel.fav_win_rate.opener_round": {
+  "estimate": 0.4760807697519989,
+  "hi": 0.48804699726830736,
+  "lo": 0.46423501671791156,
+  "n": 7379,
+  "note": "adv_ctrl_all/lead2.0/R400.0"
+ },
+ "duel.fav_win_rate.strict": {
+  "estimate": 0.5246681264540851,
+  "hi": 0.5301333187113151,
+  "lo": 0.5189219088970448,
+  "n": 29228,
+  "note": "adv_ctrl_all/lead2.0/R400.0"
+ },
+ "duel.fav_win_rate_equal_local_numbers": {
+  "estimate": 0.5025134191019852,
+  "hi": 0.5095203884437507,
+  "lo": 0.4957018595502276,
+  "n": 23474,
+  "note": ""
+ },
+ "duel.logit_slope_per_sd": {
+  "estimate": -0.02805331558384105,
+  "hi": -0.007553331690811412,
+  "lo": -0.049072557523964985,
+  "n": 33194,
+  "note": "preset=opener_cluster"
+ },
+ "duel.logit_slope_per_sd.all": {
+  "estimate": -0.013497957001830407,
+  "hi": 0.0031705610793018603,
+  "lo": -0.03022419032722034,
+  "n": 47885,
+  "note": "randomised-orientation logistic, per SD of advantage"
+ },
+ "duel.logit_slope_per_sd.fresh": {
+  "estimate": -0.07156320407335447,
+  "hi": -0.050547554449799297,
+  "lo": -0.09281050138318443,
+  "n": 35967,
+  "note": "randomised-orientation logistic, per SD of advantage"
+ },
+ "duel.logit_slope_per_sd.opener_cluster": {
+  "estimate": -0.02805331558384105,
+  "hi": -0.007553331690811412,
+  "lo": -0.049072557523964985,
+  "n": 33194,
+  "note": "randomised-orientation logistic, per SD of advantage"
+ },
+ "duel.logit_slope_per_sd.opener_round": {
+  "estimate": -0.15288557936670794,
+  "hi": -0.11061604527404259,
+  "lo": -0.19827523799392296,
+  "n": 7379,
+  "note": "randomised-orientation logistic, per SD of advantage"
+ },
+ "duel.logit_slope_per_sd.strict": {
+  "estimate": 0.11387912273135102,
+  "hi": 0.13765425656624178,
+  "lo": 0.09010799583283191,
+  "n": 29228,
+  "note": "randomised-orientation logistic, per SD of advantage"
+ },
+ "early.auc_ctrl_active_pre_engagement": {
+  "estimate": 0.5067446179810255,
+  "hi": 0.5204779946366345,
+  "lo": 0.49357293872803293,
+  "n": 7391,
+  "note": "pre_engagement_cap30"
+ },
+ "early.delta_auc_econ_plus_ctrl_vs_econ_pre_engagement": {
+  "estimate": -0.001036720025846205,
+  "hi": 4.350150609762568e-05,
+  "lo": -0.002238381572249715,
+  "n": 7391,
+  "note": "pre_engagement_cap30"
+ },
+ "early.delta_auc_influence_vs_voronoi_pre_engagement": {
+  "estimate": -0.0010674048732848274,
+  "hi": 0.0008527307030797077,
+  "lo": -0.003149603786089242,
+  "n": 7391,
+  "note": "pre_engagement_cap30"
+ },
+ "eventstudy.pre_kill_adv_slope_per_s": {
+  "estimate": 0.0005553577116714896,
+  "hi": 0.0008468033312187096,
+  "lo": 0.00028934041766790316,
+  "n": 288408,
+  "note": "killer-team local advantage trend, -5..0 s, fresh non-avenged kills"
+ },
+ "killloc.contested_rate_diff_lead2_massmatched": {
+  "estimate": 0.03603711120526613,
+  "hi": 0.03992195841794997,
+  "lo": 0.03162932786998644,
+  "n": 32943,
+  "note": "kill node vs nodes with similar total mass"
+ },
+ "killloc.contested_rate_diff_lead2_naive": {
+  "estimate": 0.13278332126342327,
+  "hi": 0.13664554168761203,
+  "lo": 0.12867910821851353,
+  "n": 32943,
+  "note": "P(kill node contested) - P(occupied node contested)"
+ },
+ "killloc.contested_rate_diff_lead2_strict": {
+  "estimate": 0.10952174135505462,
+  "hi": 0.11316426399361837,
+  "lo": 0.1056864620012094,
+  "n": 33194,
+  "note": "robustly contested (both teams >= 0.5 mass)"
+ },
+ "locpred.M0+M1_vs_M0.dauc": {
+  "estimate": -0.0018309916020672334,
+  "hi": 0.0037127260145516645,
+  "lo": -0.007220294092342821,
+  "n": 1413,
+  "note": "AUC difference vs M0 (match folds)"
+ },
+ "locpred.M0+M1_vs_M0.dlogloss": {
+  "estimate": -0.0006977033669135731,
+  "hi": 4.980194690714955e-06,
+  "lo": -0.0013914670224818382,
+  "n": 1413,
+  "note": "log-loss improvement over M0 (match folds)"
+ },
+ "locpred.M0+M2_vs_M0.dauc": {
+  "estimate": -0.0016452680878553672,
+  "hi": 0.002726983146187411,
+  "lo": -0.006064255951371364,
+  "n": 1413,
+  "note": "AUC difference vs M0 (match folds)"
+ },
+ "locpred.M0+M2_vs_M0.dlogloss": {
+  "estimate": -0.0006069506933269661,
+  "hi": -3.167046634846606e-05,
+  "lo": -0.00118922026128394,
+  "n": 1413,
+  "note": "log-loss improvement over M0 (match folds)"
+ },
+ "locpred_site.M1_vs_M_const.dauc": {
+  "estimate": 0.3709632190577698,
+  "hi": 0.3977108329087033,
+  "lo": 0.34451021560888384,
+  "n": 2629,
+  "note": "AUC difference vs M_const (match folds)"
+ },
+ "locpred_site.M1_vs_M_const.dlogloss": {
+  "estimate": 0.17993668951586694,
+  "hi": 0.19948705044579462,
+  "lo": 0.1602125145200485,
+  "n": 2629,
+  "note": "log-loss improvement over M_const (match folds)"
+ },
+ "locpred_site.M2_vs_M_const.dauc": {
+  "estimate": 0.3709929604051621,
+  "hi": 0.39833665975472404,
+  "lo": 0.34470627673285403,
+  "n": 2629,
+  "note": "AUC difference vs M_const (match folds)"
+ },
+ "locpred_site.M2_vs_M_const.dlogloss": {
+  "estimate": 0.17998116151642982,
+  "hi": 0.19885331923112037,
+  "lo": 0.1596396970654476,
+  "n": 2629,
+  "note": "log-loss improvement over M_const (match folds)"
+ },
+ "locpred_site_team.M_team+M1_vs_M_team.dauc": {
+  "estimate": 0.18847880898649982,
+  "hi": 0.21307263326614334,
+  "lo": 0.16269942888223593,
+  "n": 2629,
+  "note": "AUC difference vs M_team (match folds)"
+ },
+ "locpred_site_team.M_team+M1_vs_M_team.dlogloss": {
+  "estimate": 0.07692204448046,
+  "hi": 0.0899909281463905,
+  "lo": 0.06291142686883958,
+  "n": 2629,
+  "note": "log-loss improvement over M_team (match folds)"
+ },
+ "metric1.contested_active": {
+  "estimate": 0.3143862797918584,
+  "hi": 0.31558914540600763,
+  "lo": 0.31313318903179654,
+  "n": 1258403,
+  "note": "mean per-frame fraction of nodes (see column definition)"
+ },
+ "metric1.contested_all": {
+  "estimate": 0.6427250003367578,
+  "hi": 0.6444948919661556,
+  "lo": 0.6410086096941467,
+  "n": 1258403,
+  "note": "mean per-frame fraction of nodes (see column definition)"
+ },
+ "metric1.contested_strict_0p25": {
+  "estimate": 0.03126159010347953,
+  "hi": 0.03171033118187556,
+  "lo": 0.03084721783198401,
+  "n": 1258403,
+  "note": "mean per-frame fraction of nodes (see column definition)"
+ },
+ "metric1.contested_strict_0p50": {
+  "estimate": 0.01469114037767896,
+  "hi": 0.01494227933380467,
+  "lo": 0.014437933504922985,
+  "n": 1258403,
+  "note": "mean per-frame fraction of nodes (see column definition)"
+ },
+ "metric1.contested_strict_1p00": {
+  "estimate": 0.0011087204675516702,
+  "hi": 0.001155797479678108,
+  "lo": 0.0010613809970161435,
+  "n": 1258403,
+  "note": "mean per-frame fraction of nodes (see column definition)"
+ },
+ "metric1.contested_strict_all_0p25": {
+  "estimate": 0.01430861702279066,
+  "hi": 0.014497431530326982,
+  "lo": 0.014104003876712741,
+  "n": 1258403,
+  "note": "mean per-frame fraction of nodes (see column definition)"
+ },
+ "metric1.contested_strict_all_0p50": {
+  "estimate": 0.00655841182243299,
+  "hi": 0.006673284130649897,
+  "lo": 0.006445546171032592,
+  "n": 1258403,
+  "note": "mean per-frame fraction of nodes (see column definition)"
+ },
+ "metric1.contested_strict_all_1p00": {
+  "estimate": 0.000498433603879741,
+  "hi": 0.0005187531995510598,
+  "lo": 0.0004784803113575929,
+  "n": 1258403,
+  "note": "mean per-frame fraction of nodes (see column definition)"
+ },
+ "metric1.robust_share_0p25": {
+  "estimate": 0.02226242485556593,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "contested_strict_all / contested_all, mean over frames"
+ },
+ "metric1.robust_share_0p50": {
+  "estimate": 0.010204071444236164,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "contested_strict_all / contested_all, mean over frames"
+ },
+ "metric1.robust_share_1p00": {
+  "estimate": 0.0007755005696348906,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "contested_strict_all / contested_all, mean over frames"
+ },
+ "metric3.cohens_d_equal_numbers.ctrl_active": {
+  "estimate": 0.2084193096047311,
+  "hi": 0.2496751500639415,
+  "lo": 0.16661902048887756,
+  "n": 7393,
+  "note": ""
+ },
+ "metric3.cohens_d_equal_numbers.ctrl_active_legacy": {
+  "estimate": 0.21127284023944704,
+  "hi": 0.2523631815013377,
+  "lo": 0.16953522267628432,
+  "n": 7393,
+  "note": ""
+ },
+ "metric3.cohens_d_equal_numbers.ctrl_full": {
+  "estimate": 0.21929271541951795,
+  "hi": 0.2627202455471737,
+  "lo": 0.17652472322595603,
+  "n": 7393,
+  "note": ""
+ },
+ "plant.adj_logit_coef_t_ctrl_per_sd": {
+  "estimate": 0.27997888035029705,
+  "hi": 0.43494352089208405,
+  "lo": 0.11830167886478021,
+  "n": 3794,
+  "note": "P(T wins | plant) ~ control + ct_alive + t_alive + site + economy"
+ },
+ "plant.cohens_d_within_headcount_cells": {
+  "estimate": 0.0925867909547203,
+  "hi": 0.15754901589176026,
+  "lo": 0.0263900827854662,
+  "n": 3794,
+  "note": "T-win vs CT-win plants after residualising on ct_alive x t_alive"
+ },
+ "plant.delta_auc_control_given_headcount_site_econ": {
+  "estimate": 0.0020112649467026733,
+  "hi": 0.0037961897751095674,
+  "lo": 0.00028687659456008154,
+  "n": 3794,
+  "note": "grouped-CV, outcome = T wins given a plant"
+ },
+ "plant.t_site_control.CT_wins": {
+  "estimate": 0.6764065027236938,
+  "hi": 0.6822291418910027,
+  "lo": 0.6706297233700752,
+  "n": 886,
+  "note": "T control of planted site, frame before plant (Metric 2 style)"
+ },
+ "plant.t_site_control.T_wins": {
+  "estimate": 0.7440758347511292,
+  "hi": 0.7466503649950027,
+  "lo": 0.7415960893034935,
+  "n": 2908,
+  "note": "T control of planted site, frame before plant (Metric 2 style)"
+ },
+ "plant.t_site_control.cohens_d_twin_vs_ctwin": {
+  "estimate": 0.8727364601188221,
+  "hi": null,
+  "lo": null,
+  "n": 3794,
+  "note": "UNADJUSTED for head-count"
+ },
+ "plant.t_site_control.site_A": {
+  "estimate": 0.7427622675895691,
+  "hi": 0.745962205529213,
+  "lo": 0.7392328411340714,
+  "n": 2314,
+  "note": "T control of planted site, frame before plant (Metric 2 style)"
+ },
+ "plant.t_site_control.site_B": {
+  "estimate": 0.7056193351745605,
+  "hi": 0.7094180077314377,
+  "lo": 0.7018254816532135,
+  "n": 1480,
+  "note": "T control of planted site, frame before plant (Metric 2 style)"
+ },
+ "side.ct_win_rate_all": {
+  "estimate": 0.542675503854998,
+  "hi": 0.5576897783522361,
+  "lo": 0.5270331055052734,
+  "n": 7393,
+  "note": "all rounds"
+ },
+ "side.ct_win_rate_first_half": {
+  "estimate": 0.5274922918807811,
+  "hi": 0.5501156217882837,
+  "lo": 0.5051323227132579,
+  "n": 3892,
+  "note": "first half (non-pistol)"
+ },
+ "side.ct_win_rate_nonpistol": {
+  "estimate": 0.5435132367997659,
+  "hi": 0.5595054714080424,
+  "lo": 0.5268387251763418,
+  "n": 6837,
+  "note": "non-pistol rounds"
+ },
+ "side.ct_win_rate_pistol": {
+  "estimate": 0.5323741007194245,
+  "hi": 0.5701438848920863,
+  "lo": 0.49280575539568344,
+  "n": 556,
+  "note": "pistol rounds"
+ },
+ "side.ct_win_rate_second_half": {
+  "estimate": 0.5583515681983954,
+  "hi": 0.5806427413267384,
+  "lo": 0.531566531763937,
+  "n": 2742,
+  "note": "second half (non-pistol)"
+ },
+ "side.mean_ctrl_active_margin": {
+  "estimate": 0.03223176673054695,
+  "hi": 0.03328067092224955,
+  "lo": 0.031102656573057174,
+  "n": 6837,
+  "note": "mean over non-pistol rounds, positive => CT-held"
+ },
+ "side.mean_territory_margin": {
+  "estimate": 0.2402629554271698,
+  "hi": 0.2466625612229109,
+  "lo": 0.23351838514208795,
+  "n": 6837,
+  "note": "mean over non-pistol rounds, positive => CT-held"
+ },
+ "side.mean_vor_margin": {
+  "estimate": 0.19420437514781952,
+  "hi": 0.20036353580653668,
+  "lo": 0.18807389289140702,
+  "n": 6837,
+  "note": "mean over non-pistol rounds, positive => CT-held"
+ },
+ "site.A.median_plant_time_s": {
+  "estimate": 69.9724409448819,
+  "hi": 72.5126876230315,
+  "lo": 67.56692913385827,
+  "n": 2314,
+  "note": "seconds since freeze end"
+ },
+ "site.A.plant_share": {
+  "estimate": 0.6099103848181339,
+  "hi": 0.6253128587450341,
+  "lo": 0.5942855573658432,
+  "n": 3794,
+  "note": "share of plants at this site"
+ },
+ "site.A.post_plant_t_win": {
+  "estimate": 0.7588591184096802,
+  "hi": 0.7764655950053639,
+  "lo": 0.7391796427466977,
+  "n": 2314,
+  "note": "post-plant T win rate site A"
+ },
+ "site.A.retake_success": {
+  "estimate": 0.24114088159031977,
+  "hi": 0.2608203572533023,
+  "lo": 0.22353440499463606,
+  "n": 2314,
+  "note": "CT win rate given a plant at this site"
+ },
+ "site.B.median_plant_time_s": {
+  "estimate": 69.80007381889763,
+  "hi": 72.24409448818898,
+  "lo": 67.1644592765748,
+  "n": 1480,
+  "note": "seconds since freeze end"
+ },
+ "site.B.plant_share": {
+  "estimate": 0.3900896151818661,
+  "hi": 0.4057144426341567,
+  "lo": 0.3746871412549658,
+  "n": 3794,
+  "note": "share of plants at this site"
+ },
+ "site.B.post_plant_t_win": {
+  "estimate": 0.7783783783783784,
+  "hi": 0.7996011884170775,
+  "lo": 0.7549066363791777,
+  "n": 1480,
+  "note": "post-plant T win rate site B"
+ },
+ "site.B.retake_success": {
+  "estimate": 0.22162162162162158,
+  "hi": 0.24509336362082235,
+  "lo": 0.2003988115829225,
+  "n": 1480,
+  "note": "CT win rate given a plant at this site"
+ },
+ "site.plant_rate": {
+  "estimate": 0.5131881509536048,
+  "hi": 0.5245720398148768,
+  "lo": 0.5017905633805195,
+  "n": 7393,
+  "note": "fraction of rounds with a plant"
+ },
+ "site.plant_share_A_minus_half": {
+  "estimate": 0.10991038481813387,
+  "hi": 0.12566649098311647,
+  "lo": 0.09364366911507525,
+  "n": 3794,
+  "note": "positive => T plants A more than B"
+ },
+ "site.post_plant_t_win_diff_A_minus_B": {
+  "estimate": -0.019519259968698188,
+  "hi": 0.008869650655643732,
+  "lo": -0.04816366183560416,
+  "n": 3794,
+  "note": "positive => planted A is better for T than planted B"
+ },
+ "site.retake_success_diff_A_minus_B": {
+  "estimate": 0.019519259968698188,
+  "hi": 0.04816366183560416,
+  "lo": -0.008869650655643732,
+  "n": 3794,
+  "note": "positive => A is easier for CT to retake than B"
+ },
+ "struct.A.T_minus_CT_median": {
+  "estimate": 2028.1763896756145,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "positive => site is structurally nearer CT spawn than T spawn (CT-favourable)"
+ },
+ "struct.A.T_minus_CT_min": {
+  "estimate": 1485.3085036124028,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "positive => site is structurally nearer CT spawn than T spawn (CT-favourable)"
+ },
+ "struct.B.T_minus_CT_median": {
+  "estimate": 1501.3228828426795,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "positive => site is structurally nearer CT spawn than T spawn (CT-favourable)"
+ },
+ "struct.B.T_minus_CT_min": {
+  "estimate": 2376.333973560374,
+  "hi": null,
+  "lo": null,
+  "n": null,
+  "note": "positive => site is structurally nearer CT spawn than T spawn (CT-favourable)"
+ },
+ "wp.logloss_gain_aug_over_base": {
+  "estimate": 0.001433970286890527,
+  "hi": 0.0022086749964076186,
+  "lo": 0.000664456053025513,
+  "n": 1258403,
+  "note": "mean per-frame log-loss improvement from adding control features"
+ },
+ "wp.xcorr_lag0": {
+  "estimate": 0.5616743530427339,
+  "hi": 0.5660374322338619,
+  "lo": 0.5576991331761184,
+  "n": 1258403,
+  "note": "corr of changes, control vs baseline WP"
+ },
+ "wp.xcorr_peak_lag_frames": {
+  "estimate": 0.0,
+  "hi": null,
+  "lo": null,
+  "n": 1258403,
+  "note": "lag of maximum cross-correlation (positive => control leads)"
+ }
+}

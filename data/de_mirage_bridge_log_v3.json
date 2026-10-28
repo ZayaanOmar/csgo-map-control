@@ -1,0 +1,1580 @@
+[
+  {
+    "type": "geometric_adjacency",
+    "node_a": 512,
+    "node_b": 528,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 512,
+    "node_b": 511,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 512,
+    "node_b": 527,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 512,
+    "node_b": 510,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 512,
+    "node_b": 513,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 512,
+    "node_b": 509,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 385,
+    "node_b": 381,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 385,
+    "node_b": 386,
+    "distance": 27.730849247724095
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 385,
+    "node_b": 387,
+    "distance": 38.80721582386451
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 385,
+    "node_b": 384,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 385,
+    "node_b": 383,
+    "distance": 36.742346141747674
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 385,
+    "node_b": 382,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 385,
+    "node_b": 388,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 385,
+    "node_b": 389,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 386,
+    "node_b": 381,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 386,
+    "node_b": 754,
+    "distance": 32.09749154761788
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 386,
+    "node_b": 387,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 386,
+    "node_b": 382,
+    "distance": 40.620192023179804
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 386,
+    "node_b": 388,
+    "distance": 35.58089374931439
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 386,
+    "node_b": 380,
+    "distance": 35.58089374931439
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 773,
+    "node_b": 75,
+    "distance": 76.0349074402313
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 773,
+    "node_b": 774,
+    "distance": 50.006731929822415
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 774,
+    "node_b": 75,
+    "distance": 83.85924331667005
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 389,
+    "node_b": 163,
+    "distance": 56.04462507680822
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 389,
+    "node_b": 392,
+    "distance": 40.620192023179804
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 389,
+    "node_b": 390,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 389,
+    "node_b": 384,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 389,
+    "node_b": 388,
+    "distance": 29.68164415931166
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 389,
+    "node_b": 391,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 525,
+    "node_b": 533,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 525,
+    "node_b": 515,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 525,
+    "node_b": 526,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 525,
+    "node_b": 514,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 525,
+    "node_b": 532,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 525,
+    "node_b": 524,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 526,
+    "node_b": 533,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 526,
+    "node_b": 531,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 526,
+    "node_b": 527,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 526,
+    "node_b": 514,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 526,
+    "node_b": 532,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 526,
+    "node_b": 513,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 527,
+    "node_b": 528,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 527,
+    "node_b": 531,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 527,
+    "node_b": 511,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 527,
+    "node_b": 529,
+    "distance": 45.77390086064329
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 527,
+    "node_b": 514,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 527,
+    "node_b": 532,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 527,
+    "node_b": 530,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 527,
+    "node_b": 513,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 528,
+    "node_b": 511,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 528,
+    "node_b": 529,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 528,
+    "node_b": 530,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 529,
+    "node_b": 547,
+    "distance": 35.58089374931439
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 529,
+    "node_b": 546,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 529,
+    "node_b": 530,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 529,
+    "node_b": 545,
+    "distance": 35.58089374931439
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 530,
+    "node_b": 531,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 530,
+    "node_b": 544,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 530,
+    "node_b": 546,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 530,
+    "node_b": 545,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 531,
+    "node_b": 544,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 531,
+    "node_b": 532,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 531,
+    "node_b": 545,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 532,
+    "node_b": 533,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 532,
+    "node_b": 543,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 532,
+    "node_b": 544,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 533,
+    "node_b": 534,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 533,
+    "node_b": 542,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 533,
+    "node_b": 543,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 533,
+    "node_b": 541,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 533,
+    "node_b": 544,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 533,
+    "node_b": 523,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 533,
+    "node_b": 524,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 534,
+    "node_b": 542,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 534,
+    "node_b": 540,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 534,
+    "node_b": 541,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 534,
+    "node_b": 535,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 534,
+    "node_b": 523,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 534,
+    "node_b": 524,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 535,
+    "node_b": 536,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 535,
+    "node_b": 540,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 535,
+    "node_b": 541,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 535,
+    "node_b": 523,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 535,
+    "node_b": 522,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 536,
+    "node_b": 539,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 536,
+    "node_b": 540,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 536,
+    "node_b": 523,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 536,
+    "node_b": 521,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 536,
+    "node_b": 522,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 536,
+    "node_b": 537,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 537,
+    "node_b": 539,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 537,
+    "node_b": 520,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 537,
+    "node_b": 540,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 537,
+    "node_b": 521,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 537,
+    "node_b": 522,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 537,
+    "node_b": 538,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 538,
+    "node_b": 557,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 538,
+    "node_b": 539,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 538,
+    "node_b": 556,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 539,
+    "node_b": 557,
+    "distance": 35.58089374931439
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 539,
+    "node_b": 556,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 539,
+    "node_b": 555,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 539,
+    "node_b": 540,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 540,
+    "node_b": 554,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 540,
+    "node_b": 556,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 540,
+    "node_b": 555,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 540,
+    "node_b": 541,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 540,
+    "node_b": 553,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 541,
+    "node_b": 554,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 541,
+    "node_b": 542,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 541,
+    "node_b": 553,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 542,
+    "node_b": 552,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 542,
+    "node_b": 543,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 542,
+    "node_b": 553,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 543,
+    "node_b": 552,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 543,
+    "node_b": 544,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 543,
+    "node_b": 553,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 543,
+    "node_b": 551,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 544,
+    "node_b": 552,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 544,
+    "node_b": 550,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 544,
+    "node_b": 549,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 544,
+    "node_b": 545,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 544,
+    "node_b": 551,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 545,
+    "node_b": 550,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 545,
+    "node_b": 549,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 545,
+    "node_b": 546,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 546,
+    "node_b": 547,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 546,
+    "node_b": 549,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 546,
+    "node_b": 548,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 547,
+    "node_b": 549,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 547,
+    "node_b": 548,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 548,
+    "node_b": 549,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 548,
+    "node_b": 182,
+    "distance": 45.069390943299865
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 549,
+    "node_b": 550,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 549,
+    "node_b": 566,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 549,
+    "node_b": 182,
+    "distance": 39.73034105063786
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 550,
+    "node_b": 565,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 550,
+    "node_b": 566,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 550,
+    "node_b": 182,
+    "distance": 63.00991985394046
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 550,
+    "node_b": 551,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 551,
+    "node_b": 552,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 551,
+    "node_b": 565,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 551,
+    "node_b": 566,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 552,
+    "node_b": 564,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 552,
+    "node_b": 565,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 552,
+    "node_b": 553,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 553,
+    "node_b": 554,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 553,
+    "node_b": 564,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 553,
+    "node_b": 562,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 553,
+    "node_b": 565,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 553,
+    "node_b": 563,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 554,
+    "node_b": 561,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 554,
+    "node_b": 562,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 554,
+    "node_b": 555,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 554,
+    "node_b": 563,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 555,
+    "node_b": 561,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 555,
+    "node_b": 556,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 555,
+    "node_b": 562,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 556,
+    "node_b": 561,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 556,
+    "node_b": 557,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 556,
+    "node_b": 558,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 557,
+    "node_b": 561,
+    "distance": 45.77390086064329
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 557,
+    "node_b": 558,
+    "distance": 25.317977802344327
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 558,
+    "node_b": 561,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 558,
+    "node_b": 560,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 558,
+    "node_b": 559,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 561,
+    "node_b": 560,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 561,
+    "node_b": 559,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 561,
+    "node_b": 569,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 561,
+    "node_b": 562,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 561,
+    "node_b": 570,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 562,
+    "node_b": 569,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 562,
+    "node_b": 570,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 562,
+    "node_b": 563,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 563,
+    "node_b": 564,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 563,
+    "node_b": 568,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 563,
+    "node_b": 569,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 564,
+    "node_b": 568,
+    "distance": 26.248809496813376
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 564,
+    "node_b": 569,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 564,
+    "node_b": 565,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 564,
+    "node_b": 290,
+    "distance": 56.471231613982
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 565,
+    "node_b": 568,
+    "distance": 45.24654682956479
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 565,
+    "node_b": 566,
+    "distance": 37.71272994626615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 565,
+    "node_b": 290,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 566,
+    "node_b": 182,
+    "distance": 51.53882032022076
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 566,
+    "node_b": 290,
+    "distance": 35.35533905932738
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 192,
+    "node_b": 103,
+    "distance": 107.52906583803284
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 453,
+    "node_b": 139,
+    "distance": 56.08758422608655
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 453,
+    "node_b": 63,
+    "distance": 79.05694150420949
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 459,
+    "node_b": 181,
+    "distance": 50.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 463,
+    "node_b": 20,
+    "distance": 117.92490601182273
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 463,
+    "node_b": 147,
+    "distance": 56.088479017664305
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 463,
+    "node_b": 220,
+    "distance": 39.75929835799069
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 463,
+    "node_b": 715,
+    "distance": 35.39829080670662
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 721,
+    "node_b": 149,
+    "distance": 80.13894184477357
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 721,
+    "node_b": 605,
+    "distance": 27.95084971874737
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 721,
+    "node_b": 722,
+    "distance": 62.53199181219162
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 601,
+    "node_b": 121,
+    "distance": 80.13894184477357
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 601,
+    "node_b": 230,
+    "distance": 39.73034105063786
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 601,
+    "node_b": 120,
+    "distance": 67.43330037896706
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 601,
+    "node_b": 301,
+    "distance": 27.95084971874737
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 601,
+    "node_b": 299,
+    "distance": 37.5
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 476,
+    "node_b": 482,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 476,
+    "node_b": 477,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 476,
+    "node_b": 471,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 476,
+    "node_b": 475,
+    "distance": 25.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 476,
+    "node_b": 470,
+    "distance": 28.235615806991
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 476,
+    "node_b": 481,
+    "distance": 36.24913792078372
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 607,
+    "node_b": 94,
+    "distance": 72.88689868556625
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 607,
+    "node_b": 43,
+    "distance": 100.79806545762672
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 355,
+    "node_b": 85,
+    "distance": 118.34800378544625
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 355,
+    "node_b": 24,
+    "distance": 124.45068887481348
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 356,
+    "node_b": 24,
+    "distance": 89.20148202534666
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 103,
+    "node_b": 58,
+    "distance": 197.22914260532178
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 103,
+    "node_b": 126,
+    "distance": 229.19085311843696
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 103,
+    "node_b": 52,
+    "distance": 219.26343653218615
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 879,
+    "distance": 64.51222245952708
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 877,
+    "distance": 84.54956150796195
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 880,
+    "distance": 73.13405472233893
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 878,
+    "distance": 79.119231503188
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 647,
+    "distance": 195.36330802209253
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 840,
+    "distance": 100.87113086622753
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 843,
+    "distance": 89.17207452459455
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 842,
+    "distance": 76.46695750345192
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 873,
+    "node_b": 874,
+    "distance": 149.67360112565132
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 874,
+    "node_b": 840,
+    "distance": 101.31608232716732
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 874,
+    "node_b": 876,
+    "distance": 114.58458375141502
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 875,
+    "node_b": 830,
+    "distance": 100.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 875,
+    "node_b": 838,
+    "distance": 62.70497669803111
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 875,
+    "node_b": 839,
+    "distance": 52.15601595214113
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 875,
+    "node_b": 876,
+    "distance": 37.608202348574984
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 877,
+    "node_b": 176,
+    "distance": 62.55012282360819
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 877,
+    "node_b": 843,
+    "distance": 27.96741456194135
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 877,
+    "node_b": 90,
+    "distance": 107.54487868624001
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 877,
+    "node_b": 842,
+    "distance": 25.146823987008776
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 878,
+    "node_b": 176,
+    "distance": 56.14225816484234
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 878,
+    "node_b": 647,
+    "distance": 134.67024972038732
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 878,
+    "node_b": 840,
+    "distance": 67.32506866685523
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 878,
+    "node_b": 842,
+    "distance": 37.829460242296996
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 878,
+    "node_b": 702,
+    "distance": 39.94958291916232
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 879,
+    "node_b": 880,
+    "distance": 50.15647561357997
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 879,
+    "node_b": 843,
+    "distance": 50.03348790626586
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 879,
+    "node_b": 837,
+    "distance": 76.07368304475985
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 880,
+    "node_b": 841,
+    "distance": 51.566337710095624
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 880,
+    "node_b": 837,
+    "distance": 97.83761490527773
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 881,
+    "node_b": 277,
+    "distance": 180.27756377319946
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 881,
+    "node_b": 582,
+    "distance": 187.5426618132525
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 881,
+    "node_b": 218,
+    "distance": 176.8219443394965
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 881,
+    "node_b": 460,
+    "distance": 190.80421903092184
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 881,
+    "node_b": 30,
+    "distance": 212.87672489025192
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 881,
+    "node_b": 883,
+    "distance": 167.75279431353744
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 881,
+    "node_b": 72,
+    "distance": 212.86732957408
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 747,
+    "node_b": 746,
+    "distance": 75.0
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 747,
+    "node_b": 26,
+    "distance": 107.61281991686344
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 747,
+    "node_b": 35,
+    "distance": 91.08924195534838
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 882,
+    "node_b": 277,
+    "distance": 27.95084971874737
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 882,
+    "node_b": 439,
+    "distance": 37.5
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 630,
+    "node_b": 123,
+    "distance": 80.90885553422878
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 631,
+    "node_b": 781,
+    "distance": 62.5
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 631,
+    "node_b": 850,
+    "distance": 145.14561653732434
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 631,
+    "node_b": 312,
+    "distance": 132.970861469722
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 631,
+    "node_b": 640,
+    "distance": 111.82128598795491
+  },
+  {
+    "type": "geometric_adjacency",
+    "node_a": 511,
+    "node_b": 510,
+    "distance": 35.58089374931439
+  }
+]

@@ -1,0 +1,79 @@
+======================================================================
+CHECK 1 - STRUCTURAL VERIFICATION
+======================================================================
+Does the DataFrame contain null values: False
+DataFrane Column Data Types: round                           int64
+frame_idx                       int64
+player_name                    object
+side                           object
+current_x                     float64
+current_y                     float64
+current_z                     float64
+vx                            float64
+vy                            float64
+vz                            float64
+projected_x                   float64
+projected_y                   float64
+projected_z                   float64
+current_areaId                  int64
+current_mapping_distance      float64
+projected_areaId                int64
+projected_mapping_distance    float64
+dtype: object
+DataFrame Shape: (42268, 17)
+
+======================================================================
+CHECK 2 - PROJECTION CALCULATION CORRECTNESS
+======================================================================
+
+Velocity Description:
+                  vx            vy            vz
+count  42268.000000  42268.000000  42268.000000
+mean     -10.222179      3.751624     -0.388126
+std       99.558058    106.054229     44.413300
+min     -308.440155   -280.581085   -534.375000
+25%      -56.257020    -39.092055      0.000000
+50%        0.000000      0.000000      0.000000
+75%       27.556987     45.253470      0.000000
+max      288.598450    296.558197    295.743378
+
+======================================================================
+CHECK 3 - AREA ID VALIDATION
+======================================================================
+Unkown Current Area IDs: set()
+Unkown Projected Area IDs: set()
+
+======================================================================
+CHECK 4 - POSITION PROJECTION FEASIBILITY
+======================================================================
+Description of projection distances:
+count    42268.000000
+mean       118.385808
+std         96.099102
+min          0.000000
+25%         17.733036
+50%        111.799995
+75%        211.259512
+max        597.871966
+dtype: float64
+
+Description of number of hops between current and projected areas:
+count    200.0
+mean       inf
+std        NaN
+min        0.0
+25%        0.0
+50%        1.0
+75%        2.0
+max        inf
+dtype: float64
+
+current_areaId  projected_areaId
+358             742                 1
+Name: count, dtype: int64
+
+======================================================================
+CHECK 5 - STATIONARY PLAYERS STAY IN SAME AREA
+======================================================================
+Stationary players with different current/projected area IDs: 17 / 8702
+Mismatch Rate: 0.20%

@@ -1,0 +1,1704 @@
+{
+  "n_matches": 278,
+  "n_frames_total": 1258403,
+  "epsilon": 0.1353352832366127,
+  "sigma": 500.0,
+  "mean_active_node_fraction": 0.5157963360703123,
+  "voronoi_baseline_contention_rate": 0.0,
+  "full_map": {
+    "rho_bar_contention_rate": 0.6427250003854269,
+    "hypothesis_check": {
+      "description": "H1 / RQ1: the continuous control field should classify a greater proportion of nodes as contested than a Voronoi segmentation, whose contention rate is analytically 0 by construction (every node hard-assigned to one team). Tested over ALL 903 nodes per frame (original definition). Retained for continuity; inflated by nodes far from every player sitting exactly at the neutral 0.5, which falls inside the [0.4, 0.6] contested band by construction \u2014 see 'active_footprint' for the primary result.",
+      "passes": true
+    }
+  },
+  "active_footprint": {
+    "rho_bar_contention_rate": 0.31438628339958397,
+    "n_frames_active": 1258403,
+    "hypothesis_check": {
+      "description": "H1 / RQ1 tested over nodes with (ct_mu + t_mu) > EPSILON only, i.e. nodes within meaningful pre-sigmoid Gaussian influence range of at least one player. This is the primary Metric 1 result going forward \u2014 it excludes empty-map nodes that would otherwise be counted as 'contested' purely by sitting at the neutral 0.5 midpoint. Will be all-None until team_agg.py is updated to persist ct_mu/t_mu. The Voronoi baseline remains 0.0 under this restriction too \u2014 a hard assignment never lands in [0.4, 0.6] on any subset of nodes.",
+      "passes": true
+    }
+  },
+  "area_breakdown": {
+    "file": "outputs/metrics/contention_rate/by_area/_area_summary.csv",
+    "n_areas": 27,
+    "top_areas_by_share_of_active_contested": [
+      "CTSpawn",
+      "BombsiteA",
+      "BombsiteB",
+      "TopofMid",
+      "TicketBooth"
+    ]
+  },
+  "per_match": {
+    "Astralis_VS_ENCE_b686b317_704a_4c0e_93d2_b531410de248": {
+      "mean_contention_rate_full": 0.6494361134727114,
+      "mean_contention_rate_active": 0.331887094964322,
+      "mean_active_node_fraction": 0.5191195977953372,
+      "n_frames": 6268
+    },
+    "Astralis_VS_FURIA_0a075b4d_576e_46f2_b944_fe9542faee54": {
+      "mean_contention_rate_full": 0.6014117535663984,
+      "mean_contention_rate_active": 0.28910809930738446,
+      "mean_active_node_fraction": 0.5566422069608664,
+      "n_frames": 4959
+    },
+    "Astralis_VS_FURIA_d5635de8_d81d_4be6_99a2_5100ebc507f0": {
+      "mean_contention_rate_full": 0.6392543509216745,
+      "mean_contention_rate_active": 0.31139942713685864,
+      "mean_active_node_fraction": 0.5153745163599321,
+      "n_frames": 4366
+    },
+    "Astralis_VS_FaZe_Clan_3b60f341_78e9_48ca_bf62_81e3abe527e1": {
+      "mean_contention_rate_full": 0.6267595699612681,
+      "mean_contention_rate_active": 0.32136754759017117,
+      "mean_active_node_fraction": 0.5449643504155879,
+      "n_frames": 3988
+    },
+    "Astralis_VS_K23_90c4e159_b93f_49fc_b892_2a2e369ca3ed": {
+      "mean_contention_rate_full": 0.6374867171365233,
+      "mean_contention_rate_active": 0.3183469917046123,
+      "mean_active_node_fraction": 0.5248038184589667,
+      "n_frames": 7714
+    },
+    "Astralis_VS_NAVI_GGBET_8129e6d8_7fd0_4537_bbbe_e08bd0c8779e": {
+      "mean_contention_rate_full": 0.6266865301509106,
+      "mean_contention_rate_active": 0.31126711094868964,
+      "mean_active_node_fraction": 0.5345408321032901,
+      "n_frames": 7270
+    },
+    "Astralis_VS_TeamVitality_2df97383_4d7a_440c_a689_71b98f3d5766": {
+      "mean_contention_rate_full": 0.679000789008628,
+      "mean_contention_rate_active": 0.3349900113846484,
+      "mean_active_node_fraction": 0.4767960315386497,
+      "n_frames": 3471
+    },
+    "Astralis_VS_Team_Liquid_6567090b_da33_4ba0_aefb_53b6ae9185ec": {
+      "mean_contention_rate_full": 0.6484915722507543,
+      "mean_contention_rate_active": 0.31989296653431853,
+      "mean_active_node_fraction": 0.5106731140211946,
+      "n_frames": 4426
+    },
+    "Astralis_VS_Team_Liquid_f8d9cc9d_53b4_445f_b61a_ef30ac4d6520": {
+      "mean_contention_rate_full": 0.6288478754678853,
+      "mean_contention_rate_active": 0.3072171204401823,
+      "mean_active_node_fraction": 0.5320585986255292,
+      "n_frames": 5021
+    },
+    "Astralis_VS_fnatic_5ca5654a_fd22_4430_875a_02e4f603e914": {
+      "mean_contention_rate_full": 0.6552889807217767,
+      "mean_contention_rate_active": 0.3360445292382349,
+      "mean_active_node_fraction": 0.513633606433963,
+      "n_frames": 2817
+    },
+    "Astralis_VS_x_kom_AGO_47dc5792_cb45_41d1_8271_7fd8bcd76c1c": {
+      "mean_contention_rate_full": 0.6165336069149868,
+      "mean_contention_rate_active": 0.3074231350406316,
+      "mean_active_node_fraction": 0.5468233901326569,
+      "n_frames": 4838
+    },
+    "BIG_Clan_VS_Astralis_c307fe7d_4bdc_47d6_ab32_2828f06b8f92": {
+      "mean_contention_rate_full": 0.6376851227593253,
+      "mean_contention_rate_active": 0.30456138252152615,
+      "mean_active_node_fraction": 0.5164276282716039,
+      "n_frames": 3681
+    },
+    "BIG_Clan_VS_G2_Esports_19bef7ff_8e92_4add_90f3_323f2ba99ff2": {
+      "mean_contention_rate_full": 0.6345734850823791,
+      "mean_contention_rate_active": 0.3099834258887739,
+      "mean_active_node_fraction": 0.5273892133156591,
+      "n_frames": 3777
+    },
+    "BIG_Clan_VS_Ninjas_in_Pyjamas_2219df2e_161c_4b27_b116_fd69eb601e99": {
+      "mean_contention_rate_full": 0.6880057715399174,
+      "mean_contention_rate_active": 0.32624069925436355,
+      "mean_active_node_fraction": 0.4542962888537135,
+      "n_frames": 4034
+    },
+    "BIG_VS_A_U_R_A_19bf268e_607c_4425_8aab_0cbe198578a2": {
+      "mean_contention_rate_full": 0.6394350109574007,
+      "mean_contention_rate_active": 0.3044293416333245,
+      "mean_active_node_fraction": 0.5145754644798584,
+      "n_frames": 4646
+    },
+    "BIG_VS_Complexity_a797db2e_ac89_4434_a13f_dab006699545": {
+      "mean_contention_rate_full": 0.6867511313884882,
+      "mean_contention_rate_active": 0.33841215039000344,
+      "mean_active_node_fraction": 0.4632000221135305,
+      "n_frames": 4447
+    },
+    "BIG_VS_FaZe_Clan_99d9eb9b_1ea7_403f_ab5b_68066bb61b44": {
+      "mean_contention_rate_full": 0.6387170371622234,
+      "mean_contention_rate_active": 0.2977875540776615,
+      "mean_active_node_fraction": 0.5076003252416678,
+      "n_frames": 3853
+    },
+    "BIG_VS_Fiend_f7de6a1d_0fea_4a9c_ac31_ac81a0e0e7a4": {
+      "mean_contention_rate_full": 0.6354436315006042,
+      "mean_contention_rate_active": 0.3060762052474315,
+      "mean_active_node_fraction": 0.5201242790363253,
+      "n_frames": 6358
+    },
+    "BIG_VS_G2_Esports_760148de_bc79_4643_bbde_5d287d7ef8f2": {
+      "mean_contention_rate_full": 0.6527393624049024,
+      "mean_contention_rate_active": 0.3191986720294466,
+      "mean_active_node_fraction": 0.5030368763557483,
+      "n_frames": 4610
+    },
+    "BIG_VS_K23_d7b9203a_a191_443f_9678_47bc0cb47e01": {
+      "mean_contention_rate_full": 0.6463777602641939,
+      "mean_contention_rate_active": 0.32708462308853015,
+      "mean_active_node_fraction": 0.5189444243667171,
+      "n_frames": 4578
+    },
+    "BIG_VS_Natus_Vincere_4e4d6ca9_edf8_4315_9879_ccfbc680e8ac": {
+      "mean_contention_rate_full": 0.6657526332895631,
+      "mean_contention_rate_active": 0.31733007206147573,
+      "mean_active_node_fraction": 0.4812325450994893,
+      "n_frames": 4501
+    },
+    "BIG_VS_Team_Liquid_d83442a6_dbb1_4e9c_9ef2_a1f1d22f4e69": {
+      "mean_contention_rate_full": 0.6547817836064327,
+      "mean_contention_rate_active": 0.31601128551930413,
+      "mean_active_node_fraction": 0.49797931255594174,
+      "n_frames": 4777
+    },
+    "BIG_VS_Vitality_7d03108f_c00e_4ab8_a03f_4e34fc85cf81": {
+      "mean_contention_rate_full": 0.644723393314877,
+      "mean_contention_rate_active": 0.30797756087187245,
+      "mean_active_node_fraction": 0.5067224875196759,
+      "n_frames": 4751
+    },
+    "BIG_VS_mousesports_856f0ca7_2890_4b51_bf46_ee44e0de6ae3": {
+      "mean_contention_rate_full": 0.6577004260116168,
+      "mean_contention_rate_active": 0.32255728577221016,
+      "mean_active_node_fraction": 0.5003174915014016,
+      "n_frames": 4735
+    },
+    "CPH_Flames_VS_Ninjas_in_Pyjamas_b06f4e67_d9d7_4803_bf51_de3567325873": {
+      "mean_contention_rate_full": 0.6121764170739452,
+      "mean_contention_rate_active": 0.30437819969084084,
+      "mean_active_node_fraction": 0.5554642374768536,
+      "n_frames": 5154
+    },
+    "Complexity_VS_B_I_G_7f96daf3_7985_4f41_b4cf_664337a51cd4": {
+      "mean_contention_rate_full": 0.6514238412812452,
+      "mean_contention_rate_active": 0.3230335982947773,
+      "mean_active_node_fraction": 0.5085265367958607,
+      "n_frames": 2978
+    },
+    "Complexity_VS_Endpoint_CeX_6bcfbd1e_0008_4a71_a715_7fc681392345": {
+      "mean_contention_rate_full": 0.6400095341548461,
+      "mean_contention_rate_active": 0.31624963465326367,
+      "mean_active_node_fraction": 0.5225234121693905,
+      "n_frames": 3768
+    },
+    "Complexity_VS_G2_Esports_2ac03938_6b0b_442b_8899_2c56dfeb6f92": {
+      "mean_contention_rate_full": 0.6466691285833396,
+      "mean_contention_rate_active": 0.3217726050120302,
+      "mean_active_node_fraction": 0.5152313382509676,
+      "n_frames": 5002
+    },
+    "Complexity_VS_Gambit_Esports_44069279_247a_4811_b2f7_2233cff6023c": {
+      "mean_contention_rate_full": 0.6452904070532235,
+      "mean_contention_rate_active": 0.3247453384418313,
+      "mean_active_node_fraction": 0.5217292878862967,
+      "n_frames": 3620
+    },
+    "Complexity_VS_Team_Vitality_93474513_6f7f_44ab_b6aa_58ade2255127": {
+      "mean_contention_rate_full": 0.6501577176966425,
+      "mean_contention_rate_active": 0.3153335724663055,
+      "mean_active_node_fraction": 0.5083801675656199,
+      "n_frames": 4696
+    },
+    "Complexity_VS_Virtus_pro_779eca53_f7c0_4f9a_8012_45086c328254": {
+      "mean_contention_rate_full": 0.617808571693518,
+      "mean_contention_rate_active": 0.31117908729573823,
+      "mean_active_node_fraction": 0.5500366838064459,
+      "n_frames": 3929
+    },
+    "Complexity_VS_forZe_Esports_67bdf08a_8ced_48fd_83b2_3392befdbc7a": {
+      "mean_contention_rate_full": 0.655461764107246,
+      "mean_contention_rate_active": 0.317408818839178,
+      "mean_active_node_fraction": 0.49797970142369213,
+      "n_frames": 5109
+    },
+    "Copenhagen_Flames_VS_Team_Spirit_5cfa8f5b_671b_4ef8_9f0a_96ba66ac4d62": {
+      "mean_contention_rate_full": 0.6405160093205592,
+      "mean_contention_rate_active": 0.2989559686975263,
+      "mean_active_node_fraction": 0.5077202974212941,
+      "n_frames": 4130
+    },
+    "DignitasVIE_VS_Fiend_58e04be8_d9d5_4031_adda_bec6a4af79b9": {
+      "mean_contention_rate_full": 0.6290469073232339,
+      "mean_contention_rate_active": 0.3115085490080618,
+      "mean_active_node_fraction": 0.5312009133503386,
+      "n_frames": 3781
+    },
+    "Dignitas_VS_CPH_Flames_3c3f82ba_9887_4145_90bb_b73b0383373c": {
+      "mean_contention_rate_full": 0.6411019467497873,
+      "mean_contention_rate_active": 0.3284834517387379,
+      "mean_active_node_fraction": 0.52561282212445,
+      "n_frames": 4144
+    },
+    "Dignitas_VS_EXTREMUM_99d643f6_a9d0_443e_832c_cd9c3f1d8796": {
+      "mean_contention_rate_full": 0.6468790598072854,
+      "mean_contention_rate_active": 0.308309456142821,
+      "mean_active_node_fraction": 0.5084331723875676,
+      "n_frames": 3847
+    },
+    "Dignitas_VS_Fiend_0f222f22_1d61_48c7_92a7_0578174959ba": {
+      "mean_contention_rate_full": 0.6420857409661233,
+      "mean_contention_rate_active": 0.31901369820225145,
+      "mean_active_node_fraction": 0.5172136607348442,
+      "n_frames": 4848
+    },
+    "ECSTATIC_VS_Entropiq_641fd7e4_544b_4e92_8d2b_536a5825376c": {
+      "mean_contention_rate_full": 0.6568480557558856,
+      "mean_contention_rate_active": 0.31509902284880986,
+      "mean_active_node_fraction": 0.49427511288955295,
+      "n_frames": 3326
+    },
+    "EIQ_PRG_VS_Dynamo_Eclot_c405829a_45de_461d_8895_90f7fb92db88": {
+      "mean_contention_rate_full": 0.625613163033627,
+      "mean_contention_rate_active": 0.31593346073446377,
+      "mean_active_node_fraction": 0.5400377385857684,
+      "n_frames": 4978
+    },
+    "ENCE_VS_FURIA_8fadbb13_3728_4211_b0eb_cd4075a60218": {
+      "mean_contention_rate_full": 0.6373906883215478,
+      "mean_contention_rate_active": 0.3062770120452669,
+      "mean_active_node_fraction": 0.5129390501264129,
+      "n_frames": 4452
+    },
+    "ENCE_VS_G2_Esports_1cb8b01a_f11e_4ef3_954d_5ce809b57506": {
+      "mean_contention_rate_full": 0.6639380228601846,
+      "mean_contention_rate_active": 0.3104396615694891,
+      "mean_active_node_fraction": 0.4866559863862391,
+      "n_frames": 3233
+    },
+    "ENCE_VS_G2_Esports_20987bbd_21ef_469e_99b9_6654372b543e": {
+      "mean_contention_rate_full": 0.6605943802348977,
+      "mean_contention_rate_active": 0.311447964442817,
+      "mean_active_node_fraction": 0.4851641340289801,
+      "n_frames": 4544
+    },
+    "ENCE_VS_Ninjas_in_Pyjamas_dd96ccec_8374_4510_b295_b832eb539878": {
+      "mean_contention_rate_full": 0.6640670070593923,
+      "mean_contention_rate_active": 0.31969333911897607,
+      "mean_active_node_fraction": 0.4915966770875188,
+      "n_frames": 3390
+    },
+    "ENCE_VS_OG_443be02f_3427_46ab_9719_3afe549723b6": {
+      "mean_contention_rate_full": 0.6275071777887609,
+      "mean_contention_rate_active": 0.31321565690962005,
+      "mean_active_node_fraction": 0.5355052747112571,
+      "n_frames": 8994
+    },
+    "ENCE_VS_Outsiders_acf66d1a_4adc_4834_9be7_75ab6b981bd4": {
+      "mean_contention_rate_full": 0.6301985853043436,
+      "mean_contention_rate_active": 0.32020892199104084,
+      "mean_active_node_fraction": 0.5434073382819515,
+      "n_frames": 4443
+    },
+    "ENCE_VS_Team_Vitality_9869e869_1007_4b07_a7bf_d419dae83506": {
+      "mean_contention_rate_full": 0.6227641867176752,
+      "mean_contention_rate_active": 0.3038335259469237,
+      "mean_active_node_fraction": 0.5384148507644899,
+      "n_frames": 3828
+    },
+    "ENCE_VS_forZe_Esports_6ef84ba7_509d_46d3_b508_defcd9e50305": {
+      "mean_contention_rate_full": 0.6431787320921953,
+      "mean_contention_rate_active": 0.30963282468206355,
+      "mean_active_node_fraction": 0.511494031539586,
+      "n_frames": 4227
+    },
+    "ENTERPRISE_VS_Dynamo_Eclot_6251904c_9ece_448c_8cd7_4dfb9f220657": {
+      "mean_contention_rate_full": 0.6278311022764658,
+      "mean_contention_rate_active": 0.31666081329628315,
+      "mean_active_node_fraction": 0.5395639013608752,
+      "n_frames": 3824
+    },
+    "Entropiq_VS_Enterprise_fb85b0f8_7f3f_40ea_b4e5_65f91fbb9ee7": {
+      "mean_contention_rate_full": 0.6752787425752542,
+      "mean_contention_rate_active": 0.336258789688668,
+      "mean_active_node_fraction": 0.4789137219369778,
+      "n_frames": 3520
+    },
+    "Entropiq_VS_Fiend_85c278a6_ffb6_485f_988b_15f6f3b2f2ad": {
+      "mean_contention_rate_full": 0.6342910754563938,
+      "mean_contention_rate_active": 0.3104717281513869,
+      "mean_active_node_fraction": 0.5240486468368167,
+      "n_frames": 4784
+    },
+    "Entropiq_VS_Gambit_fcde73c2_6b1d_4886_b626_61b13ace2bd1": {
+      "mean_contention_rate_full": 0.6572631942552719,
+      "mean_contention_rate_active": 0.33731945202930635,
+      "mean_active_node_fraction": 0.5137582623526912,
+      "n_frames": 4732
+    },
+    "Entropiq_VS_MOUZ_e7089cdf_ca0a_4658_932e_31fc1489a769": {
+      "mean_contention_rate_full": 0.6360380272718947,
+      "mean_contention_rate_active": 0.31651278142660094,
+      "mean_active_node_fraction": 0.5256135057244852,
+      "n_frames": 4849
+    },
+    "Entropiq_VS_SINNERS_6219ff2f_f03c_4d2a_8758_9590ec81fb80": {
+      "mean_contention_rate_full": 0.6653856444117731,
+      "mean_contention_rate_active": 0.33336792656359737,
+      "mean_active_node_fraction": 0.49224589739526914,
+      "n_frames": 2558
+    },
+    "Entropiq_VS_Team_oNe_33b018e0_5577_40ef_b06b_08f41e7a0d4f": {
+      "mean_contention_rate_full": 0.6605123276468927,
+      "mean_contention_rate_active": 0.3248010073925998,
+      "mean_active_node_fraction": 0.4948883457172846,
+      "n_frames": 3678
+    },
+    "Eternal_Fire_VS_Entropiq_b42541c7_5eb1_41ba_9d1b_060ab63e3f31": {
+      "mean_contention_rate_full": 0.6423750879177729,
+      "mean_contention_rate_active": 0.3119198048469764,
+      "mean_active_node_fraction": 0.5183696511360958,
+      "n_frames": 3941
+    },
+    "Eternal_Fire_VS_Fiend_0072d9d0_a907_44c2_a9c8_7f036e55333d": {
+      "mean_contention_rate_full": 0.6478020247176822,
+      "mean_contention_rate_active": 0.299019840135774,
+      "mean_active_node_fraction": 0.49840637339297716,
+      "n_frames": 4774
+    },
+    "Evil_Geniuses_VS_FURIA_eSports_6567a96e_5fa0_4465_a3dc_bc7c8ceb9fb0": {
+      "mean_contention_rate_full": 0.6480702117526336,
+      "mean_contention_rate_active": 0.30750191952794637,
+      "mean_active_node_fraction": 0.5006025632031496,
+      "n_frames": 4783
+    },
+    "Evil_Geniuses_VS_FaZe_Clan_febff781_5bd0_4b8e_851c_9e0e2956c808": {
+      "mean_contention_rate_full": 0.628253715478119,
+      "mean_contention_rate_active": 0.30316194789974765,
+      "mean_active_node_fraction": 0.5303912839400607,
+      "n_frames": 4235
+    },
+    "Evil_Geniuses_VS_Fnatic_7a767c73_e13a_4418_9a15_ff0f36555379": {
+      "mean_contention_rate_full": 0.6574916688355762,
+      "mean_contention_rate_active": 0.30283624532598186,
+      "mean_active_node_fraction": 0.4862016524539298,
+      "n_frames": 4340
+    },
+    "Evil_Geniuses_VS_Heroic_55ca3b46_3a75_48b6_94f8_fc9af0f976e9": {
+      "mean_contention_rate_full": 0.6360439130829371,
+      "mean_contention_rate_active": 0.3124566669119059,
+      "mean_active_node_fraction": 0.5233875511338059,
+      "n_frames": 4283
+    },
+    "Evil_Geniuses_VS_compLexity_5cde6776_c3f0_411c_a5d2_0424166bc4e2": {
+      "mean_contention_rate_full": 0.6522105138152923,
+      "mean_contention_rate_active": 0.30737229495127294,
+      "mean_active_node_fraction": 0.497275185658005,
+      "n_frames": 3469
+    },
+    "FURIA_Esports_VS_FaZe_Clan_a98ffca7_e968_4a54_9e8f_22f101c2502b": {
+      "mean_contention_rate_full": 0.6461004839026343,
+      "mean_contention_rate_active": 0.31447385855391985,
+      "mean_active_node_fraction": 0.5149021736480304,
+      "n_frames": 4315
+    },
+    "FURIA_VS_G2_Esports_cc5fc727_825d_45de_b1e3_2b51e9857b54": {
+      "mean_contention_rate_full": 0.6329776420939212,
+      "mean_contention_rate_active": 0.31250511696356725,
+      "mean_active_node_fraction": 0.5302007123402471,
+      "n_frames": 4625
+    },
+    "FURIA_VS_Gambit_41ab7849_b871_4726_9cfe_5cabd2e9e573": {
+      "mean_contention_rate_full": 0.6374777955738843,
+      "mean_contention_rate_active": 0.31564937135482923,
+      "mean_active_node_fraction": 0.5208412711822036,
+      "n_frames": 3854
+    },
+    "FURIA_VS_NAVI_4ea96fac_97a5_4cec_aa48_e7300e6bdf8e": {
+      "mean_contention_rate_full": 0.6525306242363975,
+      "mean_contention_rate_active": 0.31970830801550726,
+      "mean_active_node_fraction": 0.5035028633954327,
+      "n_frames": 3351
+    },
+    "FURIA_VS_Ninjas_in_Pyjamas_f66a8d64_7aac_4609_89c5_f79b9a5b2485": {
+      "mean_contention_rate_full": 0.6340351407058874,
+      "mean_contention_rate_active": 0.31516579395501687,
+      "mean_active_node_fraction": 0.5264347443662009,
+      "n_frames": 4180
+    },
+    "FURIA_VS_Team_oNe_f140d6b5_d829_49ab_93c8_da24648e07d8": {
+      "mean_contention_rate_full": 0.6642874920542419,
+      "mean_contention_rate_active": 0.3099522952099696,
+      "mean_active_node_fraction": 0.48284886972945823,
+      "n_frames": 5108
+    },
+    "FURIA_eSports_VS_G2_Esports_6a83cc41_6926_41fe_b2e4_27dc17d46d8e": {
+      "mean_contention_rate_full": 0.6591632922312174,
+      "mean_contention_rate_active": 0.31926208889374225,
+      "mean_active_node_fraction": 0.49289090223360693,
+      "n_frames": 5529
+    },
+    "FaZe_Clan_VS_ENCE_b63b2a87_38df_4aec_9af1_7a1e6382bcad": {
+      "mean_contention_rate_full": 0.6401204405914017,
+      "mean_contention_rate_active": 0.3245738110389125,
+      "mean_active_node_fraction": 0.5283184187609424,
+      "n_frames": 4138
+    },
+    "FaZe_Clan_VS_ENCE_f7514187_9f7d_48b8_abdb_a2404542e8d2": {
+      "mean_contention_rate_full": 0.6466091877565426,
+      "mean_contention_rate_active": 0.3092778576538961,
+      "mean_active_node_fraction": 0.5078867965561251,
+      "n_frames": 3646
+    },
+    "FaZe_Clan_VS_FURIA_7078326b_122b_4dab_b738_0bd88ae881f7": {
+      "mean_contention_rate_full": 0.6247898109782616,
+      "mean_contention_rate_active": 0.3058718688142707,
+      "mean_active_node_fraction": 0.5365635433544361,
+      "n_frames": 5243
+    },
+    "FaZe_Clan_VS_FURIA_869bc814_ed7b_42b1_836b_e1b1f4408bc4": {
+      "mean_contention_rate_full": 0.6346602277951711,
+      "mean_contention_rate_active": 0.3164493618594994,
+      "mean_active_node_fraction": 0.5304111567935109,
+      "n_frames": 6559
+    },
+    "FaZe_Clan_VS_G2_Esports_26867805_e335_4beb_9612_ad19c136e4d9": {
+      "mean_contention_rate_full": 0.6590245207979233,
+      "mean_contention_rate_active": 0.30376920976642235,
+      "mean_active_node_fraction": 0.48916382548138115,
+      "n_frames": 3964
+    },
+    "FaZe_Clan_VS_NAVI_GGBET_9b88dd66_00e5_4cf7_bcb1_e34c3ad16034": {
+      "mean_contention_rate_full": 0.6292826477427578,
+      "mean_contention_rate_active": 0.3265610464731927,
+      "mean_active_node_fraction": 0.5463658788010147,
+      "n_frames": 4859
+    },
+    "FaZe_Clan_VS_Natus_Vincere_f218743d_5e8b_436e_91bd_b7b3664c56c3": {
+      "mean_contention_rate_full": 0.599363778634332,
+      "mean_contention_rate_active": 0.2902690882187699,
+      "mean_active_node_fraction": 0.5622836716780053,
+      "n_frames": 5131
+    },
+    "FaZe_Clan_VS_Natus_Vincere_fd93d688_9948_46b6_a9ab_76ec7602c23f": {
+      "mean_contention_rate_full": 0.6628725203192902,
+      "mean_contention_rate_active": 0.3185667281261067,
+      "mean_active_node_fraction": 0.4870205041487111,
+      "n_frames": 3837
+    },
+    "FaZe_Clan_VS_OG_cca3e1be_b825_4039_b736_23ab7fc0e667": {
+      "mean_contention_rate_full": 0.6360654054223184,
+      "mean_contention_rate_active": 0.3054483522914728,
+      "mean_active_node_fraction": 0.5214620400537744,
+      "n_frames": 4141
+    },
+    "FaZe_Clan_VS_Players_89d46453_a185_4f1e_8be1_df2a19ffd9de": {
+      "mean_contention_rate_full": 0.6531467408906596,
+      "mean_contention_rate_active": 0.3364494989541383,
+      "mean_active_node_fraction": 0.5156682917308418,
+      "n_frames": 3132
+    },
+    "FaZe_Clan_VS_Team_Liquid_a8899757_baf4_479a_8882_c99a3b911a7a": {
+      "mean_contention_rate_full": 0.643021101982576,
+      "mean_contention_rate_active": 0.3194538170997265,
+      "mean_active_node_fraction": 0.5163102745588819,
+      "n_frames": 5373
+    },
+    "FaZe_VS_BIG_4bab9a63_42e6_4766_acb6_cae50d575d04": {
+      "mean_contention_rate_full": 0.6462314567493312,
+      "mean_contention_rate_active": 0.31404118242737755,
+      "mean_active_node_fraction": 0.5102666449604364,
+      "n_frames": 5510
+    },
+    "Fiend_VS_Entropiq_e497ac50_6564_4c65_a991_1ec47016a242": {
+      "mean_contention_rate_full": 0.643564449958613,
+      "mean_contention_rate_active": 0.32789405812022593,
+      "mean_active_node_fraction": 0.5285160062498473,
+      "n_frames": 5393
+    },
+    "Fiend_VS_FaZe_Clan_0fd23068_c5bf_4ec9_8ae2_4c4a901bda5b": {
+      "mean_contention_rate_full": 0.613447053998417,
+      "mean_contention_rate_active": 0.3005528310763899,
+      "mean_active_node_fraction": 0.549778600679571,
+      "n_frames": 3926
+    },
+    "Fnatic_VS_Complexity_933b0221_3065_4617_8f30_eb216321ac79": {
+      "mean_contention_rate_full": 0.6443666178543755,
+      "mean_contention_rate_active": 0.31070671613771206,
+      "mean_active_node_fraction": 0.511002758552757,
+      "n_frames": 4542
+    },
+    "Fnatic_VS_FaZe_Clan_d8e889bb_1d01_46c4_b43d_5d79c935240c": {
+      "mean_contention_rate_full": 0.6334131947438227,
+      "mean_contention_rate_active": 0.31831165818689533,
+      "mean_active_node_fraction": 0.531498783428207,
+      "n_frames": 3622
+    },
+    "Fnatic_VS_Heroic_fa8c2184_4bb2_4ce2_8ccb_814ba204e70e": {
+      "mean_contention_rate_full": 0.6590854794259933,
+      "mean_contention_rate_active": 0.3180938707885857,
+      "mean_active_node_fraction": 0.4947764304201653,
+      "n_frames": 6077
+    },
+    "Fnatic_VS_OG_9e15645e_1773_49f9_9d56_33b4a20cee33": {
+      "mean_contention_rate_full": 0.6449793216004268,
+      "mean_contention_rate_active": 0.3177945551774041,
+      "mean_active_node_fraction": 0.5143128124925107,
+      "n_frames": 4667
+    },
+    "FunPlus_Phoenix_VS_BIG_15344c55_e92f_45f5_86cc_b4a2033be996": {
+      "mean_contention_rate_full": 0.6594558391522602,
+      "mean_contention_rate_active": 0.324249518443461,
+      "mean_active_node_fraction": 0.4958147492390634,
+      "n_frames": 4175
+    },
+    "G2_Esports_VS_A_U_R_A_bd9e476d_07a9_450f_8169_9ab6a3ab6e09": {
+      "mean_contention_rate_full": 0.6260882794293579,
+      "mean_contention_rate_active": 0.32262334826044103,
+      "mean_active_node_fraction": 0.54485099228165,
+      "n_frames": 2242
+    },
+    "G2_Esports_VS_Entropiq_d9db156e_3fe7_4aee_9cdd_4ae877a1362b": {
+      "mean_contention_rate_full": 0.6468640477202079,
+      "mean_contention_rate_active": 0.3155555923470074,
+      "mean_active_node_fraction": 0.5142256288452868,
+      "n_frames": 5802
+    },
+    "G2_Esports_VS_Fiend_84355bd5_a8a0_4c54_a35c_31a87c85a2ee": {
+      "mean_contention_rate_full": 0.6210582482274332,
+      "mean_contention_rate_active": 0.30185596173842627,
+      "mean_active_node_fraction": 0.5410550423461781,
+      "n_frames": 3026
+    },
+    "G2_Esports_VS_Gambit_Esports_fae1d55d_cc37_4b36_a841_4b9fcb8cf432": {
+      "mean_contention_rate_full": 0.6348145225619867,
+      "mean_contention_rate_active": 0.3229841096519962,
+      "mean_active_node_fraction": 0.537968968485449,
+      "n_frames": 5406
+    },
+    "G2_Esports_VS_Imperial_Esports_fb1292ee_58f8_46af_99cd_4dee2251a06c": {
+      "mean_contention_rate_full": 0.6489686424786478,
+      "mean_contention_rate_active": 0.31689961414517626,
+      "mean_active_node_fraction": 0.5121277976875597,
+      "n_frames": 5031
+    },
+    "G2_Esports_VS_MIBR_558a89cc_83f4_4b7d_92de_dad700845416": {
+      "mean_contention_rate_full": 0.6474175059821159,
+      "mean_contention_rate_active": 0.30337031699664435,
+      "mean_active_node_fraction": 0.49882568375510383,
+      "n_frames": 4809
+    },
+    "G2_Esports_VS_Natus_Vincere_30884d24_3c0f_4147_90ca_e2e0f58ea30e": {
+      "mean_contention_rate_full": 0.6340194446088561,
+      "mean_contention_rate_active": 0.31213471416245553,
+      "mean_active_node_fraction": 0.5266338300852739,
+      "n_frames": 5164
+    },
+    "G2_Esports_VS_OG_Esports_e1589ea4_ccc0_4907_b81f_5161da7fcc9c": {
+      "mean_contention_rate_full": 0.6661087127391746,
+      "mean_contention_rate_active": 0.3206883995808273,
+      "mean_active_node_fraction": 0.4896891698652818,
+      "n_frames": 3914
+    },
+    "G2_Esports_VS_TYLOO_24802ae0_ae49_471c_9688_a712ab54e0df": {
+      "mean_contention_rate_full": 0.6511783092300351,
+      "mean_contention_rate_active": 0.3141947552178937,
+      "mean_active_node_fraction": 0.5021631109829395,
+      "n_frames": 5138
+    },
+    "G2_Esports_VS_compLexity_b084db84_f340_422a_a4d7_f60c400748ec": {
+      "mean_contention_rate_full": 0.6238910641367424,
+      "mean_contention_rate_active": 0.2988802657280574,
+      "mean_active_node_fraction": 0.5315129449560454,
+      "n_frames": 4839
+    },
+    "G2_Esports_VS_forZe_Esports_bbe12832_0c8c_4cac_8125_62d6c25412ce": {
+      "mean_contention_rate_full": 0.642757226197544,
+      "mean_contention_rate_active": 0.3170004037964344,
+      "mean_active_node_fraction": 0.5224631256782433,
+      "n_frames": 4583
+    },
+    "GODSENT_VS_BIG_489338c2_71c4_4d7b_90f2_cb124986bd4b": {
+      "mean_contention_rate_full": 0.6624172654459296,
+      "mean_contention_rate_active": 0.31817611865131906,
+      "mean_active_node_fraction": 0.4858536145664323,
+      "n_frames": 4300
+    },
+    "GODSENT_VS_ENCE_6d430aed_dbe8_42ea_98b4_ab2360c3de8b": {
+      "mean_contention_rate_full": 0.6251210004677465,
+      "mean_contention_rate_active": 0.2974692533026643,
+      "mean_active_node_fraction": 0.5299458767287507,
+      "n_frames": 3781
+    },
+    "GODSENT_VS_Players_157c39c0_d36c_4c10_8432_190c923ba278": {
+      "mean_contention_rate_full": 0.6235793716952595,
+      "mean_contention_rate_active": 0.3025752026908048,
+      "mean_active_node_fraction": 0.5342010686424696,
+      "n_frames": 4101
+    },
+    "Gambit_VS_Enterprise_0c8c7332_6a51_4e15_8eff_12a8e3634c40": {
+      "mean_contention_rate_full": 0.6388706844409425,
+      "mean_contention_rate_active": 0.33562415197306505,
+      "mean_active_node_fraction": 0.5349692713127785,
+      "n_frames": 3508
+    },
+    "Gambit_VS_Entropiq_4d4619ea_b3e9_450f_b9c3_3882c2a876a1": {
+      "mean_contention_rate_full": 0.6592293641051088,
+      "mean_contention_rate_active": 0.3098949706717854,
+      "mean_active_node_fraction": 0.4894102821670946,
+      "n_frames": 4111
+    },
+    "Gambit_VS_NAVI_GGBET_a3fbf302_b349_475c_9252_44f65ebb4fc7": {
+      "mean_contention_rate_full": 0.6441364107900133,
+      "mean_contention_rate_active": 0.3287808216564539,
+      "mean_active_node_fraction": 0.5273995683977937,
+      "n_frames": 5281
+    },
+    "Gambit_VS_eSuba_2cb9e325_f962_411e_af76_010f6be393e5": {
+      "mean_contention_rate_full": 0.6462006476420832,
+      "mean_contention_rate_active": 0.3093381874477114,
+      "mean_active_node_fraction": 0.5094681661580941,
+      "n_frames": 7115
+    },
+    "HAVU_VS_B_I_G_1876de5d_8dbb_4b4b_b5d9_f051f4901375": {
+      "mean_contention_rate_full": 0.6361632841024966,
+      "mean_contention_rate_active": 0.3019327012826834,
+      "mean_active_node_fraction": 0.5162337496208094,
+      "n_frames": 1515
+    },
+    "HAVU_VS_Complexity_677a5339_eea3_4a37_843e_a385147ce412": {
+      "mean_contention_rate_full": 0.6420576980504383,
+      "mean_contention_rate_active": 0.3074853328818638,
+      "mean_active_node_fraction": 0.5080134747889484,
+      "n_frames": 1717
+    },
+    "HEROIC_VS_BIG_be25bf2e_5aaa_4be5_98ae_f2acb64febaf": {
+      "mean_contention_rate_full": 0.6538491666705065,
+      "mean_contention_rate_active": 0.31580870938764205,
+      "mean_active_node_fraction": 0.4997498961954015,
+      "n_frames": 4326
+    },
+    "HEROIC_VS_NAVI_c7f0e145_6303_40e6_9b79_ab0f825db57d": {
+      "mean_contention_rate_full": 0.6241841229313004,
+      "mean_contention_rate_active": 0.2950521155158064,
+      "mean_active_node_fraction": 0.5257172255257294,
+      "n_frames": 4882
+    },
+    "Heroic_GGBET_VS_9z_1d515b6f_092b_447a_8fab_6778da8d50ce": {
+      "mean_contention_rate_full": 0.6326867091683086,
+      "mean_contention_rate_active": 0.3052713141915142,
+      "mean_active_node_fraction": 0.5262153296848527,
+      "n_frames": 3578
+    },
+    "Heroic_VS_Astralis_2512bf15_d7b8_4c83_a402_43c3c0913a83": {
+      "mean_contention_rate_full": 0.6551649108541056,
+      "mean_contention_rate_active": 0.3230756948624639,
+      "mean_active_node_fraction": 0.5037354297261898,
+      "n_frames": 5965
+    },
+    "Heroic_VS_BIG_56cc0c20_4bad_458a_b1f5_e9ab0f7d06ae": {
+      "mean_contention_rate_full": 0.6905929218034562,
+      "mean_contention_rate_active": 0.3495130139241289,
+      "mean_active_node_fraction": 0.46754074595596234,
+      "n_frames": 3624
+    },
+    "Heroic_VS_Bad_News_Bears_e41b1415_b868_49eb_b040_894e61c79ab6": {
+      "mean_contention_rate_full": 0.6600881676463072,
+      "mean_contention_rate_active": 0.3245555651701513,
+      "mean_active_node_fraction": 0.4945868472612658,
+      "n_frames": 2600
+    },
+    "Heroic_VS_ENCE_18319c80_8171_4a16_975d_76889e92362b": {
+      "mean_contention_rate_full": 0.6491871615555721,
+      "mean_contention_rate_active": 0.3106714632724227,
+      "mean_active_node_fraction": 0.5000152484641938,
+      "n_frames": 3486
+    },
+    "Heroic_VS_ENCE_dc580163_7642_4713_ad0b_052c4fc11d49": {
+      "mean_contention_rate_full": 0.6450683567256682,
+      "mean_contention_rate_active": 0.31141408809478904,
+      "mean_active_node_fraction": 0.5126475632390664,
+      "n_frames": 4429
+    },
+    "Heroic_VS_FURIA_8082f038_999c_4cc0_9219_e4f2f47737d1": {
+      "mean_contention_rate_full": 0.6488199342144865,
+      "mean_contention_rate_active": 0.30088194677888225,
+      "mean_active_node_fraction": 0.4933396084368396,
+      "n_frames": 5372
+    },
+    "Heroic_VS_FaZe_Clan_094cae55_e4c2_4c54_ad8c_0b1f846d0068": {
+      "mean_contention_rate_full": 0.6141947817619429,
+      "mean_contention_rate_active": 0.29657800587628785,
+      "mean_active_node_fraction": 0.5447975140336807,
+      "n_frames": 4640
+    },
+    "Heroic_VS_FaZe_Clan_b5025518_f454_4613_91b0_0382cccf9a28": {
+      "mean_contention_rate_full": 0.6584904050231407,
+      "mean_contention_rate_active": 0.3223600458970999,
+      "mean_active_node_fraction": 0.4969636124232034,
+      "n_frames": 5619
+    },
+    "Heroic_VS_G2_Esports_96994a0e_6a86_48c4_9962_cb71dd7f5c14": {
+      "mean_contention_rate_full": 0.6467729663222415,
+      "mean_contention_rate_active": 0.30457213461596894,
+      "mean_active_node_fraction": 0.5035848369283769,
+      "n_frames": 4557
+    },
+    "Heroic_VS_GODSENT_446cea4d_f23c_4932_bdb0_8108e5a53733": {
+      "mean_contention_rate_full": 0.6304196136702739,
+      "mean_contention_rate_active": 0.30043369846844376,
+      "mean_active_node_fraction": 0.5218502427804753,
+      "n_frames": 4693
+    },
+    "Heroic_VS_Gambit_Esports_f4098943_2e5b_48c6_a5de_353dfba3e640": {
+      "mean_contention_rate_full": 0.6701642917360641,
+      "mean_contention_rate_active": 0.32538303176935585,
+      "mean_active_node_fraction": 0.4815354653365881,
+      "n_frames": 3770
+    },
+    "Heroic_VS_NAVI_GGBET_8e945423_8029_472f_991f_075e8cea3821": {
+      "mean_contention_rate_full": 0.626178367021662,
+      "mean_contention_rate_active": 0.31002145213633864,
+      "mean_active_node_fraction": 0.5356469090570373,
+      "n_frames": 5350
+    },
+    "Heroic_VS_Natus_Vincere_69cf03cd_1be4_4ce6_98fa_dde9971bc518": {
+      "mean_contention_rate_full": 0.621267439944514,
+      "mean_contention_rate_active": 0.3092362106293651,
+      "mean_active_node_fraction": 0.5412948763636781,
+      "n_frames": 5780
+    },
+    "Heroic_VS_Natus_Vincere_8c516ddf_4403_4eaa_a17d_44a9feae80f5": {
+      "mean_contention_rate_full": 0.6620530382695714,
+      "mean_contention_rate_active": 0.3273373792689522,
+      "mean_active_node_fraction": 0.4993076300287557,
+      "n_frames": 3570
+    },
+    "Heroic_VS_OG_bb7fb8a7_1a8b_4990_bb6b_b42109cb3259": {
+      "mean_contention_rate_full": 0.6261126920397242,
+      "mean_contention_rate_active": 0.2988374698624293,
+      "mean_active_node_fraction": 0.5305670315271339,
+      "n_frames": 3597
+    },
+    "Heroic_VS_POGGERZ_a56115fd_a0ba_4eea_a618_91fd6c57177c": {
+      "mean_contention_rate_full": 0.6442706604222179,
+      "mean_contention_rate_active": 0.294049743489566,
+      "mean_active_node_fraction": 0.5004701210906809,
+      "n_frames": 4213
+    },
+    "Heroic_VS_Virtus_pro_347bfc41_a2c8_4684_afe8_052bcff0af77": {
+      "mean_contention_rate_full": 0.6508759264785581,
+      "mean_contention_rate_active": 0.32272990918858824,
+      "mean_active_node_fraction": 0.5091398242244657,
+      "n_frames": 5366
+    },
+    "Heroic_VS_Vitality_0839a031_0e2c_4c03_b4bc_b5ba05fe669a": {
+      "mean_contention_rate_full": 0.6535312939942266,
+      "mean_contention_rate_active": 0.31852700822745666,
+      "mean_active_node_fraction": 0.4997501517864002,
+      "n_frames": 3834
+    },
+    "Imperial_Esports_VS_Bad_News_Eagles_2c3b80e0_fc3c_46fe_af19_352861db1dc9": {
+      "mean_contention_rate_full": 0.6320075457949211,
+      "mean_contention_rate_active": 0.3003632086305353,
+      "mean_active_node_fraction": 0.5227708983522937,
+      "n_frames": 4620
+    },
+    "Imperial_Esports_VS_Cloud9_1550fda2_2150_4a0b_ad50_c7b363e49b29": {
+      "mean_contention_rate_full": 0.6090760655332649,
+      "mean_contention_rate_active": 0.2944058810709688,
+      "mean_active_node_fraction": 0.5512374253096668,
+      "n_frames": 3478
+    },
+    "LDLC_VS_Dynamo_Eclot_0ed3b2eb_5e2f_4529_8c9d_89fb41ee2f7c": {
+      "mean_contention_rate_full": 0.6773501097705504,
+      "mean_contention_rate_active": 0.3343954904247678,
+      "mean_active_node_fraction": 0.4790095393522566,
+      "n_frames": 4560
+    },
+    "LDLC_VS_K23_ead9cffe_46cb_42a5_bcae_31e7f8194d9c": {
+      "mean_contention_rate_full": 0.642271271410667,
+      "mean_contention_rate_active": 0.3260308801104425,
+      "mean_active_node_fraction": 0.5302491362789371,
+      "n_frames": 3340
+    },
+    "MAD_LIONS_VS_G2_Esports_93a63bac_bc90_4196_b262_311695e6360a": {
+      "mean_contention_rate_full": 0.6504045507621248,
+      "mean_contention_rate_active": 0.32544594414411493,
+      "mean_active_node_fraction": 0.5097284498126167,
+      "n_frames": 6029
+    },
+    "MAD_Lions_VS_ENCE_e8edf4dd_75be_4dc3_8533_bfe78b6a428f": {
+      "mean_contention_rate_full": 0.6641571127136213,
+      "mean_contention_rate_active": 0.3270794128731862,
+      "mean_active_node_fraction": 0.49084231851720755,
+      "n_frames": 4449
+    },
+    "MIBR_VS_FaZe_Clan_36bbcf79_da4a_46c6_92e5_4d20fdd3aea4": {
+      "mean_contention_rate_full": 0.6443700471484476,
+      "mean_contention_rate_active": 0.31300805736343107,
+      "mean_active_node_fraction": 0.5137335598801145,
+      "n_frames": 3631
+    },
+    "MIBR_VS_Heroic_fcf03079_9f8a_4038_80cb_df9fa0547e67": {
+      "mean_contention_rate_full": 0.6262052307345441,
+      "mean_contention_rate_active": 0.30996721693412227,
+      "mean_active_node_fraction": 0.5354785998324503,
+      "n_frames": 4008
+    },
+    "MOUZ_VS_ENCE_70d7d916_5647_4141_a705_b9bbc6e2093a": {
+      "mean_contention_rate_full": 0.6185720630306386,
+      "mean_contention_rate_active": 0.3151599812439887,
+      "mean_active_node_fraction": 0.5508328719084533,
+      "n_frames": 3840
+    },
+    "MOUZ_VS_G2_Esports_4e6d6d4e_0a7c_4bc2_a773_1c0ef6f0de36": {
+      "mean_contention_rate_full": 0.6252368374356453,
+      "mean_contention_rate_active": 0.30243157611313803,
+      "mean_active_node_fraction": 0.5323086087505532,
+      "n_frames": 7202
+    },
+    "Movistar_Riders_VS_ENCE_4a86fa84_5d31_43a5_a107_d34549646097": {
+      "mean_contention_rate_full": 0.6378916822352486,
+      "mean_contention_rate_active": 0.31683183000721116,
+      "mean_active_node_fraction": 0.5245390113012861,
+      "n_frames": 5374
+    },
+    "Movistar_Riders_VS_Fiend_2ddcc9d7_0702_42de_952e_1170ca5adcfa": {
+      "mean_contention_rate_full": 0.6400768059161649,
+      "mean_contention_rate_active": 0.3210152069815995,
+      "mean_active_node_fraction": 0.5278437990183154,
+      "n_frames": 5355
+    },
+    "Movistar_Riders_VS_G2_Esports_8960bc49_f7ef_4ea3_a91d_e3b3cad6810b": {
+      "mean_contention_rate_full": 0.6319879317575081,
+      "mean_contention_rate_active": 0.3092894701057675,
+      "mean_active_node_fraction": 0.5302921904365746,
+      "n_frames": 4249
+    },
+    "Movistar_Riders_VS_Players_1eacbbe8_6612_4c97_9a74_27a1e0b7b6ec": {
+      "mean_contention_rate_full": 0.6506843600862877,
+      "mean_contention_rate_active": 0.31389577805057406,
+      "mean_active_node_fraction": 0.5031054208596232,
+      "n_frames": 4553
+    },
+    "Movistar_Riders_VS_Team_Liquid_521de194_f3e3_4764_993a_f770bd53a891": {
+      "mean_contention_rate_full": 0.6172290348555284,
+      "mean_contention_rate_active": 0.3004555165829394,
+      "mean_active_node_fraction": 0.5445273430596387,
+      "n_frames": 4969
+    },
+    "Movistar_Riders_VS_VP_Parimatch_7f28f209_585f_4842_aad3_10f8dbf3d839": {
+      "mean_contention_rate_full": 0.6769673474941401,
+      "mean_contention_rate_active": 0.3422779119202918,
+      "mean_active_node_fraction": 0.48294762695585786,
+      "n_frames": 4159
+    },
+    "NAVI_GGBET_VS_G2_Esports_b01bb4b6_4221_4270_9b9f_16e32a24ab50": {
+      "mean_contention_rate_full": 0.6164080241050255,
+      "mean_contention_rate_active": 0.3001157832556944,
+      "mean_active_node_fraction": 0.5417519996908691,
+      "n_frames": 3697
+    },
+    "NAVI_GGBET_VS_Heroic_9cb1365f_e7fa_41fc_b25f_b27df3c39f4e": {
+      "mean_contention_rate_full": 0.644300397292208,
+      "mean_contention_rate_active": 0.3247340384120907,
+      "mean_active_node_fraction": 0.5226347755643748,
+      "n_frames": 4112
+    },
+    "NAVI_GGBET_VS_TeamVitality_2e8e94ae_6874_4953_99f6_63f55171ce31": {
+      "mean_contention_rate_full": 0.632467781184907,
+      "mean_contention_rate_active": 0.3201799706173762,
+      "mean_active_node_fraction": 0.5341509457679832,
+      "n_frames": 4493
+    },
+    "NAVI_GG_BET_VS_Complexity_bdada140_b48c_4be0_93c3_ce2cd7973eed": {
+      "mean_contention_rate_full": 0.6433737785256693,
+      "mean_contention_rate_active": 0.3290558052565014,
+      "mean_active_node_fraction": 0.5210731283771552,
+      "n_frames": 4839
+    },
+    "NAVI_GG_BET_VS_FURIA_66345ce6_70ce_42e4_a716_9bdb83b12dba": {
+      "mean_contention_rate_full": 0.6166268188341503,
+      "mean_contention_rate_active": 0.29545260112957533,
+      "mean_active_node_fraction": 0.5387505586559588,
+      "n_frames": 4366
+    },
+    "NAVI_GG_BET_VS_FURIA_Esports_c4fc4286_3274_4ea7_b6c1_aaa2edb88b00": {
+      "mean_contention_rate_full": 0.651346743576118,
+      "mean_contention_rate_active": 0.325681769492265,
+      "mean_active_node_fraction": 0.512332540036545,
+      "n_frames": 5683
+    },
+    "NAVI_VS_Gambit_59b80bdd_b7e0_4d79_8ab0_941b8d989dc3": {
+      "mean_contention_rate_full": 0.6400792386141266,
+      "mean_contention_rate_active": 0.31164295268119985,
+      "mean_active_node_fraction": 0.515810822694142,
+      "n_frames": 5327
+    },
+    "Natus_Vincere_VS_FURIA_0657c9fd_a475_4257_8879_265fdbfd59b0": {
+      "mean_contention_rate_full": 0.6158569654080254,
+      "mean_contention_rate_active": 0.2972054000589531,
+      "mean_active_node_fraction": 0.5435525313319318,
+      "n_frames": 3551
+    },
+    "Natus_Vincere_VS_FaZe_Clan_1a73735c_2216_4614_a884_6109561483ed": {
+      "mean_contention_rate_full": 0.6339654200770956,
+      "mean_contention_rate_active": 0.3159081415497163,
+      "mean_active_node_fraction": 0.5321140038377649,
+      "n_frames": 6638
+    },
+    "Natus_Vincere_VS_G2_Esports_73515c5e_c4da_4eb1_a029_e0c679022469": {
+      "mean_contention_rate_full": 0.6419657832342138,
+      "mean_contention_rate_active": 0.31975630107753833,
+      "mean_active_node_fraction": 0.522527616949601,
+      "n_frames": 7432
+    },
+    "Natus_Vincere_VS_G2_Esports_93a6d3b7_eaa5_48e5_893c_37ddd0f3c263": {
+      "mean_contention_rate_full": 0.6276062284082614,
+      "mean_contention_rate_active": 0.31355106018710116,
+      "mean_active_node_fraction": 0.5354921378063289,
+      "n_frames": 5921
+    },
+    "Natus_Vincere_VS_G2_Esports_a03bf1a0_74bc_4308_84d1_ce615c60e281": {
+      "mean_contention_rate_full": 0.6142553695201609,
+      "mean_contention_rate_active": 0.30040285682788836,
+      "mean_active_node_fraction": 0.5432660518377532,
+      "n_frames": 4383
+    },
+    "Natus_Vincere_VS_G2_Esports_f6a2e8b5_8787_4353_8ba7_8d6f3619ef8a": {
+      "mean_contention_rate_full": 0.6610024158920705,
+      "mean_contention_rate_active": 0.31630137023151833,
+      "mean_active_node_fraction": 0.4876822650917181,
+      "n_frames": 4076
+    },
+    "Natus_Vincere_VS_Gambit_1553618a_ae96_4237_a2eb_7eebe9bc9bff": {
+      "mean_contention_rate_full": 0.6184559083700312,
+      "mean_contention_rate_active": 0.3026935123926386,
+      "mean_active_node_fraction": 0.5447106645000458,
+      "n_frames": 4823
+    },
+    "Natus_Vincere_VS_Gambit_725103ae_e7e7_4c3c_ada4_e5df99021b38": {
+      "mean_contention_rate_full": 0.6375924639434973,
+      "mean_contention_rate_active": 0.3296389876308022,
+      "mean_active_node_fraction": 0.5340573579916299,
+      "n_frames": 4744
+    },
+    "Natus_Vincere_VS_Gambit_Esports_b4fea9c9_af26_442d_9eea_c7dad86486bb": {
+      "mean_contention_rate_full": 0.6071299564271365,
+      "mean_contention_rate_active": 0.30317891693820387,
+      "mean_active_node_fraction": 0.5624537569668505,
+      "n_frames": 2983
+    },
+    "Natus_Vincere_VS_MIBR_35e69a21_1401_4b37_a68c_f50f986f6533": {
+      "mean_contention_rate_full": 0.6398666672565041,
+      "mean_contention_rate_active": 0.31917949620293806,
+      "mean_active_node_fraction": 0.5246313639154193,
+      "n_frames": 4506
+    },
+    "Ninjas_In_Pyjamas_VS_G2_Esports_3b0d7d8d_3cf7_45c4_ace9_90913ccb712a": {
+      "mean_contention_rate_full": 0.6295428778521324,
+      "mean_contention_rate_active": 0.3030431287574353,
+      "mean_active_node_fraction": 0.5265091884245682,
+      "n_frames": 5048
+    },
+    "Ninjas_In_Pyjamas_VS_Natus_Vincere_13c77e68_d62f_478c_89d3_05d31335d5ba": {
+      "mean_contention_rate_full": 0.6379070737738517,
+      "mean_contention_rate_active": 0.31030447464567334,
+      "mean_active_node_fraction": 0.5204079932672396,
+      "n_frames": 6049
+    },
+    "Ninjas_in_Pyjamas_VS_Astralis_0ae78b8c_ff38_49c9_8291_1bf11062db67": {
+      "mean_contention_rate_full": 0.6590156155949503,
+      "mean_contention_rate_active": 0.3286030448887067,
+      "mean_active_node_fraction": 0.502803806601275,
+      "n_frames": 5214
+    },
+    "Ninjas_in_Pyjamas_VS_BIG_Clan_7ea4b92b_b519_4560_9aff_d9af03223198": {
+      "mean_contention_rate_full": 0.6540475019647557,
+      "mean_contention_rate_active": 0.32409252788228654,
+      "mean_active_node_fraction": 0.5058763757565329,
+      "n_frames": 4209
+    },
+    "Ninjas_in_Pyjamas_VS_ENCE_7661436d_fb0d_44ba_859a_02946733736c": {
+      "mean_contention_rate_full": 0.648847719336831,
+      "mean_contention_rate_active": 0.3059068804807169,
+      "mean_active_node_fraction": 0.4982787312698727,
+      "n_frames": 3867
+    },
+    "Ninjas_in_Pyjamas_VS_G2_Esports_417185bd_1f9a_4a77_8569_0e124917c1ca": {
+      "mean_contention_rate_full": 0.6455493389870548,
+      "mean_contention_rate_active": 0.3029890748460613,
+      "mean_active_node_fraction": 0.5019735196110974,
+      "n_frames": 5555
+    },
+    "Ninjas_in_Pyjamas_VS_G2_Esports_6b9c4aca_ed93_4a26_b536_3192342ad7b4": {
+      "mean_contention_rate_full": 0.6365896509109786,
+      "mean_contention_rate_active": 0.3053537003601022,
+      "mean_active_node_fraction": 0.5198379492424331,
+      "n_frames": 8004
+    },
+    "Ninjas_in_Pyjamas_VS_MOUZ_4816248a_7de1_499e_ac5e_32d49f545e5a": {
+      "mean_contention_rate_full": 0.6316076852337563,
+      "mean_contention_rate_active": 0.3024131910737583,
+      "mean_active_node_fraction": 0.5212172469286913,
+      "n_frames": 5472
+    },
+    "Ninjas_in_Pyjamas_VS_NAVI_GGBET_a7530323_4964_4460_aed0_ebb7e68bc7ad": {
+      "mean_contention_rate_full": 0.6246726567540842,
+      "mean_contention_rate_active": 0.30844628586537803,
+      "mean_active_node_fraction": 0.5364456633219113,
+      "n_frames": 4332
+    },
+    "Ninjas_in_Pyjamas_VS_OG_Esports_a89ce504_36fb_4e3b_acdd_8d69ea449d72": {
+      "mean_contention_rate_full": 0.6385535491640143,
+      "mean_contention_rate_active": 0.30530413305961623,
+      "mean_active_node_fraction": 0.5150685070743211,
+      "n_frames": 4576
+    },
+    "Ninjas_in_Pyjamas_VS_Team_Liquid_8b16fbb6_44e2_4191_ba9e_3973c02f36f6": {
+      "mean_contention_rate_full": 0.6399814756552074,
+      "mean_contention_rate_active": 0.31953718344199483,
+      "mean_active_node_fraction": 0.5236684103796625,
+      "n_frames": 3453
+    },
+    "Ninjas_in_Pyjamas_VS_Team_Liquid_8e2ff20c_3c3c_4810_a7e6_0d86d411d35c": {
+      "mean_contention_rate_full": 0.6457643461601897,
+      "mean_contention_rate_active": 0.3201426964256926,
+      "mean_active_node_fraction": 0.5163209982606322,
+      "n_frames": 3666
+    },
+    "Ninjas_in_Pyjamas_VS_Team_Vitality_eeef2648_6656_4375_b182_c516d35abad5": {
+      "mean_contention_rate_full": 0.6404018005929057,
+      "mean_contention_rate_active": 0.30120230787025903,
+      "mean_active_node_fraction": 0.5116907027958809,
+      "n_frames": 4303
+    },
+    "Ninjas_in_Pyjamas_VS_compLexity_63cda578_3070_48f1_9bc5_3e87d0443b97": {
+      "mean_contention_rate_full": 0.6253116538082145,
+      "mean_contention_rate_active": 0.3000536158398242,
+      "mean_active_node_fraction": 0.5311868864112559,
+      "n_frames": 4686
+    },
+    "OGEsports_VS_FaZe_Clan_a6240476_ee3b_485d_874b_e5e55eb3e1d3": {
+      "mean_contention_rate_full": 0.6433351035581518,
+      "mean_contention_rate_active": 0.3127058441365436,
+      "mean_active_node_fraction": 0.5155350264367295,
+      "n_frames": 4035
+    },
+    "OGEsports_VS_NAVI_GGBET_13cef8eb_6ddb_48f6_80b7_95b52f0bf1f2": {
+      "mean_contention_rate_full": 0.6599905078310394,
+      "mean_contention_rate_active": 0.32444454928916616,
+      "mean_active_node_fraction": 0.49641398710647056,
+      "n_frames": 4480
+    },
+    "OGEsports_VS_Ninjas_in_Pyjamas_e80e8176_00f0_4110_8e4b_ee452b3fe649": {
+      "mean_contention_rate_full": 0.6500630342005879,
+      "mean_contention_rate_active": 0.3171399156532555,
+      "mean_active_node_fraction": 0.5073910005587334,
+      "n_frames": 6503
+    },
+    "OGEsports_VS_compLexity_849cf5c3_89e3_4112_a92c_497c31ee14dd": {
+      "mean_contention_rate_full": 0.6499826832052746,
+      "mean_contention_rate_active": 0.3323963669454806,
+      "mean_active_node_fraction": 0.5173146568495406,
+      "n_frames": 2590
+    },
+    "OG_Esports_VS_Gambit_Esports_848b887c_4554_4a9c_b480_4be8851abc8d": {
+      "mean_contention_rate_full": 0.6476389819760523,
+      "mean_contention_rate_active": 0.30821389574211555,
+      "mean_active_node_fraction": 0.5071743630531734,
+      "n_frames": 5522
+    },
+    "OG_Esports_VS_Ninjas_in_Pyjamas_24e3af62_dcf9_47b2_a644_83e9ad86ff01": {
+      "mean_contention_rate_full": 0.6618237505767324,
+      "mean_contention_rate_active": 0.3112550189773414,
+      "mean_active_node_fraction": 0.4834195568731778,
+      "n_frames": 4738
+    },
+    "OG_Esports_VS_forZe_Esports_857a56b5_afe2_4651_a593_122ed1069b8d": {
+      "mean_contention_rate_full": 0.6636193318104381,
+      "mean_contention_rate_active": 0.3194116841248326,
+      "mean_active_node_fraction": 0.4858151427675607,
+      "n_frames": 4302
+    },
+    "OG_VS_Complexity_c32dd58c_b127_48e6_98e2_560c85c32294": {
+      "mean_contention_rate_full": 0.6554071956658302,
+      "mean_contention_rate_active": 0.31449135893257135,
+      "mean_active_node_fraction": 0.4965047153328777,
+      "n_frames": 3933
+    },
+    "OG_VS_ENCE_6513dfac_6bdb_4431_9271_e2960bbd1be8": {
+      "mean_contention_rate_full": 0.662588298516158,
+      "mean_contention_rate_active": 0.3035903799719958,
+      "mean_active_node_fraction": 0.48091898258011223,
+      "n_frames": 4410
+    },
+    "OG_VS_FaZe_Clan_15100743_6d3f_4452_a403_f458df727df5": {
+      "mean_contention_rate_full": 0.6393147057769668,
+      "mean_contention_rate_active": 0.3124747631270004,
+      "mean_active_node_fraction": 0.5210501834927823,
+      "n_frames": 3307
+    },
+    "OG_VS_TYLOO_6074e5d6_f4a9_4dbe_83d4_450d49a637e6": {
+      "mean_contention_rate_full": 0.6417245318408109,
+      "mean_contention_rate_active": 0.3068218790501682,
+      "mean_active_node_fraction": 0.5125505073179492,
+      "n_frames": 4440
+    },
+    "OG_VS_Team_Vitality_6b03b89b_48dd_48bb_a30e_19a1ad5c2163": {
+      "mean_contention_rate_full": 0.6347669406196743,
+      "mean_contention_rate_active": 0.3002004486303236,
+      "mean_active_node_fraction": 0.5189759210959057,
+      "n_frames": 3778
+    },
+    "Outsiders_VS_Cloud9_fe317d45_273f_4ffe_805b_6d219d4cd751": {
+      "mean_contention_rate_full": 0.6347675011067399,
+      "mean_contention_rate_active": 0.3163383414228046,
+      "mean_active_node_fraction": 0.5290350452398727,
+      "n_frames": 5701
+    },
+    "Outsiders_VS_ENCE_1d4536eb_dedd_41d6_8f99_803846465472": {
+      "mean_contention_rate_full": 0.6535502001698272,
+      "mean_contention_rate_active": 0.318620558661258,
+      "mean_active_node_fraction": 0.5026165504961675,
+      "n_frames": 4845
+    },
+    "Outsiders_VS_FURIA_1aa3bf00_6172_4e39_a6f1_8078b1473c0a": {
+      "mean_contention_rate_full": 0.645826479532814,
+      "mean_contention_rate_active": 0.3206898149794801,
+      "mean_active_node_fraction": 0.5149115531522849,
+      "n_frames": 5736
+    },
+    "Party_Astronauts_VS_Team_Liquid_ffa461c3_e698_46a0_955c_bbc4d4369210": {
+      "mean_contention_rate_full": 0.6598413509501909,
+      "mean_contention_rate_active": 0.32614321863386714,
+      "mean_active_node_fraction": 0.4966797214304671,
+      "n_frames": 3914
+    },
+    "Renegades_VS_Complexity_f0b4a1be_0628_463f_9332_3f9a423fcda7": {
+      "mean_contention_rate_full": 0.6547928262213977,
+      "mean_contention_rate_active": 0.32362182859742783,
+      "mean_active_node_fraction": 0.5028208477317508,
+      "n_frames": 4235
+    },
+    "SINNERS_Esports_VS_G2_Esports_2bd9466d_1ec6_4d62_8546_cc5b377e6d37": {
+      "mean_contention_rate_full": 0.6252841952862688,
+      "mean_contention_rate_active": 0.310608241354299,
+      "mean_active_node_fraction": 0.5377910224690315,
+      "n_frames": 4262
+    },
+    "SKADE_VS_Fiend_1f96ec5f_17ea_41a8_9e5a_704ef3403e11": {
+      "mean_contention_rate_full": 0.6322619326247062,
+      "mean_contention_rate_active": 0.31766518649012154,
+      "mean_active_node_fraction": 0.5342778316458607,
+      "n_frames": 4372
+    },
+    "Sampi_Tipsport_VS_DREAM_ab370a1f_ca2b_4d28_920f_71e99f474ed8": {
+      "mean_contention_rate_full": 0.6598463580925391,
+      "mean_contention_rate_active": 0.30444219262663824,
+      "mean_active_node_fraction": 0.4866538464042597,
+      "n_frames": 3742
+    },
+    "Sampi_Tipsport_VS_Entropiq_15b1038e_0c35_4e42_970a_200445c0e2f2": {
+      "mean_contention_rate_full": 0.6705670560543949,
+      "mean_contention_rate_active": 0.3250301104510671,
+      "mean_active_node_fraction": 0.48098772721369076,
+      "n_frames": 3061
+    },
+    "Singularity_VS_K23_1xBET_7b520ade_d01f_4cdb_a60a_c8b5d84594ba": {
+      "mean_contention_rate_full": 0.6691910680788334,
+      "mean_contention_rate_active": 0.32821655667290855,
+      "mean_active_node_fraction": 0.4842225519677491,
+      "n_frames": 4554
+    },
+    "Sinners_VS_Entropiq_6bc24175_54c6_4f1b_a5af_0c22468bd281": {
+      "mean_contention_rate_full": 0.6506268659547879,
+      "mean_contention_rate_active": 0.32328729929214484,
+      "mean_active_node_fraction": 0.5091979215777831,
+      "n_frames": 5137
+    },
+    "Sprout_VS_FURIA_6065d854_d78a_4550_bfa2_bc8d5c68adf6": {
+      "mean_contention_rate_full": 0.6345395254996197,
+      "mean_contention_rate_active": 0.3134443998440201,
+      "mean_active_node_fraction": 0.5254505445890841,
+      "n_frames": 4626
+    },
+    "TeamVitality_VS_Astralis_8ddb1672_ae23_4ad0_b41b_25add199cd3b": {
+      "mean_contention_rate_full": 0.6512405333809713,
+      "mean_contention_rate_active": 0.32681413772835366,
+      "mean_active_node_fraction": 0.5116910384465136,
+      "n_frames": 4017
+    },
+    "TeamVitality_VS_G2_Esports_8c5e5fd4_20b5_4393_88c5_12d2a8a4b2fd": {
+      "mean_contention_rate_full": 0.6488259157679673,
+      "mean_contention_rate_active": 0.3146680143443264,
+      "mean_active_node_fraction": 0.5073762646308438,
+      "n_frames": 4746
+    },
+    "TeamVitality_VS_G2_Esports_965cbf49_8995_4a1c_a889_a37670d490d2": {
+      "mean_contention_rate_full": 0.6567970709878637,
+      "mean_contention_rate_active": 0.32999797142752346,
+      "mean_active_node_fraction": 0.5065786946007639,
+      "n_frames": 3920
+    },
+    "TeamVitality_VS_Team_Liquid_297b8d90_485b_48b5_8a30_85322b67e051": {
+      "mean_contention_rate_full": 0.6424221431905071,
+      "mean_contention_rate_active": 0.311329977686769,
+      "mean_active_node_fraction": 0.5147420167397629,
+      "n_frames": 3405
+    },
+    "TeamVitality_VS_Team_Liquid_50623056_f604_42ba_b3f9_ce01b95e90df": {
+      "mean_contention_rate_full": 0.637383454043368,
+      "mean_contention_rate_active": 0.3129988402189588,
+      "mean_active_node_fraction": 0.5212268306831146,
+      "n_frames": 4305
+    },
+    "TeamVitality_VS_compLexity_a58fa70c_a0fc_4d93_9e89_fe8af07362f0": {
+      "mean_contention_rate_full": 0.6412905591441874,
+      "mean_contention_rate_active": 0.3186563118306672,
+      "mean_active_node_fraction": 0.5165577196964777,
+      "n_frames": 4041
+    },
+    "TeamVitality_VS_compLexity_d2941f71_552b_4d8e_96e9_ab7e45233371": {
+      "mean_contention_rate_full": 0.64370849049944,
+      "mean_contention_rate_active": 0.3020545640526636,
+      "mean_active_node_fraction": 0.510615611428964,
+      "n_frames": 4063
+    },
+    "Team_Liquid_VS_Evil_Geniuses_23259457_fc02_47ba_b617_ecfc0b1da111": {
+      "mean_contention_rate_full": 0.6224397033073159,
+      "mean_contention_rate_active": 0.2882056172487487,
+      "mean_active_node_fraction": 0.5286439859823534,
+      "n_frames": 3283
+    },
+    "Team_Liquid_VS_FaZe_Clan_99c3a39f_35fe_48ed_bab5_ec69d7e518e4": {
+      "mean_contention_rate_full": 0.6410411819732454,
+      "mean_contention_rate_active": 0.3120394082153582,
+      "mean_active_node_fraction": 0.5142257660053866,
+      "n_frames": 7367
+    },
+    "Team_Liquid_VS_FaZe_Clan_9c9999f8_8216_4ab2_b223_568c1c762aa8": {
+      "mean_contention_rate_full": 0.6325141104285984,
+      "mean_contention_rate_active": 0.30946988560772215,
+      "mean_active_node_fraction": 0.5260518237349651,
+      "n_frames": 4799
+    },
+    "Team_Liquid_VS_G2_Esports_259b88bc_d5b8_40f3_a45c_8cff2c7766f9": {
+      "mean_contention_rate_full": 0.6272099121307773,
+      "mean_contention_rate_active": 0.3095871533615456,
+      "mean_active_node_fraction": 0.5353749341764142,
+      "n_frames": 3287
+    },
+    "Team_Liquid_VS_Gambit_Esports_9c01eead_9bae_4e6b_8bc8_153962815db1": {
+      "mean_contention_rate_full": 0.6256876842037418,
+      "mean_contention_rate_active": 0.31504691717170147,
+      "mean_active_node_fraction": 0.541792144937217,
+      "n_frames": 4725
+    },
+    "Team_Liquid_VS_NAVI_GGBET_77318ad7_cafa_47af_95b3_02550974fb7d": {
+      "mean_contention_rate_full": 0.6168180382183401,
+      "mean_contention_rate_active": 0.3054695850656711,
+      "mean_active_node_fraction": 0.5496085703354395,
+      "n_frames": 4883
+    },
+    "Team_Liquid_VS_Ninjas_in_Pyjamas_74b51f2d_cd8b_4543_b111_90626f211a27": {
+      "mean_contention_rate_full": 0.6684660736147948,
+      "mean_contention_rate_active": 0.32236947994521753,
+      "mean_active_node_fraction": 0.48343613085882853,
+      "n_frames": 2767
+    },
+    "Team_Liquid_VS_OG_988e7854_d97a_478d_80c4_5bcf8ff39365": {
+      "mean_contention_rate_full": 0.6378330689885494,
+      "mean_contention_rate_active": 0.3015304306850468,
+      "mean_active_node_fraction": 0.5132444351615549,
+      "n_frames": 5090
+    },
+    "Team_Liquid_VS_Team_oNe_f49655fa_ebda_437d_baeb_968916e23088": {
+      "mean_contention_rate_full": 0.6382390884908267,
+      "mean_contention_rate_active": 0.31369953003707285,
+      "mean_active_node_fraction": 0.5227347685391319,
+      "n_frames": 3492
+    },
+    "Team_One_VS_FURIA_Esports_ae1cfcc2_c643_4bb3_bb0e_eb6c74ef9be8": {
+      "mean_contention_rate_full": 0.6484001980717016,
+      "mean_contention_rate_active": 0.2997204726520248,
+      "mean_active_node_fraction": 0.49974412285418013,
+      "n_frames": 4276
+    },
+    "Team_One_VS_Gambit_891751f3_228c_453e_8a36_b67ee9340cbd": {
+      "mean_contention_rate_full": 0.6715523630721668,
+      "mean_contention_rate_active": 0.33397727546296374,
+      "mean_active_node_fraction": 0.4907213945413436,
+      "n_frames": 3072
+    },
+    "Team_One_VS_MIBR_f612c41d_caaa_421d_accf_6f2add046076": {
+      "mean_contention_rate_full": 0.6409102074707399,
+      "mean_contention_rate_active": 0.3118026799284826,
+      "mean_active_node_fraction": 0.5160385943708707,
+      "n_frames": 3557
+    },
+    "Team_Spirit_VS_FaZe_Clan_f039b7f6_c55a_47c8_b43a_adc2d94ec40c": {
+      "mean_contention_rate_full": 0.6402970715538494,
+      "mean_contention_rate_active": 0.31770323173178094,
+      "mean_active_node_fraction": 0.5213479535687031,
+      "n_frames": 4632
+    },
+    "Team_Spirit_VS_Fiend_34c5d56a_851f_43d5_9b28_b99b05e52461": {
+      "mean_contention_rate_full": 0.6467036810412208,
+      "mean_contention_rate_active": 0.30417374488545396,
+      "mean_active_node_fraction": 0.5023699785679836,
+      "n_frames": 4854
+    },
+    "Team_Spirit_VS_Imperial_Sportsbet_343f8f50_4467_4a8b_8fb1_f8f15588eb22": {
+      "mean_contention_rate_full": 0.6310055626403659,
+      "mean_contention_rate_active": 0.29504168632010774,
+      "mean_active_node_fraction": 0.5222000251769225,
+      "n_frames": 3035
+    },
+    "Team_Spirit_VS_Team_Vitality_4a579240_4d99_4fa9_851e_9066e7a176f2": {
+      "mean_contention_rate_full": 0.6200833631981506,
+      "mean_contention_rate_active": 0.28695175128979344,
+      "mean_active_node_fraction": 0.5307187896515986,
+      "n_frames": 3430
+    },
+    "Team_Vitality_VS_BIG_790a5467_bdf8_4482_8634_59a3099d1be0": {
+      "mean_contention_rate_full": 0.6373669775546182,
+      "mean_contention_rate_active": 0.3194840680233801,
+      "mean_active_node_fraction": 0.5287303348367364,
+      "n_frames": 4318
+    },
+    "Team_Vitality_VS_ENCE_070d18c2_93a2_4e4c_8642_ba658276229f": {
+      "mean_contention_rate_full": 0.6505523103986024,
+      "mean_contention_rate_active": 0.3046232168995416,
+      "mean_active_node_fraction": 0.497678484952664,
+      "n_frames": 4194
+    },
+    "Team_Vitality_VS_ENCE_f7c9da20_29e7_4dc4_9e52_44680c26a65a": {
+      "mean_contention_rate_full": 0.6308704038872882,
+      "mean_contention_rate_active": 0.32018746446623286,
+      "mean_active_node_fraction": 0.5372461774182068,
+      "n_frames": 3796
+    },
+    "Team_Vitality_VS_FaZe_Clan_1373632b_521f_491e_b6f4_6f6e471eb2ff": {
+      "mean_contention_rate_full": 0.6449720444048294,
+      "mean_contention_rate_active": 0.3200519836013799,
+      "mean_active_node_fraction": 0.5176246706592709,
+      "n_frames": 4510
+    },
+    "Team_Vitality_VS_FaZe_Clan_8926ff97_cbf7_4f24_aa19_71bc9ec94c86": {
+      "mean_contention_rate_full": 0.6396276450623684,
+      "mean_contention_rate_active": 0.3085327954153232,
+      "mean_active_node_fraction": 0.519441426019842,
+      "n_frames": 4262
+    },
+    "Team_Vitality_VS_FaZe_Clan_abf70b59_08a0_4f48_a483_7b90e0df9423": {
+      "mean_contention_rate_full": 0.6505909293663195,
+      "mean_contention_rate_active": 0.3174119361866915,
+      "mean_active_node_fraction": 0.5089120149467515,
+      "n_frames": 3081
+    },
+    "Team_Vitality_VS_G2_Esports_1914c3ce_29a5_4c8d_9839_9c0030a0a711": {
+      "mean_contention_rate_full": 0.6277343661717177,
+      "mean_contention_rate_active": 0.3062875756226465,
+      "mean_active_node_fraction": 0.5294833548037156,
+      "n_frames": 3920
+    },
+    "Team_Vitality_VS_G2_Esports_ee9427f3_03bf_4962_b5a5_1938fa163ef4": {
+      "mean_contention_rate_full": 0.6352652396361591,
+      "mean_contention_rate_active": 0.2990241230727886,
+      "mean_active_node_fraction": 0.5142480982970007,
+      "n_frames": 5311
+    },
+    "Team_Vitality_VS_Gambit_Esports_79b5ebf2_fab4_48bc_9697_5ba260b19226": {
+      "mean_contention_rate_full": 0.6477568775544349,
+      "mean_contention_rate_active": 0.32053837334089547,
+      "mean_active_node_fraction": 0.5158902778109737,
+      "n_frames": 4170
+    },
+    "Team_Vitality_VS_Gambit_Esports_fb4def27_0dc0_4154_a84d_12e2a03e50a3": {
+      "mean_contention_rate_full": 0.6377479311418509,
+      "mean_contention_rate_active": 0.325263157547057,
+      "mean_active_node_fraction": 0.5320697158721475,
+      "n_frames": 6249
+    },
+    "Team_Vitality_VS_Heroic_343edef3_916d_4f85_93b4_3b32c0c70d00": {
+      "mean_contention_rate_full": 0.6358050990361892,
+      "mean_contention_rate_active": 0.318459519816339,
+      "mean_active_node_fraction": 0.5306733185432096,
+      "n_frames": 4515
+    },
+    "Team_Vitality_VS_Natus_Vincere_2f7a05ba_079d_4fe5_8380_c450eb50e138": {
+      "mean_contention_rate_full": 0.6485283616602708,
+      "mean_contention_rate_active": 0.3218190608563316,
+      "mean_active_node_fraction": 0.5136640961170335,
+      "n_frames": 4178
+    },
+    "Team_Vitality_VS_OG_Esports_dd0ec52a_bcc0_4618_8435_ddb0432880bf": {
+      "mean_contention_rate_full": 0.635717705770058,
+      "mean_contention_rate_active": 0.3084086405316126,
+      "mean_active_node_fraction": 0.5215491778581632,
+      "n_frames": 3918
+    },
+    "Team_Vitality_VS_OG_Esports_eed7a65c_b250_4de3_90d0_ebb69c0181f0": {
+      "mean_contention_rate_full": 0.6602900279754655,
+      "mean_contention_rate_active": 0.31543616639192296,
+      "mean_active_node_fraction": 0.4927701384814417,
+      "n_frames": 4411
+    },
+    "Team_Vitality_VS_Team_Liquid_d2d9bb20_0dba_4cd4_986b_a3456f8dfeef": {
+      "mean_contention_rate_full": 0.6305737354826995,
+      "mean_contention_rate_active": 0.296588005033141,
+      "mean_active_node_fraction": 0.523109522019238,
+      "n_frames": 4330
+    },
+    "Team_Vitality_VS_mousesports_456460d4_6b82_481b_80c7_765341ee0bd5": {
+      "mean_contention_rate_full": 0.5918186805299207,
+      "mean_contention_rate_active": 0.2984991204283237,
+      "mean_active_node_fraction": 0.5770641072966654,
+      "n_frames": 4320
+    },
+    "Team_oNe_VS_Gambit_Esports_a31257d9_d974_407a_acb9_c8505ffffe0a": {
+      "mean_contention_rate_full": 0.6331646248615724,
+      "mean_contention_rate_active": 0.31867095230260156,
+      "mean_active_node_fraction": 0.5341143670404207,
+      "n_frames": 5120
+    },
+    "Virtus_pro_Parimatch_VS_Complexity_59940a39_6100_4b2a_8708_f3d11ae6413a": {
+      "mean_contention_rate_full": 0.6308696650687904,
+      "mean_contention_rate_active": 0.3053927696670158,
+      "mean_active_node_fraction": 0.5297723658883587,
+      "n_frames": 4552
+    },
+    "Virtus_pro_Parimatch_VS_FURIA_Esports_9ebbcaf0_1767_4254_9b67_1d3c20b34906": {
+      "mean_contention_rate_full": 0.6589911984766018,
+      "mean_contention_rate_active": 0.31806967141118303,
+      "mean_active_node_fraction": 0.4952933591231463,
+      "n_frames": 5170
+    },
+    "Virtus_pro_Parimatch_VS_Ninjas_in_Pyjamas_ce084937_09f0_4556_9aac_347dcd27c615": {
+      "mean_contention_rate_full": 0.6187254398282929,
+      "mean_contention_rate_active": 0.30227085280956617,
+      "mean_active_node_fraction": 0.5438239088490826,
+      "n_frames": 4850
+    },
+    "Virtus_pro_Parimatch_VS_Team_Liquid_e6f1a8c9_690b_47a3_ba71_13343541fda6": {
+      "mean_contention_rate_full": 0.6467700541480681,
+      "mean_contention_rate_active": 0.308687881375907,
+      "mean_active_node_fraction": 0.5071483347940403,
+      "n_frames": 5216
+    },
+    "Virtus_pro_VS_G2_Esports_7063ca5d_8f7f_4e11_aa6c_d3084b3b323e": {
+      "mean_contention_rate_full": 0.6517639025938886,
+      "mean_contention_rate_active": 0.3276194644973704,
+      "mean_active_node_fraction": 0.5125103438712507,
+      "n_frames": 8609
+    },
+    "Virtus_pro_VS_G2_Esports_be640014_1959_4a86_8b10_93f770e4e9f4": {
+      "mean_contention_rate_full": 0.6504286722811182,
+      "mean_contention_rate_active": 0.3102928673455801,
+      "mean_active_node_fraction": 0.5012878282725918,
+      "n_frames": 4524
+    },
+    "Virtus_pro_VS_GODSENT_e563d6f5_c1b0_4688_b143_3e48499d67b8": {
+      "mean_contention_rate_full": 0.6433405558051323,
+      "mean_contention_rate_active": 0.30369391054802775,
+      "mean_active_node_fraction": 0.508876006964262,
+      "n_frames": 5687
+    },
+    "Virtus_pro_VS_OG_Esports_48b037f5_9673_4311_b1c6_b99351af0b80": {
+      "mean_contention_rate_full": 0.6207186545909413,
+      "mean_contention_rate_active": 0.29784759882833567,
+      "mean_active_node_fraction": 0.5347029084170958,
+      "n_frames": 4863
+    },
+    "Virtus_pro_VS_Team_Vitality_779ac45e_0be0_42e6_8991_a89ceb07fa42": {
+      "mean_contention_rate_full": 0.6547954445771351,
+      "mean_contention_rate_active": 0.33883166908252316,
+      "mean_active_node_fraction": 0.5188722867721393,
+      "n_frames": 5027
+    },
+    "Virtus_pro_VS_forZe_7d979656_f618_428a_8323_51c28b83a9c0": {
+      "mean_contention_rate_full": 0.6283641980879077,
+      "mean_contention_rate_active": 0.31115653970159607,
+      "mean_active_node_fraction": 0.5357810409560183,
+      "n_frames": 2393
+    },
+    "Virtus_pro_VS_forZe_Esports_7c0b7a62_2a6f_4c67_9588_72677bbe6108": {
+      "mean_contention_rate_full": 0.6609241868275391,
+      "mean_contention_rate_active": 0.3181900522867248,
+      "mean_active_node_fraction": 0.4888918137240013,
+      "n_frames": 4594
+    },
+    "Vitality_VS_Entropiq_66740ed5_68d5_4ae2_8155_2cee7faf17a3": {
+      "mean_contention_rate_full": 0.640817986282215,
+      "mean_contention_rate_active": 0.3199276832170343,
+      "mean_active_node_fraction": 0.5254033498308308,
+      "n_frames": 5109
+    },
+    "Vitality_VS_Outsiders_b35a2097_3e27_4142_94ff_8e6960566836": {
+      "mean_contention_rate_full": 0.6383246430589765,
+      "mean_contention_rate_active": 0.31152904738203113,
+      "mean_active_node_fraction": 0.5188086174618916,
+      "n_frames": 4362
+    },
+    "Vitality_VS_Team_Liquid_37c8eb9f_890d_4035_a659_44911641213b": {
+      "mean_contention_rate_full": 0.6410761154855643,
+      "mean_contention_rate_active": 0.324285776087436,
+      "mean_active_node_fraction": 0.5274291917829208,
+      "n_frames": 3556
+    },
+    "compLexity_VS_G2_Esports_1ed4fb98_732e_4456_8516_a48da5bf05c1": {
+      "mean_contention_rate_full": 0.6661726013569308,
+      "mean_contention_rate_active": 0.3261267382987467,
+      "mean_active_node_fraction": 0.4849740911039754,
+      "n_frames": 4781
+    },
+    "compLexity_VS_Gambit_c9feb32c_ed8d_46a9_b620_380f6dfff501": {
+      "mean_contention_rate_full": 0.6471609976524046,
+      "mean_contention_rate_active": 0.3297945314521377,
+      "mean_active_node_fraction": 0.517867855756482,
+      "n_frames": 5272
+    },
+    "eSuba_VS_BIG_fcd70f0a_7217_401c_85c6_f32f8d3cd89b": {
+      "mean_contention_rate_full": 0.670680456517034,
+      "mean_contention_rate_active": 0.31679663174611716,
+      "mean_active_node_fraction": 0.478156607199878,
+      "n_frames": 4564
+    },
+    "eSuba_VS_EXTREMUM_d05ede0d_bc51_4b88_83ca_81acb77483a0": {
+      "mean_contention_rate_full": 0.6701276260602265,
+      "mean_contention_rate_active": 0.31199698122472597,
+      "mean_active_node_fraction": 0.4700585669111137,
+      "n_frames": 4567
+    },
+    "eSuba_VS_Fiend_cb8f21bb_460a_4a52_b605_81bc9211bca6": {
+      "mean_contention_rate_full": 0.6425653426630993,
+      "mean_contention_rate_active": 0.2909074094054436,
+      "mean_active_node_fraction": 0.5027795744764256,
+      "n_frames": 4520
+    },
+    "fnatic_VS_BIG_2db656d6_7c87_41d3_a291_64b2b40df97f": {
+      "mean_contention_rate_full": 0.656265560559236,
+      "mean_contention_rate_active": 0.3308291433725952,
+      "mean_active_node_fraction": 0.5084507278423104,
+      "n_frames": 6076
+    },
+    "fnatic_VS_BIG_ae3f2e43_e046_4c60_bf66_3bb1ec6a61b0": {
+      "mean_contention_rate_full": 0.6388261921218996,
+      "mean_contention_rate_active": 0.3188822164600735,
+      "mean_active_node_fraction": 0.5257887806176411,
+      "n_frames": 4273
+    },
+    "fnatic_VS_FaZe_Clan_b0c8dcb3_0607_4c7b_879c_6e0329020f60": {
+      "mean_contention_rate_full": 0.6688696650450073,
+      "mean_contention_rate_active": 0.3337357415896846,
+      "mean_active_node_fraction": 0.49289931953456795,
+      "n_frames": 3928
+    },
+    "fnatic_VS_FaZe_Clan_d54c84c2_16bb_4acd_9ac2_6eff9ab999fa": {
+      "mean_contention_rate_full": 0.6334187989630381,
+      "mean_contention_rate_active": 0.31936477889437026,
+      "mean_active_node_fraction": 0.5328104290185038,
+      "n_frames": 3505
+    },
+    "fnatic_VS_G2_Esports_21a7ee8c_fc05_45ce_bafd_8a4796974633": {
+      "mean_contention_rate_full": 0.6260947467752249,
+      "mean_contention_rate_active": 0.2939065618275814,
+      "mean_active_node_fraction": 0.5223225658862737,
+      "n_frames": 3408
+    },
+    "fnatic_VS_G2_Esports_2b0da293_a5f6_4a02_aede_12e2f1069254": {
+      "mean_contention_rate_full": 0.6629674422922077,
+      "mean_contention_rate_active": 0.3241941034621692,
+      "mean_active_node_fraction": 0.492921040758658,
+      "n_frames": 4104
+    },
+    "fnatic_VS_MOUZ_2ac1676d_316b_42e9_b88a_884bb7cfc367": {
+      "mean_contention_rate_full": 0.6350284587592394,
+      "mean_contention_rate_active": 0.31524508286358255,
+      "mean_active_node_fraction": 0.5271591839786625,
+      "n_frames": 4769
+    },
+    "forZe_VS_Complexity_fe19fbd9_80ab_4a38_9a06_31e9cbbded02": {
+      "mean_contention_rate_full": 0.6457116303770578,
+      "mean_contention_rate_active": 0.3040537015251416,
+      "mean_active_node_fraction": 0.5017095019904736,
+      "n_frames": 2152
+    },
+    "mousesports_VS_A_U_R_A_7e21d031_7bf8_4a49_bb48_4855ab534a04": {
+      "mean_contention_rate_full": 0.6691707610672817,
+      "mean_contention_rate_active": 0.3249348124981792,
+      "mean_active_node_fraction": 0.48276655573392546,
+      "n_frames": 4644
+    },
+    "mousesports_VS_BIG_f781e3b8_ad9d_45c3_a0cf_286fb5a06923": {
+      "mean_contention_rate_full": 0.6677254615416965,
+      "mean_contention_rate_active": 0.32671963247259384,
+      "mean_active_node_fraction": 0.4896764214222633,
+      "n_frames": 5056
+    },
+    "mousesports_VS_FaZe_Clan_63df69fe_f161_4f30_af26_f7e5728cf89d": {
+      "mean_contention_rate_full": 0.6326534882226438,
+      "mean_contention_rate_active": 0.31986894571491403,
+      "mean_active_node_fraction": 0.5383037199438668,
+      "n_frames": 3705
+    },
+    "mousesports_VS_FaZe_Clan_6f44dae6_19dd_4d9c_8808_b5198f40150f": {
+      "mean_contention_rate_full": 0.6475144149562754,
+      "mean_contention_rate_active": 0.32034644169814724,
+      "mean_active_node_fraction": 0.5150024394210441,
+      "n_frames": 5148
+    },
+    "mousesports_VS_G2_Esports_13f47693_7c94_4823_bf44_2adadaf72be6": {
+      "mean_contention_rate_full": 0.6528276686921625,
+      "mean_contention_rate_active": 0.3193936243118828,
+      "mean_active_node_fraction": 0.5075490423923957,
+      "n_frames": 5761
+    },
+    "mousesports_VS_G2_Esports_9e8d6ad0_1048_4909_8327_3eb857671aa2": {
+      "mean_contention_rate_full": 0.6593863398775088,
+      "mean_contention_rate_active": 0.3217331950673971,
+      "mean_active_node_fraction": 0.49575755170847313,
+      "n_frames": 4856
+    },
+    "mousesports_VS_G2_Esports_dd7a24a7_80d9_4c21_9ff3_b7ae8771e410": {
+      "mean_contention_rate_full": 0.6309053168434458,
+      "mean_contention_rate_active": 0.3097935898216067,
+      "mean_active_node_fraction": 0.5314076125397464,
+      "n_frames": 4506
+    },
+    "mousesports_VS_Gambit_Esports_28c6914e_e018_4d50_82f0_84082ae40d60": {
+      "mean_contention_rate_full": 0.6658882247882054,
+      "mean_contention_rate_active": 0.3250848283113694,
+      "mean_active_node_fraction": 0.4895016786867574,
+      "n_frames": 5046
+    },
+    "mousesports_VS_Natus_Vincere_0c0e9b95_be5b_4ff6_865f_141d714baa5c": {
+      "mean_contention_rate_full": 0.6530554210699121,
+      "mean_contention_rate_active": 0.31384933304696705,
+      "mean_active_node_fraction": 0.5011689121131683,
+      "n_frames": 3980
+    },
+    "mousesports_VS_Ninjas_in_Pyjamas_fd94b3a6_fe06_4151_b3ea_097e585bd540": {
+      "mean_contention_rate_full": 0.6406742755589911,
+      "mean_contention_rate_active": 0.3180863975414237,
+      "mean_active_node_fraction": 0.5206594404925317,
+      "n_frames": 4676
+    },
+    "paiN_VS_FURIA_bdaa02a2_413e_4a08_8b19_f2406ca7bb86": {
+      "mean_contention_rate_full": 0.629778894769325,
+      "mean_contention_rate_active": 0.3188461936305896,
+      "mean_active_node_fraction": 0.5368240983851482,
+      "n_frames": 5322
+    },
+    "x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04": {
+      "mean_contention_rate_full": 0.6414975741882376,
+      "mean_contention_rate_active": 0.3244052299463181,
+      "mean_active_node_fraction": 0.525743251846193,
+      "n_frames": 11968
+    }
+  }
+}

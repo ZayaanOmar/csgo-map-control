@@ -1,0 +1,80 @@
+{
+  "n_rounds_total": 7393,
+  "n_rounds_dropped_missing_outcome": 0,
+  "mean_active_node_fraction": 0.513718585103275,
+  "mean_bombsite_active_node_fraction": 0.7057820991038393,
+  "epsilon": 0.1353352832366127,
+  "sigma": 500.0,
+  "full_map": {
+    "n_t_win": 3381,
+    "n_t_loss": 4012,
+    "mu_win": 0.49468825220641277,
+    "mu_loss": 0.4706005990868737,
+    "welch_t_stat": 68.52119636371688,
+    "welch_p_value": 0.0,
+    "cohens_d": 1.6184544768325093,
+    "mu_win_exceeds_mu_loss": true,
+    "description": "T control margin over ALL 903 nodes per frame \u2014 the T-side mirror of the CT full-map metric (mu_win/mu_loss here equal 1 minus the CT script's mu_loss/mu_win over the same rounds)."
+  },
+  "active_footprint": {
+    "n_t_win": 3381,
+    "n_t_loss": 4012,
+    "mu_win": 0.4987732060521616,
+    "mu_loss": 0.4433664220668564,
+    "welch_t_stat": 80.03081528664832,
+    "welch_p_value": 0.0,
+    "cohens_d": 1.8944183153915677,
+    "mu_win_exceeds_mu_loss": true,
+    "description": "T control margin restricted to nodes with (ct_mu+t_mu) > EPSILON \u2014 the T-side mirror of the CT active-footprint metric."
+  },
+  "bombsite_all": {
+    "n_t_win": 3381,
+    "n_t_loss": 4012,
+    "mu_win": 0.47240537421349205,
+    "mu_loss": 0.41850350081305043,
+    "welch_t_stat": 47.52281145447178,
+    "welch_p_value": 0.0,
+    "cohens_d": 1.1134145780556504,
+    "mu_win_exceeds_mu_loss": true,
+    "description": "T control margin over BombsiteA + BombsiteB nodes, unfiltered by activity. Can be diluted toward 0.5 by an untouched site in a given round \u2014 see 'bombsite_active' for the de-diluted version."
+  },
+  "bombsite_active": {
+    "n_t_win": 3381,
+    "n_t_loss": 4012,
+    "mu_win": 0.47967131529530005,
+    "mu_loss": 0.3993125637409014,
+    "welch_t_stat": 53.43498976888623,
+    "welch_p_value": 0.0,
+    "cohens_d": 1.2587347138163163,
+    "mu_win_exceeds_mu_loss": true,
+    "description": "T control margin over BombsiteA + BombsiteB nodes, restricted to those also in the active footprint that frame. PRIMARY metric for testing whether T only needs bombsite control (not whole-map/whole-active-footprint control) to win a round."
+  },
+  "bombsiteA_active": {
+    "n_t_win": 3381,
+    "n_t_loss": 4012,
+    "mu_win": 0.4610535613415285,
+    "mu_loss": 0.399731226549818,
+    "welch_t_stat": 29.596592036981693,
+    "welch_p_value": 2.57170727465113e-179,
+    "cohens_d": 0.7019318004334056,
+    "mu_win_exceeds_mu_loss": true,
+    "description": "As bombsite_active, restricted to BombsiteA nodes only."
+  },
+  "bombsiteB_active": {
+    "n_t_win": 3352,
+    "n_t_loss": 4008,
+    "mu_win": 0.43532911127448654,
+    "mu_loss": 0.38645877855793465,
+    "welch_t_stat": 29.740507396947983,
+    "welch_p_value": 5.839732373230892e-178,
+    "cohens_d": 0.7153493888193855,
+    "mu_win_exceeds_mu_loss": true,
+    "description": "As bombsite_active, restricted to BombsiteB nodes only."
+  },
+  "effect_size_comparison": {
+    "active_footprint_cohens_d": 1.8944183153915677,
+    "bombsite_active_cohens_d": 1.2587347138163163,
+    "difference_bombsite_minus_active": -0.6356836015752514,
+    "note": "If bombsite_active's Cohen's d is comparable to or larger than active_footprint's, despite averaging over a much smaller set of nodes, that is consistent with the hypothesis that T's control advantage needs to be concentrated at the bombsite (rather than spread across the whole active footprint) to win a round. This is a descriptive comparison of two effect sizes computed here, not a formal statistical test of one hypothesis against the other, and it is not a comparison against the CT-side script's results."
+  }
+}

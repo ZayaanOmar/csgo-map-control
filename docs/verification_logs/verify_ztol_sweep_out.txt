@@ -1,0 +1,237 @@
+======================================================================
+  LOADING DATA
+======================================================================
+
+  FCA baseline:  outputs/player_df_all_rounds_fca_baseline.csv  (50168 rows, all rounds)
+  z_tol= 100.0:     outputs/ztol_sweep/player_df_ztol_100.csv  (50168 rows)
+  z_tol= 125.0:     outputs/ztol_sweep/player_df_ztol_125.csv  (50168 rows)
+  z_tol= 150.0:     outputs/ztol_sweep/player_df_ztol_150.csv  (50168 rows)
+  z_tol= 200.0:     outputs/ztol_sweep/player_df_ztol_200.csv  (50168 rows)
+  z_tol= 250.0:     outputs/ztol_sweep/player_df_ztol_250.csv  (50168 rows)
+  z_tol= 300.0:     outputs/ztol_sweep/player_df_ztol_300.csv  (50168 rows)
+  z_tol= 350.0:     outputs/ztol_sweep/player_df_ztol_350.csv  (50168 rows)
+  z_tol= 400.0:     outputs/ztol_sweep/player_df_ztol_400.csv  (50168 rows)
+  z_tol= 450.0:     outputs/ztol_sweep/player_df_ztol_450.csv  (50168 rows)
+  z_tol=  50.0:     outputs/ztol_sweep/player_df_ztol_50.csv  (50168 rows)
+  z_tol=  75.0:     outputs/ztol_sweep/player_df_ztol_75.csv  (50168 rows)
+
+  Loaded 11 z_tol values: [50.0, 75.0, 100.0, 125.0, 150.0, 200.0, 250.0, 300.0, 350.0, 400.0, 450.0]
+
+======================================================================
+  SECTION 1 — Agreement vs FCA Baseline (All Rounds)
+======================================================================
+
+    z_tol   Total rows   Agree w/ FCA    Disagree   Disagree %
+  -------  -----------  -------------  ----------  -----------
+     50.0        50168          38622       11546        23.0%
+     75.0        50168          38741       11427        22.8%
+    100.0        50168          38799       11369        22.7%
+    125.0        50168          38786       11382        22.7%
+    150.0        50168          38716       11452        22.8%
+    200.0        50168          38692       11476        22.9%
+    250.0        50168          38691       11477        22.9%
+    300.0        50168          38691       11477        22.9%
+    350.0        50168          38691       11477        22.9%
+    400.0        50168          38691       11477        22.9%
+    450.0        50168          38691       11477        22.9%
+
+  Interpretation:
+  • Higher z_tol → fewer corrections vs FCA (more permissive z-filter,
+    closer to FCA's no-z-awareness behaviour).
+  • Lower z_tol → more corrections (more aggressive, may overcorrect).
+  • z_tol at which disagree % drops to ~0 is where the filter stops doing
+    anything — that is the effective upper bound for calibration.
+
+======================================================================
+  SECTION 2 — Pairwise Agreement Matrix (Round 1)
+======================================================================
+
+  Each cell shows the number of round-1 rows where the two z_tol values
+  produced the SAME area_id assignment. Diagonal = total row count.
+
+              z50      z75     z100     z125     z150     z200     z250     z300     z350     z400     z450
+          -------  -------  -------  -------  -------  -------  -------  -------  -------  -------  -------
+  z50       50168    49334    49246    49202    49123    49087    49086    49086    49086    49086    49086
+  z75       49334    50168    49921    49874    49794    49758    49757    49757    49757    49757    49757
+  z100      49246    49921    50168    50059    49979    49940    49939    49939    49939    49939    49939
+  z125      49202    49874    50059    50168    50079    50040    50039    50039    50039    50039    50039
+  z150      49123    49794    49979    50079    50168    50128    50127    50127    50127    50127    50127
+  z200      49087    49758    49940    50040    50128    50168    50167    50167    50167    50167    50167
+  z250      49086    49757    49939    50039    50127    50167    50168    50168    50168    50168    50168
+  z300      49086    49757    49939    50039    50127    50167    50168    50168    50168    50168    50168
+  z350      49086    49757    49939    50039    50127    50167    50168    50168    50168    50168    50168
+  z400      49086    49757    49939    50039    50127    50167    50168    50168    50168    50168    50168
+  z450      49086    49757    49939    50039    50127    50167    50168    50168    50168    50168    50168
+
+  Adjacent-pair disagreement counts (most diagnostic for calibration):
+    z_tol=50 vs z_tol=75: 834 disagreements (1.7%)
+    z_tol=75 vs z_tol=100: 247 disagreements (0.5%)
+    z_tol=100 vs z_tol=125: 109 disagreements (0.2%)
+    z_tol=125 vs z_tol=150: 89 disagreements (0.2%)
+    z_tol=150 vs z_tol=200: 40 disagreements (0.1%)
+    z_tol=200 vs z_tol=250: 1 disagreements (0.0%)
+    z_tol=250 vs z_tol=300: 0 disagreements (0.0%)
+    z_tol=300 vs z_tol=350: 0 disagreements (0.0%)
+    z_tol=350 vs z_tol=400: 0 disagreements (0.0%)
+    z_tol=400 vs z_tol=450: 0 disagreements (0.0%)
+
+======================================================================
+  SECTION 3 — Correction Area-Name Breakdown vs FCA (Round 1)
+======================================================================
+
+  For each z_tol, shows the top named places that are REASSIGNED relative
+  to FCA. FCA_areaName → KDT_areaName (count of frames corrected).
+  z-overlap zones (Catwalk, Underpass, Connector) appearing in the FCA
+  column indicate the filter is doing its intended job.
+
+  z_tol=50  (11546 corrections):
+               BombsiteA  →  BombsiteA             (1535 frame(s))
+               BombsiteB  →  BombsiteB             (977 frame(s))
+                 CTSpawn  →  CTSpawn               (668 frame(s))
+                  TSpawn  →  TSpawn                (589 frame(s))
+                 Catwalk  →  Catwalk               (580 frame(s))
+             PalaceAlley  →  PalaceAlley           (525 frame(s))
+               SideAlley  →  SideAlley             (471 frame(s))
+          PalaceInterior  →  PalaceInterior        (469 frame(s))
+
+  z_tol=75  (11427 corrections):
+               BombsiteA  →  BombsiteA             (1556 frame(s))
+               BombsiteB  →  BombsiteB             (981 frame(s))
+                 CTSpawn  →  CTSpawn               (673 frame(s))
+                  TSpawn  →  TSpawn                (623 frame(s))
+                 Catwalk  →  Catwalk               (599 frame(s))
+             PalaceAlley  →  PalaceAlley           (531 frame(s))
+               SideAlley  →  SideAlley             (476 frame(s))
+          PalaceInterior  →  PalaceInterior        (468 frame(s))
+
+  z_tol=100  (11369 corrections):
+               BombsiteA  →  BombsiteA             (1583 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (676 frame(s))
+                  TSpawn  →  TSpawn                (609 frame(s))
+                 Catwalk  →  Catwalk               (598 frame(s))
+             PalaceAlley  →  PalaceAlley           (529 frame(s))
+               SideAlley  →  SideAlley             (474 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+  z_tol=125  (11382 corrections):
+               BombsiteA  →  BombsiteA             (1563 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (677 frame(s))
+                  TSpawn  →  TSpawn                (608 frame(s))
+                 Catwalk  →  Catwalk               (600 frame(s))
+             PalaceAlley  →  PalaceAlley           (531 frame(s))
+               SideAlley  →  SideAlley             (473 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+  z_tol=150  (11452 corrections):
+               BombsiteA  →  BombsiteA             (1560 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (677 frame(s))
+                  TSpawn  →  TSpawn                (617 frame(s))
+                 Catwalk  →  Catwalk               (601 frame(s))
+             PalaceAlley  →  PalaceAlley           (534 frame(s))
+               SideAlley  →  SideAlley             (473 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+  z_tol=200  (11476 corrections):
+               BombsiteA  →  BombsiteA             (1562 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (677 frame(s))
+                  TSpawn  →  TSpawn                (617 frame(s))
+                 Catwalk  →  Catwalk               (600 frame(s))
+             PalaceAlley  →  PalaceAlley           (537 frame(s))
+               SideAlley  →  SideAlley             (474 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+  z_tol=250  (11477 corrections):
+               BombsiteA  →  BombsiteA             (1562 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (677 frame(s))
+                  TSpawn  →  TSpawn                (617 frame(s))
+                 Catwalk  →  Catwalk               (600 frame(s))
+             PalaceAlley  →  PalaceAlley           (537 frame(s))
+               SideAlley  →  SideAlley             (474 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+  z_tol=300  (11477 corrections):
+               BombsiteA  →  BombsiteA             (1562 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (677 frame(s))
+                  TSpawn  →  TSpawn                (617 frame(s))
+                 Catwalk  →  Catwalk               (600 frame(s))
+             PalaceAlley  →  PalaceAlley           (537 frame(s))
+               SideAlley  →  SideAlley             (474 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+  z_tol=350  (11477 corrections):
+               BombsiteA  →  BombsiteA             (1562 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (677 frame(s))
+                  TSpawn  →  TSpawn                (617 frame(s))
+                 Catwalk  →  Catwalk               (600 frame(s))
+             PalaceAlley  →  PalaceAlley           (537 frame(s))
+               SideAlley  →  SideAlley             (474 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+  z_tol=400  (11477 corrections):
+               BombsiteA  →  BombsiteA             (1562 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (677 frame(s))
+                  TSpawn  →  TSpawn                (617 frame(s))
+                 Catwalk  →  Catwalk               (600 frame(s))
+             PalaceAlley  →  PalaceAlley           (537 frame(s))
+               SideAlley  →  SideAlley             (474 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+  z_tol=450  (11477 corrections):
+               BombsiteA  →  BombsiteA             (1562 frame(s))
+               BombsiteB  →  BombsiteB             (982 frame(s))
+                 CTSpawn  →  CTSpawn               (677 frame(s))
+                  TSpawn  →  TSpawn                (617 frame(s))
+                 Catwalk  →  Catwalk               (600 frame(s))
+             PalaceAlley  →  PalaceAlley           (537 frame(s))
+               SideAlley  →  SideAlley             (474 frame(s))
+          PalaceInterior  →  PalaceInterior        (470 frame(s))
+
+
+======================================================================
+  SECTION 4 — Per-Player Disagreement Counts vs FCA (Round 1)
+======================================================================
+
+  (count = number of round-1 frames where this z_tol disagrees with FCA)
+
+  Player             z50     z75    z100    z125    z150    z200    z250    z300    z350    z400    z450    Total
+  --------------  ------  ------  ------  ------  ------  ------  ------  ------  ------  ------  ------  -------
+  Ax1Le             1140    1160    1151    1158    1161    1165    1165    1165    1165    1165    1165     5046
+  Hobbit            1037    1051    1057    1059    1072    1074    1074    1074    1074    1074    1074     4922
+  Kyojin            1524    1517    1513    1518    1526    1529    1529    1529    1529    1529    1529     4929
+  ZywOo             1092    1110    1067    1068    1072    1071    1071    1071    1071    1071    1071     5361
+  apEX               995    1000     997    1001    1008    1012    1012    1012    1012    1012    1012     4343
+  interz            1220    1015    1020    1022    1028    1030    1030    1030    1030    1030    1030     5333
+  misutaaa          1236    1239    1231    1231    1246    1246    1246    1246    1246    1246    1246     5178
+  nafany             980     993     986     985     987     988     988     988     988     988     988     4290
+  sh1ro             1315    1331    1337    1330    1332    1336    1336    1336    1336    1336    1336     5563
+  shox              1007    1011    1010    1010    1020    1025    1026    1026    1026    1026    1026     5203
+
+======================================================================
+  VERIFICATION COMPLETE
+======================================================================
+
+  Sweep CSVs compared:    11 z_tol values from outputs/ztol_sweep/
+  FCA baseline:           outputs/player_df_all_rounds_fca_baseline.csv
+
+  Recommended next steps:
+  1. Review SECTION 3 (area-name breakdown) — if Catwalk/Underpass/Connector
+     appear frequently in the FCA column, those corrections are on-target.
+     If CTSpawn dominates, the z-filter may be confusing large-tile size
+     for z-overlap; inspect those plots specifically.
+  2. Open vs_fca/ plots for each z_tol — check that the KDTree-assigned tile
+     (teal) sits geographically closer to the player than the FCA tile (red).
+     A teal tile on the opposite side of the radar from the player = overcorrection.
+  3. Open adjacent_pairs/ plots — these show the sensitivity boundary. The
+     pair where corrections start to look geographically wrong sets your
+     upper bound; the pair where they all still look correct sets the floor.
+  4. Pick the z_tol that maximises correct corrections (Catwalk/Underpass)
+     while minimising incorrect ones (large-tile confusion in flat areas).
+     Update Z_TOL in ztol_sweep.py and re-run for confirmation.

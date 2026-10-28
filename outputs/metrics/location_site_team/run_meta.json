@@ -1,0 +1,36 @@
+{
+  "grouping": "match",
+  "repeats": 5,
+  "n_boot": 1000,
+  "presence": true,
+  "n_rounds": 2629,
+  "lam_grid": [
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0,
+    31622.776601683792,
+    100000.0,
+    316227.7660168379,
+    1000000.0
+  ],
+  "primary": [
+    [
+      "M_team+M1",
+      "M_team"
+    ]
+  ],
+  "target": "site",
+  "control": "team prior",
+  "prior_strength": 10.0,
+  "tc_dir": null,
+  "cap": null,
+  "feat_dir": "outputs/predictor"
+}
