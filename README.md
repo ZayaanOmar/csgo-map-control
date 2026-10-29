@@ -1,7 +1,7 @@
 # Quantifying Map Control in CS:GO with Graph-Based Influence Fields
 
 Code, static artefacts and dataset-level results for the honours project *Formalising Map Control as a
-Continuous Spatial Quantity in Counter-Strike: Global Offensive*, Zayaan Omar, University of the
+Continuous Spatial Quantity in Counter-Strike: Global Offensive*, Muhammed Zayaan Omar, University of the
 Witwatersrand, 2026. Supervisors: Dr. Branden Ingram and Dr. Pravesh Ranchod.
 
 Map control is modelled as a continuous, time-varying field over the de_mirage navigation mesh: each player
@@ -109,13 +109,13 @@ python analysis/team/extract_round_economy.py
 python analysis/team/analysis_team_site_preference.py
 python analysis/team/analysis_team_signatures.py
 python analysis/team/analysis_eco_vs_full.py
-python analysis/team/plot_position_heatmaps.py --team "G2 Esports" --times 10 20 30      # add --labels to print area names; --list-teams lists teams
+python analysis/team/plot_position_heatmaps.py --team "G2 Esports" --times 60      # Fig. 5 (60 s after freeze time); add --labels for area names, --list-teams to list teams
 
 # 7. Remaining figures
 python pipeline/plot_area_names.py --assignment data/de_mirage_area_assignment.csv --light    # Fig. 1 (--labels optionally adds area names)
 python metrics/visualize_active_footprint.py \
-    --match x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04 --round 21         # Fig. 2
-python visualisation/generate_heatmaps.py x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04  # control/Voronoi GIFs
+    --match x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04 --round 21 --frame 67   # Fig. 2(b); default epsilon is exp(-2)
+python visualisation/generate_heatmaps.py x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04  # control-field GIFs; Fig. 2(a) is frame 67 of round 21
 python visualisation/plot_patched_nav_mesh.py                                                  # nav mesh
 ```
 
@@ -132,23 +132,41 @@ of this repository; they are kept as a record and their results are in the logs.
 | σ | 500 game units | Gaussian influence decay over geodesic distance |
 | K | 1.0 | Sigmoid steepness for `control_val = expit(K·(ct_mu − t_mu))` |
 | Projection clamp | 350 units | Projected tile replaced by current tile beyond this graph distance |
+| Player-to-tile height tolerance | 250 units | Nearest of the 5 closest tile centroids within this height; else nearest overall |
+| Projection horizon Δt | 1 s | Position projected ahead along the player's velocity |
+| Graph repair gap | 2 units | Disconnected tiles linked to tiles whose footprint lies within this distance |
 | Contested band | [0.4, 0.6] | Metric 1 contention definition |
 | Active footprint ε | exp(−2) ≈ 0.135 | Threshold on `ct_mu + t_mu` |
 | Frame spacing | 64 ticks (≈0.5 s) | ESTA parse rate |
+| Early window (RQ5) | 5 s after freeze time to first kill, plant or 30 s; min 12 s | Defaults of `build_window_features.py` |
+| Heatmap smoothing | diffusion, bandwidth 100 units, cut 1.6 | Defaults of `plot_position_heatmaps.py` (`--bandwidth`, `--cut`) |
 
 ## Where each result in the report comes from
 
 | Report item | Script | Output |
 |---|---|---|
 | Fig. 1, the 27 named areas of de_mirage | `pipeline/plot_area_names.py` | `outputs/area_name_map/de_mirage_area_names_assigned.png` |
-| Fig. 2, control field and active footprint for one frame | `metrics/visualize_active_footprint.py`, `visualisation/generate_heatmaps.py` | `outputs/active_footprint_viz/x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04/round_21/` (in the release archive) |
-| Fig. 3, T control of the planted site, plant-aligned | `analysis/validation/analysis_plant_aligned_control.py` | `outputs/metrics/plant_aligned/figures/` |
-| Fig. 4, early-round T control by area vs B-plant log-odds | `analysis/validation/analysis_location_site_effects.py` | `outputs/metrics/location_site/effects/figures/` |
-| Fig. 5, G2 Esports positions, eco vs full buy | `analysis/team/plot_position_heatmaps.py` | `outputs/analysis/figures/position_heatmaps/G2_Esports/` |
+| Fig. 2, one frame (round 21, frame 67 of x-kom vs Natus Vincere): (a) control field, (b) with the active footprint | (a) `visualisation/generate_heatmaps.py`, (b) `metrics/visualize_active_footprint.py` | (b) `outputs/active_footprint_viz/x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04/round_21/frame_0067.png` (in the release archive) |
+| Fig. 3, T control of the planted site, plant-aligned | `analysis/validation/analysis_plant_aligned_control.py` | `outputs/metrics/plant_aligned/figures/plant_aligned_site_control.png` |
+| Fig. 4, effect of early-round T control by area on B-plant log-odds | `analysis/validation/analysis_location_site_effects.py` | `outputs/metrics/location_site/effects/figures/effect_map.png` |
+| Fig. 5, G2 Esports positions at 60 s, eco vs full buy | `analysis/team/plot_position_heatmaps.py` | `outputs/analysis/figures/position_heatmaps/G2_Esports/G2_Esports_{CT,T}_{eco,full}_t60s.png` |
 | Table I, the three proposed metrics | `metrics/metric1_contention_rate.py`, `metrics/metric2_site_control_score.py`, `metrics/metric3_control_margin.py`, `metrics/metric3_control_margin_t_side.py` | `_summary.json` in `outputs/metrics/{contention_rate,site_control_score,control_margin,control_margin_t_side}/` |
-| Table II, Metric 3 by head-count stratum | `analysis/validation/analysis_metric3_stratified.py` | `outputs/metrics/metric3_stratified/metric3_stratified.csv` |
-| Table III, team positional signatures | `analysis/team/analysis_team_signatures.py` | `outputs/analysis/signature_identification.csv` |
-| Patched nav mesh figure (supplementary) | `visualisation/plot_patched_nav_mesh.py` | `outputs/nav_mesh/mirage_navmesh_patched.png` |
+| Table II, active-footprint margin by head-count stratum | `analysis/validation/analysis_metric3_stratified.py` | `outputs/metrics/metric3_stratified/metric3_stratified.csv` |
+| Table III, eco vs full-buy positioning (Jensen-Shannon distance and permutation null) | `analysis/team/analysis_eco_vs_full.py` | `outputs/analysis/eco_vs_full_omnibus.csv` |
+| Patched nav mesh (not in the report) | `visualisation/plot_patched_nav_mesh.py` | `outputs/nav_mesh/mirage_navmesh_patched.png` |
+
+### Results quoted in the text
+
+| Result in the report | Script | Output |
+|---|---|---|
+| Control at the plant: adjusted association with T winning, ΔAUC (Section V-B) | `analysis/validation/analysis_plant_aligned_control.py` | `outputs/metrics/plant_aligned/` |
+| Pre-engagement prediction of the winner and the fixed-window comparison (Section V-C) | `analysis/validation/analysis_early_window_prediction.py` | `outputs/metrics/early_window/` |
+| Area-level and node-level prediction of the winner; balanced-economy, team-pair and window sensitivities (Section V-D) | `analysis/validation/analysis_location_predictor.py` (variants in step 5) | `outputs/metrics/location_predictor*/` |
+| Planted-site prediction; per-area effects (Fig. 4) | `analysis/validation/analysis_location_site.py`, `analysis_location_site_effects.py` | `outputs/metrics/location_site/` |
+| Site readable from the first 2 s (AUC 0.726) | `analysis/validation/analysis_location_site_timecourse.py` (t0 variant in step 5) | `outputs/metrics/location_site_timecourse_t0/` |
+| Team-habit control for site prediction | `analysis/validation/analysis_location_site_team.py` | `outputs/metrics/location_site_team*/` |
+| Eco vs full-buy area shifts, team counts, field vs occupancy correlation | `analysis/team/analysis_eco_vs_full.py` | `outputs/analysis/eco_vs_full_area_shifts.csv`, `eco_vs_full_omnibus.csv` |
+| Team identification accuracy (field and occupancy signatures) | `analysis/team/analysis_team_signatures.py` | `outputs/analysis/signature_identification.csv` |
 
 All headline estimates from the validation suite, with confidence intervals, are also collected in
 `outputs/metrics/results_registry.json`.
