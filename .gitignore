@@ -48,3 +48,7 @@ outputs/heatmaps/
 
 # Window-level node feature matrices for the location predictor (regenerable, large)
 outputs/predictor*/window_node_*.parquet
+
+# Verifier outputs (regenerable)
+outputs/ztol_sweep/
+outputs/position_mapping_gifs/

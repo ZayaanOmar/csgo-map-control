@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from awpy.visualization.plot import plot_map, position_transform_all
 
-APSP_PATH = "outputs/de_mirage_apsp_dict.pkl"
-PATCHED_GRAPH_PATH = "outputs/de_mirage_patched_graph_v3.pkl"
+APSP_PATH = "data/de_mirage_apsp_dict.pkl"
+PATCHED_GRAPH_PATH = "data/de_mirage_patched_graph_v3.pkl"
 
 results = {"passed": 0, "failed": 0}
 

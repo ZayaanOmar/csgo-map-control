@@ -194,20 +194,20 @@ def main():
         for e in fallback_edges:
             print(f"  {e['node_a']} <-> {e['node_b']}, dist={e['distance']:.1f}")
 
-    out_path = "../outputs/de_mirage_patched_graph_v3.pkl"
+    out_path = "data/de_mirage_patched_graph_v3.pkl"
     with open(out_path, "wb") as f:
         pickle.dump(G_patched, f)
     print(f"\nSaved patched graph to {out_path}")
 
-    with open("../outputs/de_mirage_bridge_log_v3.json", "w") as f:
+    with open("data/de_mirage_bridge_log_v3.json", "w") as f:
         json.dump(edge_log, f, indent=2)
-    print("Saved edge log to /outputs/de_mirage_bridge_log.json")
+    print("Saved edge log to data/de_mirage_bridge_log_v3.json")
 
     # Also emit the new edges in the SAME comma-separated, one-pair-per-line,
     # directed format used by awpy's own nav/de_mirage.txt, in case you want
     # to fold these directly into the bundled file instead of (or in addition
     # to) using the pickled graph at runtime.
-    with open("../outputs/de_mirage_additional_edges.txt", "w") as f:
+    with open("data/de_mirage_additional_edges.txt", "w") as f:
         for e in edge_log:
             a_key = "node_a" if "node_a" in e else "orphan_area_id" if "orphan_area_id" in e else None
             b_key = "node_b" if "node_b" in e else "bridged_to_area_id" if "bridged_to_area_id" in e else None

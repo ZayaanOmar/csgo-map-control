@@ -84,8 +84,18 @@ python $S/analysis_location_site_effects.py --presence
 python $S/build_site_timecourse_features.py
 python $S/analysis_location_site_timecourse.py --presence
 python $S/analysis_location_site_team.py --presence
-# Sensitivity variants (predictor_nocap, predictor_cap60_min10, teampair, econ-band, t0 timecourse):
-# see the usage lines at the top of each script.
+#    Sensitivity variants (output folder names are added automatically where noted)
+python $S/analysis_location_predictor.py --grouping teampair --presence         # -> location_predictor_teampair
+python $S/analysis_location_predictor.py --econ-band 0.15 --no-pistol --presence  # -> location_predictor_econband0.15_nopistol
+python $S/build_window_features.py --cap 115 --out-dir outputs/predictor_nocap
+python $S/make_folds.py --rounds outputs/predictor_nocap/window_rounds.csv --out outputs/predictor_nocap/folds.csv
+python $S/analysis_location_predictor.py --feat-dir outputs/predictor_nocap --out-dir outputs/metrics/location_predictor_nocap
+python $S/build_window_features.py --cap 60 --min-len 10 --out-dir outputs/predictor_cap60_min10
+python $S/make_folds.py --rounds outputs/predictor_cap60_min10/window_rounds.csv --out outputs/predictor_cap60_min10/folds.csv
+python $S/analysis_location_predictor.py --feat-dir outputs/predictor_cap60_min10 --out-dir outputs/metrics/location_predictor_cap60_min10
+python $S/build_site_timecourse_features.py --t0 0 --caps 2,3,4,5,6,8,10 --out-dir outputs/predictor_timecourse_t0
+python $S/analysis_location_site_timecourse.py --presence --tc-dir outputs/predictor_timecourse_t0 --out-dir outputs/metrics/location_site_timecourse_t0
+python $S/analysis_location_site_team.py --tc-dir outputs/predictor_timecourse_t0 --cap 2 --presence   # -> location_site_team_cap2
 
 # 6. Team analyses (Table III, Fig. 5)
 python analysis/team/build_team_aliases.py          # data/team_aliases.json is already committed
@@ -100,11 +110,15 @@ python analysis/team/plot_position_heatmaps.py --team "G2 Esports" --times 10 20
 python pipeline/plot_area_names.py --assignment data/de_mirage_area_assignment.csv            # Fig. 1
 python metrics/visualize_active_footprint.py \
     --match x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04 --round 21         # Fig. 2
+python visualisation/generate_heatmaps.py x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04  # control/Voronoi GIFs
 python visualisation/plot_patched_nav_mesh.py                                                  # nav mesh
 ```
 
 The scripts in `verification/` are independent checks of the graph patch, APSP matrix, demo filtering,
 position mapping and `z_tol` sweep; their logs from the original runs are in `docs/verification_logs/`.
+`verify_positions_projection_map.py` and `verify_ztol_sweep.py` checked intermediate tables from an earlier
+development stage (`player_positions_projected.csv`, `player_df_all_rounds_fca_baseline.csv`) that are not part
+of this repository; they are kept as a record and their results are in the logs.
 
 ## Key parameters
 

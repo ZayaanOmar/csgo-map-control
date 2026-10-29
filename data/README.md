@@ -10,18 +10,18 @@
 | `de_mirage_area_assignment.csv` | `pipeline/area_assignment.py` | All 903 nodes resolved to 27 area names (blank-name tiles filled) |
 | `de_mirage_bridge_log_v3.json` | `pipeline/patch_de_mirage_graph_v3.py` | Edges added by the patch (orphan bridges and internal links); read by `visualisation/plot_patched_nav_mesh.py` |
 | `team_aliases.json` | `analysis/team/build_team_aliases.py` | Raw team name → canonical team name |
-| `mirage_demos.txt` | `pipeline/filter_demos.py` | *TODO: describe* |
-| `filtered_demos_manifest.sha256` | `cleanup.sh` | SHA-256 of each of the 278 filtered de_mirage demos |
+| `filtered_demos_manifest.sha256` | `sha256sum` over `data/filtered_demos/` | SHA-256 of each of the 278 filtered de_mirage demos |
 
-The pickles were written with Python 3.11 / networkx *TODO version* (see `requirements.txt`).
+The pickles were written with Python 3.11 / networkx 3.6.1 (see `requirements.txt`).
 
 ## Not included: ESTA demos
 
-The match data come from the ESTA dataset (Xenopoulos et al.), *TODO: URL and licence*.
-They are not redistributed here because of size.
+The match data come from the ESTA dataset (Xenopoulos et al.), <https://github.com/pnxenopoulos/esta>; see that
+repository for its licence. They are not redistributed here because of size.
 
-1. Download the ESTA CS:GO demos (`.json.xz`) into `data/raw_demos/`.
-2. Run `python pipeline/filter_demos.py` *TODO args* to copy the de_mirage matches that
+1. Download the ESTA demos and put all `.json.xz` files (LAN and online) directly in `data/raw_demos/`
+   (one flat folder).
+2. Run `python pipeline/filter_demos.py` to copy the de_mirage matches that
    pass the filters into `data/filtered_demos/`.
 3. Check the subset matches the one used in the report:
 

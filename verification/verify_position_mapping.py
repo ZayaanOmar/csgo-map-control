@@ -86,8 +86,8 @@ from awpy.visualization.plot import plot_map, position_transform
 # Configuration — adjust paths to match your project layout
 # ---------------------------------------------------------------------------
 
-CSV_PATH            =  "data/processed_demo_ptnm.csv" # "outputs/player_df_all_rounds_kdtree.csv" !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-PATCHED_GRAPH_PATH  = "outputs/de_mirage_patched_graph_v3.pkl"
+CSV_PATH            = "outputs/position_maps/FaZe_VS_BIG_4bab9a63_42e6_4766_acb6_cae50d575d04.csv"
+PATCHED_GRAPH_PATH  = "data/de_mirage_patched_graph_v3.pkl"
 MAP_NAME            = "de_mirage"
 
 # Mapping distance thresholds (game units).
@@ -115,7 +115,7 @@ ALL_KNOWN_ORPHANS = CT_STAIRS_ORPHANS | APARTMENTS_RAMP_ORPHANS
 # too if they appear, labelled as "other orphan" vs known cluster members.
 
 # GIF output configuration
-GIF_OUTPUT_DIR     = "data/proccessed_demo_mapping_gifs"       # where finished GIFs are written (default outputs/position_mapping_gifs) !!!!!!!!!!!!!!!!!!!!!!!!!!
+GIF_OUTPUT_DIR     = "outputs/position_mapping_gifs"
                                            # (persistent — these are deliverables)
 GIF_TMP_DIR        = "/tmp/task3_verify_gif_frames"  # staging dir for per-frame PNGs
                                                       # (cleared and deleted after use)

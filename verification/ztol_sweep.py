@@ -1,6 +1,7 @@
 import networkx as nx
 import pickle
 import json
+import lzma
 import os
 import numpy as np
 import pandas as pd
@@ -9,8 +10,8 @@ from awpy.analytics.nav import point_in_area
 from awpy.data import NAV
 
 MAP_NAME = "de_mirage"
-PATCHED_GRAPH_PATH = "outputs/de_mirage_patched_graph_v3.pkl"
-DEMO_FILE = "data/sample/1decf556-b9d7-4085-9081-31811f0496c3.json"
+PATCHED_GRAPH_PATH = "data/de_mirage_patched_graph_v3.pkl"
+DEMO_FILE = "data/raw_demos/1decf556-b9d7-4085-9081-31811f0496c3.json.xz"
 OUTPUT_DIR = "outputs/ztol_sweep"
 
 Z_TOL_VALS = [200.0, 250.0, 300.0, 350.0, 400.0, 450.0]
@@ -101,7 +102,7 @@ if __name__ == "__main__":
     with open(PATCHED_GRAPH_PATH, "rb") as f:
         G_PATCHED = pickle.load(f)
 
-    with open(DEMO_FILE, "r", encoding="utf-8") as f:
+    with lzma.open(DEMO_FILE, "rt", encoding="utf-8") as f:
         demo = json.load(f)
 
     rounds = demo["gameRounds"]

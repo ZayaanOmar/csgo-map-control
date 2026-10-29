@@ -10,7 +10,7 @@ import awpy.data
 from awpy.analytics.nav import area_distance
 
 CSV_PATH = "outputs/player_positions_projected.csv"
-PATCHED_GRAPH_PATH = "outputs/de_mirage_patched_graph_v3.pkl"
+PATCHED_GRAPH_PATH = "data/de_mirage_patched_graph_v3.pkl"
 
 def run_checks(df: pd.DataFrame, g: nx.DiGraph):
     # --- / Check 1 - Structural verification

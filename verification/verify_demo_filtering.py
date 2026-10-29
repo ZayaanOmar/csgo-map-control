@@ -2,8 +2,8 @@ import lzma
 import json
 import glob
 
-ORIGINAL_DEMO = "esta/data/lan/884ea5ad-9174-4475-bc6c-5e031cfe2987.json.xz"
-PROCESSED_DEMO = "data/processed/FaZe_VS_BIG_4bab9a63-42e6-4766-acb6-cae50d575d04.json.xz"
+ORIGINAL_DEMO = "data/raw_demos/884ea5ad-9174-4475-bc6c-5e031cfe2987.json.xz"
+PROCESSED_DEMO = "data/filtered_demos/FaZe_VS_BIG_4bab9a63_42e6_4766_acb6_cae50d575d04.json.xz"
 
 results = {"passed": 0, "failed": 0}
 

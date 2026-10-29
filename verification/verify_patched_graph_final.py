@@ -47,7 +47,7 @@ import numpy as np
 from awpy.data import NAV, NAV_GRAPHS
 
 MAP_NAME = "de_mirage"
-PATCHED_GRAPH_PATH = "outputs/de_mirage_patched_graph_v3.pkl"
+PATCHED_GRAPH_PATH = "data/de_mirage_patched_graph_v3.pkl"
 REFERENCE_MAIN_NODE = 513  # known main-mesh area (CTSpawn) from earlier bridge logs
 
 results = {"passed": 0, "failed": 0}

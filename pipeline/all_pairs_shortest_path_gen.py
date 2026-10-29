@@ -7,7 +7,7 @@ from awpy.data import NAV_GRAPHS
 from awpy.analytics.nav import area_distance
 
 MAP_NAME = "de_mirage"
-PATCHED_GRAPH_PATH = "outputs/de_mirage_patched_graph_v3.pkl"
+PATCHED_GRAPH_PATH = "data/de_mirage_patched_graph_v3.pkl"
 G_og = NAV_GRAPHS["de_mirage"]
 
 with open(PATCHED_GRAPH_PATH, "rb") as f:
@@ -28,7 +28,7 @@ for u, dists in nx.all_pairs_dijkstra_path_length(G_patched, weight="weight"):
 
 apsp = {"distance_matrix": dist, "area_to_index_map": area_to_idx, "index_to_area_map": idx_to_area}
 
-with open("outputs/de_mirage_apsp_dict.pkl", "wb") as f:
+with open("data/de_mirage_apsp_dict.pkl", "wb") as f:
     pickle.dump(apsp, f)
 
 print(dist[area_to_idx[49], area_to_idx[800]])
