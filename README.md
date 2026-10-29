@@ -88,26 +88,31 @@ python $S/analysis_location_site_team.py --presence
 python $S/analysis_location_predictor.py --grouping teampair --presence         # -> location_predictor_teampair
 python $S/analysis_location_predictor.py --econ-band 0.15 --no-pistol --presence  # -> location_predictor_econband0.15_nopistol
 python $S/build_window_features.py --cap 115 --out-dir outputs/predictor_nocap
-python $S/make_folds.py --rounds outputs/predictor_nocap/window_rounds.csv --out outputs/predictor_nocap/folds.csv
-python $S/analysis_location_predictor.py --feat-dir outputs/predictor_nocap --out-dir outputs/metrics/location_predictor_nocap
+python $S/analysis_location_predictor.py --feat-dir outputs/predictor_nocap --folds outputs/predictor/folds.csv \
+    --out-dir outputs/metrics/location_predictor_nocap
 python $S/build_window_features.py --cap 60 --min-len 10 --out-dir outputs/predictor_cap60_min10
-python $S/make_folds.py --rounds outputs/predictor_cap60_min10/window_rounds.csv --out outputs/predictor_cap60_min10/folds.csv
-python $S/analysis_location_predictor.py --feat-dir outputs/predictor_cap60_min10 --out-dir outputs/metrics/location_predictor_cap60_min10
+python $S/analysis_location_predictor.py --feat-dir outputs/predictor_cap60_min10 --folds outputs/predictor/folds.csv \
+    --out-dir outputs/metrics/location_predictor_cap60_min10
+# folds.csv covers every round, so it is shared by all window settings (it was copied into predictor_nocap originally).
+# Earliest sensitivity run, min-len 5 s (originally run in place over outputs/predictor, then rebuilt at 12 s; results overwritten):
+# python $S/build_window_features.py --min-len 5 --out-dir outputs/predictor_minlen5
+# python $S/analysis_location_predictor.py --feat-dir outputs/predictor_minlen5 --folds outputs/predictor/folds.csv \
+#     --grouping teampair --presence --out-dir outputs/metrics/location_predictor_minlen5
 python $S/build_site_timecourse_features.py --t0 0 --caps 2,3,4,5,6,8,10 --out-dir outputs/predictor_timecourse_t0
 python $S/analysis_location_site_timecourse.py --presence --tc-dir outputs/predictor_timecourse_t0 --out-dir outputs/metrics/location_site_timecourse_t0
 python $S/analysis_location_site_team.py --tc-dir outputs/predictor_timecourse_t0 --cap 2 --presence   # -> location_site_team_cap2
 
 # 6. Team analyses (Table III, Fig. 5)
 python analysis/team/build_team_aliases.py          # data/team_aliases.json is already committed
-python analysis/team/build_team_signatures.py
+python analysis/team/build_team_signatures.py          # optional smoke test first: add --limit 2
 python analysis/team/extract_round_economy.py
 python analysis/team/analysis_team_site_preference.py
 python analysis/team/analysis_team_signatures.py
 python analysis/team/analysis_eco_vs_full.py
-python analysis/team/plot_position_heatmaps.py --team "G2 Esports" --times 10 20 30 40 50 60
+python analysis/team/plot_position_heatmaps.py --team "G2 Esports" --times 10 20 30      # add --labels to print area names; --list-teams lists teams
 
 # 7. Remaining figures
-python pipeline/plot_area_names.py --assignment data/de_mirage_area_assignment.csv            # Fig. 1
+python pipeline/plot_area_names.py --assignment data/de_mirage_area_assignment.csv --light    # Fig. 1 (--labels optionally adds area names)
 python metrics/visualize_active_footprint.py \
     --match x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04 --round 21         # Fig. 2
 python visualisation/generate_heatmaps.py x_kom_AGO_VS_Natus_Vincere_667970ee_833b_491f_b8c7_b91bcb8f2c04  # control/Voronoi GIFs
